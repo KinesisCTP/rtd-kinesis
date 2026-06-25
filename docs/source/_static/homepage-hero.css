@@ -1,0 +1,18 @@
+/* Cache-busted homepage hero overrides. */
+.home-hero {
+  height: clamp(560px, 72vh, 760px);
+  background:
+    radial-gradient(circle at 18% 20%, rgba(87, 6, 140, 0.45), transparent 34%),
+    #17121f;
+}
+
+.home-hero .hero-bg {
+  object-fit: cover;
+  object-position: center 63%;
+}
+
+@media screen and (max-width: 850px) {
+  .home-hero {
+    height: clamp(440px, 58vh, 620px);
+  }
+}
