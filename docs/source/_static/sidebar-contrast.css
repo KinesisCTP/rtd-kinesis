@@ -1,0 +1,35 @@
+/* High-contrast overrides for the floating RTD sidebar.
+   Kept separate from custom.css so RTD/CDN caches get a fresh asset URL. */
+
+.wy-nav-side,
+.wy-nav-side p,
+.wy-nav-side li,
+.wy-nav-side .caption-text,
+.wy-menu-vertical,
+.wy-menu-vertical a,
+.wy-menu-vertical li.current a,
+.wy-menu-vertical li.on a {
+  color: #24162f !important;
+}
+
+.wy-menu-vertical p.caption,
+.wy-menu-vertical p.caption .caption-text {
+  color: #2d75b7 !important;
+  font-weight: 700;
+}
+
+.wy-menu-vertical a:hover,
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.current a:hover {
+  color: #180c22 !important;
+}
+
+.wy-menu-vertical li span.toctree-expand {
+  color: #4a3b58 !important;
+}
+
+.wy-menu-vertical li.current > a {
+  background: rgba(87, 6, 140, 0.18) !important;
+  border-left: 4px solid var(--nyu-purple);
+  font-weight: 700;
+}

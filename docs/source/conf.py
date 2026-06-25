@@ -65,6 +65,7 @@ html_static_path = ['_static']
 
 html_css_files = [
     'custom.css',
+    'sidebar-contrast.css',
 ]
 
 html_js_files = [
@@ -75,6 +76,7 @@ html_js_files = [
 
 def setup(app):
     app.add_css_file('custom.css')
+    app.add_css_file('sidebar-contrast.css')
     app.add_js_file('custom.js')
 
     app.add_config_value('equipment_data', {}, 'env')
