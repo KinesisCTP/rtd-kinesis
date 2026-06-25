@@ -22,35 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// ===== SIDEBAR TOGGLE =====
-document.addEventListener("DOMContentLoaded", function () {
-  const sidebar = document.querySelector(".wy-nav-side");
-  const content = document.querySelector(".wy-nav-content-wrap");
-
-  const button = document.createElement("button");
-  button.innerHTML = `
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-    <path d="M4 7H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-    <path d="M4 12H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-    <path d="M4 17H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-  </svg>
-`;
-  button.className = "menu-toggle";
-  document.body.appendChild(button);
-
-  button.addEventListener("click", () => {
-    const isMobile = window.matchMedia("(max-width: 850px)").matches;
-
-    if (sidebar) {
-      sidebar.classList.toggle(isMobile ? "active" : "collapsed");
-    }
-
-    if (!isMobile && content) {
-      content.classList.toggle("shifted");
-    }
-  });
-});
-
 // ===== EQUIPMENT AUTO-GENERATION =====
 function renderEquipmentCard(item) {
   return `

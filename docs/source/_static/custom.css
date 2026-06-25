@@ -72,6 +72,14 @@ body.homepage .wy-nav-content-wrap {
   background: #ffffff;
 }
 
+body.homepage.sidebar-open .wy-nav-content-wrap {
+  margin-left: 340px !important;
+}
+
+body.homepage.sidebar-closed .wy-nav-content-wrap {
+  margin-left: 0 !important;
+}
+
 body.homepage .rst-versions,
 body.homepage .wy-breadcrumbs {
   display: none !important;
@@ -816,12 +824,29 @@ body:not(.homepage) .wy-side-nav-search .version {
   transform: translateX(-340px);
 }
 
+body.sidebar-open .wy-nav-side {
+  transform: translateX(0);
+}
+
+body.sidebar-closed .wy-nav-side {
+  transform: translateX(-340px);
+}
+
 /* PAGE CONTENT */
 .wy-nav-content-wrap {
   margin-left: 340px !important;
+  transition: margin-left 0.32s ease;
 }
 
 .wy-nav-content-wrap.shifted {
+  margin-left: 0 !important;
+}
+
+body.sidebar-open .wy-nav-content-wrap {
+  margin-left: 340px !important;
+}
+
+body.sidebar-closed .wy-nav-content-wrap {
   margin-left: 0 !important;
 }
 
@@ -832,7 +857,7 @@ body:not(.homepage) .wy-side-nav-search .version {
   justify-content: center;
 
   position: fixed !important;
-  top: 24px !important;
+  top: 88px !important;
   left: 24px !important;
 
   width: 56px !important;
@@ -854,6 +879,16 @@ body:not(.homepage) .wy-side-nav-search .version {
   z-index: 99999 !important;
 
   transition: all 0.22s ease;
+}
+
+.menu-toggle.sidebar-open {
+  top: 40px !important;
+  left: 252px !important;
+}
+
+.menu-toggle.sidebar-closed {
+  top: 88px !important;
+  left: 24px !important;
 }
 
 .menu-toggle:hover {
@@ -935,6 +970,13 @@ body:not(.homepage) .wy-side-nav-search .version {
     margin-left: 0 !important;
   }
 
+  body.sidebar-open .wy-nav-content-wrap,
+  body.sidebar-closed .wy-nav-content-wrap,
+  body.homepage.sidebar-open .wy-nav-content-wrap,
+  body.homepage.sidebar-closed .wy-nav-content-wrap {
+    margin-left: 0 !important;
+  }
+
   .wy-nav-side {
     top: 0;
     left: 0;
@@ -946,6 +988,16 @@ body:not(.homepage) .wy-side-nav-search .version {
 
   .wy-nav-side.active {
     transform: translateX(0);
+  }
+
+  .menu-toggle.sidebar-open {
+    top: 18px !important;
+    left: 252px !important;
+  }
+
+  .menu-toggle.sidebar-closed {
+    top: 88px !important;
+    left: 20px !important;
   }
 }
 
