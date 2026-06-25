@@ -1,6 +1,8 @@
 /* Cache-busted homepage hero overrides. */
 .home-hero {
-  height: clamp(560px, 72vh, 760px);
+  aspect-ratio: 3072 / 1170;
+  height: auto;
+  max-height: 680px;
   background:
     radial-gradient(circle at 18% 20%, rgba(87, 6, 140, 0.45), transparent 34%),
     #17121f;
@@ -11,8 +13,30 @@
   object-position: center 63%;
 }
 
+.home-hero .hero-content h1 {
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+}
+
+.home-hero .hero-buttons {
+  margin-top: 24px;
+}
+
 @media screen and (max-width: 850px) {
   .home-hero {
-    height: clamp(440px, 58vh, 620px);
+    height: auto;
+    max-height: none;
+  }
+
+  .home-hero .hero-content {
+    padding: 24px;
+  }
+
+  .home-hero .hero-content h1 {
+    font-size: clamp(2.4rem, 10vw, 4rem);
+    margin-bottom: 14px;
+  }
+
+  .home-hero .hero-buttons {
+    margin-top: 18px;
   }
 }
