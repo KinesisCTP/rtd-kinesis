@@ -1,0 +1,35 @@
+=========
+Equipment
+=========
+
+The KINESIS CTP Lab provides a comprehensive collection of advanced robotics and sensing equipment.
+
+Use this section to find equipment by platform type, then open the dedicated
+equipment page for specifications, workflows, safety notes, training
+requirements, and contact information.
+
+Before Using Equipment
+----------------------
+
+- Check whether training or a risk assessment is required on the equipment page.
+- Confirm availability with the listed primary contact before planning an experiment.
+- Review safety notes, environmental constraints, and required software before use.
+- Return equipment to its designated storage location after each session.
+
+Equipment Categories
+--------------------
+
+- :doc:`ground/index` covers humanoids, quadrupeds, wheeled robots, and robotic arms for navigation, manipulation, inspection, and HRI.
+- :doc:`aerial/index` covers DJI aerial platforms and flight-ready drone systems for mapping, inspection, imaging, and flight testing.
+- :doc:`water/index` covers underwater ROVs and marine robotics tools for inspection, monitoring, and subsea data collection.
+- :doc:`sensors/index` covers LiDAR, 3D scanning, thermal, hyperspectral, acoustic, and event-camera systems for perception, mapping, diagnostics, and data capture.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Equipment Categories
+   :hidden:
+
+   ground/index
+   aerial/index
+   water/index
+   sensors/index

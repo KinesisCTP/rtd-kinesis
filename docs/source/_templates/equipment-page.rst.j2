@@ -1,0 +1,122 @@
+{{ name }}
+{{ '=' * (name|length) }}
+
+.. admonition:: Quick Info
+   :class: equipment-info
+
+   - **Manufacturer:** {{ manufacturer }}
+   - **Model:** {{ model }}
+   - **Category:** {{ item_class }}
+   - **Location:** {{ location }}
+   {% if primary_contact -%}
+   - **Contact:** {{ primary_contact }}
+   {% endif -%}
+   {% if asset_tag -%}
+   - **Asset Tag:** {{ asset_tag }}
+   {% endif %}
+
+Overview
+--------
+
+{{ short_description }}
+
+{% if capabilities %}
+Capabilities
+------------
+
+{% for key, value in capabilities.items() %}
+{% if key not in ['typical_workflows', 'compute_software_deps'] %}
+**{{ key|replace('_', ' ')|title }}:**
+
+{% if value is iterable and value is not string %}
+{% for item in value %}
+- {{ item }}
+{% endfor %}
+{% else %}
+{{ value }}
+{% endif %}
+
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if capabilities.typical_workflows %}
+Typical Workflow
+----------------
+
+{% for step in capabilities.typical_workflows %}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+{% endif %}
+
+{% if capabilities.compute_software_deps %}
+Software Requirements
+---------------------
+
+{% for software in capabilities.compute_software_deps %}
+- {{ software }}
+{% endfor %}
+{% endif %}
+
+{% if availability_notes %}
+Availability Notes
+------------------
+
+{{ availability_notes }}
+{% endif %}
+
+{% if training_required %}
+Training Required
+-----------------
+
+Yes - hands-on training is required before operating this equipment.
+
+{% if training_link %}
+Training materials: `{{ training_link }} <{{ training_link }}>`_
+{% endif %}
+{% endif %}
+
+{% if risk_assessment_required %}
+Risk Assessment
+---------------
+
+A risk assessment is required before using this equipment.
+{% endif %}
+
+{% if constraints and constraints.notes %}
+Safety and Operational Notes
+-----------------------------
+
+.. warning::
+
+   {{ constraints.notes }}
+
+{% if constraints.environment %}
+**Environmental Requirements:**
+
+{% for env in constraints.environment %}
+- {{ env|replace('_', ' ')|title }}
+{% endfor %}
+{% endif %}
+
+{% if constraints.safety_flags %}
+**Safety Requirements:**
+
+{% for flag in constraints.safety_flags %}
+- {{ flag|replace('_', ' ')|title }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{% if tags %}
+Tags
+----
+
+{% for tag in tags %}
+``{{ tag }}``{% if not loop.last %}, {% endif %}
+{% endfor %}
+{% endif %}
+
+.. note::
+
+   For more detailed information, contact {{ primary_contact if primary_contact else 'lab personnel' }}.

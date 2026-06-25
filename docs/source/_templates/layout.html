@@ -1,0 +1,31 @@
+{# Sidebar brand row: home + title, NYUAD CTP lockup, version, search #}
+{% extends "!layout.html" %}
+
+{% block sidebartitle %}
+{%- set _logo_url = logo_url | default(pathto('_static/' + (logo | default("")), 1)) %}
+{%- set _root_doc = root_doc | default(master_doc) %}
+
+<a href="{{ pathto(_root_doc) }}" class="sidebar-brand-title icon icon-home">
+  {{ project }} Documentation
+</a>
+
+{%- if logo or logo_url %}
+<a href="{{ pathto(_root_doc) }}" class="sidebar-brand-logo-link">
+  <img src="{{ _logo_url }}"
+       class="logo sidebar-brand-logo-img"
+       alt="NYU Abu Dhabi Core Technology Platforms" />
+</a>
+{%- endif %}
+
+{%- if theme_display_version %}
+  {%- set nav_version = version %}
+  {%- if READTHEDOCS and current_version %}
+    {%- set nav_version = current_version %}
+  {%- endif %}
+  {%- if nav_version %}
+  <div class="version">{{ nav_version }}</div>
+  {%- endif %}
+{%- endif %}
+
+{%- include "searchbox.html" %}
+{% endblock %}

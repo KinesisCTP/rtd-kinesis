@@ -1,0 +1,193 @@
+console.log("custom.js loaded");
+
+if (window.location.pathname.includes("/1-lab-overview/")) {
+  document.body.classList.add("lab-overview-section");
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.location.pathname.includes("/1-lab-overview/")) return;
+
+  document
+    .querySelectorAll(
+      ".wy-menu-vertical li.toctree-l1.current > ul > li.toctree-l2 > ul > li.toctree-l3 > ul"
+    )
+    .forEach(list => list.remove());
+
+  if (document.body.classList.contains("lab-overview-page")) {
+    document
+      .querySelectorAll(
+        ".rst-content section.sidebar-nav-group, .rst-content section#lab-operations, .rst-content section#research-and-resources"
+      )
+      .forEach(section => section.remove());
+  }
+});
+
+// ===== SIDEBAR TOGGLE =====
+document.addEventListener("DOMContentLoaded", function () {
+  const sidebar = document.querySelector(".wy-nav-side");
+  const content = document.querySelector(".wy-nav-content-wrap");
+
+  const button = document.createElement("button");
+  button.innerHTML = `
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+    <path d="M4 7H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M4 12H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M4 17H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+  </svg>
+`;
+  button.className = "menu-toggle";
+  document.body.appendChild(button);
+
+  button.addEventListener("click", () => {
+    const isMobile = window.matchMedia("(max-width: 850px)").matches;
+
+    if (sidebar) {
+      sidebar.classList.toggle(isMobile ? "active" : "collapsed");
+    }
+
+    if (!isMobile && content) {
+      content.classList.toggle("shifted");
+    }
+  });
+});
+
+// ===== EQUIPMENT AUTO-GENERATION =====
+function renderEquipmentCard(item) {
+  return `
+    <div class="equip-card">
+      <div class="equip-title">
+        ${item.name}
+        <span class="arrow">▼</span>
+      </div>
+
+      <div class="equip-content">
+        <p>${item.short_description || "No description available."}</p>
+
+        <strong>Details</strong>
+        <ul>
+          <li><strong>Manufacturer:</strong> ${item.manufacturer || "N/A"}</li>
+          <li><strong>Model:</strong> ${item.model || "N/A"}</li>
+          <li><strong>Category:</strong> ${item.category || "N/A"}</li>
+          <li><strong>Item Class:</strong> ${item.item_class || "N/A"}</li>
+          <li><strong>Location:</strong> ${item.location || "N/A"}</li>
+          <li><strong>Quantity:</strong> ${item.qty ?? "N/A"}</li>
+          <li><strong>Training Required:</strong> ${item.training_required ? "Yes" : "No / Not listed"}</li>
+          <li><strong>Risk Assessment:</strong> ${item.risk_assessment_required ? "Required" : "Not required"}</li>
+        </ul>
+
+        ${
+          item.capabilities
+            ? `
+              <strong>Capabilities</strong>
+              <ul>
+                ${Object.entries(item.capabilities)
+                  .map(([key, value]) => {
+                    const label = key.replaceAll("_", " ");
+                    if (Array.isArray(value)) {
+                      return `<li><strong>${label}:</strong> ${value.join(", ")}</li>`;
+                    }
+                    return `<li><strong>${label}:</strong> ${value}</li>`;
+                  })
+                  .join("")}
+              </ul>
+            `
+            : ""
+        }
+
+        ${
+          item.availability_notes
+            ? `<strong>Availability Notes</strong><p>${item.availability_notes}</p>`
+            : ""
+        }
+
+        ${
+          item.constraints && item.constraints.notes
+            ? `<strong>Safety Notes</strong><p>${item.constraints.notes}</p>`
+            : ""
+        }
+      </div>
+    </div>
+  `;
+}
+
+function getCurrentCategories() {
+  const path = window.location.pathname.toLowerCase();
+
+  if (path.includes("air")) return ["drone"];
+  if (path.includes("land")) return ["robot"];
+  if (path.includes("sensors")) return ["sensor", "scanner"];
+  if (path.includes("networking")) return ["misc", "power"];
+  if (path.includes("compute")) return ["compute"];
+  if (path.includes("water")) return ["underwater"];
+
+  return null;
+}
+
+function attachDropdowns() {
+  document.querySelectorAll(".equip-card").forEach(card => {
+    const title = card.querySelector(".equip-title");
+    title.addEventListener("click", () => {
+      card.classList.toggle("open");
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", async function () {
+  const container = document.getElementById("equipment-container");
+  console.log("equipment container:", container);
+
+  if (!container) return;
+
+  try {
+    console.log("fetching equipment json...");
+    const response = await fetch("/_static/data/equipment.json");
+    console.log("json response:", response.status);
+
+    const data = await response.json();
+    const equipment = data.equipment || [];
+
+    const categories = getCurrentCategories();
+    const filtered = categories
+      ? equipment.filter(item => categories.includes((item.category || "").toLowerCase()))
+      : equipment;
+
+    console.log("equipment count:", equipment.length);
+    console.log("filtered count:", filtered.length);
+
+    container.innerHTML = filtered.map(renderEquipmentCard).join("");
+    attachDropdowns();
+  } catch (error) {
+    console.error("Equipment loading error:", error);
+    container.innerHTML = "<p>Could not load equipment data.</p>";
+  }
+});
+
+// ===== APPLE-STYLE NAVBAR BEHAVIOR =====
+document.addEventListener("DOMContentLoaded", function () {
+  const navbar = document.querySelector(".top-navbar");
+  if (!navbar) return;
+
+  function updateNavbar() {
+    if (window.scrollY > 80) {
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  }
+
+  updateNavbar();
+  window.addEventListener("scroll", updateNavbar);
+
+  const currentPath = window.location.pathname;
+
+  document.querySelectorAll(".nav-links a").forEach(link => {
+    const linkPath = new URL(link.href).pathname;
+
+    if (
+      currentPath === linkPath ||
+      currentPath.includes(linkPath.replace("/index.html", "")) && linkPath !== "/"
+    ) {
+      link.classList.add("active");
+    }
+  });
+});
