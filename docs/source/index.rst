@@ -12,7 +12,7 @@ KINESIS CTP Lab
      
 
    <section class="home-hero">
-     <img src="_static/images/hero-landscape.jpg" alt="KINESIS CTP Lab" class="hero-bg">
+     <img src="_static/images/hero-robots-landscape.jpg" alt="KINESIS CTP Lab" class="hero-bg">
      <div class="hero-shade"></div>
 
      <div class="hero-content">
