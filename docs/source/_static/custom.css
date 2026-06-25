@@ -219,6 +219,9 @@ body:not(.homepage) .wy-side-nav-search .version {
   display: flex;
   align-items: center;
   justify-content: center;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(87, 6, 140, 0.45), transparent 34%),
+    #17121f;
 }
 
 .hero-bg {
@@ -226,7 +229,8 @@ body:not(.homepage) .wy-side-nav-search .version {
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero-shade {
