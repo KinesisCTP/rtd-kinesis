@@ -2,9 +2,6 @@
 
 # -- Project information
 import os
-import sys
-sys.path.insert(0, os.path.abspath('../..'))
-
 import json
 
 project = 'KINESIS CTP Lab'
@@ -18,9 +15,6 @@ version = '1.0.0'
 
 extensions = [
     'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.mermaid',
 ]
