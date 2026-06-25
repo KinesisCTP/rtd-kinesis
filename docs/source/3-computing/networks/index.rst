@@ -11,3 +11,5 @@ The KINESIS CTP Lab operates two distinct networks to support different operatio
    :maxdepth: 1
    :caption: Network Pages
 
+   kinesis-network
+   hermes-network

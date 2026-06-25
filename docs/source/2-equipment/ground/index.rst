@@ -17,4 +17,6 @@ The KINESIS CTP features a variety of ground-based robotic platforms suitable fo
    autonomous-buggy-rb-car-robotnik
    humanoid-robot-g1-unitree
    humanoid-robot-h1-unitree
+   quadruped-robot-spot-boston-dynamics
+   quadruped-robot-with-arm-spot-boston-dynamics
    robotic-arm-lbr-iiwa-14-r820-kuka

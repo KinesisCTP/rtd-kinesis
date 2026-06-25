@@ -14,7 +14,7 @@ Infrastructure at a Glance
 --------------------------
 
 - :doc:`networks/index` covers KINESIS CTP, Hermes, routers, wired ports, and IP assignment.
-- index covers the Vicon PC, Linux workstation, AI workstation, and DGX Spark.
+- :doc:`workstations/index` covers the Vicon PC, Linux workstation, AI workstation, and DGX Spark.
 - :doc:`vicon-system/index` covers motion capture networking, tracking workflows, setup, and data broadcast.
 
 Common Tasks
@@ -30,4 +30,5 @@ Common Tasks
    :hidden:
 
    networks/index
+   workstations/index
    vicon-system/index
