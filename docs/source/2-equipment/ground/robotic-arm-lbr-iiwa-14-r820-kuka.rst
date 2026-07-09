@@ -17,7 +17,6 @@ Robotic Arm - LBR iiwa 14 R820 - KUKA
    - **Category:** Robot manipulation
    - **Location:** C3.B2.029.E (KINESIS CTP)
    - **Contact:** Samuel A. Prieto (sxp8070)
-   - **Asset Tag:** NYU030961
 
 Overview
 --------

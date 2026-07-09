@@ -17,7 +17,6 @@
    - **Category:** 3D Scanning
    - **Location:** C3.B2.029.E (KINESIS CTP)
    - **Contact:** Samuel A. Prieto (sxp8070)
-   - **Asset Tag:** NYU040587
 
 Overview
 --------
@@ -82,7 +81,6 @@ The scanner is operated with a dedicated HP ZBook G6 17" workstation laptop:
 - **Model:** HP ZBook G6 17" (64GB RAM)
 - **GPU:** NVIDIA RTX 5000
 - **RAM:** 64GB
-- **Asset Tag:** NYU040587C2
 - **Purpose:** Real-time scan data processing and mesh generation
 
 The laptop runs the Creaform VXelements software suite and provides the necessary processing power for real-time 3D reconstruction as you scan objects. The scanner connects via USB 3.0 to the laptop.

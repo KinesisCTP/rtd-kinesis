@@ -80,7 +80,9 @@ Safety and Operational Notes
    - Prohibited uses include underwater/airborne applications, home environments, transporting persons/animals, and transporting hazardous materials.
    - Maintain at least 3 m clearance during all operations.
    - Use slow speed when working near people.
-   - Storage: power off and remove the battery, store indoors at -20 °C to 45 °C (IP54)
+   - Use only Boston Dynamics Spot batteries and chargers.
+   - Storage: power off and remove the battery whenever the robot is not in use.
+   - Store the robot indoors at -20 °C to 45 °C (IP54).
    - Store batteries at ~50% state-of-charge for long-term storage.
 
 **Environmental Requirements:**
