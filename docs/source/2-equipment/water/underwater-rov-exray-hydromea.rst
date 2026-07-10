@@ -15,7 +15,7 @@ Underwater ROV - EXRAY - Hydromea
    - **Manufacturer:** Hydromea
    - **Model:** EXRAY
    - **Category:** Underwater Robot
-   - **Quantity:** 2 modules (primary EXRAY and FLYOUT)
+   - **Quantity:** 1 system (2 modules: primary EXRAY and FLYOUT)
    - **Location:** C3.B2.029.E (KINESIS CTP)
    - **Contact:** Samuel A. Prieto (sxp8070)
 
