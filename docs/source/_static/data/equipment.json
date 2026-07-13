@@ -1,0 +1,2070 @@
+{
+  "equipment": [
+    {
+      "equipment_id": "cc68c58d-4c47-4343-91bb-5215d1863005",
+      "name": "3D Scanner - Focus 350s plus - FARO",
+      "manufacturer": "FARO",
+      "model": "Focus 350s plus",
+      "category": "scanner",
+      "item_class": "3D Scanning",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The FARO Focus S 350 Plus is a terrestrial phase-shift laser scanner used to capture dense 3D point clouds of environments and objects over a wide field of view. It is typically mounted on a tripod and performs 360° scans, optionally capturing high-resolution HDR color imagery, for applications such as as-built surveys, BIM updates, deformation checks, forensic documentation, heritage recording, and wide-area mapping.",
+      "availability_notes": "Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, used on a tripod for indoor and outdoor scanning.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "lidar",
+        "3d scanning",
+        "laser scanner",
+        "point cloud",
+        "indoor",
+        "outdoor",
+        "tripod",
+        "survey",
+        "architecture",
+        "heritage",
+        "BIM",
+        "e57"
+      ],
+      "capabilities": {
+        "outputs": [
+          "e57",
+          "las",
+          "xyz",
+          "pts",
+          "ptx"
+        ],
+        "mobility": "tripod",
+        "resolution": "Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)",
+        "accuracy_mm": 1,
+        "range_max_m": 350,
+        "range_min_m": 0.6,
+        "indoor_outdoor": "both",
+        "points_per_sec": 2000000,
+        "battery_life_min": 270,
+        "sensing_modality": [
+          "lidar",
+          "rgb",
+          "gps"
+        ],
+        "typical_workflows": [
+          "Mount the scanner securely on a stable tripod and ensure the head can rotate freely without striking obstacles",
+          "Insert and manage scan storage on the SD card, then configure scan resolution/quality on the touchscreen or via Wi-Fi control",
+          "Run 360° × 300° scans and move the scanner to the next station once data are saved to the SD card",
+          "Transfer scans to SCENE for processing, registration, and downstream CAD/BIM or documentation workflows"
+        ],
+        "compute_software_deps": [
+          "SCENE",
+          "WLAN connection (HTML5 access via mobile devices)"
+        ]
+      },
+      "constraints": {
+        "notes": "Do not open the housing; dangerously high voltages are present and servicing is for qualified personnel only. Keep hands, tools, and loose clothing clear of the high-speed rotating mirror during scanning and until it stops. Use only on a flat, stable surface/tripod to prevent tipping; maintain an exclusion zone of 0.5 m around the scanner when in use and never reach into the mirror cavity while powered. For outdoor use, power from the battery and protect from rain or spray water; use in a non-condensing environment and shield from dust and strong magnetic/electrical fields. Do not operate while the external power supply is plugged in — the power cable might damage the turning scanner. Insert/remove batteries only in dry, dust-free environments; charge only on the FARO PowerDock in clear, ventilated areas. Follow controlled shutdown before removing power or the battery, and do not remove the SD card while the device indicates it is busy. PPE: appropriate street clothing (long pants, closed-toed shoes).",
+        "environment": [
+          "no_wet",
+          "no_dust"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required"
+        ],
+        "software_license_required": true
+      },
+      "wiki": {
+        "section": "sensors",
+        "slug": "3d-scanner-focus-350s-plus-faro",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "1943ef1f-8098-4c96-a198-d674ef7aca25",
+      "name": "Drone - Mavic Pro 2 - DJI",
+      "manufacturer": "DJI",
+      "model": "Mavic Pro 2",
+      "category": "drone",
+      "item_class": "UAV",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The DJI Mavic Pro is a compact folding quadcopter with a stabilised 3-axis gimbal camera used to capture aerial photos and 4K video for missions like inspection, mapping, and cinematography. It is operated via a remote controller and the DJI GO 4 mobile app, with features such as Return-to-Home and obstacle sensing to support safer flight operations.",
+      "availability_notes": "Hands-on training and review of the SOP and user manual are required before operating. Outdoor operations require a GCAA drone pilot licence and prior EHS coordination.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "drone",
+        "UAV",
+        "aerial photography",
+        "survey",
+        "inspection",
+        "outdoor",
+        "portable",
+        "camera",
+        "indoor"
+      ],
+      "capabilities": {
+        "fps": 30,
+        "outputs": [
+          "jpeg",
+          "dng",
+          "mp4",
+          "mov"
+        ],
+        "mobility": "aerial",
+        "resolution": "Video up to 4K/30 fps; stills 12 MP (4000×3000)",
+        "max_speed_ms": 18,
+        "indoor_outdoor": "both",
+        "max_altitude_m": 5000,
+        "battery_life_min": 27,
+        "sensing_modality": [
+          "rgb",
+          "gps",
+          "other"
+        ],
+        "typical_workflows": [
+          "aerial inspection and site observation",
+          "aerial mapping data capture",
+          "cinematic video capture with stabilised gimbal",
+          "Return-to-Home assisted flight and controlled landing"
+        ],
+        "compute_software_deps": [
+          "DJI GO 4",
+          "DJI Assistant 2"
+        ]
+      },
+      "constraints": {
+        "notes": "Key hazards include high-speed propellers (laceration risk) and LiPo battery fire/thermal runaway. Controls include restricting access, operator training, maintaining visual line-of-sight, and maintaining at least a 5 m exclusion zone around spectators. Fly in open areas below 120 m AGL, following local UAV regulations, inspecting propellers/batteries before each flight, and keeping clear of power lines and reflective or magnetic structures. Storage: power off aircraft and RC, remove battery, fit gimbal clamp/cover, fold arms/props; store batteries at 40–65% SoC in a fire-retardant container at 5–40 °C. PPE: long pants, closed-toed shoes, safety glasses.",
+        "environment": [
+          "no_wet",
+          "restricted_area"
+        ],
+        "safety_flags": [
+          "RA_required",
+          "training_required",
+          "PPE_required",
+          "restricted_area"
+        ]
+      },
+      "wiki": {
+        "section": "aerial",
+        "slug": "drone-mavic-pro-2-dji",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "04c98a0d-3984-44dd-8960-a9ef8abdfa6b",
+      "name": "Quadruped Robot - Spot - Boston Dynamics",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot",
+      "category": "robot",
+      "item_class": "Ground Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Boston Dynamics Spot is a legged, mobile ground robot used for remote inspection, data collection, and autonomous navigation in indoor and outdoor environments. It can be driven manually with a tablet controller or operated programmatically via the Spot API, and supports a variety of sensor and equipment payloads mounted on its back.",
+      "availability_notes": "Access restricted to trained and authorised personnel. Minimum 3 m clearance around the robot must be maintained during all operations.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "99_spot-boston-dynamics.jpg",
+      "tags": [
+        "mobile robot",
+        "quadruped",
+        "ground robot",
+        "inspection",
+        "indoor",
+        "outdoor",
+        "autonomous",
+        "Spot",
+        "legged"
+      ],
+      "capabilities": {
+        "dof": 12,
+        "mobility": "legged",
+        "max_speed_ms": 1.6,
+        "indoor_outdoor": "both",
+        "payload_body_kg": 14,
+        "battery_life_min": 90,
+        "sensing_modality": [
+          "rgb",
+          "lidar",
+          "thermal",
+          "other"
+        ],
+        "typical_workflows": [
+          "Remote teleoperation for indoor/outdoor inspection",
+          "Autonomous or semi-autonomous navigation with obstacle avoidance",
+          "Data collection with mounted sensors (cameras, LiDAR, thermal imagers)",
+          "Recording and replaying missions (Autowalk) with data capture actions",
+          "Payload-based inspection tasks using the Spot API"
+        ],
+        "compute_software_deps": [
+          "Spot tablet controller app",
+          "Spot API"
+        ]
+      },
+      "constraints": {
+        "notes": "Intended for professional use in industrial, restricted, or controlled environments — not for collaborative applications involving physical interaction with humans. Prohibited uses include underwater/airborne applications, home environments, transporting persons/animals, and transporting hazardous materials. Maintain at least 3 m clearance during all operations. Use slow speed when working near people. Storage: power off and remove the battery, store indoors at -20 °C to 45 °C (IP54); store batteries at ~50% state-of-charge for long-term storage.",
+        "environment": [
+          "restricted_area"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required",
+          "requires_supervisor",
+          "restricted_area"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "quadruped-robot-spot-boston-dynamics",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "d97faae7-de64-45b8-ac47-8996696129c2",
+      "name": "Quadruped Robot with Arm - Spot - Boston Dynamics",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot",
+      "category": "robot",
+      "item_class": "Ground Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Boston Dynamics Spot with Spot Arm is a legged, mobile ground robot with a 6-DOF manipulator and gripper used for remote inspection and general-purpose manipulation tasks. It can be driven manually with a tablet controller or operated programmatically via the Spot API, and can perform tasks like grasping objects, turning valves, and opening doors in industrial or controlled environments.",
+      "availability_notes": "Access is restricted to trained and authorised personnel. Complete the required safety sign-off before operation and maintain a minimum 3 m clearance around the robot during all operations.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "100_spot-arm.png",
+      "tags": [
+        "mobile robot",
+        "quadruped",
+        "ground robot",
+        "robotic arm",
+        "manipulation",
+        "inspection",
+        "indoor",
+        "outdoor",
+        "Spot",
+        "legged"
+      ],
+      "capabilities": {
+        "dof_arm": 6,
+        "dof_body": 12,
+        "mobility": "legged",
+        "arm_lift_kg": 11,
+        "range_max_m": 2,
+        "max_speed_ms": 1.6,
+        "indoor_outdoor": "both",
+        "payload_body_kg": 14,
+        "battery_life_min": 90,
+        "sensing_modality": [
+          "rgb",
+          "lidar",
+          "thermal",
+          "other"
+        ],
+        "typical_workflows": [
+          "Remote teleoperation for indoor/outdoor inspection",
+          "Grasping and picking up objects using the gripper",
+          "Turning/twisting/pulling tasks such as operating valves",
+          "Opening doors in manual operation or Autowalk missions",
+          "Recording and replaying missions (Autowalk) with data capture actions"
+        ],
+        "compute_software_deps": [
+          "Spot tablet controller app",
+          "Spot API"
+        ],
+        "enterprise_upgrade": "Spot Enterprise upgrade and Spot battery assigned to this robot.",
+        "arm_continuous_lift_kg": 5
+      },
+      "constraints": {
+        "notes": "Intended for professional use in industrial, restricted, or controlled environments — not for collaborative applications involving physical interaction with humans. Prohibited uses include underwater/airborne applications, home environments, transporting persons/animals, and transporting hazardous materials. Key hazards: pinch/crush risks at arm joints and gripper; loss of stability with extended arm or heavy payloads (>5 kg at 0.5 m extension can unbalance Spot); unexpected motion during manipulation. Controls: maintain at least 3 m clearance, keep arm stowed when not manipulating, use slow speed when teaching or working near people. Storage: stow the arm, power off and remove the battery, store indoors at -20 °C to 45 °C (IP54); store batteries at ~50% state-of-charge for long-term storage.",
+        "environment": [
+          "restricted_area"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required",
+          "requires_supervisor",
+          "restricted_area"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "quadruped-robot-with-arm-spot-boston-dynamics",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "c06c328c-d453-41ba-8a7d-a876f9dbd4e9",
+      "name": "Motion Capture System - Vantage V16 - Vicon",
+      "manufacturer": "Vicon",
+      "model": "Vantage V16",
+      "category": "sensor",
+      "item_class": "Motion capture",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Vicon Vantage V16 is a networked set of 24 infrared optical cameras (16 MP per camera) mounted around a capture volume to track retro-reflective markers and reconstruct 3D motion. Cameras connect via PoE+ Ethernet switches to a host PC running Vicon software (Nexus, Shōgun, or Tracker) for real-time capture, recording, and analysis of movement for applications such as gait analysis, animation, robotics, and engineering studies.",
+      "availability_notes": "The Vicon manuals are the definitive authority and must be reviewed before each use.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "101_vantage-v16-vicon.jpg",
+      "tags": [
+        "motion capture",
+        "mocap",
+        "tracking",
+        "indoor",
+        "Vicon",
+        "biomechanics",
+        "animation",
+        "marker-based"
+      ],
+      "capabilities": {
+        "fps": 500,
+        "mobility": "fixed",
+        "camera_count": 24,
+        "indoor_outdoor": "indoor",
+        "sensing_modality": [
+          "mocap"
+        ],
+        "typical_workflows": [
+          "Installing cameras on overhead rails or tripods and routing PoE+ cabling to switches",
+          "Calibrating the capture volume using the Vicon Active Wand",
+          "Live motion capture with IR strobe illumination and marker tracking",
+          "Recording and exporting motion data for gait analysis, animation, robotics, and engineering studies"
+        ],
+        "camera_resolution_mp": 16,
+        "compute_software_deps": [
+          "Vicon Nexus",
+          "Vicon Shogun",
+          "Vicon Tracker",
+          "VAULT"
+        ]
+      },
+      "constraints": {
+        "notes": "Power via IEEE 802.3at PoE+ (57 V DC): use certified PoE+ switches, inspect Vicon-supplied shielded Cat-5e leads before use, keep ports de-energised until handshake completes ('power-on-last'). Cameras (~1.2 kg) may be ceiling- or tripod-mounted; use approved hardware, torque-check fasteners, strain-relieve cables. IR strobe (850 nm): avoid staring into emitters at close range; brief all visitors. Cameras and strobes warm during prolonged operation — maintain ventilation and do not touch heat-sinks while powered. Emergency shutdown: stop capture in software, switch OFF the PoE+ switch; if unresponsive, unplug the PoE+ switch mains cord and disconnect camera RJ-45 only after LEDs are dark to avoid firmware corruption. Storage: PoE+ switch OFF, coil/secure leads, fit lens caps, store in padded cases in a dry dust-free cabinet (-10 °C to 50 °C); do not stack heavy objects on camera bodies. PPE: long pants, closed-toed shoes.",
+        "environment": [
+          "indoor_only"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required"
+        ],
+        "software_license_required": true
+      },
+      "wiki": {
+        "section": "sensors",
+        "slug": "motion-capture-system-vantage-v16-vicon",
+        "page_kind": "standalone",
+        "related_doc": "/4-facilities/arena"
+      }
+    },
+    {
+      "equipment_id": "e2bac7bc-5107-4331-8783-49a221223ece",
+      "name": "3D Scanner - Go!SCAN 3D - Creaform",
+      "manufacturer": "Creaform",
+      "model": "Go!SCAN 3D",
+      "category": "scanner",
+      "item_class": "3D Scanning",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Creaform Go!SCAN 3D (Go!SCAN SPARK) is a handheld structured-light 3D scanner used to capture full-colour 3D geometry of physical objects as the scanner is swept around a stationary part. It streams live scan data to a computer running Creaform software so researchers can generate meshes for workflows like reverse engineering, inspection/metrology, and preparing models for additive manufacturing.",
+      "availability_notes": "Only personnel who have completed the Go!SCAN 3D induction may operate the scanner or handle its power connections.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "102_goscan-3d-creaform.jpg",
+      "tags": [
+        "3d scanning",
+        "handheld scanner",
+        "structured light",
+        "portable",
+        "reverse engineering",
+        "quality control",
+        "inspection",
+        "indoor"
+      ],
+      "capabilities": {
+        "outputs": [
+          ".dae",
+          ".fbx",
+          ".ma",
+          ".obj",
+          ".ply",
+          ".stl",
+          ".txt",
+          ".wrl",
+          ".x3d",
+          ".x3dz",
+          ".zpr",
+          ".3mf"
+        ],
+        "mobility": "handheld",
+        "resolution": "Measurement resolution 0.100 mm; mesh resolution 0.200 mm; texture resolution 50–200 DPI",
+        "accuracy_mm": 0.05,
+        "indoor_outdoor": "indoor",
+        "points_per_sec": 1500000,
+        "tether_length_m": 4,
+        "sensing_modality": [
+          "rgb",
+          "structured_light"
+        ],
+        "typical_workflows": [
+          "Handheld scanning of stationary objects with real-time mesh build-up",
+          "Reverse engineering of parts from 3D meshes",
+          "Quality inspection and metrology using scanned geometry",
+          "Generating meshes for additive manufacturing",
+          "Archiving/digitising artefacts"
+        ],
+        "compute_software_deps": [
+          "Creaform.OS",
+          "VXelements LTS",
+          "VXmodel EDU"
+        ]
+      },
+      "constraints": {
+        "notes": "Scanner is powered from a laptop USB 3.0 port or an 18 V in-line adaptor; stop by disconnecting the USB 3.0 cable or unplugging the in-line adaptor. Key hazards: manage the 4 m cable to prevent trips; inspect routing/abrasion and unplug before cleaning or changing accessories; avoid direct viewing of the bright structured-light pattern; take short rest breaks or alternate hands to reduce ergonomic strain. PPE: appropriate street clothing (long pants, closed-toed shoes). Storage: keep in padded case in a dry indoor area at 5–55 °C, 10–90% RH non-condensing; fit the USB dust cap; do not touch calibration-plate targets.",
+        "environment": [
+          "indoor_only",
+          "tethered_operation"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required",
+          "requires_supervisor"
+        ]
+      },
+      "wiki": {
+        "section": "sensors",
+        "slug": "3d-scanner-goscan-3d-creaform",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "b1e2a063-95c4-4252-abfc-2aa5e6fed614",
+      "name": "CRF-01842- ZBook G6 17'' 64Go",
+      "manufacturer": "HP",
+      "model": "ZBook G6 17'' 64Go",
+      "category": "compute",
+      "item_class": "PC",
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "A high-performance mobile workstation laptop with 17-inch display and NVIDIA RTX 5000 GPU, dedicated to controlling and processing data from the Creaform Go!SCAN 3D handheld scanner. Runs VXelements software for real-time 3D reconstruction.",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "laptop",
+        "PC",
+        "workstation",
+        "portable",
+        "compute"
+      ],
+      "capabilities": {
+        "gpu": "RTX5000",
+        "ram_gb": 64,
+        "display": "17 inch",
+        "purpose": "Creaform Go!SCAN 3D control and data processing"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "workstations",
+        "slug": "creaform-control-laptop",
+        "page_kind": "component",
+        "parent_equipment_ids": [
+          "e2bac7bc-5107-4331-8783-49a221223ece"
+        ]
+      }
+    },
+    {
+      "equipment_id": "be82881d-4fe7-49a0-a82f-c4a4fc6b74bf",
+      "name": "Robotic Arm - LBR iiwa 14 R820 - KUKA",
+      "manufacturer": "KUKA",
+      "model": "LBR iiwa 14 R820",
+      "category": "robot",
+      "item_class": "Robot manipulation",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The KUKA LBR iiwa 14 R820 is a 7-axis collaborative robotic arm used for research tasks such as assembly, inspection, and human-robot collaboration. It is operated via the KUKA Sunrise Cabinet controller and smartPAD teach pendant, with Java-based applications developed and managed in KUKA Sunrise.OS / Sunrise.Workbench.",
+      "availability_notes": "Only trained and authorised personnel may programme or run the robot.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "106_lbr-iiwa-kuka.jpg",
+      "tags": [
+        "robotic arm",
+        "collaborative robot",
+        "cobot",
+        "manipulation",
+        "KUKA",
+        "iiwa",
+        "7-axis",
+        "indoor",
+        "human-safe"
+      ],
+      "capabilities": {
+        "dof": 7,
+        "mobility": "fixed",
+        "payload_kg": 14,
+        "accuracy_mm": 0.15,
+        "indoor_outdoor": "indoor",
+        "typical_workflows": [
+          "jogging and teaching motions using the smartPAD",
+          "running Java-based robot applications via Sunrise.Workbench and the smartPAD",
+          "assembly, inspection, research, and human-robot collaboration tasks"
+        ],
+        "compute_software_deps": [
+          "KUKA Sunrise.OS",
+          "KUKA Sunrise.Workbench",
+          "WorkVisual 4.0",
+          "Windows 7"
+        ]
+      },
+      "constraints": {
+        "notes": "Maintain at least 2 m clearance around the arm during automatic motion. Verify the Emergency-Stop and enabling switches before every shift. Run new or edited programs first in Manual Reduced Velocity (T1). Never enter the workspace unless the robot is in T1 or powered down with brakes applied. PPE: long pants, closed-toed shoes. Storage: power off the Sunrise Cabinet, wait for fans and indicators to stop, unplug AC mains, rest the robot in a seated/folded posture with axis brakes engaged; store indoors at 5–33 °C, 20–80% RH, away from vibration and dust.",
+        "environment": [
+          "indoor_only"
+        ],
+        "safety_flags": [
+          "RA_required",
+          "training_required",
+          "restricted_area"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "robotic-arm-lbr-iiwa-14-r820-kuka",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "e18fcb75-4bdc-4b54-a54e-8d573ecb68b3",
+      "name": "Robotic Gripper - 3-Finger Adaptive - Robotiq",
+      "manufacturer": "Robotiq",
+      "model": "3-Finger Adaptive",
+      "category": "robot",
+      "item_class": "Robot manipulation",
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Robotiq 3-Finger Adaptive Gripper is a robotic end-effector designed to be mounted on a robotic arm for grasping, manipulating, and releasing objects of varying shapes and sizes. It supports multiple grasp modes (basic, wide, pinch, scissor) and is typically used in supervised lab conditions for grasping experiments and manipulation research.",
+      "availability_notes": "Indoor operation on a level, non-slip floor. Requires a dedicated 24 V DC bench supply and Ethernet/fieldbus cabling routed along the robot harness.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "gripper",
+        "robotic gripper",
+        "manipulation",
+        "adaptive",
+        "3-finger",
+        "Robotiq",
+        "end effector"
+      ],
+      "capabilities": {
+        "mobility": "robot-mount",
+        "indoor_outdoor": "indoor",
+        "typical_workflows": [
+          "mounting the gripper on a robotic arm for grasping and manipulation experiments",
+          "selecting grasp mode (basic, wide, pinch, scissor) and tuning speed/force parameters",
+          "activating and controlling the gripper via robot integration or Robotiq User Interface",
+          "gripping, manipulating, and releasing test objects under supervised lab conditions"
+        ],
+        "compute_software_deps": [
+          "Robotiq User Interface",
+          "Modbus RTU",
+          "Modbus TCP"
+        ]
+      },
+      "constraints": {
+        "notes": "Primary hazards: pinch/crush points (fingers can exert up to 60 N), projectile risk from dropped/ejected objects during fast motion, entanglement, and electrical hazards from damaged 24 V DC SELV wiring. Controls: only trained personnel operate; keep hands/clothing clear while powered; verify mode/speed/force in teach mode before automated runs; use a certified 24 V DC supply with a 4 A fuse; inspect and strain-relieve cables; never connect to AC or modify wiring; eye protection required. Emergency shutdown: press robot E-stop or cut 24 V DC supply. Storage: power off, disconnect cables, store dry indoors away from dust/moisture and temperature extremes.",
+        "environment": [
+          "indoor_only",
+          "tethered_operation"
+        ],
+        "safety_flags": [
+          "requires_supervisor",
+          "RA_required",
+          "training_required",
+          "PPE_required"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "robotic-gripper-3-finger-adaptive-robotiq",
+        "page_kind": "component"
+      }
+    },
+    {
+      "equipment_id": "310f9228-04d4-4fde-90fe-3284bbd1c86c",
+      "name": "Thermal/Visual Camera - Wiris ProSc - Workswell",
+      "manufacturer": "Workswell",
+      "model": "Wiris ProSc",
+      "category": "sensor",
+      "item_class": "Camera",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Workswell WIRIS Pro SC is a dual-sensor (thermal + visible) radiometric camera for aerial and surface inspection. NOT waterproof — for drone-mount or tripod use only; incompatible with underwater or wet environments. Captures calibrated thermal imagery for heat distribution analysis, energy audits, and non-contact temperature measurement.",
+      "availability_notes": "Drone-mounted operation is restricted to licensed pilots and requires a secured flight zone with a 5 m exclusion radius and overhead hazard warnings.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "108_wiris-prosc-workswell.jpg",
+      "tags": [
+        "thermal camera",
+        "infrared",
+        "visual camera",
+        "zoom",
+        "inspection",
+        "drone-mount",
+        "outdoor",
+        "indoor",
+        "thermography"
+      ],
+      "capabilities": {
+        "outputs": [
+          "jpeg",
+          "tiff",
+          "mp4"
+        ],
+        "mobility": [
+          "drone-mount",
+          "tripod"
+        ],
+        "indoor_outdoor": "both",
+        "sensing_modality": [
+          "thermal",
+          "rgb"
+        ],
+        "typical_workflows": [
+          "bench/lab configuration then tripod-based or drone-mounted indoor/outdoor inspections",
+          "streaming HDMI video to a display or ground station during operation",
+          "capturing radiometric stills for temperature analysis in CorePlayer/Thermolab",
+          "recording thermal and visible video to internal storage for later review"
+        ],
+        "compute_software_deps": [
+          "Workswell CorePlayer",
+          "Thermolab"
+        ]
+      },
+      "constraints": {
+        "notes": "Powered from 9–36 V DC SELV supply; follow power-on-last rule (keep supply de-energised until DC lead fully connected), visually inspect cables/connectors before use. Internal electronics and IR sensor reach ~50 °C — allow ≥15 min cooldown after power-down before handling the lens housing; use the supplied focus tool for lens adjustments. When drone-mounted, torque 1/4-20 UNC mount to spec and inspect before each deployment; maintain exclusion zones and warning signage. Emergency shutdown: onboard touchscreen Settings → Shutdown; forced: disconnect 9–36 V DC cable. PPE: long pants, closed-toed shoes. Storage: power off, cool ≥15 min, store dry and dust-free, avoid direct sunlight; transport in original case or padded ESD-safe container.",
+        "environment": [
+          "no_wet"
+        ],
+        "safety_flags": [
+          "RA_required",
+          "training_required",
+          "PPE_required"
+        ]
+      },
+      "wiki": {
+        "section": "sensors",
+        "slug": "thermalvisual-camera-wiris-prosc-workswell",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "f5af5e81-02ca-4254-a7ca-04f5f668657c",
+      "name": "Wireless Radio - MPU5 - Persistent Systems",
+      "manufacturer": "Persistent Systems",
+      "model": "MPU5",
+      "category": "misc",
+      "item_class": null,
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "Wireless transceivers used for communication in mesh networks",
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "wireless",
+        "mesh network",
+        "radio",
+        "transceiver",
+        "communication",
+        "MPU5",
+        "outdoor"
+      ],
+      "capabilities": {
+        "networking": "S Band RF Module (2200-2500MHz)",
+        "other_specs": "Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "wireless-radio-mpu5-persistent-systems",
+        "page_kind": "component"
+      }
+    },
+    {
+      "equipment_id": "0e2fc63d-65cc-4ab7-98e8-2bc033cdfeaf",
+      "name": "Mesh Network Radio - Wave Relay WR-5100 - Persistent Systems",
+      "manufacturer": "Persistent Systems",
+      "model": "Wave Relay WR-5100",
+      "category": "sensor",
+      "item_class": "Communication",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "Wireless transceivers designed for long-range communication",
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "wireless",
+        "mesh network",
+        "radio",
+        "communication",
+        "long-range",
+        "Wave Relay",
+        "outdoor"
+      ],
+      "capabilities": {
+        "networking": "S Band RF Module (2200-2500MHz)",
+        "other_specs": "Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "sensors",
+        "slug": "mesh-network-radio-wave-relay-wr-5100-persistent-systems",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "0bf75c2e-8349-41bc-af3c-dd3e1bbfcf6c",
+      "name": "Drone - Matrice 300 RTK - DJI",
+      "manufacturer": "DJI",
+      "model": "Matrice 300 RTK",
+      "category": "drone",
+      "item_class": "UAV",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The DJI Matrice 300 RTK is an industrial quadcopter drone platform designed for professional aerial operations such as mapping, inspection, surveillance, and data collection. It supports RTK positioning for higher-accuracy navigation, multiple payload configurations (including multi-gimbal setups), and real-time video downlink for mission monitoring.",
+      "availability_notes": "Only trained and authorised personnel may operate the drone. All operations must maintain visual line of sight (VLOS). Outdoor flights require a GCAA-issued drone pilot licence and prior EHS approval — no outdoor flight may proceed without EHS permit and no-fly zone verification.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "329_drone-matrice-300-dji.png",
+      "tags": [
+        "drone",
+        "UAV",
+        "aerial mapping",
+        "RTK",
+        "survey",
+        "photogrammetry",
+        "outdoor",
+        "professional",
+        "inspection",
+        "indoor"
+      ],
+      "capabilities": {
+        "mobility": "aerial",
+        "payload_kg": 2.7,
+        "max_speed_ms": 23,
+        "indoor_outdoor": "both",
+        "max_altitude_m": 7000,
+        "battery_life_min": 55,
+        "sensing_modality": [
+          "rgb",
+          "gps",
+          "other"
+        ],
+        "typical_workflows": [
+          "Pre-flight checklist including propeller integrity, GPS lock, battery level, and firmware status",
+          "Configure payloads (single/dual downward gimbals and/or upward gimbal) for imaging or inspection tasks",
+          "RTK-enabled flight for higher-accuracy positioning and mission execution",
+          "Mission flight with real-time video downlink for mapping, inspection, or surveillance",
+          "Post-flight data export and firmware updates using DJI Pilot 2 or DJI Assistant 2 (Enterprise Series)"
+        ],
+        "compute_software_deps": [
+          "DJI Pilot 2",
+          "DJI Assistant 2 (Enterprise Series)"
+        ]
+      },
+      "constraints": {
+        "notes": "Primary hazards include high-speed propellers (laceration risk), lithium battery fire risk, crash/fall-from-height risks during takeoff/landing or malfunction, electromagnetic interference, and weather hazards (wind/rain/low temperatures). Do not fly over people, moving vehicles, or sensitive infrastructure. Outdoor operations require a GCAA drone pilot licence; geofencing must be configured to prevent entry into forbidden areas. Emergency shutdown: use controller Combination Stick Command (CSC) to stop propellers. Batteries must be charged following procedures, never left unattended while charging, and never charged near flammable materials. Long-term storage: power off, disconnect batteries, store in fireproof/LiPo-safe container at 15–25°C in a padded hard case away from sunlight, moisture, and dust; charge/discharge every 3 months. PPE: long pants, closed-toed shoes, and safety goggles.",
+        "environment": [
+          "no_wet",
+          "restricted_area"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required",
+          "no_offsite",
+          "requires_permit"
+        ]
+      },
+      "wiki": {
+        "section": "aerial",
+        "slug": "drone-matrice-300-rtk-dji",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "6d14d3a9-820d-4940-afba-fba4b0b2a57e",
+      "name": "LiDAR Mapping Payload - Hovermap ST - Emesent",
+      "manufacturer": "Emesent",
+      "model": "Hovermap ST",
+      "category": "scanner",
+      "item_class": "3D Scanning",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Emesent Hovermap ST is a mobile, spinning 360° LiDAR mapping payload that captures 3D point clouds while using onboard SLAM to localise itself in GPS-denied environments. It can be operated handheld, mounted to a robot, or flown under compatible drones to map indoor, outdoor, and underground spaces for surveying and digital-twin generation.",
+      "availability_notes": "Operations occur mainly inside the KINESIS CTP Lab with occasional outdoor field demonstrations. Only trained operators may connect power, start scans, or mount the unit on drones or vehicles.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "367_hovermap-emesent.jpg",
+      "tags": [
+        "lidar",
+        "3d scanning",
+        "UAV mapping",
+        "SLAM",
+        "drone-mount",
+        "indoor",
+        "outdoor",
+        "point cloud",
+        "Hovermap",
+        "mine mapping"
+      ],
+      "capabilities": {
+        "mobility": [
+          "handheld",
+          "robot-mount",
+          "drone-mount"
+        ],
+        "range_max_m": 100,
+        "range_min_m": 0.5,
+        "slam_capable": true,
+        "indoor_outdoor": "both",
+        "points_per_sec": 300000,
+        "unit_weight_kg": 1.8,
+        "sensing_modality": [
+          "lidar",
+          "rgb"
+        ],
+        "typical_workflows": [
+          "Handheld walking scans for indoor mapping",
+          "Robot-mounted mapping in GPS-denied environments",
+          "Drone-mounted mapping (indoor, underground, and outdoor asset scans)",
+          "Processing and merging scans into dense point clouds in Emesent Aura"
+        ],
+        "compute_software_deps": [
+          "Emesent Commander",
+          "Emesent Aura"
+        ]
+      },
+      "constraints": {
+        "notes": "Power from an external 12–54 V DC source; scans typically <35 minutes, data downloaded to USB. Hazards: electrical shock from damaged leads/connectors (inspect before use, only trained operators connect/disconnect); moving parts from the continuously rotating sensor head (keep hands/hair/clothing clear; use protective cage for handheld use); Class 1 eye-safe lasers (do not open sealed optical enclosure; avoid staring into aperture at close range); dropped-load risk when handheld or drone-mounted (~1.8 kg). IP65 rated but not recommended in rain or fog; maintain ≥10 m from elevated EMI sources; operating temperature -10 °C to 45 °C. Emergency shutdown: hold power button >10 s if frozen, then disconnect battery once LEDs are dark. Storage: indoors dry at 10–30 °C in padded case; fit protective cap; disconnect battery. PPE: long pants, closed-toed shoes.",
+        "environment": [
+          "no_wet",
+          "tethered_operation"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required"
+        ],
+        "software_license_required": true
+      },
+      "wiki": {
+        "section": "sensors",
+        "slug": "lidar-mapping-payload-hovermap-st-emesent",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "3a056e56-9d38-4ca1-8422-9fb2d6ab2dee",
+      "name": "WR-EM System Upgrade and Accessories for Persistent System Wave Relay",
+      "manufacturer": "Persistent Systems",
+      "model": "EM System Upgrade and Accessories for Persistent System Wave Relay",
+      "category": "misc",
+      "item_class": null,
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "WR-EM system upgrade and accessories for Persistent Systems Wave Relay, enhancing communication capabilities for unmanned systems.",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "wireless",
+        "communication",
+        "upgrade",
+        "Wave Relay",
+        "mesh network"
+      ],
+      "capabilities": {
+        "other_specs": "10 Watt S Band RF Module (2200-2500MHz), 6.8 Ah Rechargeable Lithium-Ion Battery Pack with twistlock connector, 2.15dBi omni directional antenna with RP TNC connector"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "wr-em-system-upgrade-and-accessories-for-persistent-system-w",
+        "page_kind": "component"
+      }
+    },
+    {
+      "equipment_id": "195b6203-edd7-489a-9d90-63cc6d0ff2f9",
+      "name": "Spot Enterprise Upgrade",
+      "manufacturer": "Boston Dynamics",
+      "model": null,
+      "category": "misc",
+      "item_class": null,
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "Spot Enterprise Upgrade assigned specifically to the arm-equipped Boston Dynamics Spot (legacy ID 100).",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "upgrade",
+        "Spot",
+        "enterprise",
+        "ground robot"
+      ],
+      "capabilities": null,
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "spot-enterprise-upgrade",
+        "page_kind": "component",
+        "parent_equipment_ids": [
+          "d97faae7-de64-45b8-ac47-8996696129c2"
+        ]
+      }
+    },
+    {
+      "equipment_id": "a8e767a0-0d13-4f27-ac77-6415617a0e49",
+      "name": "Power Supply - PVS10005 - BK Precision",
+      "manufacturer": "BK Precision",
+      "model": "PVS10005",
+      "category": "power",
+      "item_class": "Power supply",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The BK Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.",
+      "availability_notes": "Equipment-specific training and SOP review are mandatory before operation. \"High Voltage\" signage must be posted whenever the supply is in use.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "power supply",
+        "electronics",
+        "bench equipment",
+        "precision",
+        "indoor"
+      ],
+      "capabilities": {
+        "mobility": "fixed",
+        "interfaces": [
+          "SCPI"
+        ],
+        "max_power_w": 5000,
+        "max_current_a": 5,
+        "max_voltage_v": 1000,
+        "indoor_outdoor": "indoor",
+        "regulation_modes": [
+          "CV",
+          "CC"
+        ],
+        "typical_workflows": [
+          "Battery emulation at high voltage",
+          "PV-array simulation",
+          "High-voltage component burn-in testing",
+          "Programmable ramps or list/step testing in CV or CC mode",
+          "Remote control and automation via SCPI over communication interface"
+        ]
+      },
+      "constraints": {
+        "notes": "Hazards: electrical shock (up to 1000 V at output terminals), arc/flash from loose connections (especially with inductive loads), overheating/fire risk if airflow is blocked, and stored energy in internal capacitors for several seconds after power-down. Controls: verify earth ground; use insulated test leads rated ≥5 A and 1 kV; maintain ≥25 mm clearance at fan sides; enable OVP/OCP limits before connecting a DUT; post 'High Voltage' signage during operation. Emergency shutdown: unplug AC mains cord at rear if power switch is unresponsive; cut facility power at the breaker if damage/smoke/arcing is visible — do not touch output or sense terminals immediately after shutdown as lethal voltages may remain briefly. Storage: disable output, power off and unplug, discharge through a 10 kΩ (≥2 W) resistor for 10 s, fit protective caps on terminals, store indoors at 0–40 °C and ≤90% RH in a dust-free environment.",
+        "environment": [
+          "indoor_only",
+          "no_wet"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required",
+          "restricted_area"
+        ]
+      },
+      "wiki": {
+        "section": "support",
+        "slug": "power-supply-pvs10005-bk-precision",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "8a44b18c-dd10-454c-8899-8758ad436654",
+      "name": "Hyperspectral camera",
+      "manufacturer": "Corning Specialty Materials",
+      "model": null,
+      "category": "sensor",
+      "item_class": "Camera",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "A camera capable of capturing images across a wide range of wavelengths simultaneously, enabling detailed spectral analysis.",
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": "405_hyperspectral-camera.jpg",
+      "tags": [
+        "hyperspectral",
+        "camera",
+        "spectral analysis",
+        "remote sensing",
+        "multispectral",
+        "imaging"
+      ],
+      "capabilities": null,
+      "constraints": null,
+      "wiki": {
+        "section": "sensors",
+        "slug": "hyperspectral-camera",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "869fc34b-2491-4ee7-9620-2b5da43b444c",
+      "name": "AI Workstation - Lambda",
+      "manufacturer": "Lambda",
+      "model": null,
+      "category": "compute",
+      "item_class": "PC",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "A high-performance workstation PC equipped with advanced processing capabilities for artificial intelligence and data-intensive computing tasks.",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "workstation",
+        "PC",
+        "GPU",
+        "compute",
+        "AI",
+        "deep learning",
+        "data processing"
+      ],
+      "capabilities": {
+        "os": "Ubuntu 22.04",
+        "cpu": "AMD Ryzen Threadripper PRO 5995WX: 64 cores, 2.7~4.5GHz",
+        "gpu": "2x NVIDIA RTX 6000 Ada Generation: 48GB memory, 18176 CUDA cores, 568 Tensor cores",
+        "ram_gb": 512,
+        "storage": "1x 1.92 TB M.2 NVMe, 1x 3.84 TB U.2 NVMe (Data center SSD, 1 DWPD, PCIe 4.0)",
+        "networking": "2x 10 Gbps RJ45 Ethernet ports, 1x dedicated IPMI port, 2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with Bluetooth v5.2",
+        "other_specs": "DDR4-3200 ECC RDIMM, PCIe 4.0"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "workstations",
+        "slug": "ai-workstation",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "e9d94a40-9dda-466f-a986-07f3bbfe021c",
+      "name": "Event Camera - Metavision EVK4 HD - Prophesee",
+      "manufacturer": "Prophesee",
+      "model": "Metavision EVK4 HD",
+      "category": "sensor",
+      "item_class": "Camera",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 2,
+      "active": true,
+      "short_description": "A high-definition event camera (Metavision® EVK4 – HD) designed by Prophesee, capable of capturing and processing events in real time.",
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "event camera",
+        "neuromorphic",
+        "high-speed",
+        "dynamic vision",
+        "camera",
+        "real-time",
+        "Prophesee"
+      ],
+      "capabilities": {
+        "networking": "USB3",
+        "other_specs": "HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "sensors",
+        "slug": "event-camera-metavision-evk4-hd-prophesee",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "e8d58251-7799-413a-8c35-b41f31ee815c",
+      "name": "ROV Robotic Arm - Alpha 5 - Reach Robotics",
+      "manufacturer": "Reach Robotics",
+      "model": "Alpha 5",
+      "category": "robot",
+      "item_class": "Robot manipulation",
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 2,
+      "active": true,
+      "short_description": "Robotic arms designed for use with remotely operated vehicles (ROVs) for various underwater tasks and operations.",
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "robotic arm",
+        "underwater",
+        "ROV",
+        "subsea",
+        "manipulation",
+        "300m depth",
+        "Reach Alpha"
+      ],
+      "capabilities": {
+        "other_specs": "5-Function, 300m Depth Rated"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "ground",
+        "slug": "rov-robotic-arm-alpha-5-reach-robotics",
+        "page_kind": "component"
+      }
+    },
+    {
+      "equipment_id": "863085cf-39f1-490e-90f5-e2a55823835e",
+      "name": "Autonomous Buggy - RB-CAR - Robotnik",
+      "manufacturer": "Robotnik",
+      "model": "RB-CAR",
+      "category": "robot",
+      "item_class": "Ground Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Robotnik RB-CAR is a 4x4 electric research buggy (based on a Polaris RANGER EV chassis) with servo-actuated steering and traction controlled by an onboard computer for manual driving, teleoperation, or autonomous operation. It is used for autonomous navigation R&D, perception testing, and data collection in controlled indoor lab areas and approved outdoor campus test roads.",
+      "availability_notes": "Use restricted to trained and authorised operators. Outdoor operation approved only on the Service Road behind campus and the Ring Road (Amber Zones). Mandatory: do not operate during peak traffic hours (07:00–09:00 and 15:00–17:00); notify the DCS Command Centre before each experiment; minimum two researchers at all times (one designated driver with a valid UAE licence and one perimeter watcher); deploy warning signs; install and activate a warning strobe light; maximum speed 20 km/h; do not operate in low-visibility conditions (fog or sandstorm).",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "451_buggy-rbcar-robotnik.jpg",
+      "tags": [
+        "autonomous vehicle",
+        "ground robot",
+        "self-driving",
+        "car",
+        "outdoor",
+        "ROS",
+        "wheeled",
+        "research platform"
+      ],
+      "capabilities": {
+        "outputs": [
+          "rosbag"
+        ],
+        "mobility": "wheeled",
+        "max_speed_ms": 5.56,
+        "indoor_outdoor": "both",
+        "sensing_modality": [
+          "lidar",
+          "gps"
+        ],
+        "typical_workflows": [
+          "pre-drive checks and safety system reset (local/remote E-stop and handbrake interlock)",
+          "manual driving with steering wheel and pedals",
+          "teleoperation using gamepad (with remote E-stop as safety device)",
+          "autonomous navigation research and perception testing in controlled areas",
+          "data collection using onboard sensors (e.g., lidar, GPS) via ROS",
+          "battery charging in a ventilated area after use"
+        ],
+        "compute_software_deps": [
+          "ROS",
+          "Ubuntu 20.04",
+          "Safety Designer (Windows)"
+        ]
+      },
+      "constraints": {
+        "notes": "Keep a clear perimeter and do not allow anyone near the vehicle while motor drives are enabled; always keep an operator seated when the vehicle is powered and safety is restarted; use seat belts; do not rely on laser stop at higher speeds (configured for low-speed auto operation); keyswitch must be OFF and main power isolated before accessing the rear control cabinet (qualified personnel only). Battery system is high-current 48 V DC lead-acid; charge only with the provided charger and only in a well-ventilated area with hood/doors open; do not cover while charging; avoid wet conditions and do not sprinkle water/oil on the robot or charging cord. Hot components (motor/controller/brake discs) can exceed 80°C; enforce cool-down and use gloves for work inside the rear electronics bay.",
+        "safety_flags": [
+          "training_required",
+          "restricted_area",
+          "PPE_required",
+          "two_person_operation",
+          "RA_required"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "autonomous-buggy-rb-car-robotnik",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "a590da10-7154-4137-951d-1eab90b3c086",
+      "name": "PC Workstation - Custom Build - Vicon",
+      "manufacturer": "Vicon",
+      "model": "Custom Build",
+      "category": "compute",
+      "item_class": "PC",
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "Replacement PC for handling the computational demands of a motion capture system. Motion Capture System Replacement PC",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "workstation",
+        "PC",
+        "compute",
+        "motion capture",
+        "Vicon"
+      ],
+      "capabilities": {
+        "cpu": "AMD Ryzen 9 7950X3D 16-core",
+        "gpu": "ASUS RTX 4090 STRIX 24G",
+        "ram_gb": 96,
+        "storage": "2TB Samsung 990 Pro M.2 NVMe SSD",
+        "other_specs": "NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "workstations",
+        "slug": "linux-workstation",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "7e021f5e-e159-49a7-b6e4-3620541f4db2",
+      "name": "Humanoid Robot - G1 - Unitree",
+      "manufacturer": "Unitree",
+      "model": "G1",
+      "category": "robot",
+      "item_class": "Ground Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Unitree G1 is a compact humanoid robot used for research and demonstrations involving locomotion, dynamic control, and human-robot interaction. It can be operated manually via a wireless handheld remote or programmatically via the Unitree SDK/API over a wired Ethernet connection, using onboard sensors to support balance and control.",
+      "availability_notes": "Only trained and authorised personnel are allowed to operate or programme the robot. Operating area must be clear of obstacles and bystanders with a minimum 2 m radius.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "506_humanoid-g1-unitree.jpg",
+      "tags": [
+        "humanoid",
+        "bipedal",
+        "ground robot",
+        "legged",
+        "Unitree",
+        "G1",
+        "research",
+        "indoor"
+      ],
+      "capabilities": {
+        "dof": 29,
+        "mobility": "legged",
+        "indoor_outdoor": "both",
+        "sensing_modality": [
+          "rgb",
+          "lidar",
+          "other"
+        ],
+        "typical_workflows": [
+          "manual operation via wireless handheld remote for locomotion and demonstrations",
+          "programmatic control via Unitree SDK/API over wired Ethernet for autonomous tasks",
+          "research in human-robot interaction, locomotion, dynamic control, and multi-agent tasks"
+        ],
+        "compute_software_deps": [
+          "Unitree SDK",
+          "Unitree API"
+        ],
+        "included_accessories": [
+          "Unitree Dex3 hands bundled with the G1 EDU U4"
+        ]
+      },
+      "constraints": {
+        "notes": "Key hazards: high-torque actuators, stability/fall risk during locomotion, battery fire/burn hazards if damaged, and heat generation after extended use. Maintain ≥2 m safe working radius; never attempt to catch or support the robot if it begins to fall; avoid touching joints/core immediately after use. Emergency stop: L1+A on remote → damping mode; if unresponsive, battery button (short + hold >2 s), or manually remove battery. Storage: damping mode, power off, store seated/suspended with support frame in a dry indoor area; remove battery. PPE: long pants, closed-toed shoes.",
+        "environment": [
+          "no_wet"
+        ],
+        "safety_flags": [
+          "RA_required",
+          "training_required",
+          "PPE_required"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "humanoid-robot-g1-unitree",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "0c0c108f-7171-4ea7-bbea-46882ddc78af",
+      "name": "Humanoid Robot - H1 - Unitree",
+      "manufacturer": "Unitree",
+      "model": "H1",
+      "category": "robot",
+      "item_class": "Ground Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Unitree H1 is a full-sized humanoid robot used for research and public demonstrations involving dynamic locomotion and human-robot interaction. It can be operated manually with a wireless handheld controller or programmatically via the Unitree SDK/API over a wired Ethernet connection, and includes onboard perception sensors for balance and environment awareness.",
+      "availability_notes": "Only trained and authorised personnel are allowed to operate or programme the robot. Operators must remind bystanders not to approach the robot during demonstrations.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "507_h1-unitree.png",
+      "tags": [
+        "humanoid",
+        "bipedal",
+        "ground robot",
+        "legged",
+        "Unitree",
+        "H1",
+        "human-robot interaction",
+        "research"
+      ],
+      "capabilities": {
+        "dof": 27,
+        "mobility": "legged",
+        "indoor_outdoor": "both",
+        "sensing_modality": [
+          "rgb",
+          "lidar",
+          "other"
+        ],
+        "typical_workflows": [
+          "manual operation via wireless handheld remote for locomotion demonstrations",
+          "programmatic control via Unitree SDK/API over wired Ethernet for autonomous tasks",
+          "community engagement or promotional demonstrations in controlled indoor/outdoor spaces"
+        ],
+        "compute_software_deps": [
+          "Unitree SDK",
+          "Unitree API"
+        ]
+      },
+      "constraints": {
+        "notes": "Maintain ≥2 m safe working radius around the robot; avoid standing directly in front of or behind it due to stability/fall risk. Emergency stop: press L1+A on remote to enter damping mode (motors power down and robot falls in place); if unresponsive, power off via battery button (short press then press-and-hold >2 s) or remove battery. Only trained personnel handle charging, connection, or battery replacement. Robot uses SELV (<60 VDC) design with system monitoring that alerts/locks on critical faults. Storage: damping mode and power off; do not store standing unsupported — store seated or suspended with a support frame; store dry indoors, remove battery. PPE: long pants, closed-toed shoes.",
+        "environment": [
+          "no_wet"
+        ],
+        "safety_flags": [
+          "RA_required",
+          "training_required",
+          "PPE_required",
+          "restricted_area"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "humanoid-robot-h1-unitree",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "1d484a7a-7b96-4adc-b0ca-a11542f4f3b2",
+      "name": "Spot Enterprise to 2023 Spot Upgrade (Safety features)",
+      "manufacturer": "Boston Dynamics",
+      "model": null,
+      "category": "misc",
+      "item_class": null,
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": null,
+      "active": true,
+      "short_description": null,
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "upgrade",
+        "Spot",
+        "safety",
+        "ground robot"
+      ],
+      "capabilities": null,
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "spot-enterprise-to-2023-spot-upgrade-safety-features",
+        "page_kind": "component"
+      }
+    },
+    {
+      "equipment_id": "4ada61e0-9c75-488f-9aed-bebf2d9ca4c2",
+      "name": "Underwater ROV - Defender - VideoRay",
+      "manufacturer": "VideoRay",
+      "model": "Defender",
+      "category": "underwater",
+      "item_class": "Underwater Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The VideoRay Mission Specialist Defender is a professional-grade tethered ROV designed for open-water inspection and intervention missions — suitable for harbours, docks, rivers, reservoirs, and offshore environments. Rated to 400 m depth with a 500 m tether and 26.7 kgf thrust (6-DOF). Carries cameras, sonar, and optional accessories (DVL, USBL, manipulator). Preferred platform for any mission in exposed or open bodies of water.",
+      "availability_notes": "Trained personnel required with role separation: Pilot, Tether Handler, Accessory Operator/Observer. Two-person rule during launch and recovery. PFDs must be worn when working over open water. The official user manual must be consulted before use.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "517_defender-rov.png",
+      "tags": [
+        "ROV",
+        "underwater",
+        "subsea",
+        "inspection",
+        "tethered",
+        "Defender",
+        "open water",
+        "deep water",
+        "harbour",
+        "offshore",
+        "river",
+        "robot"
+      ],
+      "capabilities": {
+        "dof": 6,
+        "fps": 25,
+        "outputs": [
+          "h.264"
+        ],
+        "mobility": "underwater",
+        "resolution": "Video up to 1920 x 1080; 13 MP still images",
+        "thrust_kgf": 26.7,
+        "max_depth_m": 400,
+        "indoor_outdoor": "both",
+        "tether_length_m": 500,
+        "sensing_modality": [
+          "rgb",
+          "sonar"
+        ],
+        "typical_workflows": [
+          "topside setup (console, power supplies, tether) and pre-dive checks",
+          "launch and recovery in water tanks or open water",
+          "piloting with live video (and sonar when fitted) for inspection tasks",
+          "underwater intervention using optional accessories such as a manipulator",
+          "post-dive rinsing/soaking with fresh water and drying before storage"
+        ],
+        "compute_software_deps": [
+          "Greensea IQ control software",
+          "Ubuntu"
+        ]
+      },
+      "constraints": {
+        "notes": "Electrical equipment is used near water; keep power cords, connectors, and console out of the water and handle power cords only with dry hands. Test safety circuits (GFCI and LIM) and verify console-to-ROV interlock before operations. Moving thrusters and optional manipulator create pinch points; keep hands, hair, clothing, and tools clear and disable Auto/Dynamic Positioning before recovery. Manage tether slack and secure strain reliefs to reduce trip/entanglement/snags. For open-water operations, monitor weather/sea conditions and use guardrails/barriers where practical; rescue pole and throw-line should be available near test tanks. After dives (especially saltwater), rinse/soak with fresh water and avoid high-pressure spray; allow equipment to dry fully before storage.",
+        "environment": [
+          "water_only",
+          "tethered_operation"
+        ],
+        "safety_flags": [
+          "training_required",
+          "PPE_required",
+          "two_person_operation",
+          "requires_supervisor",
+          "RA_required"
+        ]
+      },
+      "wiki": {
+        "section": "water",
+        "slug": "underwater-rov-defender-videoray",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "d2818ca9-767c-4fe1-8a8f-d72321642fc1",
+      "name": "Underwater ROV - EXRAY - Hydromea",
+      "manufacturer": "Hydromea",
+      "model": "EXRAY",
+      "category": "underwater",
+      "item_class": "Underwater Robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Hydromea EXRAY is a compact two-ROV system optimised for confined and enclosed underwater spaces, including ship ballast tanks, pontoons, storage tanks, flooded cavities, and complex internal structures. Its two ROV bodies are identical and interchangeable. In paired operation, whichever body is connected to the 100 m topside tether and carries the powered Docking Station acts as the primary relay; the other carries the passive Docking Rail and operates as the tetherless FLYOUT over LUMA. Either body can assume either role. The wireless FLYOUT configuration is not intended for open-water operation.",
+      "availability_notes": "Requires hands-on training and authorisation. Minimum two-person rule during all operations. PFDs must be worn during field deployments.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "529_rov-exray-hydromea.png",
+      "tags": [
+        "ROV",
+        "underwater",
+        "subsea",
+        "inspection",
+        "tethered",
+        "EXRAY",
+        "robot",
+        "confined space",
+        "ballast tank",
+        "enclosed space",
+        "tank inspection",
+        "compact"
+      ],
+      "capabilities": {
+        "dof": 6,
+        "outputs": [
+          ".mkv",
+          ".jpeg",
+          ".raw"
+        ],
+        "mobility": "underwater",
+        "max_depth_m": 100,
+        "deployment_env": "confined_space",
+        "indoor_outdoor": "both",
+        "tether_length_m": 100,
+        "sensing_modality": [
+          "rgb",
+          "sonar",
+          "other"
+        ],
+        "system_composition": "Two identical and interchangeable EXRAY ROV bodies",
+        "role_assignment": "Dynamic by tether connection and installed Docking Station or Docking Rail",
+        "typical_workflows": [
+          "Operating either ROV body as the tethered primary relay for confined-space inspection",
+          "Operating either ROV body as the tetherless FLYOUT via the LUMA optical link",
+          "Object interaction using optional payloads (gripper, vacuum cleaner)"
+        ],
+        "compute_software_deps": [
+          "NAVIA"
+        ]
+      },
+      "constraints": {
+        "notes": "Key hazards: rotating thrusters (injury/pinch when armed), tether trip/entanglement (MBS 155 kgf), LiPo thermal runaway if damaged or mis-charged, loss of control leading to collision, and drowning risk at the water's edge. Controls: keep ≥1 m clear of thrusters when armed; disarm before lifting/transport; dedicated tether management; inspect connectors and O-rings visually; power-on-last rule; restrict deployment to currents ≤2 knots with suitable visibility. PPE: long pants, closed-toed shoes, and a PFD when working near open water.",
+        "environment": [
+          "water_only",
+          "tethered_operation"
+        ],
+        "safety_flags": [
+          "RA_required",
+          "training_required",
+          "PPE_required",
+          "two_person_operation"
+        ]
+      },
+      "wiki": {
+        "section": "water",
+        "slug": "underwater-rov-exray-hydromea",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "e73fa4a2-99b4-4e9f-a78f-dcd1fdc3dd3f",
+      "name": "Master Arm Controller - RM-5201 - Reach Robotics",
+      "manufacturer": "Reach Robotics",
+      "model": "RM-5201",
+      "category": "robot",
+      "item_class": "Robot manipulation",
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 2,
+      "active": true,
+      "short_description": "Dexterous Manipulator with Pro Features and Inclusions, and Master Arm Controller.",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "controller",
+        "master arm",
+        "teleoperation",
+        "ROV",
+        "underwater",
+        "manipulation",
+        "Reach Robotics"
+      ],
+      "capabilities": {
+        "other_specs": "5-Function, 300m Depth Rated"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "ground",
+        "slug": "master-arm-controller-rm-5201-reach-robotics",
+        "page_kind": "component"
+      }
+    },
+    {
+      "equipment_id": "53e9b81c-4dc0-48d1-90e3-87d7a88d4c95",
+      "name": "Acoustic Imager - SV600 - Fluke",
+      "manufacturer": "Fluke",
+      "model": "SV600",
+      "category": "sensor",
+      "item_class": "Camera",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Fluke SV600 Sonic Viewer is an acoustic imaging and monitoring sensor that uses a 64-microphone MEMS array plus an integrated visible-light camera to localize and visualize sound sources. It generates SoundMaps and quantitative acoustic measurements (sound level, spectrum, classification/anomaly detection) for applications such as leak detection, machine-condition monitoring, and environmental noise mapping in lab or field deployments.",
+      "availability_notes": "Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, can be deployed on a bench, tripod, or as a robot payload.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "601_sv600-fluke.jpg",
+      "tags": [
+        "acoustic imager",
+        "sound camera",
+        "leak detection",
+        "inspection",
+        "indoor",
+        "Fluke",
+        "predictive maintenance"
+      ],
+      "capabilities": {
+        "fps": 30,
+        "outputs": [
+          "csv",
+          "txt"
+        ],
+        "mobility": "tripod",
+        "resolution": "Integrated visible-light camera: 720p (720 x 1280)",
+        "range_max_m": 15,
+        "range_min_m": 3,
+        "indoor_outdoor": "both",
+        "sensing_modality": [
+          "acoustic",
+          "rgb"
+        ],
+        "typical_workflows": [
+          "Mount on a tripod/bench or via VESA mount; optionally mount as a ground-robot payload",
+          "Power and connect via a single PoE+ (IEEE 802.3at) Ethernet cable and configure networking (DHCP/Auto IP or static IP)",
+          "Access the device dashboard via a browser to configure device information, run measurements and SoundMaps, and view live streaming overlays",
+          "Export event logs as .csv or .txt and download stored measurements/logs from the device"
+        ],
+        "compatible_platforms": [
+          "Ground Robot - Boston Dynamics Spot",
+          "Ground Robot with Robotic Arm - Boston Dynamics Spot",
+          "benchtop",
+          "tripod"
+        ],
+        "compute_software_deps": [
+          "Web browser (Chrome, Firefox, Edge, Safari)"
+        ]
+      },
+      "constraints": {
+        "notes": "Operate only as specified for measurement of acoustic signals; do not use around explosive gases, vapor, or in damp/wet environments. Power is provided via PoE+; follow the 'power-on-last' rule (keep PoE port de-energised until the RJ-45 is fully connected), route cables properly, and visually inspect connectors/insulation before each use. For emergency shutdown, disconnect the PoE+ network cable or de-energize the PoE port feeding the SV600. Storage: indoor, clean, dry location; IP54 splash-proof but not watertight — avoid direct water spray, solvents, and corrosive atmospheres; do not place objects heavier than ~5 kg on the housing.",
+        "environment": [
+          "no_wet"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required"
+        ]
+      },
+      "wiki": {
+        "section": "sensors",
+        "slug": "acoustic-imager-sv600-fluke",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "dd10d60e-9f70-491c-9584-c496376f21a1",
+      "name": "Dexterous Hand - RH56 - Inspire Robots",
+      "manufacturer": "Inspire Robots",
+      "model": "RH56",
+      "category": "robot",
+      "item_class": "Robot manipulation",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 2,
+      "active": true,
+      "short_description": "The Inspire Robots RH56 is a dexterous robotic hand with six linear servo actuators and integrated force/pressure sensing, designed to grip and manipulate objects. It is typically used on a benchtop or mounted to a robot for research tasks such as installation, calibration, and controlled grasping under software supervision.",
+      "availability_notes": "Operation requires training and authorisation. Intended for bench-top and robot-mounted use.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "602_inspire-hand.jpg",
+      "tags": [
+        "dexterous hand",
+        "robotic hand",
+        "manipulation",
+        "humanoid",
+        "left hand",
+        "grasping",
+        "Inspire Robots"
+      ],
+      "capabilities": {
+        "dof": 6,
+        "mobility": "robot-mount",
+        "resolution": "Force sensor resolution: 0.5 N",
+        "accuracy_mm": 0.2,
+        "indoor_outdoor": "indoor",
+        "sensing_modality": [
+          "other"
+        ],
+        "typical_workflows": [
+          "Mechanical mounting to a bench setup or robot",
+          "Electrical connection to a 24 V DC SELV supply",
+          "Force sensor calibration under no-load conditions",
+          "Software-controlled grasping and object manipulation with configured force thresholds"
+        ],
+        "compatible_platforms": [
+          "Unitree H1",
+          "Unitree G1",
+          "benchtop"
+        ]
+      },
+      "constraints": {
+        "notes": "Use the host system's emergency stop to halt motion; there is no dedicated on-hand emergency shutdown specified. Disconnect the 24 V DC supply only when it is safe to approach. Inspect the GX12 cable/connector before each use and do not operate with damaged insulation. Securely mount the hand before energizing, keep hands clear during actuation, use reduced speed during setup/teaching, configure force thresholds to stop on unintended contact, announce motions verbally, and avoid loose clothing/jewelry near finger travel paths. Store powered off in a clean, dry indoor environment, protected from dust and mechanical loads on the fingers/palm.",
+        "environment": [
+          "indoor_only",
+          "no_wet"
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required"
+        ]
+      },
+      "wiki": {
+        "section": "ground",
+        "slug": "dexterous-hand-rh56-inspire-robots",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "fca2312a-2c7c-474f-94c1-8cb4ba3bc9aa",
+      "name": "Battery - Spot - Boston Dynamics",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot",
+      "category": "misc",
+      "item_class": null,
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 8,
+      "active": true,
+      "short_description": null,
+      "availability_notes": "Only 4 units are functional.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "battery",
+        "power",
+        "Spot",
+        "accessory"
+      ],
+      "capabilities": null,
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "battery-spot-boston-dynamics",
+        "page_kind": "component",
+        "parent_equipment_ids": [
+          "04c98a0d-3984-44dd-8960-a9ef8abdfa6b",
+          "d97faae7-de64-45b8-ac47-8996696129c2"
+        ]
+      }
+    },
+    {
+      "equipment_id": "819ce3c8-9102-4e5c-983d-272528335a73",
+      "name": "Battery - H1 - Unitree",
+      "manufacturer": "Unitree",
+      "model": "H1",
+      "category": "misc",
+      "item_class": null,
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 4,
+      "active": true,
+      "short_description": "The Unitree H1 battery is the dedicated removable power module for the H1 humanoid robot.",
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "battery",
+        "power",
+        "Unitree",
+        "H1",
+        "accessory"
+      ],
+      "capabilities": {
+        "other_specs": "200 TOPS computing module"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "battery-h1-unitree",
+        "page_kind": "component",
+        "parent_equipment_ids": [
+          "0c0c108f-7171-4ea7-bbea-46882ddc78af"
+        ]
+      }
+    },
+    {
+      "equipment_id": "af653bb6-e355-4f92-99e0-806aea16cc47",
+      "name": "Vertical Mast Lift - AWP25S - Genie",
+      "manufacturer": "Genie",
+      "model": "AWP25S",
+      "category": "misc",
+      "item_class": "Miscellaneous",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": null,
+      "active": true,
+      "short_description": null,
+      "availability_notes": null,
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "mast lift",
+        "vertical lift",
+        "elevated work",
+        "indoor",
+        "maintenance",
+        "Genie",
+        "AWP"
+      ],
+      "capabilities": null,
+      "constraints": null,
+      "wiki": {
+        "section": "support",
+        "slug": "vertical-mast-lift-awp25s-genie",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "92416cbe-d475-4bc4-be54-8830c8d22f63",
+      "name": "AI Workstation - DGX Spark - NVIDIA",
+      "manufacturer": "NVIDIA",
+      "model": "DGX Spark",
+      "category": "compute",
+      "item_class": "AI Workstation",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The NVIDIA DGX Spark is a purpose-built AI workstation powered by NVIDIA Grace Blackwell technology, designed for advanced AI development, model training, and inference workloads with exceptional performance and energy efficiency.",
+      "availability_notes": "Access restricted to authorized personnel. Schedule intensive workloads to minimize conflicts with other users.",
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": null,
+      "tags": [
+        "AI",
+        "workstation",
+        "GPU",
+        "DGX",
+        "NVIDIA",
+        "Grace Blackwell",
+        "deep learning",
+        "machine learning",
+        "inference",
+        "training",
+        "compute"
+      ],
+      "capabilities": {
+        "os": "Ubuntu 22.04 LTS",
+        "cpu": "NVIDIA Grace CPU: 72 Arm Neoverse V2 cores",
+        "gpu": "NVIDIA Blackwell GPU: 192GB HBM3e memory, NVLink connectivity",
+        "ram_gb": 480,
+        "storage": "4TB NVMe SSD",
+        "networking": "Dual 100GbE networking",
+        "other_specs": "Grace Blackwell Superchip architecture, AI performance up to 2.5 petaFLOPS, 1.4kW max power consumption",
+        "typical_workflows": [
+          "Train and fine-tune large language models and multimodal AI models",
+          "Run inference workloads for production AI applications",
+          "Develop and test AI agents and autonomous systems",
+          "Process large-scale datasets for computer vision and NLP",
+          "Prototype and benchmark AI algorithms before deploying to larger clusters"
+        ],
+        "compute_software_deps": [
+          "NVIDIA AI Enterprise software suite",
+          "CUDA Toolkit",
+          "cuDNN",
+          "TensorRT",
+          "PyTorch",
+          "TensorFlow",
+          "JAX",
+          "NVIDIA NeMo Framework"
+        ]
+      },
+      "constraints": {
+        "notes": "Schedule compute-intensive jobs during off-peak hours when possible. Monitor GPU memory usage and close completed jobs promptly. Maintain proper ventilation around the system. Do not interrupt running training jobs without coordination with other users. Follow lab data management policies for storing models and datasets.",
+        "environment": [],
+        "safety_flags": [
+          "training_required"
+        ],
+        "software_license_required": true
+      },
+      "wiki": {
+        "section": "workstations",
+        "slug": "dgx-spark",
+        "page_kind": "standalone"
+      }
+    },
+    {
+      "equipment_id": "cf587e8c-a3c7-414a-8118-d21a9c8b20b1",
+      "name": "Vicon Host PC - Intel NUC 11 Enthusiast",
+      "manufacturer": "Intel",
+      "model": "NUC11PHKi7C",
+      "category": "compute",
+      "item_class": "PC",
+      "item_type": "accessory",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "Dedicated Intel NUC 11 Enthusiast mini PC that became the active Windows host for the KINESIS Vicon motion-capture and HERMES data-broadcast system on 2026-07-10.",
+      "availability_notes": "Dedicated infrastructure host. Configuration, licensing, and network changes require lab-administrator approval.",
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": false,
+      "training_link": null,
+      "image_filename": "workstation-vicon-pc.jpg",
+      "tags": [
+        "workstation",
+        "PC",
+        "compute",
+        "motion capture",
+        "Vicon",
+        "NUC",
+        "infrastructure"
+      ],
+      "capabilities": {
+        "cpu": "Intel Core i7-1165G7",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "mobility": "fixed",
+        "indoor_outdoor": "indoor",
+        "typical_workflows": [
+          "Running Vicon Tracker for real-time camera capture and object tracking",
+          "Broadcasting Vicon position data to robots and drones over HERMES",
+          "Recording, reviewing, and exporting motion-capture sessions"
+        ],
+        "compute_software_deps": [
+          "Vicon Tracker",
+          "Vicon DataStream SDK"
+        ]
+      },
+      "constraints": {
+        "notes": "Dedicated Vicon infrastructure host; coordinate configuration, licensing, and network changes with the lab administrator.",
+        "environment": [
+          "indoor_only",
+          "dedicated_infrastructure"
+        ],
+        "safety_flags": [],
+        "software_license_required": true
+      },
+      "wiki": {
+        "section": "workstations",
+        "slug": "vicon-pc",
+        "page_kind": "standalone",
+        "related_doc": "/3-computing/vicon-system/index"
+      }
+    }
+  ],
+  "accessories": []
+}
