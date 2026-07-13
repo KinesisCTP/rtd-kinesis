@@ -40,7 +40,7 @@ KINESIS CTP Lab
       <h2>Lab Overview</h2>
       <p>
         Learn about the lab's mission, general policies, safety procedures,
-        research publications, collaborations, and how to contribute.
+        research publications, and how to contribute.
       </p>
       <a href="1-lab-overview/index.html">Learn more →</a>
     </div>
@@ -98,4 +98,3 @@ KINESIS CTP Lab
    4-facilities/index
    2-equipment/index
    3-computing/index
-   5-talks-demos/index

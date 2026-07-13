@@ -5,18 +5,13 @@ Contributing
 How to Contribute to This Documentation
 ---------------------------------------
 
-We welcome contributions from all lab members! This documentation is meant to be collaboratively maintained.
+Contributions from lab members are welcome. This documentation is collaboratively maintained.
 
-Using AI Assistants
--------------------
+AI-Assisted Contributions
+-------------------------
 
-To make contributing easier, we've created an ``AGENTS.md`` file in the repository root that provides comprehensive instructions for AI coding assistants (like GitHub Copilot, Claude, ChatGPT, etc.).
-
-**To contribute using an AI assistant:**
-
-1. Read the ``AGENTS.md`` file in the repository root
-2. Share it with your AI assistant along with your proposed changes
-3. The AI will help format your contribution correctly
+The repository-root ``AGENTS.md`` defines the formatting, source-of-truth, and validation rules for
+AI-assisted contributions. Review all resulting changes before submission.
 
 GitHub Web Interface (Simplest)
 -------------------------------
@@ -29,26 +24,29 @@ For small changes like fixing typos or updating information:
 4. Scroll down and click "Propose changes"
 5. Create a pull request
 
-Fork and Clone (Advanced)
--------------------------
+Private Repository Workflow (Advanced)
+--------------------------------------
 
-For larger contributions:
+The private ``KinesisCTP/rtd-kinesis-internal`` repository is the canonical documentation
+source. The public ``KinesisCTP/rtd-kinesis`` repository is generated automatically and must not
+be edited directly.
 
-1. Fork the repository to your GitHub account
-2. Clone your fork locally:
+For larger contributions, contributors with private-repository access can:
+
+1. Clone the private repository locally:
 
    .. code-block:: bash
 
-      git clone https://github.com/YOUR-USERNAME/rtd-kinesis.git
+      git clone git@github.com:KinesisCTP/rtd-kinesis-internal.git
 
-3. Create a new branch:
+2. Create a new branch:
 
    .. code-block:: bash
 
       git checkout -b my-contribution
 
-4. Make your changes
-5. Commit and push:
+3. Make the changes
+4. Commit and push the branch:
 
    .. code-block:: bash
 
@@ -56,7 +54,7 @@ For larger contributions:
       git commit -m "Description of changes"
       git push origin my-contribution
 
-6. Create a pull request on GitHub
+5. Create a pull request against the private repository
 
 reStructuredText Basics
 -----------------------
@@ -105,11 +103,15 @@ This documentation uses reStructuredText (RST) format. Key syntax:
 Adding Equipment
 ----------------
 
-To add new equipment:
+Equipment records originate in the canonical KINESIS vault. The JSON data and dedicated RST pages
+in this repository are generated outputs and must not be edited directly.
 
-1. Edit ``docs/source/_static/data/equipment.json``
-2. Add a new entry with all required fields (see existing entries as examples)
-3. Optionally create a dedicated RST page in the appropriate equipment category
+To add or update equipment:
+
+1. Create or update the canonical Markdown note under ``equipment/<class>/`` in the vault
+2. Complete the required structured fields and explicit wiki disposition
+3. Run the vault equipment sync in validation mode, then in write mode
+4. Verify the generated equipment data, pages, navigation, and private/public documentation builds
 
 Pull Request Process
 --------------------

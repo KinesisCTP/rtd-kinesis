@@ -61,8 +61,7 @@ Connect to Hermes Network
 
 .. code-block:: bash
 
-   # Example configuration; adapt to your system
-   nmcli device wifi connect Hermes password [PASSWORD]
+   nmcli --ask device wifi connect "Hermes 5G"
 
 **On Your Control Laptop:**
 

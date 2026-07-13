@@ -20,11 +20,10 @@ Features
 - Custom homepage with 4 showcase sections
 - Organized content structure:
   
-  - Lab Overview (policies, publications, collaborations)
+  - Lab Overview (policies, publications, useful links, contribution guidance)
   - Facilities (arena, workspace, safety equipment)
   - Equipment (ground robots, drones, underwater systems, sensors)
   - Computing & Networks (AI workstations, infrastructure)
-  - Talks & Demos (presentations, videos, public appearances)
 
 - Equipment documentation with images and detailed specifications
 - Consistent formatting with warning sections as bullet points
@@ -81,9 +80,6 @@ Project Structure
    │   │   │   ├── arena.rst
    │   │   │   ├── workspace.rst
    │   │   │   └── safety.rst
-   │   │   │
-   │   │   ├── 5-talks-demos/
-   │   │   │   └── ... (presentations, demo videos)
    │   │   │
    │   │   └── _static/
    │   │       ├── custom.css (custom styling)
@@ -190,7 +186,7 @@ Content Sections
   Modern landing page with hero section and 4 showcase cards for navigation
 
 - **Lab Overview (1-lab-overview/)**  
-  Lab presentation, general policies, processes, publications, collaborations, useful links, and contribution guidelines
+  Lab presentation, general policies, processes, publications, useful links, and contribution guidelines
 
 - **Facilities (4-facilities/)**  
   Arena specifications (17m × 6.4m × 8m motion capture space), workspace details, and safety protocols
@@ -205,9 +201,6 @@ Content Sections
 
 - **Computing & Networks (3-computing/)**  
   AI workstations (Lambda, DGX Spark), Vicon PC, Linux workstation, network architecture, and IP allocation
-
-- **Talks & Demos (5-talks-demos/)**  
-  Lab presentations, demo videos, and public appearances
 
 Equipment Images
 ----------------
@@ -235,7 +228,8 @@ Notes
 - Sidebar includes a "Home" button to return to the modern homepage
 - Navigation structure matches homepage showcase order
 - All changes are automatically deployed to Read the Docs on push to main branch
-- Equipment data is centralized in ``equipment.json`` for consistency
+- Equipment records are maintained in the KINESIS vault; ``equipment.json`` and equipment RST
+  pages are generated outputs
 
 License
 -------

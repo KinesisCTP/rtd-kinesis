@@ -59,11 +59,6 @@ Research activity in the lab spans:
 - **Artificial intelligence**: Dataset curation, deep learning, reinforcement learning, and LLMs for robotics and HRI.
 - **Marine applications**: Underwater monitoring, inspections, surveys, and marine robotics research.
 
-Team
-----
-
-*To be populated with team member information.*
-
 Lab Address
 -----------
 
@@ -107,6 +102,5 @@ Research and Resources
    :titlesonly:
 
    3-publications
-   4-collaborations
    5-useful-links
    6-contributing

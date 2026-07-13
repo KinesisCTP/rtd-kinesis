@@ -89,16 +89,8 @@ Emergency Procedures
 
 1. Activate emergency stop if applicable
 2. Alert personnel in the area
-3. Contact emergency services if needed (call extension XXX)
+3. Call NYUAD Campus Safety at **+971 2 628 7777** when emergency assistance is required
 4. Report incident to lab management
-
-**Emergency Contacts:**
-
-*To be populated with actual contact information*
-
-- Lab Manager: *contact info*
-- NYUAD Security: *contact info*
-- First Aid: *contact info*
 
 Risk Assessments
 ----------------

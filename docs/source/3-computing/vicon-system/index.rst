@@ -12,7 +12,8 @@ The Vicon system consists of:
 - Integration with Hermes wireless network
 
 The active ``Kinesis.System`` configuration defines 23 cameras, all of which are detected by
-Tracker. The physical inventory contains 24 cameras; the one-camera discrepancy is unresolved.
+Tracker. The physical inventory contains 24 cameras; one camera is not represented in the active
+configuration, and its current assignment is not documented.
 
 .. toctree::
    :maxdepth: 1
