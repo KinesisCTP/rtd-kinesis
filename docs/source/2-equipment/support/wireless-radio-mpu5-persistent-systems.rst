@@ -7,7 +7,7 @@ Wireless Radio - MPU5 - Persistent Systems
 
 .. container:: equipment-kicker
 
-   Persistent Systems · MPU5
+   Persistent Systems · MPU5 (WR-5100 chassis)
 
 
 .. list-table:: At a glance
@@ -18,9 +18,9 @@ Wireless Radio - MPU5 - Persistent Systems
    * - **Manufacturer**
      - Persistent Systems
    * - **Model**
-     - MPU5
+     - MPU5 (WR-5100 chassis)
    * - **Equipment class**
-     - Support equipment
+     - Communication system
    * - **Location**
      - C3.B2.029.E (KINESIS CTP)
    * - **Quantity**
@@ -34,15 +34,11 @@ Wireless Radio - MPU5 - Persistent Systems
    * - **Primary contact**
      - Samuel A. Prieto (sxp8070)
 
-.. note::
-
-   This record describes a managed component or accessory. Check the related equipment and
-   system documentation before planning standalone use.
 
 Overview
 --------
 
-Wireless transceivers used for communication in mesh networks
+Persistent Systems MPU5 radios form one Wave Relay wireless mesh communication system for long-range links to robots and unmanned platforms.
 
 Specifications
 --------------
@@ -53,10 +49,17 @@ Specifications
    :header-rows: 0
 
    * - **Networking**
-     - S Band RF Module (2200-2500MHz)
-   * - **Additional specifications**
-     - Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads
+     - Wave Relay mobile ad hoc mesh networking using S-band RF modules (2200-2500 MHz)
+   * - **System composition**
+     - MPU5 radio chassis (WR-5100), S-band RF module (2200-2500 MHz), and 10 W S-band RF module (2200-2500 MHz)
+   * - **Included accessories**
+     - Twist-lock battery packs including 6.8 Ah rechargeable lithium-ion packs, GPS antenna, 2.15 dBi omnidirectional antenna with RP-TNC connector, and Ethernet/serial flying leads
 
+Typical workflows
+-----------------
+
+1. Long-range wireless links to robots and unmanned platforms
+2. Multi-node mesh communication during field operations
 
 
 Access, training & booking
@@ -66,11 +69,10 @@ Access, training & booking
 
 
 
-
 Keywords
 --------
 
-``wireless`` · ``mesh network`` · ``radio`` · ``transceiver`` · ``communication`` · ``MPU5`` · ``outdoor``
+``wireless`` · ``mesh network`` · ``radio`` · ``transceiver`` · ``communication`` · ``MPU5`` · ``WR-5100`` · ``Wave Relay`` · ``outdoor``
 
 
 .. note::

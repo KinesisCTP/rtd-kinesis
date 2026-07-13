@@ -709,14 +709,14 @@
       "equipment_id": "f5af5e81-02ca-4254-a7ca-04f5f668657c",
       "name": "Wireless Radio - MPU5 - Persistent Systems",
       "manufacturer": "Persistent Systems",
-      "model": "MPU5",
+      "model": "MPU5 (WR-5100 chassis)",
       "category": "misc",
-      "item_class": null,
-      "item_type": "accessory",
+      "item_class": "Communication system",
+      "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "Wireless transceivers used for communication in mesh networks",
+      "short_description": "Persistent Systems MPU5 radios form one Wave Relay wireless mesh communication system for long-range links to robots and unmanned platforms.",
       "availability_notes": null,
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -730,54 +730,23 @@
         "transceiver",
         "communication",
         "MPU5",
+        "WR-5100",
+        "Wave Relay",
         "outdoor"
       ],
       "capabilities": {
-        "networking": "S Band RF Module (2200-2500MHz)",
-        "other_specs": "Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads"
+        "networking": "Wave Relay mobile ad hoc mesh networking using S-band RF modules (2200-2500 MHz)",
+        "system_composition": "MPU5 radio chassis (WR-5100), S-band RF module (2200-2500 MHz), and 10 W S-band RF module (2200-2500 MHz)",
+        "included_accessories": "Twist-lock battery packs including 6.8 Ah rechargeable lithium-ion packs, GPS antenna, 2.15 dBi omnidirectional antenna with RP-TNC connector, and Ethernet/serial flying leads",
+        "typical_workflows": [
+          "Long-range wireless links to robots and unmanned platforms",
+          "Multi-node mesh communication during field operations"
+        ]
       },
       "constraints": null,
       "wiki": {
         "section": "support",
         "slug": "wireless-radio-mpu5-persistent-systems",
-        "page_kind": "component"
-      }
-    },
-    {
-      "equipment_id": "0e2fc63d-65cc-4ab7-98e8-2bc033cdfeaf",
-      "name": "Mesh Network Radio - Wave Relay WR-5100 - Persistent Systems",
-      "manufacturer": "Persistent Systems",
-      "model": "Wave Relay WR-5100",
-      "category": "sensor",
-      "item_class": "Communication",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 1,
-      "active": true,
-      "short_description": "Wireless transceivers designed for long-range communication",
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "wireless",
-        "mesh network",
-        "radio",
-        "communication",
-        "long-range",
-        "Wave Relay",
-        "outdoor"
-      ],
-      "capabilities": {
-        "networking": "S Band RF Module (2200-2500MHz)",
-        "other_specs": "Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads"
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "sensors",
-        "slug": "mesh-network-radio-wave-relay-wr-5100-persistent-systems",
         "page_kind": "standalone"
       }
     },
@@ -929,76 +898,6 @@
         "section": "sensors",
         "slug": "lidar-mapping-payload-hovermap-st-emesent",
         "page_kind": "standalone"
-      }
-    },
-    {
-      "equipment_id": "3a056e56-9d38-4ca1-8422-9fb2d6ab2dee",
-      "name": "WR-EM System Upgrade and Accessories for Persistent System Wave Relay",
-      "manufacturer": "Persistent Systems",
-      "model": "EM System Upgrade and Accessories for Persistent System Wave Relay",
-      "category": "misc",
-      "item_class": null,
-      "item_type": "accessory",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 1,
-      "active": true,
-      "short_description": "WR-EM system upgrade and accessories for Persistent Systems Wave Relay, enhancing communication capabilities for unmanned systems.",
-      "availability_notes": null,
-      "risk_assessment_required": false,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "wireless",
-        "communication",
-        "upgrade",
-        "Wave Relay",
-        "mesh network"
-      ],
-      "capabilities": {
-        "other_specs": "10 Watt S Band RF Module (2200-2500MHz), 6.8 Ah Rechargeable Lithium-Ion Battery Pack with twistlock connector, 2.15dBi omni directional antenna with RP TNC connector"
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "wr-em-system-upgrade-and-accessories-for-persistent-system-w",
-        "page_kind": "component"
-      }
-    },
-    {
-      "equipment_id": "195b6203-edd7-489a-9d90-63cc6d0ff2f9",
-      "name": "Spot Enterprise Upgrade",
-      "manufacturer": "Boston Dynamics",
-      "model": null,
-      "category": "misc",
-      "item_class": null,
-      "item_type": "accessory",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 1,
-      "active": true,
-      "short_description": "Spot Enterprise Upgrade assigned specifically to the arm-equipped Boston Dynamics Spot (legacy ID 100).",
-      "availability_notes": null,
-      "risk_assessment_required": false,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "upgrade",
-        "Spot",
-        "enterprise",
-        "ground robot"
-      ],
-      "capabilities": null,
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "spot-enterprise-upgrade",
-        "page_kind": "component",
-        "parent_equipment_ids": [
-          "d97faae7-de64-45b8-ac47-8996696129c2"
-        ]
       }
     },
     {
@@ -1459,38 +1358,6 @@
       }
     },
     {
-      "equipment_id": "1d484a7a-7b96-4adc-b0ca-a11542f4f3b2",
-      "name": "Spot Enterprise to 2023 Spot Upgrade (Safety features)",
-      "manufacturer": "Boston Dynamics",
-      "model": null,
-      "category": "misc",
-      "item_class": null,
-      "item_type": "accessory",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": null,
-      "active": true,
-      "short_description": null,
-      "availability_notes": null,
-      "risk_assessment_required": false,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "upgrade",
-        "Spot",
-        "safety",
-        "ground robot"
-      ],
-      "capabilities": null,
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "spot-enterprise-to-2023-spot-upgrade-safety-features",
-        "page_kind": "component"
-      }
-    },
-    {
       "equipment_id": "4ada61e0-9c75-488f-9aed-bebf2d9ca4c2",
       "name": "Underwater ROV - Defender - VideoRay",
       "manufacturer": "VideoRay",
@@ -1824,115 +1691,6 @@
       "wiki": {
         "section": "ground",
         "slug": "dexterous-hand-rh56-inspire-robots",
-        "page_kind": "standalone"
-      }
-    },
-    {
-      "equipment_id": "fca2312a-2c7c-474f-94c1-8cb4ba3bc9aa",
-      "name": "Battery - Spot - Boston Dynamics",
-      "manufacturer": "Boston Dynamics",
-      "model": "Spot",
-      "category": "misc",
-      "item_class": null,
-      "item_type": "accessory",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 8,
-      "active": true,
-      "short_description": null,
-      "availability_notes": "Only 4 units are functional.",
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "battery",
-        "power",
-        "Spot",
-        "accessory"
-      ],
-      "capabilities": null,
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "battery-spot-boston-dynamics",
-        "page_kind": "component",
-        "parent_equipment_ids": [
-          "04c98a0d-3984-44dd-8960-a9ef8abdfa6b",
-          "d97faae7-de64-45b8-ac47-8996696129c2"
-        ]
-      }
-    },
-    {
-      "equipment_id": "819ce3c8-9102-4e5c-983d-272528335a73",
-      "name": "Battery - H1 - Unitree",
-      "manufacturer": "Unitree",
-      "model": "H1",
-      "category": "misc",
-      "item_class": null,
-      "item_type": "accessory",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 4,
-      "active": true,
-      "short_description": "The Unitree H1 battery is the dedicated removable power module for the H1 humanoid robot.",
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "battery",
-        "power",
-        "Unitree",
-        "H1",
-        "accessory"
-      ],
-      "capabilities": {
-        "other_specs": "200 TOPS computing module"
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "battery-h1-unitree",
-        "page_kind": "component",
-        "parent_equipment_ids": [
-          "0c0c108f-7171-4ea7-bbea-46882ddc78af"
-        ]
-      }
-    },
-    {
-      "equipment_id": "af653bb6-e355-4f92-99e0-806aea16cc47",
-      "name": "Vertical Mast Lift - AWP25S - Genie",
-      "manufacturer": "Genie",
-      "model": "AWP25S",
-      "category": "misc",
-      "item_class": "Miscellaneous",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": null,
-      "active": true,
-      "short_description": null,
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "mast lift",
-        "vertical lift",
-        "elevated work",
-        "indoor",
-        "maintenance",
-        "Genie",
-        "AWP"
-      ],
-      "capabilities": null,
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "vertical-mast-lift-awp25s-genie",
         "page_kind": "standalone"
       }
     },

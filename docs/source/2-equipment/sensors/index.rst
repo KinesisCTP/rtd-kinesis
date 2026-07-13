@@ -16,7 +16,6 @@ The KINESIS CTP's sensing systems include terrestrial LiDAR scanning, hyperspect
    event-camera-metavision-evk4-hd-prophesee
    hyperspectral-camera
    lidar-mapping-payload-hovermap-st-emesent
-   mesh-network-radio-wave-relay-wr-5100-persistent-systems
    motion-capture-system-vantage-v16-vicon
    thermalvisual-camera-wiris-prosc-workswell
 
