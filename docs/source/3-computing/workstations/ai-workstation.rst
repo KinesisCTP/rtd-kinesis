@@ -1,65 +1,79 @@
+.. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
+.. equipment_id: 869fc34b-2491-4ee7-9620-2b5da43b444c
+
 =======================
 AI Workstation - Lambda
 =======================
 
-.. admonition:: Quick Info
-   :class: equipment-info
+.. container:: equipment-kicker
 
-   - **Manufacturer:** Lambda
-   - **Category:** AI Workstation
-   - **Location:** C3.B2.029.E (KINESIS CTP)
-   - **Contact:** Samuel A. Prieto (sxp8070)
+   Lambda
+
+
+.. list-table:: At a glance
+   :class: equipment-facts-table
+   :widths: 32 68
+   :header-rows: 0
+
+   * - **Manufacturer**
+     - Lambda
+   * - **Equipment class**
+     - PC
+   * - **Location**
+     - C3.B2.029.E (KINESIS CTP)
+   * - **Quantity**
+     - 1
+   * - **Status**
+     - Active
+   * - **Training**
+     - Not recorded
+   * - **Risk assessment**
+     - Not currently listed as required
+   * - **Primary contact**
+     - Samuel A. Prieto (sxp8070)
+
 
 Overview
 --------
 
-A high-performance workstation designed for AI research and data-intensive computing. It is equipped with dual professional-grade NVIDIA GPUs and a 64-core AMD Threadripper PRO processor, making it suitable for deep learning training, large-scale data processing, simulation, and multi-user workloads.
+A high-performance workstation PC equipped with advanced processing capabilities for artificial intelligence and data-intensive computing tasks.
 
-Hardware Specifications
------------------------
+Specifications
+--------------
 
 .. list-table::
-   :widths: 30 70
+   :class: equipment-spec-table
+   :widths: 38 62
    :header-rows: 0
 
-   * - **CPU**
-     - AMD Ryzen Threadripper PRO 5995WX — 64 cores, 2.7–4.5 GHz, 256 MB cache, PCIe 4.0
-   * - **GPUs**
-     - 2× NVIDIA RTX 6000 Ada Generation (EDU/Inception) — 48 GB VRAM each, 18,176 CUDA cores, 568 Tensor cores
-   * - **System Memory**
-     - 512 GB DDR4-3200 ECC RDIMM
-   * - **OS Drive**
-     - 1× 1.92 TB M.2 NVMe
-   * - **Data Drive**
-     - 1× 3.84 TB U.2 NVMe (Data center SSD, 1 DWPD, PCIe 4.0)
+   * - **Operating system**
+     - Ubuntu 22.04
+   * - **Processor**
+     - AMD Ryzen Threadripper PRO 5995WX: 64 cores, 2.7~4.5GHz
+   * - **Graphics / accelerator**
+     - 2x NVIDIA RTX 6000 Ada Generation: 48GB memory, 18176 CUDA cores, 568 Tensor cores
+   * - **System memory**
+     - 512 GB
+   * - **Storage**
+     - 1x 1.92 TB M.2 NVMe, 1x 3.84 TB U.2 NVMe (Data center SSD, 1 DWPD, PCIe 4.0)
    * - **Networking**
-     - 2× 10 Gbps RJ45 Ethernet ports, 1× dedicated IPMI port
-   * - **Wi-Fi**
-     - 2×2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with Bluetooth 5.2
+     - 2x 10 Gbps RJ45 Ethernet ports, 1x dedicated IPMI port, 2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with Bluetooth v5.2
+   * - **Additional specifications**
+     - DDR4-3200 ECC RDIMM, PCIe 4.0
 
-Software
+
+
+
+
+
+
+Keywords
 --------
 
-- **Operating System:** Ubuntu 22.04 LTS
-- **Lambda Stack** — pre-configured environment managing TensorFlow, PyTorch, CUDA, cuDNN, and related ML frameworks, drivers, and BIOS support
+``workstation`` · ``PC`` · ``GPU`` · ``compute`` · ``AI`` · ``deep learning`` · ``data processing``
 
-Warranty
---------
-
-3-year hardware and system support (Lambda Standard), covering hardware, Lambda Stack, ML frameworks, drivers, OS and BIOS.
-
-Tags
-----
-
-``workstation``  
-``GPU``  
-``AI``  
-``deep learning``  
-``data processing``  
-``Lambda``  
-``RTX 6000``  
-``Threadripper``
 
 .. note::
 
-   For more detailed information, contact Samuel A. Prieto (sxp8070).
+   For current availability or details not recorded here, contact
+   Samuel A. Prieto (sxp8070).

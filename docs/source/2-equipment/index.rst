@@ -23,6 +23,7 @@ Equipment Categories
 - :doc:`aerial/index` covers DJI aerial platforms and flight-ready drone systems for mapping, inspection, imaging, and flight testing.
 - :doc:`water/index` covers underwater ROVs and marine robotics tools for inspection, monitoring, and subsea data collection.
 - :doc:`sensors/index` covers LiDAR, 3D scanning, thermal, hyperspectral, acoustic, and event-camera systems for perception, mapping, diagnostics, and data capture.
+- :doc:`support/index` covers independently tracked power, communications, lifting, battery, and upgrade components that support the primary systems.
 
 .. toctree::
    :maxdepth: 2
@@ -33,3 +34,4 @@ Equipment Categories
    aerial/index
    water/index
    sensors/index
+   support/index

@@ -1,13 +1,13 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
-.. equipment_id: e9d94a40-9dda-466f-a986-07f3bbfe021c
+.. equipment_id: 819ce3c8-9102-4e5c-983d-272528335a73
 
-=============================================
-Event Camera - Metavision EVK4 HD - Prophesee
-=============================================
+======================
+Battery - H1 - Unitree
+======================
 
 .. container:: equipment-kicker
 
-   Prophesee · Metavision EVK4 HD
+   Unitree · H1
 
 
 .. list-table:: At a glance
@@ -16,15 +16,15 @@ Event Camera - Metavision EVK4 HD - Prophesee
    :header-rows: 0
 
    * - **Manufacturer**
-     - Prophesee
+     - Unitree
    * - **Model**
-     - Metavision EVK4 HD
+     - H1
    * - **Equipment class**
-     - Camera
+     - Support equipment
    * - **Location**
      - C3.B2.029.E (KINESIS CTP)
    * - **Quantity**
-     - 2
+     - 4
    * - **Status**
      - Active
    * - **Training**
@@ -34,11 +34,15 @@ Event Camera - Metavision EVK4 HD - Prophesee
    * - **Primary contact**
      - Samuel A. Prieto (sxp8070)
 
+.. note::
+
+   This record describes a managed component or accessory. Check the related equipment and
+   system documentation before planning standalone use.
 
 Overview
 --------
 
-A high-definition event camera (Metavision® EVK4 – HD) designed by Prophesee, capable of capturing and processing events in real time.
+Purchase of a humanoid robot with accessories and a dedicated computing power module.
 
 Specifications
 --------------
@@ -48,10 +52,8 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Networking**
-     - USB3
    * - **Additional specifications**
-     - HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK
+     - 200 TOPS computing module
 
 
 
@@ -61,12 +63,15 @@ Access, training & booking
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
+Related documentation
+---------------------
 
+- :doc:`Humanoid Robot - H1 - Unitree </2-equipment/ground/humanoid-robot-h1-unitree>`
 
 Keywords
 --------
 
-``event camera`` · ``neuromorphic`` · ``high-speed`` · ``dynamic vision`` · ``camera`` · ``real-time`` · ``Prophesee``
+``battery`` · ``power`` · ``Unitree`` · ``H1`` · ``accessory``
 
 
 .. note::

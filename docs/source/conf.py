@@ -1,9 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-import os
-import json
-
 project = 'KINESIS CTP Lab'
 copyright = '2025, NYU Abu Dhabi'
 author = 'NYU Abu Dhabi'
@@ -74,21 +71,3 @@ html_js_files = [
     'custom.js',
     'sidebar-toggle.js',
 ]
-
-
-
-def setup(app):
-    app.add_css_file('custom.css')
-    app.add_css_file('sidebar-contrast.css')
-    app.add_css_file('homepage-hero.css')
-    app.add_css_file('sidebar-layout.css')
-    app.add_js_file('custom.js')
-    app.add_js_file('sidebar-toggle.js')
-
-    app.add_config_value('equipment_data', {}, 'env')
-
-    here = os.path.abspath(os.path.dirname(__file__))
-    json_path = os.path.join(here, '_static', 'data', 'equipment.json')
-
-    with open(json_path) as f:
-        app.config.equipment_data = json.load(f)

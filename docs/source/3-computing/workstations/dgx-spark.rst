@@ -1,49 +1,70 @@
-==========================================
+.. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
+.. equipment_id: 92416cbe-d475-4bc4-be54-8830c8d22f63
+
+===================================
 AI Workstation - DGX Spark - NVIDIA
-==========================================
+===================================
 
-.. admonition:: Quick Info
-   :class: equipment-info
+.. container:: equipment-kicker
 
-   - **Manufacturer:** NVIDIA
-   - **Model:** DGX Spark
-   - **Category:** AI Workstation
-   - **Location:** C3.B2.029.E (KINESIS CTP)
-   - **Contact:** Samuel A. Prieto (sxp8070)
+   NVIDIA · DGX Spark
+
+
+.. list-table:: At a glance
+   :class: equipment-facts-table
+   :widths: 32 68
+   :header-rows: 0
+
+   * - **Manufacturer**
+     - NVIDIA
+   * - **Model**
+     - DGX Spark
+   * - **Equipment class**
+     - AI Workstation
+   * - **Location**
+     - C3.B2.029.E (KINESIS CTP)
+   * - **Quantity**
+     - 1
+   * - **Status**
+     - Active
+   * - **Training**
+     - Required
+   * - **Risk assessment**
+     - Not currently listed as required
+   * - **Primary contact**
+     - Samuel A. Prieto (sxp8070)
+
 
 Overview
 --------
 
 The NVIDIA DGX Spark is a purpose-built AI workstation powered by NVIDIA Grace Blackwell technology, designed for advanced AI development, model training, and inference workloads with exceptional performance and energy efficiency.
 
-Hardware Specifications
------------------------
+Specifications
+--------------
 
 .. list-table::
-   :widths: 30 70
+   :class: equipment-spec-table
+   :widths: 38 62
    :header-rows: 0
 
-   * - **Architecture**
-     - NVIDIA Grace Blackwell Superchip
-   * - **CPU**
-     - NVIDIA Grace CPU — 72 Arm Neoverse V2 cores
-   * - **GPU**
-     - NVIDIA Blackwell GPU — 192 GB HBM3e memory, NVLink-C2C interconnect
-   * - **System Memory**
-     - 480 GB unified, coherent CPU + GPU memory
-   * - **Storage**
-     - 4 TB NVMe SSD
-   * - **Networking**
-     - Dual 100 GbE
-   * - **AI Performance**
-     - Up to 2.5 petaFLOPS (FP4)
-   * - **Max Power**
-     - 1.4 kW
-   * - **OS**
+   * - **Operating system**
      - Ubuntu 22.04 LTS
+   * - **Processor**
+     - NVIDIA Grace CPU: 72 Arm Neoverse V2 cores
+   * - **Graphics / accelerator**
+     - NVIDIA Blackwell GPU: 192GB HBM3e memory, NVLink connectivity
+   * - **System memory**
+     - 480 GB
+   * - **Storage**
+     - 4TB NVMe SSD
+   * - **Networking**
+     - Dual 100GbE networking
+   * - **Additional specifications**
+     - Grace Blackwell Superchip architecture, AI performance up to 2.5 petaFLOPS, 1.4kW max power consumption
 
-Typical Workflow
-----------------
+Typical workflows
+-----------------
 
 1. Train and fine-tune large language models and multimodal AI models
 2. Run inference workloads for production AI applications
@@ -51,8 +72,8 @@ Typical Workflow
 4. Process large-scale datasets for computer vision and NLP
 5. Prototype and benchmark AI algorithms before deploying to larger clusters
 
-Software Requirements
----------------------
+Software & dependencies
+-----------------------
 
 - NVIDIA AI Enterprise software suite
 - CUDA Toolkit
@@ -63,44 +84,35 @@ Software Requirements
 - JAX
 - NVIDIA NeMo Framework
 
-Availability Notes
-------------------
+Access, training & booking
+--------------------------
 
 Access restricted to authorized personnel. Schedule intensive workloads to minimize conflicts with other users.
 
-Training Required
------------------
+- **Training:** Hands-on training is required before operation.
 
-Yes — hands-on training is required before operating this equipment.
-
-Safety and Operational Notes
-----------------------------
+Safety & operating limits
+-------------------------
 
 .. warning::
 
    Schedule compute-intensive jobs during off-peak hours when possible. Monitor GPU memory usage and close completed jobs promptly. Maintain proper ventilation around the system. Do not interrupt running training jobs without coordination with other users. Follow lab data management policies for storing models and datasets.
 
-**Safety Requirements:**
+**Operational controls**
 
-- Training Required
+- Training required
 
-**Software License:** Required
+- **Software licence:** Required.
 
-Tags
-----
 
-``AI``  
-``workstation``  
-``GPU``  
-``DGX``  
-``NVIDIA``  
-``Grace Blackwell``  
-``deep learning``  
-``machine learning``  
-``inference``  
-``training``  
-``compute``
+
+Keywords
+--------
+
+``AI`` · ``workstation`` · ``GPU`` · ``DGX`` · ``NVIDIA`` · ``Grace Blackwell`` · ``deep learning`` · ``machine learning`` · ``inference`` · ``training`` · ``compute``
+
 
 .. note::
 
-   For more detailed information, contact Samuel A. Prieto (sxp8070).
+   For current availability or details not recorded here, contact
+   Samuel A. Prieto (sxp8070).

@@ -1,20 +1,14 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
-.. equipment_id: 8a44b18c-dd10-454c-8899-8758ad436654
+.. equipment_id: af653bb6-e355-4f92-99e0-806aea16cc47
 
-====================
-Hyperspectral camera
-====================
+===================================
+Vertical Mast Lift - AWP25S - Genie
+===================================
 
 .. container:: equipment-kicker
 
-   Corning Specialty Materials
+   Genie · AWP25S
 
-.. figure:: ../../_static/images/405_hyperspectral-camera.jpg
-   :alt: Hyperspectral camera
-   :class: equipment-page-image
-   :align: center
-
-   Hyperspectral camera
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -22,13 +16,13 @@ Hyperspectral camera
    :header-rows: 0
 
    * - **Manufacturer**
-     - Corning Specialty Materials
+     - Genie
+   * - **Model**
+     - AWP25S
    * - **Equipment class**
-     - Camera
+     - Miscellaneous
    * - **Location**
      - C3.B2.029.E (KINESIS CTP)
-   * - **Quantity**
-     - 1
    * - **Status**
      - Active
    * - **Training**
@@ -42,7 +36,7 @@ Hyperspectral camera
 Overview
 --------
 
-A camera capable of capturing images across a wide range of wavelengths simultaneously, enabling detailed spectral analysis.
+No public summary has been recorded yet.
 
 
 
@@ -58,7 +52,7 @@ Access, training & booking
 Keywords
 --------
 
-``hyperspectral`` · ``camera`` · ``spectral analysis`` · ``remote sensing`` · ``multispectral`` · ``imaging``
+``mast lift`` · ``vertical lift`` · ``elevated work`` · ``indoor`` · ``maintenance`` · ``Genie`` · ``AWP``
 
 
 .. note::

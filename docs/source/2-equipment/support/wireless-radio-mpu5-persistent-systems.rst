@@ -1,13 +1,13 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
-.. equipment_id: e9d94a40-9dda-466f-a986-07f3bbfe021c
+.. equipment_id: f5af5e81-02ca-4254-a7ca-04f5f668657c
 
-=============================================
-Event Camera - Metavision EVK4 HD - Prophesee
-=============================================
+==========================================
+Wireless Radio - MPU5 - Persistent Systems
+==========================================
 
 .. container:: equipment-kicker
 
-   Prophesee · Metavision EVK4 HD
+   Persistent Systems · MPU5
 
 
 .. list-table:: At a glance
@@ -16,15 +16,15 @@ Event Camera - Metavision EVK4 HD - Prophesee
    :header-rows: 0
 
    * - **Manufacturer**
-     - Prophesee
+     - Persistent Systems
    * - **Model**
-     - Metavision EVK4 HD
+     - MPU5
    * - **Equipment class**
-     - Camera
+     - Support equipment
    * - **Location**
      - C3.B2.029.E (KINESIS CTP)
    * - **Quantity**
-     - 2
+     - 1
    * - **Status**
      - Active
    * - **Training**
@@ -34,11 +34,15 @@ Event Camera - Metavision EVK4 HD - Prophesee
    * - **Primary contact**
      - Samuel A. Prieto (sxp8070)
 
+.. note::
+
+   This record describes a managed component or accessory. Check the related equipment and
+   system documentation before planning standalone use.
 
 Overview
 --------
 
-A high-definition event camera (Metavision® EVK4 – HD) designed by Prophesee, capable of capturing and processing events in real time.
+Wireless transceivers used for communication in mesh networks
 
 Specifications
 --------------
@@ -49,9 +53,9 @@ Specifications
    :header-rows: 0
 
    * - **Networking**
-     - USB3
+     - S Band RF Module (2200-2500MHz)
    * - **Additional specifications**
-     - HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK
+     - Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads
 
 
 
@@ -66,7 +70,7 @@ Access, training & booking
 Keywords
 --------
 
-``event camera`` · ``neuromorphic`` · ``high-speed`` · ``dynamic vision`` · ``camera`` · ``real-time`` · ``Prophesee``
+``wireless`` · ``mesh network`` · ``radio`` · ``transceiver`` · ``communication`` · ``MPU5`` · ``outdoor``
 
 
 .. note::

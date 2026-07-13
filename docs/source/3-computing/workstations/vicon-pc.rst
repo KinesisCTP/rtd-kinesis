@@ -1,93 +1,113 @@
-========
-Vicon PC
-========
+.. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
+.. equipment_id: cf587e8c-a3c7-414a-8118-d21a9c8b20b1
+
+=======================================
+Vicon Host PC - Intel NUC 11 Enthusiast
+=======================================
+
+.. container:: equipment-kicker
+
+   Intel · NUC11PHKi7C
 
 .. figure:: ../../_static/images/workstation-vicon-pc.jpg
-   :alt: Vicon PC Workstation
-   :width: 60%
+   :alt: Vicon Host PC - Intel NUC 11 Enthusiast
+   :class: equipment-page-image
    :align: center
 
-   Vicon PC Workstation
+   Vicon Host PC - Intel NUC 11 Enthusiast
 
-The Vicon PC is an Intel NUC 11 Enthusiast ("Phantom Canyon") mini PC dedicated to controlling the motion capture system. It serves as the central hub for arena operations, running Vicon Tracker and broadcasting position data to the Hermes network.
-
-Role
-----
-
-The Vicon PC:
-
-- Connects to the Vicon camera network through two interconnected PoE switches
-- Runs Vicon Tracker software for real-time position capture
-- Processes and broadcasts position data to the Hermes network
-- Provides data recording and playback capabilities
-
-Network Connectivity
---------------------
-
-The Vicon PC is connected to three distinct networks:
-
-1. **Vicon Camera Network** via two interconnected PoE switches
-
-   - Switch 1: Cameras 1–12
-   - Switch 2: Cameras 13–24
-   - One active Ethernet link from the NUC serves both switches
-   - The physical inventory remains 24 cameras; the current ``Kinesis.System`` configuration
-     expects 23 cameras
-
-2. **Hermes Network** via wired Ethernet
-
-   - Connected directly to the Hermes router through a USB Gigabit Ethernet adapter
-   - Broadcasts real-time position data to robots and drones in the arena
-   - Researcher laptops connect to Hermes wirelessly
-
-3. **KINESIS CTP Network** via Wi-Fi
-
-   - General lab and internet connectivity
-   - File transfer and remote access
-
-Hardware Specifications
------------------------
-
-.. list-table::
-   :widths: 30 70
+.. list-table:: At a glance
+   :class: equipment-facts-table
+   :widths: 32 68
    :header-rows: 0
 
+   * - **Manufacturer**
+     - Intel
    * - **Model**
-     - Intel NUC 11 Enthusiast Kit (NUC11PHKi7C, "Phantom Canyon")
-   * - **CPU**
-     - Intel Core i7-1165G7 (11th Gen Tiger Lake) — 4 cores / 8 threads, 2.8–4.7 GHz, 28W TDP
-   * - **Integrated GPU**
-     - Intel Iris Xe (96 EU)
-   * - **Dedicated GPU**
-     - NVIDIA GeForce RTX 2060 Mobile — 4 GB GDDR6
-   * - **RAM**
-     - 64 GB DDR4-3200 SO-DIMM *(to be confirmed)*
-   * - **Storage**
-     - 2 TB M.2 NVMe *(to be confirmed)*
-   * - **Ethernet**
-     - 1× 2.5 GbE (Intel i225)
-   * - **Wi-Fi / BT**
-     - Wi-Fi 6 (Intel AX201), Bluetooth 5.1
-   * - **Ports**
-     - 4× USB 3.0 Type-A, 2× USB 3.2 Gen 2, 2× Thunderbolt 4
-   * - **Display out**
-     - 2× HDMI 2.0b, 1× DisplayPort 1.4, up to 4 displays
-   * - **Dimensions**
-     - 227 × 145 × 40 mm, 1.4 kg
+     - NUC11PHKi7C
+   * - **Equipment class**
+     - PC
+   * - **Location**
+     - C3.B2.029.E (KINESIS CTP)
+   * - **Quantity**
+     - 1
+   * - **Status**
+     - Active
+   * - **Training**
+     - Not required
+   * - **Risk assessment**
+     - Not currently listed as required
+   * - **Primary contact**
+     - Samuel A. Prieto (sxp8070)
 
-Software
+
+Overview
 --------
 
-- **Vicon Tracker** — primary software for real-time robot/drone pose tracking and DataStream broadcast
-- **Vicon Nexus** — biomechanics and gait analysis
-- **Vicon Shogun** — animation and live performance capture
-- **VAULT** — data management and session archiving
+Dedicated Intel NUC 11 Enthusiast mini PC that became the active Windows host for the KINESIS Vicon motion-capture and HERMES data-broadcast system on 2026-07-10.
 
-Data Management
----------------
+Specifications
+--------------
 
-- Vicon session data is saved locally on the Vicon PC by default
-- Name sessions clearly, for example ``2026-05-01_Spot_Navigation_Test``
-- Export important sessions to shared network storage or your own device after completion
-- Delete old test sessions periodically to free disk space
-- For long-term archival, export to C3D format and store on NYUAD research storage
+.. list-table::
+   :class: equipment-spec-table
+   :widths: 38 62
+   :header-rows: 0
+
+   * - **Processor**
+     - Intel Core i7-1165G7
+   * - **Graphics / accelerator**
+     - NVIDIA GeForce RTX 2060
+   * - **Mobility**
+     - Fixed
+   * - **Operating environment**
+     - Indoor
+
+Typical workflows
+-----------------
+
+1. Running Vicon Tracker for real-time camera capture and object tracking
+2. Broadcasting Vicon position data to robots and drones over HERMES
+3. Recording, reviewing, and exporting motion-capture sessions
+
+Software & dependencies
+-----------------------
+
+- Vicon Tracker
+- Vicon DataStream SDK
+
+Access, training & booking
+--------------------------
+
+Dedicated infrastructure host. Configuration, licensing, and network changes require lab-administrator approval.
+
+
+Safety & operating limits
+-------------------------
+
+.. warning::
+
+   Dedicated Vicon infrastructure host; coordinate configuration, licensing, and network changes with the lab administrator.
+
+**Environmental requirements**
+
+- Indoor only
+- Dedicated infrastructure
+
+- **Software licence:** Required.
+
+Related documentation
+---------------------
+
+- :doc:`Related system documentation </3-computing/vicon-system/index>`
+
+Keywords
+--------
+
+``workstation`` · ``PC`` · ``compute`` · ``motion capture`` · ``Vicon`` · ``NUC`` · ``infrastructure``
+
+
+.. note::
+
+   For current availability or details not recorded here, contact
+   Samuel A. Prieto (sxp8070).

@@ -10,9 +10,13 @@ The KINESIS CTP aerial systems support:
 - Autonomous navigation research
 - Sensor payload deployment
 
+.. BEGIN GENERATED EQUIPMENT PAGES
+
 .. toctree::
    :maxdepth: 1
    :caption: Aerial Systems
 
    drone-matrice-300-rtk-dji
    drone-mavic-pro-2-dji
+
+.. END GENERATED EQUIPMENT PAGES

@@ -1,13 +1,13 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
-.. equipment_id: e9d94a40-9dda-466f-a986-07f3bbfe021c
+.. equipment_id: e8d58251-7799-413a-8c35-b41f31ee815c
 
-=============================================
-Event Camera - Metavision EVK4 HD - Prophesee
-=============================================
+==========================================
+ROV Robotic Arm - Alpha 5 - Reach Robotics
+==========================================
 
 .. container:: equipment-kicker
 
-   Prophesee · Metavision EVK4 HD
+   Reach Robotics · Alpha 5
 
 
 .. list-table:: At a glance
@@ -16,11 +16,11 @@ Event Camera - Metavision EVK4 HD - Prophesee
    :header-rows: 0
 
    * - **Manufacturer**
-     - Prophesee
+     - Reach Robotics
    * - **Model**
-     - Metavision EVK4 HD
+     - Alpha 5
    * - **Equipment class**
-     - Camera
+     - Robot manipulation
    * - **Location**
      - C3.B2.029.E (KINESIS CTP)
    * - **Quantity**
@@ -34,11 +34,15 @@ Event Camera - Metavision EVK4 HD - Prophesee
    * - **Primary contact**
      - Samuel A. Prieto (sxp8070)
 
+.. note::
+
+   This record describes a managed component or accessory. Check the related equipment and
+   system documentation before planning standalone use.
 
 Overview
 --------
 
-A high-definition event camera (Metavision® EVK4 – HD) designed by Prophesee, capable of capturing and processing events in real time.
+Robotic arms designed for use with remotely operated vehicles (ROVs) for various underwater tasks and operations.
 
 Specifications
 --------------
@@ -48,10 +52,8 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Networking**
-     - USB3
    * - **Additional specifications**
-     - HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK
+     - 5-Function, 300m Depth Rated
 
 
 
@@ -66,7 +68,7 @@ Access, training & booking
 Keywords
 --------
 
-``event camera`` · ``neuromorphic`` · ``high-speed`` · ``dynamic vision`` · ``camera`` · ``real-time`` · ``Prophesee``
+``robotic arm`` · ``underwater`` · ``ROV`` · ``subsea`` · ``manipulation`` · ``300m depth`` · ``Reach Alpha``
 
 
 .. note::

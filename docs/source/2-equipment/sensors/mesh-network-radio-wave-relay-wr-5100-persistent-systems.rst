@@ -1,13 +1,13 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
-.. equipment_id: e9d94a40-9dda-466f-a986-07f3bbfe021c
+.. equipment_id: 0e2fc63d-65cc-4ab7-98e8-2bc033cdfeaf
 
-=============================================
-Event Camera - Metavision EVK4 HD - Prophesee
-=============================================
+============================================================
+Mesh Network Radio - Wave Relay WR-5100 - Persistent Systems
+============================================================
 
 .. container:: equipment-kicker
 
-   Prophesee · Metavision EVK4 HD
+   Persistent Systems · Wave Relay WR-5100
 
 
 .. list-table:: At a glance
@@ -16,15 +16,15 @@ Event Camera - Metavision EVK4 HD - Prophesee
    :header-rows: 0
 
    * - **Manufacturer**
-     - Prophesee
+     - Persistent Systems
    * - **Model**
-     - Metavision EVK4 HD
+     - Wave Relay WR-5100
    * - **Equipment class**
-     - Camera
+     - Communication
    * - **Location**
      - C3.B2.029.E (KINESIS CTP)
    * - **Quantity**
-     - 2
+     - 1
    * - **Status**
      - Active
    * - **Training**
@@ -38,7 +38,7 @@ Event Camera - Metavision EVK4 HD - Prophesee
 Overview
 --------
 
-A high-definition event camera (Metavision® EVK4 – HD) designed by Prophesee, capable of capturing and processing events in real time.
+Wireless transceivers designed for long-range communication
 
 Specifications
 --------------
@@ -49,9 +49,9 @@ Specifications
    :header-rows: 0
 
    * - **Networking**
-     - USB3
+     - S Band RF Module (2200-2500MHz)
    * - **Additional specifications**
-     - HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK
+     - Includes twist locking battery, GPS Antenna, Ethernet/Serial Flying Leads
 
 
 
@@ -66,7 +66,7 @@ Access, training & booking
 Keywords
 --------
 
-``event camera`` · ``neuromorphic`` · ``high-speed`` · ``dynamic vision`` · ``camera`` · ``real-time`` · ``Prophesee``
+``wireless`` · ``mesh network`` · ``radio`` · ``communication`` · ``long-range`` · ``Wave Relay`` · ``outdoor``
 
 
 .. note::

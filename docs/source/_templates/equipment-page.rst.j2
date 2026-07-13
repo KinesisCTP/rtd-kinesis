@@ -1,122 +1,218 @@
+.. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
+.. equipment_id: {{ record.equipment_id }}
+
+{{ title_underline }}
 {{ name }}
-{{ '=' * (name|length) }}
+{{ title_underline }}
 
-.. admonition:: Quick Info
-   :class: equipment-info
+{% if kicker %}
+.. container:: equipment-kicker
 
-   - **Manufacturer:** {{ manufacturer }}
-   - **Model:** {{ model }}
-   - **Category:** {{ item_class }}
-   - **Location:** {{ location }}
-   {% if primary_contact -%}
-   - **Contact:** {{ primary_contact }}
-   {% endif -%}
-   {% if asset_tag -%}
-   - **Asset Tag:** {{ asset_tag }}
-   {% endif %}
+   {{ kicker }}
+{% endif %}
+
+{% if image_filename %}
+.. figure:: ../../_static/images/{{ image_filename }}
+   :alt: {{ image_alt }}
+   :class: equipment-page-image
+   :align: center
+
+   {{ image_alt }}
+{% endif %}
+
+.. list-table:: At a glance
+   :class: equipment-facts-table
+   :widths: 32 68
+   :header-rows: 0
+
+{% for item in facts %}
+   * - **{{ item.label }}**
+     - {{ item.value }}
+{% endfor %}
+
+{% if page_kind == 'component' %}
+.. note::
+
+   This record describes a managed component or accessory. Check the related equipment and
+   system documentation before planning standalone use.
+{% endif %}
+
+{% if inventory %}
+.. only:: internal
+
+   Internal inventory
+   ------------------
+
+   .. list-table::
+      :class: equipment-meta-table
+      :widths: 32 68
+      :header-rows: 0
+
+{% for item in inventory %}
+      * - **{{ item.label }}**
+        - {{ item.value }}
+{% endfor %}
+
+{% if inventory_warning %}
+   .. warning::
+
+      {{ inventory_warning }}
+{% endif %}
+{% endif %}
+
+{% if access_sections %}
+.. only:: internal
+
+   Network & access
+   ----------------
+
+{% for section in access_sections %}
+   **{{ section.title }}**
+
+   .. list-table::
+      :class: equipment-access-table
+      :widths: 32 68
+      :header-rows: 0
+
+{% for item in section.rows %}
+      * - **{{ item.label }}**
+        - {{ item.value }}
+{% endfor %}
+
+{% endfor %}
+{% if access_warning %}
+   .. warning::
+
+      {{ access_warning }}
+{% endif %}
+{% endif %}
 
 Overview
 --------
 
 {{ short_description }}
 
-{% if capabilities %}
-Capabilities
-------------
+{% if specs %}
+Specifications
+--------------
 
-{% for key, value in capabilities.items() %}
-{% if key not in ['typical_workflows', 'compute_software_deps'] %}
-**{{ key|replace('_', ' ')|title }}:**
+.. list-table::
+   :class: equipment-spec-table
+   :widths: 38 62
+   :header-rows: 0
 
-{% if value is iterable and value is not string %}
-{% for item in value %}
-- {{ item }}
-{% endfor %}
-{% else %}
-{{ value }}
-{% endif %}
-
-{% endif %}
+{% for item in specs %}
+   * - **{{ item.label }}**
+     - {{ item.value }}
 {% endfor %}
 {% endif %}
 
-{% if capabilities.typical_workflows %}
-Typical Workflow
-----------------
+{% if workflows %}
+Typical workflows
+-----------------
 
-{% for step in capabilities.typical_workflows %}
+{% for step in workflows %}
 {{ loop.index }}. {{ step }}
 {% endfor %}
 {% endif %}
 
-{% if capabilities.compute_software_deps %}
-Software Requirements
----------------------
+{% if software %}
+Software & dependencies
+-----------------------
 
-{% for software in capabilities.compute_software_deps %}
-- {{ software }}
+{% for item in software %}
+- {{ item }}
 {% endfor %}
 {% endif %}
+
+{% if availability_notes or record.training_required or record.risk_assessment_required or training_link %}
+Access, training & booking
+--------------------------
 
 {% if availability_notes %}
-Availability Notes
-------------------
-
 {{ availability_notes }}
+
 {% endif %}
-
-{% if training_required %}
-Training Required
------------------
-
-Yes - hands-on training is required before operating this equipment.
-
+{% if record.training_required %}
+- **Training:** Hands-on training is required before operation.
+{% endif %}
+{% if record.risk_assessment_required %}
+- **Risk assessment:** A task-appropriate risk assessment is required before use.
+{% endif %}
 {% if training_link %}
-Training materials: `{{ training_link }} <{{ training_link }}>`_
+- **Training materials:** `Open training materials <{{ training_link }}>`_
 {% endif %}
 {% endif %}
 
-{% if risk_assessment_required %}
-Risk Assessment
----------------
+{% if constraint_notes or environment or safety_flags or software_license_required %}
+Safety & operating limits
+-------------------------
 
-A risk assessment is required before using this equipment.
-{% endif %}
-
-{% if constraints and constraints.notes %}
-Safety and Operational Notes
------------------------------
-
+{% if constraint_notes %}
 .. warning::
 
-   {{ constraints.notes }}
+   {{ constraint_notes }}
 
-{% if constraints.environment %}
-**Environmental Requirements:**
+{% endif %}
+{% if environment %}
+**Environmental requirements**
 
-{% for env in constraints.environment %}
-- {{ env|replace('_', ' ')|title }}
+{% for item in environment %}
+- {{ item }}
 {% endfor %}
+
+{% endif %}
+{% if safety_flags %}
+**Operational controls**
+
+{% for item in safety_flags %}
+- {{ item }}
+{% endfor %}
+
+{% endif %}
+{% if software_license_required %}
+- **Software licence:** Required.
+{% endif %}
 {% endif %}
 
-{% if constraints.safety_flags %}
-**Safety Requirements:**
+{% if related_doc or parent_equipment %}
+Related documentation
+---------------------
 
-{% for flag in constraints.safety_flags %}
-- {{ flag|replace('_', ' ')|title }}
+{% for parent in parent_equipment %}
+- :doc:`{{ parent.name }} <{{ parent.doc }}>`
 {% endfor %}
+{% if related_doc %}
+- :doc:`{{ related_doc_label }} <{{ related_doc }}>`
 {% endif %}
+{% endif %}
+
+{% if internal_sections %}
+.. only:: internal
+
+   Internal records
+   ----------------
+
+{% for section in internal_sections %}
+   {{ section.title }}
+   {{ '^' * (section.title|length) }}
+
+{{ section.rst | indent(3, true) }}
+
+{% endfor %}
 {% endif %}
 
 {% if tags %}
-Tags
-----
+Keywords
+--------
 
 {% for tag in tags %}
-``{{ tag }}``{% if not loop.last %}, {% endif %}
+``{{ tag }}``{% if not loop.last %} · {% endif %}
 {% endfor %}
 {% endif %}
+{{ "\n" }}
 
 .. note::
 
-   For more detailed information, contact {{ primary_contact if primary_contact else 'lab personnel' }}.
+   For current availability or details not recorded here, contact
+   {{ record.primary_contact if record.primary_contact else 'the KINESIS CTP team' }}.

@@ -1,131 +1,124 @@
+.. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
+.. equipment_id: cc68c58d-4c47-4343-91bb-5215d1863005
+
 ===================================
 3D Scanner - Focus 350s plus - FARO
 ===================================
 
-.. figure:: ../../_static/images/103_focus-350s-faro.jpg
-   :alt: FARO Focus 350s plus 3D Scanner
-   :width: 30%
-   :align: center
+.. container:: equipment-kicker
 
-   FARO Focus 350s plus 3D Scanner
+   FARO · Focus 350s plus
 
-.. admonition:: Quick Info
-   :class: equipment-info
 
-   - **Manufacturer:** FARO
-   - **Model:** Focus 350s plus
-   - **Category:** 3D Scanning
-   - **Location:** C3.B2.029.E (KINESIS CTP)
-   - **Contact:** Samuel A. Prieto (sxp8070)
+.. list-table:: At a glance
+   :class: equipment-facts-table
+   :widths: 32 68
+   :header-rows: 0
+
+   * - **Manufacturer**
+     - FARO
+   * - **Model**
+     - Focus 350s plus
+   * - **Equipment class**
+     - 3D Scanning
+   * - **Location**
+     - C3.B2.029.E (KINESIS CTP)
+   * - **Quantity**
+     - 1
+   * - **Status**
+     - Active
+   * - **Training**
+     - Required
+   * - **Risk assessment**
+     - Required
+   * - **Primary contact**
+     - Samuel A. Prieto (sxp8070)
+
 
 Overview
 --------
 
 The FARO Focus S 350 Plus is a terrestrial phase-shift laser scanner used to capture dense 3D point clouds of environments and objects over a wide field of view. It is typically mounted on a tripod and performs 360° scans, optionally capturing high-resolution HDR color imagery, for applications such as as-built surveys, BIM updates, deformation checks, forensic documentation, heritage recording, and wide-area mapping.
 
-Capabilities
-------------
+Specifications
+--------------
 
-**Outputs:**
+.. list-table::
+   :class: equipment-spec-table
+   :widths: 38 62
+   :header-rows: 0
 
-- e57
-- las
-- xyz
-- pts
-- ptx
+   * - **Output formats**
+     - E57, Las, Xyz, Pts, Ptx
+   * - **Mobility**
+     - Tripod-mounted
+   * - **Resolution**
+     - Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)
+   * - **Accuracy**
+     - 1 mm
+   * - **Maximum range**
+     - 350 m
+   * - **Minimum range**
+     - 0.6 m
+   * - **Operating environment**
+     - Indoor and outdoor
+   * - **Capture rate**
+     - 2,000,000 points/s
+   * - **Battery life**
+     - 270 min
+   * - **Sensing modalities**
+     - LiDAR, RGB, GPS
 
-- **Mobility:** tripod
-- **Resolution:** Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)
-- **Accuracy Mm:** 1
-- **Range Max M:** 350
-- **Range Min M:** 0.6
-- **Indoor Outdoor:** both
-- **Points Per Sec:** 2000000
-- **Battery Life Min:** 270
-
-**Sensing Modality:**
-
-- lidar
-- rgb
-- gps
-
-
-Typical Workflow
-----------------
+Typical workflows
+-----------------
 
 1. Mount the scanner securely on a stable tripod and ensure the head can rotate freely without striking obstacles
 2. Insert and manage scan storage on the SD card, then configure scan resolution/quality on the touchscreen or via Wi-Fi control
 3. Run 360° × 300° scans and move the scanner to the next station once data are saved to the SD card
 4. Transfer scans to SCENE for processing, registration, and downstream CAD/BIM or documentation workflows
 
-Software Requirements
----------------------
+Software & dependencies
+-----------------------
 
 - SCENE
 - WLAN connection (HTML5 access via mobile devices)
 
-Availability Notes
-------------------
+Access, training & booking
+--------------------------
 
 Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, used on a tripod for indoor and outdoor scanning.
 
-Training Required
------------------
+- **Training:** Hands-on training is required before operation.
+- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
-Yes - hands-on training is required before operating this equipment.
-
-Risk Assessment
----------------
-
-A risk assessment is required before using this equipment.
-
-Safety and Operational Notes
------------------------------
+Safety & operating limits
+-------------------------
 
 .. warning::
 
-   - Do not open the housing
-   - Dangerously high voltages are present and servicing is for qualified personnel only.
-   - Keep hands, tools, and loose clothing clear of the high-speed rotating mirror during scanning and until it stops.
-   - Use only on a flat, stable surface/tripod to prevent tipping
-   - Maintain an exclusion zone of 0.5 m around the scanner when in use and never reach into the mirror cavity while powered.
-   - For outdoor use, power from the battery and protect from rain or spray water
-   - Use in a non-condensing environment and shield from dust and strong magnetic/electrical fields.
-   - Do not operate while the external power supply is plugged in — the power cable might damage the turning scanner.
-   - Insert/remove batteries only in dry, dust-free environments
-   - Charge only on the FARO PowerDock in clear, ventilated areas.
-   - Follow controlled shutdown before removing power or the battery, and do not remove the SD card while the device indicates it is busy.
-   - PPE: appropriate street clothing (long pants, closed-toed shoes).
+   Do not open the housing; dangerously high voltages are present and servicing is for qualified personnel only. Keep hands, tools, and loose clothing clear of the high-speed rotating mirror during scanning and until it stops. Use only on a flat, stable surface/tripod to prevent tipping; maintain an exclusion zone of 0.5 m around the scanner when in use and never reach into the mirror cavity while powered. For outdoor use, power from the battery and protect from rain or spray water; use in a non-condensing environment and shield from dust and strong magnetic/electrical fields. Do not operate while the external power supply is plugged in — the power cable might damage the turning scanner. Insert/remove batteries only in dry, dust-free environments; charge only on the FARO PowerDock in clear, ventilated areas. Follow controlled shutdown before removing power or the battery, and do not remove the SD card while the device indicates it is busy. PPE: appropriate street clothing (long pants, closed-toed shoes).
 
-**Environmental Requirements:**
+**Environmental requirements**
 
-- No Wet
-- No Dust
+- Keep dry
+- Dust-sensitive
 
-**Safety Requirements:**
+**Operational controls**
 
-- Training Required
-- Risk Assessment Required
-- Ppe Required
+- Training required
+- Risk assessment required
+- PPE required
 
-**Software License:** Required
+- **Software licence:** Required.
 
-Tags
-----
 
-``lidar``  
-``3d scanning``  
-``laser scanner``  
-``point cloud``  
-``indoor``  
-``outdoor``  
-``tripod``  
-``survey``  
-``architecture``  
-``heritage``  
-``BIM``  
-``e57``  
+Keywords
+--------
+
+``lidar`` · ``3d scanning`` · ``laser scanner`` · ``point cloud`` · ``indoor`` · ``outdoor`` · ``tripod`` · ``survey`` · ``architecture`` · ``heritage`` · ``BIM`` · ``e57``
+
 
 .. note::
 
-   For more detailed information, contact Samuel A. Prieto (sxp8070).
+   For current availability or details not recorded here, contact
+   Samuel A. Prieto (sxp8070).
