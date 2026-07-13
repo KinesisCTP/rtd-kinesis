@@ -77,7 +77,3 @@ Two types of wired ethernet ports are available throughout the lab, clearly iden
 
 Choose the appropriate port depending on whether you need access to the KINESIS CTP local resources (blue) or the NYUAD campus network (red).
 
-Common Issues
--------------
-
-*Troubleshooting guide to be added*

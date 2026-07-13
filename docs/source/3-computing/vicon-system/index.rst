@@ -11,9 +11,8 @@ The Vicon system consists of:
 - Intel NUC 11 Enthusiast Vicon PC running Tracker software
 - Integration with Hermes wireless network
 
-The current ``Kinesis.System`` configuration expects 23 cameras. After the 2026-07-10 host
-cutover and a camera reboot, Tracker detected all 23 expected cameras. The difference from the
-24-camera physical inventory remains an open reconciliation item.
+The active ``Kinesis.System`` configuration defines 23 cameras, all of which are detected by
+Tracker. The physical inventory contains 24 cameras; the one-camera discrepancy is unresolved.
 
 .. toctree::
    :maxdepth: 1

@@ -73,8 +73,6 @@ Connect to Hermes Network
 Receive Position Data
 ^^^^^^^^^^^^^^^^^^^^^
 
-*Example code for receiving Vicon data to be added.*
-
 The Vicon PC broadcasts position data in real-time. Your robot/drone needs to:
 
 - Subscribe to the data stream
@@ -140,8 +138,3 @@ Best Practices
 - Start simple, increase complexity gradually
 - Document your setup for future reference
 - Clean up after your session
-
-Examples
---------
-
-*Specific examples for common robots/drones to be added.*

@@ -59,7 +59,7 @@ Any incident (equipment damage, injury, near-miss, or safety concern) must be re
 
 1. Ensure the immediate safety of all persons involved.
 2. Notify the lab manager (sxp8070) as soon as possible.
-3. Complete an incident report form *(template to be linked)*.
+3. Complete the applicable NYUAD incident report form.
 4. Participate in any follow-up review or corrective action process.
 
 Contributing to the Wiki
