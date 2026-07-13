@@ -15,14 +15,20 @@ Underwater ROV - EXRAY - Hydromea
    - **Manufacturer:** Hydromea
    - **Model:** EXRAY
    - **Category:** Underwater Robot
-   - **Quantity:** 1 system (2 modules: primary EXRAY and FLYOUT)
+   - **Quantity:** 1 system (2 identical, interchangeable EXRAY ROV bodies)
    - **Location:** C3.B2.029.E (KINESIS CTP)
    - **Contact:** Samuel A. Prieto (sxp8070)
 
 Overview
 --------
 
-The Hydromea EXRAY is a compact two-vehicle ROV system optimised for confined and enclosed underwater spaces — ship ballast tanks, pontoons, storage tanks, flooded cavities, and complex internal structures inaccessible to larger ROVs. NOT intended for open-water operations. The tethered primary unit (100 m tether, 100 m depth) communicates from a topside pilot station; the FLYOUT sub-vehicle detaches wirelessly via optical link for close-in inspection inside tight compartments.
+The Hydromea EXRAY is a compact two-ROV system optimised for confined and enclosed
+underwater spaces, including ship ballast tanks, pontoons, storage tanks, flooded cavities,
+and complex internal structures. Its two ROV bodies are identical and interchangeable. In
+paired operation, whichever body is connected to the 100 m topside tether and carries the
+powered Docking Station acts as the primary relay; the other carries the passive Docking Rail
+and operates as the tetherless FLYOUT over LUMA. Either body can assume either role. The
+wireless FLYOUT configuration is not intended for open-water operation.
 
 Capabilities
 ------------
@@ -36,6 +42,8 @@ Capabilities
 - **Mobility:** underwater
 - **Indoor Outdoor:** both
 - **Dof:** 6
+- **System composition:** Two identical and interchangeable EXRAY ROV bodies
+- **Role assignment:** Dynamic by tether connection and installed docking payload
 
 **Sensing Modality:**
 
@@ -47,8 +55,8 @@ Capabilities
 Typical Workflow
 ----------------
 
-1. Tethered inspection inside confined submerged spaces (tanks, ballast compartments)
-2. Deploying the FLYOUT wirelessly via LUMA optical link
+1. Operating either ROV body as the tethered primary relay for confined-space inspection
+2. Operating either ROV body as the tetherless FLYOUT via the LUMA optical link
 3. Object interaction using optional payloads (gripper, vacuum cleaner)
 
 Software Requirements
