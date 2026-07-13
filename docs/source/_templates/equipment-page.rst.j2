@@ -37,54 +37,21 @@
    system documentation before planning standalone use.
 {% endif %}
 
-{% if inventory %}
+{% if identifiers %}
 .. only:: internal
 
-   Internal inventory
-   ------------------
+   Equipment identifiers
+   ---------------------
 
    .. list-table::
       :class: equipment-meta-table
       :widths: 32 68
       :header-rows: 0
 
-{% for item in inventory %}
+{% for item in identifiers %}
       * - **{{ item.label }}**
         - {{ item.value }}
 {% endfor %}
-
-{% if inventory_warning %}
-   .. warning::
-
-      {{ inventory_warning }}
-{% endif %}
-{% endif %}
-
-{% if access_sections %}
-.. only:: internal
-
-   Network & access
-   ----------------
-
-{% for section in access_sections %}
-   **{{ section.title }}**
-
-   .. list-table::
-      :class: equipment-access-table
-      :widths: 32 68
-      :header-rows: 0
-
-{% for item in section.rows %}
-      * - **{{ item.label }}**
-        - {{ item.value }}
-{% endfor %}
-
-{% endfor %}
-{% if access_warning %}
-   .. warning::
-
-      {{ access_warning }}
-{% endif %}
 {% endif %}
 
 Overview
@@ -187,18 +154,14 @@ Related documentation
 {% endif %}
 {% endif %}
 
-{% if internal_sections %}
+{% if compliance_documents %}
 .. only:: internal
 
-   Internal records
-   ----------------
+   SOPs & risk assessments
+   -----------------------
 
-{% for section in internal_sections %}
-   {{ section.title }}
-   {{ '^' * (section.title|length) }}
-
-{{ section.rst | indent(3, true) }}
-
+{% for document in compliance_documents %}
+   - **{{ document.kind }}:** `{{ document.title }} <{{ document.url }}>`_
 {% endfor %}
 {% endif %}
 

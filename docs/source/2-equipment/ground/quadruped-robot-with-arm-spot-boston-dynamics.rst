@@ -97,7 +97,7 @@ Software & dependencies
 Access, training & booking
 --------------------------
 
-Operation is covered by the Operation of Ground Robots risk assessment (1450RA) and the Quadruped Demonstration risk assessment (2758RA), both associated with Basement 2, B2 029 (Robotics Lab) and CTP. Each requires digital sign-off by an Authorised User before operation. Access is restricted to trained and authorised personnel. A minimum 3 m clearance around the robot must be maintained during all operations.
+Access is restricted to trained and authorised personnel. Complete the required safety sign-off before operation and maintain a minimum 3 m clearance around the robot during all operations.
 
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.

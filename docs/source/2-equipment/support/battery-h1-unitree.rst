@@ -42,7 +42,7 @@ Battery - H1 - Unitree
 Overview
 --------
 
-Purchase of a humanoid robot with accessories and a dedicated computing power module.
+The Unitree H1 battery is the dedicated removable power module for the H1 humanoid robot.
 
 Specifications
 --------------

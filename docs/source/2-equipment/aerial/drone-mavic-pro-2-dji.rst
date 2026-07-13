@@ -94,7 +94,7 @@ Safety & operating limits
 
 .. warning::
 
-   Key hazards include high-speed propellers (laceration risk) and LiPo battery fire/thermal runaway. Controls include restricting access, operator training, maintaining visual line-of-sight, and maintaining at least a 5 m exclusion zone around spectators. SOP guidance includes flying in open areas below 120 m AGL, following local UAV regulations, inspecting propellers/batteries before each flight, and keeping clear of power lines and reflective or magnetic structures. Storage: power off aircraft and RC, remove battery, fit gimbal clamp/cover, fold arms/props; store batteries at 40–65% SoC in a fire-retardant container at 5–40 °C. PPE: long pants, closed-toed shoes, safety glasses.
+   Key hazards include high-speed propellers (laceration risk) and LiPo battery fire/thermal runaway. Controls include restricting access, operator training, maintaining visual line-of-sight, and maintaining at least a 5 m exclusion zone around spectators. Fly in open areas below 120 m AGL, following local UAV regulations, inspecting propellers/batteries before each flight, and keeping clear of power lines and reflective or magnetic structures. Storage: power off aircraft and RC, remove battery, fit gimbal clamp/cover, fold arms/props; store batteries at 40–65% SoC in a fire-retardant container at 5–40 °C. PPE: long pants, closed-toed shoes, safety glasses.
 
 **Environmental requirements**
 

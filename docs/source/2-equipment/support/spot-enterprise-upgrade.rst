@@ -52,6 +52,7 @@ Related documentation
 
 - :doc:`Quadruped Robot with Arm - Spot - Boston Dynamics </2-equipment/ground/quadruped-robot-with-arm-spot-boston-dynamics>`
 
+
 Keywords
 --------
 

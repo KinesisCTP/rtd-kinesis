@@ -70,6 +70,7 @@ Related documentation
 
 - :doc:`3D Scanner - Go!SCAN 3D - Creaform </2-equipment/sensors/3d-scanner-goscan-3d-creaform>`
 
+
 Keywords
 --------
 
