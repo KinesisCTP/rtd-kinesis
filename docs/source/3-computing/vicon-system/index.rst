@@ -6,10 +6,14 @@ The Vicon motion capture system provides high-precision position tracking for ro
 
 The Vicon system consists of:
 
-- 24 high-speed cameras
-- 2 dedicated network switches, 12 cameras each
-- Vicon PC running Tracker software
+- 24 high-speed cameras in the physical inventory
+- 2 interconnected dedicated network switches
+- Intel NUC 11 Enthusiast Vicon PC running Tracker software
 - Integration with Hermes wireless network
+
+The current ``Kinesis.System`` configuration expects 23 cameras. After the 2026-07-10 host
+cutover and a camera reboot, Tracker detected all 23 expected cameras. The difference from the
+24-camera physical inventory remains an open reconciliation item.
 
 .. toctree::
    :maxdepth: 1
@@ -20,7 +24,7 @@ The Vicon system consists of:
 How It Works
 ------------
 
-1. **Capture**: 24 cameras capture reflective markers from multiple angles
+1. **Capture**: the active camera set captures reflective markers from multiple angles
 2. **Processing**: Vicon PC reconstructs 3D positions in real-time
 3. **Broadcast**: Position data is transmitted over Hermes network
 4. **Control**: Robots/drones use position data for navigation and control
@@ -40,9 +44,9 @@ Network Architecture
 
 The Vicon system's network architecture:
 
-- **Camera Network**: Two switches connecting 12 cameras each to Vicon PC
+- **Camera Network**: Two interconnected PoE switches feeding one active host Ethernet link
 - **Hermes Network**: WiFi broadcast of position data from Vicon PC
-- **KINESIS CTP Network**: General connectivity for data export and remote access
+- **KINESIS CTP Network**: Wi-Fi connectivity for data export and remote access
 
 Using the Vicon System
 ----------------------

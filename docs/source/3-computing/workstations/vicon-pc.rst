@@ -16,7 +16,7 @@ Role
 
 The Vicon PC:
 
-- Connects to all 24 Vicon cameras via two dedicated switches
+- Connects to the Vicon camera network through two interconnected PoE switches
 - Runs Vicon Tracker software for real-time position capture
 - Processes and broadcasts position data to the Hermes network
 - Provides data recording and playback capabilities
@@ -26,21 +26,23 @@ Network Connectivity
 
 The Vicon PC is connected to three distinct networks:
 
-1. **Vicon Camera Network** via 2 PoE switches
+1. **Vicon Camera Network** via two interconnected PoE switches
 
    - Switch 1: Cameras 1–12
    - Switch 2: Cameras 13–24
-   - High-bandwidth dedicated connection for camera data
+   - One active Ethernet link from the NUC serves both switches
+   - The physical inventory remains 24 cameras; the current ``Kinesis.System`` configuration
+     expects 23 cameras
 
 2. **Hermes Network** via wired Ethernet
 
-   - Connected directly to the Hermes router via Ethernet
+   - Connected directly to the Hermes router through a USB Gigabit Ethernet adapter
    - Broadcasts real-time position data to robots and drones in the arena
    - Researcher laptops connect to Hermes wirelessly
 
-3. **KINESIS CTP Network** via wired Ethernet
+3. **KINESIS CTP Network** via Wi-Fi
 
-   - General lab connectivity
+   - General lab and internet connectivity
    - File transfer and remote access
 
 Hardware Specifications
