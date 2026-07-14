@@ -43,7 +43,8 @@ NVIDIA
 - `CUDA Toolkit Documentation <https://docs.nvidia.com/cuda/>`_
 - `NGC Catalog (pre-built containers) <https://catalog.ngc.nvidia.com/>`_
 
-**Vicon:**
+Vicon
+-----
 
 - `Vicon Documentation Portal <https://docs.vicon.com/>`_
 - `Vicon Tracker User Guide <https://docs.vicon.com/display/Tracker>`_
@@ -57,7 +58,8 @@ ROS / ROS 2
 - `MoveIt 2 (manipulation) <https://moveit.picknik.ai/>`_
 - `vrpn_mocap (Vicon/ROS 2 bridge) <https://github.com/alvinsunyixiao/vrpn_mocap>`_
 
-**Lambda AI Workstation:**
+Lambda AI Workstation
+---------------------
 
 - `Lambda Stack Documentation <https://lambdalabs.com/lambda-stack-deep-learning-software>`_
 - `Lambda Support <https://lambdalabs.com/support>`_

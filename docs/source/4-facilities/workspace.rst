@@ -4,7 +4,7 @@ Workspace
 
 The Workspace is a flexible environment for development and experimentation.
 
-.. figure:: ../_static/images/facility-equipment-cabinet-outside.jpg
+.. figure:: ../_static/images/workspace.jpg
    :alt: KINESIS CTP Workspace overview
    :width: 70%
    :align: center
@@ -18,7 +18,8 @@ Features
 - High-speed local network (KINESIS CTP Network)
 - Adjustable Philips Hue smart lighting (app and switch controlled)
 - Nearby benches with tools and test equipment
-- GPU unit for high-performance computation (AI Workstation with 2× A200)
+- High-performance AI workstation with 2× NVIDIA RTX 6000 Ada Generation GPUs
+  (48 GB each); see :doc:`AI Workstation - Lambda </3-computing/workstations/ai-workstation>`
 - Safe charging station for LiPo batteries
 
 Development Activities

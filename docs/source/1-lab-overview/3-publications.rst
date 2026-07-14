@@ -5,6 +5,13 @@ Publications
 Papers Using KINESIS CTP Lab Facilities
 ---------------------------------------
 
+Jump to :ref:`2026 <pubs-2026>`, :ref:`2025 <pubs-2025>`,
+:ref:`2024 <pubs-2024>`, :ref:`2023 <pubs-2023>`,
+:ref:`2022 <pubs-2022>`, :ref:`2021 <pubs-2021>`, or
+:ref:`2020 <pubs-2020>`.
+
+.. _pubs-2026:
+
 2026
 ~~~~
 
@@ -24,12 +31,16 @@ Papers Using KINESIS CTP Lab Facilities
 
 4. **Gonçalves, V., Giakoumidis, N., Moore, M., & Tzes, A.** (2026). Leader-Follower Human-Cobot Improvised Dance Using Motion Capture Systems.
 
+.. _pubs-2025:
+
 2025
 ~~~~
 
 5. **Hamandi, M., Ali, A. M., Kyriakopoulos, K., Tzes, A., & Khorrami, F.** (2025). An Omnidirectional Non-Tethered Aerial Prototype with Fixed Uni-Directional Thrusters.
 
 6. **Evangeliou, N., Mostafa, O., & Tzes, A.** (2025). Safe SLAM exploration strategy using optimal path planning towards frontier points.
+
+.. _pubs-2024:
 
 2024
 ~~~~
@@ -44,6 +55,8 @@ Papers Using KINESIS CTP Lab Facilities
 
 11. **Prieto, S. A., Giakoumidis, N., & García de Soto, B.** (2024). Multiagent robotic systems and exploration algorithms: Applications for data collection in construction sites.
 
+.. _pubs-2023:
+
 2023
 ~~~~
 
@@ -55,10 +68,14 @@ Papers Using KINESIS CTP Lab Facilities
 
 15. **Ko, P., Prieto, S. A., & García de Soto, B.** (2023). Developing a Free and Open-Source Semi-Automated Building Exterior Crack Inspection Software.
 
+.. _pubs-2022:
+
 2022
 ~~~~
 
 16. **Evangeliou, N., Giakoumidis, N., Chaikalis, D., Tsoukalas, A., Unlu, H. U., Xing, D., & Tzes, A.** (2022). Mechatronic Design of a Delivery Octarotor Drone.
+
+.. _pubs-2021:
 
 2021
 ~~~~
@@ -72,6 +89,8 @@ Papers Using KINESIS CTP Lab Facilities
 20. **Xing, D., Tsoukalas, A., Giakoumidis, N., & Tzes, A.** (2021). Computationally Efficient RGB-T UAV Detection and Tracking System.
 
 21. **Tsoukalas, A., Xing, D., Evangeliou, N., Giakoumidis, N., & Tzes, A.** (2021). Deep learning assisted visual tracking of evader-UAV.
+
+.. _pubs-2020:
 
 2020
 ~~~~
