@@ -12,6 +12,7 @@
 .. figure:: ../../_static/images/102_goscan-3d-creaform.jpg
    :alt: 3D Scanner - Go!SCAN 3D - Creaform
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    3D Scanner - Go!SCAN 3D - Creaform
@@ -115,6 +116,10 @@ Safety & operating limits
 - Supervisor required
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Component or accessory:** :doc:`CRF-01842- ZBook G6 17'' 64Go </3-computing/workstations/creaform-control-laptop>`
 
 Keywords
 --------

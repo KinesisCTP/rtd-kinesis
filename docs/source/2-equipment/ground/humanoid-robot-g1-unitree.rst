@@ -12,6 +12,7 @@ Humanoid Robot - G1 - Unitree
 .. figure:: ../../_static/images/506_humanoid-g1-unitree.jpg
    :alt: Humanoid Robot - G1 - Unitree
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Humanoid Robot - G1 - Unitree
@@ -104,6 +105,10 @@ Safety & operating limits
 - PPE required
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Dexterous Hand - RH56 - Inspire Robots </2-equipment/ground/dexterous-hand-rh56-inspire-robots>`
 
 Keywords
 --------

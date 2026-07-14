@@ -12,6 +12,7 @@ Autonomous Buggy - RB-CAR - Robotnik
 .. figure:: ../../_static/images/451_buggy-rbcar-robotnik.jpg
    :alt: Autonomous Buggy - RB-CAR - Robotnik
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Autonomous Buggy - RB-CAR - Robotnik

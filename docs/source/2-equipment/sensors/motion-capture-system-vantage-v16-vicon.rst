@@ -12,6 +12,7 @@ Motion Capture System - Vantage V16 - Vicon
 .. figure:: ../../_static/images/101_vantage-v16-vicon.jpg
    :alt: Motion Capture System - Vantage V16 - Vicon
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Motion Capture System - Vantage V16 - Vicon
@@ -110,10 +111,10 @@ Safety & operating limits
 
 - **Software licence:** Required.
 
-Related documentation
----------------------
+Related equipment & documentation
+---------------------------------
 
-- :doc:`Related system documentation </4-facilities/arena>`
+- **Related documentation:** :doc:`Related system documentation </4-facilities/arena>`
 
 Keywords
 --------

@@ -12,6 +12,7 @@ Dexterous Hand - RH56 - Inspire Robots
 .. figure:: ../../_static/images/602_inspire-hand.jpg
    :alt: Dexterous Hand - RH56 - Inspire Robots
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Dexterous Hand - RH56 - Inspire Robots
@@ -103,6 +104,11 @@ Safety & operating limits
 - PPE required
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Humanoid Robot - G1 - Unitree </2-equipment/ground/humanoid-robot-g1-unitree>`
+- **Compatible equipment:** :doc:`Humanoid Robot - H1 - Unitree </2-equipment/ground/humanoid-robot-h1-unitree>`
 
 Keywords
 --------

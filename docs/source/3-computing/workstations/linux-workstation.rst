@@ -1,14 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: a590da10-7154-4137-951d-1eab90b3c086
 
-=====================================
-PC Workstation - Custom Build - Vicon
-=====================================
+================================
+Linux Workstation - Custom Build
+================================
 
 .. container:: equipment-kicker
 
-   Vicon · Custom Build
+   Golden Cloud Computer · Custom Build
 
+.. figure:: ../../_static/images/workstation-linux.jpg
+   :alt: Linux Workstation - Custom Build
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   Linux Workstation - Custom Build
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -16,7 +23,7 @@ PC Workstation - Custom Build - Vicon
    :header-rows: 0
 
    * - **Manufacturer**
-     - Vicon
+     - Golden Cloud Computer
    * - **Model**
      - Custom Build
    * - **Equipment class**
@@ -38,7 +45,7 @@ PC Workstation - Custom Build - Vicon
 Overview
 --------
 
-Replacement PC for handling the computational demands of a motion capture system. Motion Capture System Replacement PC
+Dedicated Linux workstation for KINESIS laboratory computing with an AMD Ryzen 9 7950X3D CPU and ASUS RTX 4090 STRIX 24 GB GPU.
 
 Specifications
 --------------
@@ -68,7 +75,7 @@ Specifications
 Keywords
 --------
 
-``workstation`` · ``PC`` · ``compute`` · ``motion capture`` · ``Vicon``
+``workstation`` · ``PC`` · ``compute`` · ``Linux`` · ``GPU compute``
 
 
 .. note::

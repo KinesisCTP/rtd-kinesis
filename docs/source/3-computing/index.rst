@@ -17,13 +17,6 @@ Infrastructure at a Glance
 - :doc:`workstations/index` covers the Vicon PC, Linux workstation, AI workstation, and DGX Spark.
 - :doc:`vicon-system/index` covers motion capture networking, tracking workflows, setup, and data broadcast.
 
-Common Tasks
-------------
-
-- Use ip allocation before assigning a static IP.
-- Check workstation pages before starting GPU or motion-capture workloads.
-- Review Vicon setup guidance before relying on Arena tracking data.
-
 .. toctree::
    :maxdepth: 2
    :caption: Infrastructure Components
@@ -32,3 +25,10 @@ Common Tasks
    networks/index
    workstations/index
    vicon-system/index
+
+Common Tasks
+------------
+
+- Use ip allocation before assigning a static IP.
+- Check workstation pages before starting GPU or motion-capture workloads.
+- Review Vicon setup guidance before relying on Arena tracking data.

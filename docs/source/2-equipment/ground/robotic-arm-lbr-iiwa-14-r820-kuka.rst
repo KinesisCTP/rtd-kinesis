@@ -12,6 +12,7 @@ Robotic Arm - LBR iiwa 14 R820 - KUKA
 .. figure:: ../../_static/images/106_lbr-iiwa-kuka.jpg
    :alt: Robotic Arm - LBR iiwa 14 R820 - KUKA
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Robotic Arm - LBR iiwa 14 R820 - KUKA
@@ -106,6 +107,10 @@ Safety & operating limits
 - Restricted operating area
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Robotic Gripper - 3-Finger Adaptive - Robotiq </2-equipment/ground/robotic-gripper-3-finger-adaptive-robotiq>`
 
 Keywords
 --------

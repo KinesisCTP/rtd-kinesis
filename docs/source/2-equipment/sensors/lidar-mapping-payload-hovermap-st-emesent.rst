@@ -12,6 +12,7 @@ LiDAR Mapping Payload - Hovermap ST - Emesent
 .. figure:: ../../_static/images/367_hovermap-emesent.jpg
    :alt: LiDAR Mapping Payload - Hovermap ST - Emesent
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    LiDAR Mapping Payload - Hovermap ST - Emesent

@@ -12,6 +12,7 @@ Vicon Host PC - Intel NUC 11 Enthusiast
 .. figure:: ../../_static/images/workstation-vicon-pc.jpg
    :alt: Vicon Host PC - Intel NUC 11 Enthusiast
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Vicon Host PC - Intel NUC 11 Enthusiast
@@ -96,11 +97,10 @@ Safety & operating limits
 
 - **Software licence:** Required.
 
-Related documentation
----------------------
+Related equipment & documentation
+---------------------------------
 
-- :doc:`Related system documentation </3-computing/vicon-system/index>`
-
+- **Related documentation:** :doc:`Related system documentation </3-computing/vicon-system/index>`
 
 Keywords
 --------

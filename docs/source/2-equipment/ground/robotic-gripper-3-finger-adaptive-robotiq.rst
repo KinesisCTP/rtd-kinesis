@@ -100,6 +100,10 @@ Safety & operating limits
 - PPE required
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Robotic Arm - LBR iiwa 14 R820 - KUKA </2-equipment/ground/robotic-arm-lbr-iiwa-14-r820-kuka>`
 
 Keywords
 --------

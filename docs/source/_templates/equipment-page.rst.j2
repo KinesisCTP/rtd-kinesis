@@ -15,6 +15,7 @@
 .. figure:: ../../_static/images/{{ image_filename }}
    :alt: {{ image_alt }}
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    {{ image_alt }}
@@ -142,15 +143,21 @@ Safety & operating limits
 {% endif %}
 {% endif %}
 
-{% if related_doc or parent_equipment %}
-Related documentation
----------------------
+{% if related_doc or parent_equipment or component_equipment or compatible_equipment %}
+Related equipment & documentation
+---------------------------------
 
 {% for parent in parent_equipment %}
-- :doc:`{{ parent.name }} <{{ parent.doc }}>`
+- **Parent system:** :doc:`{{ parent.name }} <{{ parent.doc }}>`
+{% endfor %}
+{% for component in component_equipment %}
+- **Component or accessory:** :doc:`{{ component.name }} <{{ component.doc }}>`
+{% endfor %}
+{% for compatible in compatible_equipment %}
+- **Compatible equipment:** :doc:`{{ compatible.name }} <{{ compatible.doc }}>`
 {% endfor %}
 {% if related_doc %}
-- :doc:`{{ related_doc_label }} <{{ related_doc }}>`
+- **Related documentation:** :doc:`{{ related_doc_label }} <{{ related_doc }}>`
 {% endif %}
 {% endif %}
 

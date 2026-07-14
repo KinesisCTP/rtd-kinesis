@@ -12,6 +12,7 @@ Quadruped Robot with Arm - Spot - Boston Dynamics
 .. figure:: ../../_static/images/100_spot-arm.png
    :alt: Quadruped Robot with Arm - Spot - Boston Dynamics
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Quadruped Robot with Arm - Spot - Boston Dynamics

@@ -9,6 +9,13 @@
 
    FARO · Focus 350s plus
 
+.. figure:: ../../_static/images/103_focus-350s-faro.jpg
+   :alt: 3D Scanner - Focus 350s plus - FARO
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   3D Scanner - Focus 350s plus - FARO
 
 .. list-table:: At a glance
    :class: equipment-facts-table

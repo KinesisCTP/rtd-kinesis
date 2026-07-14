@@ -12,6 +12,7 @@ Underwater ROV - EXRAY - Hydromea
 .. figure:: ../../_static/images/529_rov-exray-hydromea.png
    :alt: Underwater ROV - EXRAY - Hydromea
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Underwater ROV - EXRAY - Hydromea

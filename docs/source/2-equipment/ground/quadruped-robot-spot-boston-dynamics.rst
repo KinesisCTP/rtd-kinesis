@@ -12,6 +12,7 @@ Quadruped Robot - Spot - Boston Dynamics
 .. figure:: ../../_static/images/99_spot-boston-dynamics.jpg
    :alt: Quadruped Robot - Spot - Boston Dynamics
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Quadruped Robot - Spot - Boston Dynamics

@@ -12,6 +12,7 @@ Underwater ROV - Defender - VideoRay
 .. figure:: ../../_static/images/517_defender-rov.png
    :alt: Underwater ROV - Defender - VideoRay
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Underwater ROV - Defender - VideoRay

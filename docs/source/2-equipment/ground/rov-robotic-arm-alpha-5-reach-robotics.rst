@@ -34,15 +34,11 @@ ROV Robotic Arm - Alpha 5 - Reach Robotics
    * - **Primary contact**
      - Samuel A. Prieto (sxp8070)
 
-.. note::
-
-   This record describes a managed component or accessory. Check the related equipment and
-   system documentation before planning standalone use.
 
 Overview
 --------
 
-Robotic arms designed for use with remotely operated vehicles (ROVs) for various underwater tasks and operations.
+The Reach Robotics Alpha 5 system comprises two five-function subsea manipulators operated through their included RM-5201 master arm controllers for remotely operated vehicle tasks and other underwater manipulation work.
 
 Specifications
 --------------
@@ -53,7 +49,7 @@ Specifications
    :header-rows: 0
 
    * - **Additional specifications**
-     - 5-Function, 300m Depth Rated
+     - Two 5-function manipulators with RM-5201 master arm controllers; 300 m depth rated
 
 
 

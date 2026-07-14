@@ -17,7 +17,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "103_focus-350s-faro.jpg",
       "tags": [
         "lidar",
         "3d scanning",
@@ -567,7 +567,7 @@
         ]
       },
       "wiki": {
-        "section": "ground",
+        "section": "manipulation",
         "slug": "robotic-arm-lbr-iiwa-14-r820-kuka",
         "page_kind": "standalone"
       }
@@ -628,9 +628,12 @@
         ]
       },
       "wiki": {
-        "section": "ground",
+        "section": "manipulation",
         "slug": "robotic-gripper-3-finger-adaptive-robotiq",
-        "page_kind": "component"
+        "page_kind": "component",
+        "compatible_equipment_ids": [
+          "be82881d-4fe7-49a0-a82f-c4a4fc6b74bf"
+        ]
       }
     },
     {
@@ -1087,11 +1090,11 @@
       "model": "Alpha 5",
       "category": "robot",
       "item_class": "Robot manipulation",
-      "item_type": "accessory",
+      "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 2,
       "active": true,
-      "short_description": "Robotic arms designed for use with remotely operated vehicles (ROVs) for various underwater tasks and operations.",
+      "short_description": "The Reach Robotics Alpha 5 system comprises two five-function subsea manipulators operated through their included RM-5201 master arm controllers for remotely operated vehicle tasks and other underwater manipulation work.",
       "availability_notes": null,
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -1108,13 +1111,13 @@
         "Reach Alpha"
       ],
       "capabilities": {
-        "other_specs": "5-Function, 300m Depth Rated"
+        "other_specs": "Two 5-function manipulators with RM-5201 master arm controllers; 300 m depth rated"
       },
       "constraints": null,
       "wiki": {
-        "section": "ground",
+        "section": "manipulation",
         "slug": "rov-robotic-arm-alpha-5-reach-robotics",
-        "page_kind": "component"
+        "page_kind": "standalone"
       }
     },
     {
@@ -1188,28 +1191,28 @@
     },
     {
       "equipment_id": "a590da10-7154-4137-951d-1eab90b3c086",
-      "name": "PC Workstation - Custom Build - Vicon",
-      "manufacturer": "Vicon",
+      "name": "Linux Workstation - Custom Build",
+      "manufacturer": "Golden Cloud Computer",
       "model": "Custom Build",
       "category": "compute",
       "item_class": "PC",
-      "item_type": "accessory",
+      "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "Replacement PC for handling the computational demands of a motion capture system. Motion Capture System Replacement PC",
+      "short_description": "Dedicated Linux workstation for KINESIS laboratory computing with an AMD Ryzen 9 7950X3D CPU and ASUS RTX 4090 STRIX 24 GB GPU.",
       "availability_notes": null,
       "risk_assessment_required": false,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": null,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "workstation-linux.jpg",
       "tags": [
         "workstation",
         "PC",
         "compute",
-        "motion capture",
-        "Vicon"
+        "Linux",
+        "GPU compute"
       ],
       "capabilities": {
         "cpu": "AMD Ryzen 9 7950X3D 16-core",
@@ -1517,43 +1520,6 @@
       }
     },
     {
-      "equipment_id": "e73fa4a2-99b4-4e9f-a78f-dcd1fdc3dd3f",
-      "name": "Master Arm Controller - RM-5201 - Reach Robotics",
-      "manufacturer": "Reach Robotics",
-      "model": "RM-5201",
-      "category": "robot",
-      "item_class": "Robot manipulation",
-      "item_type": "accessory",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 2,
-      "active": true,
-      "short_description": "Dexterous Manipulator with Pro Features and Inclusions, and Master Arm Controller.",
-      "availability_notes": null,
-      "risk_assessment_required": false,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": null,
-      "tags": [
-        "controller",
-        "master arm",
-        "teleoperation",
-        "ROV",
-        "underwater",
-        "manipulation",
-        "Reach Robotics"
-      ],
-      "capabilities": {
-        "other_specs": "5-Function, 300m Depth Rated"
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "ground",
-        "slug": "master-arm-controller-rm-5201-reach-robotics",
-        "page_kind": "component"
-      }
-    },
-    {
       "equipment_id": "53e9b81c-4dc0-48d1-90e3-87d7a88d4c95",
       "name": "Acoustic Imager - SV600 - Fluke",
       "manufacturer": "Fluke",
@@ -1689,9 +1655,13 @@
         ]
       },
       "wiki": {
-        "section": "ground",
+        "section": "manipulation",
         "slug": "dexterous-hand-rh56-inspire-robots",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "compatible_equipment_ids": [
+          "7e021f5e-e159-49a7-b6e4-3620541f4db2",
+          "0c0c108f-7171-4ea7-bbea-46882ddc78af"
+        ]
       }
     },
     {

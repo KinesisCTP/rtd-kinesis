@@ -931,8 +931,10 @@ body.sidebar-closed .wy-nav-content-wrap {
   margin: 0;
 }
 
-.rst-content figure.equipment-page-image {
-  margin: 0 0 1.6rem;
+.rst-content figure.equipment-page-figure {
+  width: min(100%, 760px);
+  max-width: 100%;
+  margin: 0 auto 1.6rem;
   padding: 0;
   border-radius: 22px;
   overflow: hidden;
@@ -940,15 +942,18 @@ body.sidebar-closed .wy-nav-content-wrap {
   box-shadow: 0 16px 38px rgba(35, 20, 70, 0.12);
 }
 
-.rst-content figure.equipment-page-image img {
+.rst-content figure.equipment-page-figure > img.equipment-page-image {
   display: block;
   width: 100%;
-  max-height: 430px;
+  max-width: 100%;
+  height: auto;
+  max-height: min(430px, 48vh);
+  margin-inline: auto;
   object-fit: contain;
   background: #ffffff;
 }
 
-.rst-content figure.equipment-page-image figcaption {
+.rst-content figure.equipment-page-figure figcaption {
   margin: 0;
   padding: 0.7rem 1rem;
   color: #5c5165;
@@ -1031,7 +1036,7 @@ body.sidebar-closed .wy-nav-content-wrap {
     border-radius: 12px;
   }
 
-  .rst-content figure.equipment-page-image img {
-    max-height: 300px;
+  .rst-content figure.equipment-page-figure > img.equipment-page-image {
+    max-height: min(340px, 44vh);
   }
 }

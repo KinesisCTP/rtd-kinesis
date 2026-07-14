@@ -12,6 +12,7 @@ Hyperspectral camera
 .. figure:: ../../_static/images/405_hyperspectral-camera.jpg
    :alt: Hyperspectral camera
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Hyperspectral camera

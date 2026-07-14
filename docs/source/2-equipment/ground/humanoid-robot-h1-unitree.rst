@@ -12,6 +12,7 @@ Humanoid Robot - H1 - Unitree
 .. figure:: ../../_static/images/507_h1-unitree.png
    :alt: Humanoid Robot - H1 - Unitree
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Humanoid Robot - H1 - Unitree
@@ -103,6 +104,10 @@ Safety & operating limits
 - Restricted operating area
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Dexterous Hand - RH56 - Inspire Robots </2-equipment/ground/dexterous-hand-rh56-inspire-robots>`
 
 Keywords
 --------

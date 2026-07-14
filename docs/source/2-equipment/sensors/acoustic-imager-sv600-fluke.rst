@@ -12,6 +12,7 @@ Acoustic Imager - SV600 - Fluke
 .. figure:: ../../_static/images/601_sv600-fluke.jpg
    :alt: Acoustic Imager - SV600 - Fluke
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Acoustic Imager - SV600 - Fluke

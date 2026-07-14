@@ -11,10 +11,6 @@ The Vicon system consists of:
 - Intel NUC 11 Enthusiast Vicon PC running Tracker software
 - Integration with Hermes wireless network
 
-The active ``Kinesis.System`` configuration defines 23 cameras, all of which are detected by
-Tracker. The physical inventory contains 24 cameras; one camera is not represented in the active
-configuration, and its current assignment is not documented.
-
 .. toctree::
    :maxdepth: 1
    :caption: Setup Guide
@@ -24,7 +20,7 @@ configuration, and its current assignment is not documented.
 How It Works
 ------------
 
-1. **Capture**: the active camera set captures reflective markers from multiple angles
+1. **Capture**: the 24-camera array captures reflective markers from multiple angles
 2. **Processing**: Vicon PC reconstructs 3D positions in real-time
 3. **Broadcast**: Position data is transmitted over Hermes network
 4. **Control**: Robots/drones use position data for navigation and control

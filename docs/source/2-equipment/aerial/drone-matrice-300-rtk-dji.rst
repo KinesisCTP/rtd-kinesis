@@ -12,6 +12,7 @@ Drone - Matrice 300 RTK - DJI
 .. figure:: ../../_static/images/329_drone-matrice-300-dji.png
    :alt: Drone - Matrice 300 RTK - DJI
    :class: equipment-page-image
+   :figclass: equipment-page-figure
    :align: center
 
    Drone - Matrice 300 RTK - DJI

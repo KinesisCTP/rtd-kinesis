@@ -31,8 +31,7 @@ Two dedicated PoE+ switches are used exclusively for the Vicon motion capture ca
 
 The switches are interconnected and currently feed the Vicon host through one camera-side
 Ethernet link. They remain isolated from the main KINESIS CTP network to preserve bandwidth and
-stable power (IEEE 802.3at, 57 V DC). The physical inventory remains 24 cameras; the current
-Vicon configuration expects 23.
+stable power (IEEE 802.3at, 57 V DC). Together they connect and power the 24-camera Vicon system.
 
 Routers
 -------

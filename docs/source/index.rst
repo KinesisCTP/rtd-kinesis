@@ -65,8 +65,8 @@ KINESIS CTP Lab
       <span>03</span>
       <h2>Equipment</h2>
       <p>
-        Browse ground robots, drones, underwater systems, motion capture,
-        3D scanners, cameras, and specialized sensing equipment.
+        Browse ground robots, manipulation systems, drones, underwater systems,
+        motion capture, 3D scanners, cameras, and specialized sensing equipment.
       </p>
       <a href="2-equipment/index.html">View equipment →</a>
     </div>

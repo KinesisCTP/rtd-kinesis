@@ -65,11 +65,10 @@ Specifications
 
 
 
-Related documentation
----------------------
+Related equipment & documentation
+---------------------------------
 
-- :doc:`3D Scanner - Go!SCAN 3D - Creaform </2-equipment/sensors/3d-scanner-goscan-3d-creaform>`
-
+- **Parent system:** :doc:`3D Scanner - Go!SCAN 3D - Creaform </2-equipment/sensors/3d-scanner-goscan-3d-creaform>`
 
 Keywords
 --------

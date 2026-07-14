@@ -19,7 +19,8 @@ Before Using Equipment
 Equipment Categories
 --------------------
 
-- :doc:`ground/index` covers humanoids, quadrupeds, wheeled robots, and robotic arms for navigation, manipulation, inspection, and HRI.
+- :doc:`ground/index` covers humanoids, quadrupeds, and wheeled robots for navigation, inspection, locomotion, and HRI.
+- :doc:`manipulation/index` covers robotic arms, dexterous hands, grippers, and subsea manipulators for grasping and physical interaction.
 - :doc:`aerial/index` covers DJI aerial platforms and flight-ready drone systems for mapping, inspection, imaging, and flight testing.
 - :doc:`water/index` covers underwater ROVs and marine robotics tools for inspection, monitoring, and subsea data collection.
 - :doc:`sensors/index` covers LiDAR, 3D scanning, thermal, hyperspectral, acoustic, and event-camera systems for perception, mapping, diagnostics, and data capture.
@@ -32,6 +33,7 @@ Equipment Categories
    :hidden:
 
    ground/index
+   manipulation/index
    aerial/index
    water/index
    sensors/index
