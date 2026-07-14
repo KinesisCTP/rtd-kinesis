@@ -9,6 +9,13 @@ ROV Robotic Arm - Alpha 5 - Reach Robotics
 
    Reach Robotics · Alpha 5
 
+.. figure:: ../../_static/images/445_rov-robotic-arm-alpha-5-reach-robotics.png
+   :alt: ROV Robotic Arm - Alpha 5 - Reach Robotics
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   ROV Robotic Arm - Alpha 5 - Reach Robotics
 
 .. list-table:: At a glance
    :class: equipment-facts-table

@@ -2,10 +2,14 @@
 
 ## Naming Convention
 
-Equipment images follow this naming pattern:
+Equipment images normally follow this naming pattern when a legacy inventory ID exists:
 ```
 {legacy_id}_{equipment-slug}.{ext}
 ```
+
+Records without a legacy ID use a stable descriptive slug, for example
+`dgx-spark-nvidia.png`. The canonical selector is the equipment note's `image_filename` field in
+the KINESIS vault; `equipment.json` and equipment RST pages are generated outputs.
 
 ### Examples:
 - `99_spot-boston-dynamics.jpg` - Spot robot without arm
@@ -17,16 +21,22 @@ Equipment images follow this naming pattern:
 ## Image Categories
 
 ### Equipment Images (linked in equipment.json)
+- `97_drone-mavic-pro-2-dji.png` - Drone - Mavic Pro 2 - DJI
 - `99_spot-boston-dynamics.jpg` - Quadruped Robot - Spot - Boston Dynamics
 - `100_spot-arm.png` - Quadruped Robot with Arm - Spot - Boston Dynamics
-- `101_vantage-v16-vicon.jpg` - Motion Capture System - Vantage V16 - Vicon
-- `102_goscan-3d-creaform.jpg` - 3D Scanner - Go!SCAN 3D - Creaform
+- `101_vantage-v16-vicon.png` - Motion Capture System - Vantage V16 - Vicon
+- `102_goscan-3d-creaform.png` - 3D Scanner - Go!SCAN 3D - Creaform
 - `103_focus-350s-faro.jpg` - 3D Scanner - Focus 350s plus - FARO
-- `106_lbr-iiwa-kuka.jpg` - Robotic Arm - LBR iiwa 14 R820 - KUKA
-- `108_wiris-prosc-workswell.jpg` - Thermal/Visual Camera - Wiris ProSc - Workswell
+- `106_lbr-iiwa-kuka.png` - Robotic Arm - LBR iiwa 14 R820 - KUKA
+- `107_robotic-gripper-3-finger-adaptive-robotiq.png` - Robotic Gripper - 3-Finger Adaptive - Robotiq
+- `108_wiris-prosc-workswell.png` - Thermal/Visual Camera - Wiris ProSc - Workswell
+- `109_wireless-radio-mpu5-persistent-systems.png` - Wireless Radio - MPU5 - Persistent Systems
 - `329_drone-matrice-300-dji.png` - Drone - Matrice 300 RTK - DJI
 - `367_hovermap-emesent.jpg` - LiDAR Mapping Payload - Hovermap ST - Emesent
-- `405_hyperspectral-camera.jpg` - Hyperspectral camera
+- `398_power-supply-pvs10005-bk-precision.png` - Power Supply - PVS10005 - BK Precision
+- `405_hyperspectral-camera.png` - Hyperspectral camera
+- `442_event-camera-metavision-evk4-hd-prophesee.png` - Event Camera - Metavision EVK4 HD - Prophesee
+- `445_rov-robotic-arm-alpha-5-reach-robotics.png` - ROV Robotic Arm - Alpha 5 - Reach Robotics
 - `451_buggy-rbcar-robotnik.jpg` - Autonomous Buggy - RB-CAR - Robotnik
 - `506_humanoid-g1-unitree.jpg` - Humanoid Robot - G1 - Unitree
 - `507_h1-unitree.png` - Humanoid Robot - H1 - Unitree
@@ -34,6 +44,8 @@ Equipment images follow this naming pattern:
 - `529_rov-exray-hydromea.png` - Underwater ROV - EXRAY - Hydromea
 - `601_sv600-fluke.jpg` - Acoustic Imager - SV600 - Fluke
 - `602_inspire-hand.jpg` - Dexterous Hand - RH56 - Inspire Robots
+- `ai-workstation-lambda.jpg` - AI Workstation - Lambda
+- `dgx-spark-nvidia.png` - AI Workstation - DGX Spark - NVIDIA
 
 ### General Site Images
 - `hero.jpg` - Homepage hero banner
@@ -68,20 +80,19 @@ Equipment images follow this naming pattern:
 
 ## Adding New Equipment Images
 
-1. Name the image using the convention: `{legacy_id}_{equipment-slug}.{ext}`
-2. Place the image in this directory
-3. Update `equipment.json` by adding the `image_filename` field to the corresponding equipment entry:
-   ```json
-   {
-     "legacy_id": 99,
-     "name": "Equipment Name",
-     "image_filename": "99_equipment-name.jpg"
-   }
-   ```
+1. Preserve the supplied source in the equipment record's canonical working-files
+   `05_Media_models` folder.
+2. Save the selected wiki-ready derivative in that same folder and duplicate it under
+   `02_Equipment/_Shared_assets/Images`.
+3. Copy the same derivative into this directory and set the matching vault equipment note's
+   `image_filename` field.
+4. Regenerate and validate the private wiki through `sync/equipment_to_wiki.py`; do not hand-edit
+   `equipment.json` or generated equipment pages.
 
 ## Image Format Guidelines
 
-- **Preferred format**: JPG for photos, PNG for graphics with transparency
-- **Recommended size**: 800-1200px wide
-- **File size**: Keep under 500KB when possible
-- **Quality**: High quality but web-optimized
+- **Preferred format**: PNG for transparent product cutouts; JPG for contextual installation photos
+- **Framing**: Tight subject crop with a small safety margin and no baked-in whitespace
+- **Recommended size**: 800-2200px on the longest edge
+- **File size**: Optimize when practical without degrading labels, edges, or transparency
+- **Quality**: Preserve exact product geometry and model markings

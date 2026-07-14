@@ -100,7 +100,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "97_drone-mavic-pro-2-dji.png",
       "tags": [
         "drone",
         "UAV",
@@ -330,7 +330,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": "101_vantage-v16-vicon.jpg",
+      "image_filename": "101_vantage-v16-vicon.png",
       "tags": [
         "motion capture",
         "mocap",
@@ -399,7 +399,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": "102_goscan-3d-creaform.jpg",
+      "image_filename": "102_goscan-3d-creaform.png",
       "tags": [
         "3d scanning",
         "handheld scanner",
@@ -525,7 +525,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": "106_lbr-iiwa-kuka.jpg",
+      "image_filename": "106_lbr-iiwa-kuka.png",
       "tags": [
         "robotic arm",
         "collaborative robot",
@@ -589,7 +589,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "107_robotic-gripper-3-finger-adaptive-robotiq.png",
       "tags": [
         "gripper",
         "robotic gripper",
@@ -653,7 +653,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": "108_wiris-prosc-workswell.jpg",
+      "image_filename": "108_wiris-prosc-workswell.png",
       "tags": [
         "thermal camera",
         "infrared",
@@ -725,7 +725,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": null,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "109_wireless-radio-mpu5-persistent-systems.png",
       "tags": [
         "wireless",
         "mesh network",
@@ -920,7 +920,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "398_power-supply-pvs10005-bk-precision.png",
       "tags": [
         "power supply",
         "electronics",
@@ -985,7 +985,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": null,
       "training_link": null,
-      "image_filename": "405_hyperspectral-camera.jpg",
+      "image_filename": "405_hyperspectral-camera.png",
       "tags": [
         "hyperspectral",
         "camera",
@@ -1019,7 +1019,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": null,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "ai-workstation-lambda.jpg",
       "tags": [
         "workstation",
         "PC",
@@ -1062,7 +1062,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": null,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "442_event-camera-metavision-evk4-hd-prophesee.png",
       "tags": [
         "event camera",
         "neuromorphic",
@@ -1100,7 +1100,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": null,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "445_rov-robotic-arm-alpha-5-reach-robotics.png",
       "tags": [
         "robotic arm",
         "underwater",
@@ -1681,7 +1681,7 @@
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
       "training_link": null,
-      "image_filename": null,
+      "image_filename": "dgx-spark-nvidia.png",
       "tags": [
         "AI",
         "workstation",
@@ -1696,13 +1696,13 @@
         "compute"
       ],
       "capabilities": {
-        "os": "Ubuntu 22.04 LTS",
-        "cpu": "NVIDIA Grace CPU: 72 Arm Neoverse V2 cores",
-        "gpu": "NVIDIA Blackwell GPU: 192GB HBM3e memory, NVLink connectivity",
-        "ram_gb": 480,
+        "os": "NVIDIA DGX OS",
+        "cpu": "20-core Arm CPU: 10 Cortex-X925 and 10 Cortex-A725 cores",
+        "gpu": "NVIDIA Blackwell GPU integrated in the GB10 Grace Blackwell Superchip",
+        "ram_gb": 128,
         "storage": "4TB NVMe SSD",
-        "networking": "Dual 100GbE networking",
-        "other_specs": "Grace Blackwell Superchip architecture, AI performance up to 2.5 petaFLOPS, 1.4kW max power consumption",
+        "networking": "10 GbE; ConnectX-7 NIC up to 200 Gbps; Wi-Fi 7; Bluetooth 5.4",
+        "other_specs": "128 GB LPDDR5x coherent unified memory; up to 1 PFLOP FP4; 240 W power supply; 140 W GB10 TDP; 150 x 150 x 50.5 mm; 1.2 kg",
         "typical_workflows": [
           "Train and fine-tune large language models and multimodal AI models",
           "Run inference workloads for production AI applications",

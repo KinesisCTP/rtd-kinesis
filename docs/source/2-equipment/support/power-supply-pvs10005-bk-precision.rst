@@ -9,6 +9,13 @@ Power Supply - PVS10005 - BK Precision
 
    BK Precision · PVS10005
 
+.. figure:: ../../_static/images/398_power-supply-pvs10005-bk-precision.png
+   :alt: Power Supply - PVS10005 - BK Precision
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   Power Supply - PVS10005 - BK Precision
 
 .. list-table:: At a glance
    :class: equipment-facts-table

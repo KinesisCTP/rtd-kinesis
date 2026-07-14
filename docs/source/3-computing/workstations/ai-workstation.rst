@@ -9,6 +9,13 @@ AI Workstation - Lambda
 
    Lambda
 
+.. figure:: ../../_static/images/ai-workstation-lambda.jpg
+   :alt: AI Workstation - Lambda
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   AI Workstation - Lambda
 
 .. list-table:: At a glance
    :class: equipment-facts-table

@@ -9,7 +9,7 @@ Robotic Arm - LBR iiwa 14 R820 - KUKA
 
    KUKA · LBR iiwa 14 R820
 
-.. figure:: ../../_static/images/106_lbr-iiwa-kuka.jpg
+.. figure:: ../../_static/images/106_lbr-iiwa-kuka.png
    :alt: Robotic Arm - LBR iiwa 14 R820 - KUKA
    :class: equipment-page-image
    :figclass: equipment-page-figure

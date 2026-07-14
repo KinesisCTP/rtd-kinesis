@@ -9,7 +9,7 @@ Motion Capture System - Vantage V16 - Vicon
 
    Vicon · Vantage V16
 
-.. figure:: ../../_static/images/101_vantage-v16-vicon.jpg
+.. figure:: ../../_static/images/101_vantage-v16-vicon.png
    :alt: Motion Capture System - Vantage V16 - Vicon
    :class: equipment-page-image
    :figclass: equipment-page-figure

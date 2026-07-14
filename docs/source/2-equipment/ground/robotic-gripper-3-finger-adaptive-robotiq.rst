@@ -9,6 +9,13 @@ Robotic Gripper - 3-Finger Adaptive - Robotiq
 
    Robotiq · 3-Finger Adaptive
 
+.. figure:: ../../_static/images/107_robotic-gripper-3-finger-adaptive-robotiq.png
+   :alt: Robotic Gripper - 3-Finger Adaptive - Robotiq
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   Robotic Gripper - 3-Finger Adaptive - Robotiq
 
 .. list-table:: At a glance
    :class: equipment-facts-table

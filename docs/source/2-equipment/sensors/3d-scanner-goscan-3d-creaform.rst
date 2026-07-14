@@ -9,7 +9,7 @@
 
    Creaform · Go!SCAN 3D
 
-.. figure:: ../../_static/images/102_goscan-3d-creaform.jpg
+.. figure:: ../../_static/images/102_goscan-3d-creaform.png
    :alt: 3D Scanner - Go!SCAN 3D - Creaform
    :class: equipment-page-image
    :figclass: equipment-page-figure

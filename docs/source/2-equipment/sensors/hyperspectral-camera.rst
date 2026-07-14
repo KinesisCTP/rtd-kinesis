@@ -9,7 +9,7 @@ Hyperspectral camera
 
    Corning Specialty Materials
 
-.. figure:: ../../_static/images/405_hyperspectral-camera.jpg
+.. figure:: ../../_static/images/405_hyperspectral-camera.png
    :alt: Hyperspectral camera
    :class: equipment-page-image
    :figclass: equipment-page-figure

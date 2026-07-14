@@ -9,6 +9,13 @@ Drone - Mavic Pro 2 - DJI
 
    DJI · Mavic Pro 2
 
+.. figure:: ../../_static/images/97_drone-mavic-pro-2-dji.png
+   :alt: Drone - Mavic Pro 2 - DJI
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   Drone - Mavic Pro 2 - DJI
 
 .. list-table:: At a glance
    :class: equipment-facts-table

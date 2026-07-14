@@ -9,7 +9,7 @@ Thermal/Visual Camera - Wiris ProSc - Workswell
 
    Workswell · Wiris ProSc
 
-.. figure:: ../../_static/images/108_wiris-prosc-workswell.jpg
+.. figure:: ../../_static/images/108_wiris-prosc-workswell.png
    :alt: Thermal/Visual Camera - Wiris ProSc - Workswell
    :class: equipment-page-image
    :figclass: equipment-page-figure

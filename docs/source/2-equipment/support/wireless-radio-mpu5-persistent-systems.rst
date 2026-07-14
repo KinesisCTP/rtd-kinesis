@@ -9,6 +9,13 @@ Wireless Radio - MPU5 - Persistent Systems
 
    Persistent Systems · MPU5 (WR-5100 chassis)
 
+.. figure:: ../../_static/images/109_wireless-radio-mpu5-persistent-systems.png
+   :alt: Wireless Radio - MPU5 - Persistent Systems
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   Wireless Radio - MPU5 - Persistent Systems
 
 .. list-table:: At a glance
    :class: equipment-facts-table

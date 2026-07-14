@@ -9,6 +9,13 @@ Event Camera - Metavision EVK4 HD - Prophesee
 
    Prophesee · Metavision EVK4 HD
 
+.. figure:: ../../_static/images/442_event-camera-metavision-evk4-hd-prophesee.png
+   :alt: Event Camera - Metavision EVK4 HD - Prophesee
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   Event Camera - Metavision EVK4 HD - Prophesee
 
 .. list-table:: At a glance
    :class: equipment-facts-table

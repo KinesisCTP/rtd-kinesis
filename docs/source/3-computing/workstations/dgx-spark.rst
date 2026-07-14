@@ -9,6 +9,13 @@ AI Workstation - DGX Spark - NVIDIA
 
    NVIDIA · DGX Spark
 
+.. figure:: ../../_static/images/dgx-spark-nvidia.png
+   :alt: AI Workstation - DGX Spark - NVIDIA
+   :class: equipment-page-image
+   :figclass: equipment-page-figure
+   :align: center
+
+   AI Workstation - DGX Spark - NVIDIA
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -49,19 +56,19 @@ Specifications
    :header-rows: 0
 
    * - **Operating system**
-     - Ubuntu 22.04 LTS
+     - NVIDIA DGX OS
    * - **Processor**
-     - NVIDIA Grace CPU: 72 Arm Neoverse V2 cores
+     - 20-core Arm CPU: 10 Cortex-X925 and 10 Cortex-A725 cores
    * - **Graphics / accelerator**
-     - NVIDIA Blackwell GPU: 192GB HBM3e memory, NVLink connectivity
+     - NVIDIA Blackwell GPU integrated in the GB10 Grace Blackwell Superchip
    * - **System memory**
-     - 480 GB
+     - 128 GB
    * - **Storage**
      - 4TB NVMe SSD
    * - **Networking**
-     - Dual 100GbE networking
+     - 10 GbE; ConnectX-7 NIC up to 200 Gbps; Wi-Fi 7; Bluetooth 5.4
    * - **Additional specifications**
-     - Grace Blackwell Superchip architecture, AI performance up to 2.5 petaFLOPS, 1.4kW max power consumption
+     - 128 GB LPDDR5x coherent unified memory; up to 1 PFLOP FP4; 240 W power supply; 140 W GB10 TDP; 150 x 150 x 50.5 mm; 1.2 kg
 
 Typical workflows
 -----------------
