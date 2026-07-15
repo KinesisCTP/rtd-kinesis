@@ -2,9 +2,9 @@
   "equipment": [
     {
       "equipment_id": "cc68c58d-4c47-4343-91bb-5215d1863005",
-      "name": "3D Scanner - Focus 350s plus - FARO",
+      "name": "3D Scanner - Focus S 350 Plus - FARO",
       "manufacturer": "FARO",
-      "model": "Focus 350s plus",
+      "model": "Focus S 350 Plus",
       "category": "scanner",
       "item_class": "3D Scanning",
       "item_type": "equipment",
@@ -33,25 +33,28 @@
         "e57"
       ],
       "capabilities": {
+        "sensing_modality": [
+          "lidar",
+          "rgb",
+          "gps"
+        ],
+        "resolution": "Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)",
+        "points_per_sec": 2000000,
+        "accuracy_mm": 1,
+        "range_min_m": 0.6,
+        "range_max_m": 350,
+        "field_of_view_deg": "360 x 300",
+        "dimensions_mm": "240 x 200 x 100",
+        "mobility": "tripod",
+        "unit_weight_kg": 4.2,
+        "battery_life_min": 270,
+        "indoor_outdoor": "both",
         "outputs": [
           "e57",
           "las",
           "xyz",
           "pts",
           "ptx"
-        ],
-        "mobility": "tripod",
-        "resolution": "Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)",
-        "accuracy_mm": 1,
-        "range_max_m": 350,
-        "range_min_m": 0.6,
-        "indoor_outdoor": "both",
-        "points_per_sec": 2000000,
-        "battery_life_min": 270,
-        "sensing_modality": [
-          "lidar",
-          "rgb",
-          "gps"
         ],
         "typical_workflows": [
           "Mount the scanner securely on a stable tripod and ensure the head can rotate freely without striking obstacles",
@@ -85,16 +88,16 @@
     },
     {
       "equipment_id": "1943ef1f-8098-4c96-a198-d674ef7aca25",
-      "name": "Drone - Mavic Pro 2 - DJI",
+      "name": "Drone - Mavic 2 Pro - DJI",
       "manufacturer": "DJI",
-      "model": "Mavic Pro 2",
+      "model": "Mavic 2 Pro",
       "category": "drone",
       "item_class": "UAV",
       "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The DJI Mavic Pro is a compact folding quadcopter with a stabilised 3-axis gimbal camera used to capture aerial photos and 4K video for missions like inspection, mapping, and cinematography. It is operated via a remote controller and the DJI GO 4 mobile app, with features such as Return-to-Home and obstacle sensing to support safer flight operations.",
+      "short_description": "The DJI Mavic 2 Pro is a compact folding quadcopter with a three-axis-stabilised Hasselblad L1D-20c camera using a 1-inch, 20 MP CMOS sensor. It captures 20 MP still images and 4K video and supports GPS/GLONASS positioning, Return-to-Home, and omnidirectional obstacle sensing for aerial inspection, mapping-data capture, and cinematography.",
       "availability_notes": "Hands-on training and review of the SOP and user manual are required before operating. Outdoor operations require a GCAA drone pilot licence and prior EHS coordination.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -110,10 +113,31 @@
         "outdoor",
         "portable",
         "camera",
+        "Hasselblad",
+        "omnidirectional obstacle sensing",
         "indoor"
       ],
       "capabilities": {
-        "fps": 30,
+        "dimensions_folded_mm": "214 x 91 x 84 (L x W x H)",
+        "dimensions_unfolded_mm": "322 x 242 x 84 (L x W x H)",
+        "unit_weight_kg": 0.907,
+        "payload": "Integrated Hasselblad L1D-20c camera; no manufacturer-rated external payload",
+        "max_speed_ms": 20,
+        "max_wind_speed_ms": "8.1 to 10.6",
+        "max_flight_time_min": 31,
+        "max_takeoff_altitude_m": 6000,
+        "operating_temperature_c": "-10 to 40",
+        "sensor_type": "Hasselblad L1D-20c, 1-inch CMOS, 20 MP effective",
+        "resolution": "Still images 5472 x 3648; video up to 4K (3840 x 2160) at 30 fps",
+        "frame_rate": "24/25/30 fps at 4K; up to 120 fps at FHD",
+        "max_video_bitrate_mbps": 100,
+        "gimbal": "3-axis stabilization (tilt, roll, pan)",
+        "gnss": "GPS + GLONASS",
+        "obstacle_sensing": "Omnidirectional obstacle sensing; lateral sensing operates only in supported flight modes",
+        "battery_capacity_wh": 59.29,
+        "battery_capacity_mah": 3850,
+        "internal_storage_gb": 8,
+        "other_specs": "Maximum speed is measured near sea level in no wind in S-mode; maximum flight time assumes no wind at a constant 25 km/h. DJI specifies Level 5 wind resistance (29 to 38 km/h). The 6000 m figure is DJI's maximum takeoff altitude, not an operating-height authorization.",
         "outputs": [
           "jpeg",
           "dng",
@@ -121,11 +145,7 @@
           "mov"
         ],
         "mobility": "aerial",
-        "resolution": "Video up to 4K/30 fps; stills 12 MP (4000×3000)",
-        "max_speed_ms": 18,
         "indoor_outdoor": "both",
-        "max_altitude_m": 5000,
-        "battery_life_min": 27,
         "sensing_modality": [
           "rgb",
           "gps",
@@ -191,18 +211,25 @@
         "legged"
       ],
       "capabilities": {
+        "dimensions_standing_mm": "L 1100 x W 500 x H 610",
+        "unit_weight_kg": 33.8,
         "dof": 12,
         "mobility": "legged",
         "max_speed_ms": 1.6,
         "indoor_outdoor": "both",
         "payload_body_kg": 14,
+        "battery_capacity_wh": 564,
         "battery_life_min": 90,
+        "ingress_protection": "IP54",
+        "operating_temperature_c": "-20 to 45",
         "sensing_modality": [
           "rgb",
-          "lidar",
-          "thermal",
-          "other"
+          "stereo_vision",
+          "infrared"
         ],
+        "stereo_camera_pair_count": 5,
+        "optical_fov_deg": 360,
+        "depth_range_m": 2,
         "typical_workflows": [
           "Remote teleoperation for indoor/outdoor inspection",
           "Autonomous or semi-autonomous navigation with obstacle avoidance",
@@ -265,21 +292,33 @@
         "legged"
       ],
       "capabilities": {
-        "dof_arm": 6,
-        "dof_body": 12,
+        "dimensions_standing_mm": "L 1100 x W 500 x H 610",
+        "unit_weight_kg": 40.5,
+        "dof": 12,
         "mobility": "legged",
-        "arm_lift_kg": 11,
-        "range_max_m": 2,
         "max_speed_ms": 1.6,
         "indoor_outdoor": "both",
         "payload_body_kg": 14,
+        "battery_capacity_wh": 564,
         "battery_life_min": 90,
+        "ingress_protection": "IP54",
+        "operating_temperature_c": "-20 to 45",
         "sensing_modality": [
           "rgb",
-          "lidar",
-          "thermal",
-          "other"
+          "stereo_vision",
+          "infrared"
         ],
+        "stereo_camera_pair_count": 5,
+        "optical_fov_deg": 360,
+        "depth_range_m": 2,
+        "dof_arm": 6,
+        "arm_length_mm": 984,
+        "arm_weight_kg": 8,
+        "arm_lift_kg": 11,
+        "arm_continuous_lift_kg": 5,
+        "arm_reach_height_mm": 1820,
+        "gripper_aperture_mm": 175,
+        "gripper_clamp_force_n": 130,
         "typical_workflows": [
           "Remote teleoperation for indoor/outdoor inspection",
           "Grasping and picking up objects using the gripper",
@@ -291,8 +330,7 @@
           "Spot tablet controller app",
           "Spot API"
         ],
-        "enterprise_upgrade": "Spot Enterprise upgrade and Spot battery assigned to this robot.",
-        "arm_continuous_lift_kg": 5
+        "enterprise_upgrade": "Spot Enterprise upgrade and Spot battery assigned to this robot."
       },
       "constraints": {
         "notes": "Intended for professional use in industrial, restricted, or controlled environments — not for collaborative applications involving physical interaction with humans. Prohibited uses include underwater/airborne applications, home environments, transporting persons/animals, and transporting hazardous materials. Key hazards: pinch/crush risks at arm joints and gripper; loss of stability with extended arm or heavy payloads (>5 kg at 0.5 m extension can unbalance Spot); unexpected motion during manipulation. Controls: maintain at least 3 m clearance, keep arm stowed when not manipulating, use slow speed when teaching or working near people. Storage: stow the arm, power off and remove the battery, store indoors at -20 °C to 45 °C (IP54); store batteries at ~50% state-of-charge for long-term storage.",
@@ -342,20 +380,24 @@
         "marker-based"
       ],
       "capabilities": {
-        "fps": 500,
-        "mobility": "fixed",
-        "camera_count": 24,
-        "indoor_outdoor": "indoor",
         "sensing_modality": [
           "mocap"
         ],
+        "resolution": "4096 x 4096 pixels",
+        "camera_resolution_mp": 16,
+        "frame_rate": "120 fps at full resolution; up to 500 fps at 4.2 MP with full field of view; up to 2,000 fps with partial scan",
+        "camera_count": 24,
+        "global_shutter": true,
+        "illumination": "850 nm infrared strobe",
+        "mobility": "fixed",
+        "camera_weight_kg": 1.6,
+        "indoor_outdoor": "indoor",
         "typical_workflows": [
           "Installing cameras on overhead rails or tripods and routing PoE+ cabling to switches",
           "Calibrating the capture volume using the Vicon Active Wand",
           "Live motion capture with IR strobe illumination and marker tracking",
           "Recording and exporting motion data for gait analysis, animation, robotics, and engineering studies"
         ],
-        "camera_resolution_mp": 16,
         "compute_software_deps": [
           "Vicon Nexus",
           "Vicon Shogun",
@@ -364,7 +406,7 @@
         ]
       },
       "constraints": {
-        "notes": "Power via IEEE 802.3at PoE+ (57 V DC): use certified PoE+ switches, inspect Vicon-supplied shielded Cat-5e leads before use, keep ports de-energised until handshake completes ('power-on-last'). Cameras (~1.2 kg) may be ceiling- or tripod-mounted; use approved hardware, torque-check fasteners, strain-relieve cables. IR strobe (850 nm): avoid staring into emitters at close range; brief all visitors. Cameras and strobes warm during prolonged operation — maintain ventilation and do not touch heat-sinks while powered. Emergency shutdown: stop capture in software, switch OFF the PoE+ switch; if unresponsive, unplug the PoE+ switch mains cord and disconnect camera RJ-45 only after LEDs are dark to avoid firmware corruption. Storage: PoE+ switch OFF, coil/secure leads, fit lens caps, store in padded cases in a dry dust-free cabinet (-10 °C to 50 °C); do not stack heavy objects on camera bodies. PPE: long pants, closed-toed shoes.",
+        "notes": "Power via IEEE 802.3at PoE+ (57 V DC): use certified PoE+ switches, inspect Vicon-supplied shielded Cat-5e leads before use, keep ports de-energised until handshake completes ('power-on-last'). Cameras (~1.6 kg) may be ceiling- or tripod-mounted; use approved hardware, torque-check fasteners, strain-relieve cables. IR strobe (850 nm): avoid staring into emitters at close range; brief all visitors. Cameras and strobes warm during prolonged operation — maintain ventilation and do not touch heat-sinks while powered. Emergency shutdown: stop capture in software, switch OFF the PoE+ switch; if unresponsive, unplug the PoE+ switch mains cord and disconnect camera RJ-45 only after LEDs are dark to avoid firmware corruption. Storage: PoE+ switch OFF, coil/secure leads, fit lens caps, store in padded cases in a dry dust-free cabinet (-10 °C to 50 °C); do not stack heavy objects on camera bodies. PPE: long pants, closed-toed shoes.",
         "environment": [
           "indoor_only"
         ],
@@ -384,9 +426,9 @@
     },
     {
       "equipment_id": "e2bac7bc-5107-4331-8783-49a221223ece",
-      "name": "3D Scanner - Go!SCAN 3D - Creaform",
+      "name": "3D Scanner - Go!SCAN SPARK - Creaform",
       "manufacturer": "Creaform",
-      "model": "Go!SCAN 3D",
+      "model": "Go!SCAN SPARK",
       "category": "scanner",
       "item_class": "3D Scanning",
       "item_type": "equipment",
@@ -411,6 +453,23 @@
         "indoor"
       ],
       "capabilities": {
+        "sensing_modality": [
+          "rgb",
+          "structured_light"
+        ],
+        "resolution": "Measurement resolution 0.100 mm; mesh resolution 0.200 mm; texture resolution 50–200 DPI",
+        "points_per_sec": 1500000,
+        "accuracy_mm": 0.05,
+        "scan_area_mm": "390 x 390",
+        "stand_off_distance_mm": 400,
+        "depth_of_field_mm": 450,
+        "recommended_part_size_m": "0.1 to 4",
+        "interfaces": [
+          "USB 3.0"
+        ],
+        "mobility": "handheld",
+        "unit_weight_kg": 1.25,
+        "indoor_outdoor": "indoor",
         "outputs": [
           ".dae",
           ".fbx",
@@ -424,16 +483,6 @@
           ".x3dz",
           ".zpr",
           ".3mf"
-        ],
-        "mobility": "handheld",
-        "resolution": "Measurement resolution 0.100 mm; mesh resolution 0.200 mm; texture resolution 50–200 DPI",
-        "accuracy_mm": 0.05,
-        "indoor_outdoor": "indoor",
-        "points_per_sec": 1500000,
-        "tether_length_m": 4,
-        "sensing_modality": [
-          "rgb",
-          "structured_light"
         ],
         "typical_workflows": [
           "Handheld scanning of stationary objects with real-time mesh build-up",
@@ -471,7 +520,7 @@
       "equipment_id": "b1e2a063-95c4-4252-abfc-2aa5e6fed614",
       "name": "CRF-01842- ZBook G6 17'' 64Go",
       "manufacturer": "HP",
-      "model": "ZBook G6 17'' 64Go",
+      "model": "ZBook 17 G6 Mobile Workstation",
       "category": "compute",
       "item_class": "PC",
       "item_type": "accessory",
@@ -493,9 +542,9 @@
         "compute"
       ],
       "capabilities": {
-        "gpu": "RTX5000",
+        "gpu": "NVIDIA Quadro RTX 5000 (16 GB GDDR6)",
         "ram_gb": 64,
-        "display": "17 inch",
+        "display": "17.3-inch",
         "purpose": "Creaform Go!SCAN 3D control and data processing"
       },
       "constraints": null,
@@ -538,10 +587,15 @@
         "human-safe"
       ],
       "capabilities": {
-        "dof": 7,
         "mobility": "fixed",
+        "reach_mm": 820,
+        "dof": 7,
         "payload_kg": 14,
-        "accuracy_mm": 0.15,
+        "pose_repeatability_mm": 0.15,
+        "unit_weight_kg": 29.9,
+        "controller": "KUKA Sunrise Cabinet",
+        "ingress_protection": "IP54",
+        "operating_temperature_c": "5 to 45",
         "indoor_outdoor": "indoor",
         "typical_workflows": [
           "jogging and teaching motions using the smartPAD",
@@ -601,6 +655,17 @@
       ],
       "capabilities": {
         "mobility": "robot-mount",
+        "opening_width_mm": 167,
+        "max_object_diameter_mm": 155,
+        "unit_weight_kg": 2.3,
+        "recommended_payload": "10 kg (encompassing grip); 2.5 kg (fingertip grip)",
+        "max_grip_force_n": 70,
+        "max_closing_speed_mm_s": 110,
+        "supply_voltage_v": 24,
+        "interfaces": [
+          "Modbus RTU",
+          "Modbus TCP"
+        ],
         "indoor_outdoor": "indoor",
         "typical_workflows": [
           "mounting the gripper on a robotic arm for grasping and manipulation experiments",
@@ -615,7 +680,7 @@
         ]
       },
       "constraints": {
-        "notes": "Primary hazards: pinch/crush points (fingers can exert up to 60 N), projectile risk from dropped/ejected objects during fast motion, entanglement, and electrical hazards from damaged 24 V DC SELV wiring. Controls: only trained personnel operate; keep hands/clothing clear while powered; verify mode/speed/force in teach mode before automated runs; use a certified 24 V DC supply with a 4 A fuse; inspect and strain-relieve cables; never connect to AC or modify wiring; eye protection required. Emergency shutdown: press robot E-stop or cut 24 V DC supply. Storage: power off, disconnect cables, store dry indoors away from dust/moisture and temperature extremes.",
+        "notes": "Primary hazards: pinch/crush points (fingers can exert up to 70 N), projectile risk from dropped/ejected objects during fast motion, entanglement, and electrical hazards from damaged 24 V DC SELV wiring. Controls: only trained personnel operate; keep hands/clothing clear while powered; verify mode/speed/force in teach mode before automated runs; use a certified 24 V DC supply with a 4 A fuse; inspect and strain-relieve cables; never connect to AC or modify wiring; eye protection required. Emergency shutdown: press robot E-stop or cut 24 V DC supply. Storage: power off, disconnect cables, store dry indoors away from dust/moisture and temperature extremes.",
         "environment": [
           "indoor_only",
           "tethered_operation"
@@ -638,9 +703,9 @@
     },
     {
       "equipment_id": "310f9228-04d4-4fde-90fe-3284bbd1c86c",
-      "name": "Thermal/Visual Camera - Wiris ProSc - Workswell",
+      "name": "Thermal/Visual Camera - WIRIS Pro SC - Workswell",
       "manufacturer": "Workswell",
-      "model": "Wiris ProSc",
+      "model": "WIRIS Pro SC",
       "category": "sensor",
       "item_class": "Camera",
       "item_type": "equipment",
@@ -666,19 +731,46 @@
         "thermography"
       ],
       "capabilities": {
-        "outputs": [
-          "jpeg",
-          "tiff",
-          "mp4"
+        "sensing_modality": [
+          "thermal",
+          "rgb"
+        ],
+        "sensor_type": "Uncooled VOx microbolometer",
+        "thermal_resolution": "640 x 512 pixels",
+        "thermal_super_resolution": "1266 x 1010 pixels",
+        "visible_resolution": "1920 x 1080 pixels",
+        "frame_rate": "30 Hz or less than 9 Hz, configuration-dependent",
+        "spectral_range_um": "7.5 to 13.5",
+        "temperature_range_c": "-25 to 150; -40 to 550",
+        "high_temperature_range_c": "50 to 1000; 400 to 1500",
+        "thermal_sensitivity_mk": 30,
+        "temperature_accuracy": "±2% or ±2 °C under specified calibrated conditions",
+        "dimensions_mm": "83 x 85 x 68",
+        "voltage_range_v": "9 to 36",
+        "average_power_consumption_w": 12,
+        "operating_temperature_c": "-15 to 50",
+        "interfaces": [
+          "Ethernet (RJ-45)",
+          "Micro HDMI",
+          "USB 2.0",
+          "Micro USB 2.0",
+          "S.Bus",
+          "CAN bus",
+          "MAVLink",
+          "UART",
+          "external trigger"
         ],
         "mobility": [
           "drone-mount",
           "tripod"
         ],
+        "unit_weight_kg": "<0.43",
         "indoor_outdoor": "both",
-        "sensing_modality": [
-          "thermal",
-          "rgb"
+        "outputs": [
+          "radiometric JPEG",
+          "radiometric TIFF",
+          "H.264 video",
+          "radiometric full-frame IR recording"
         ],
         "typical_workflows": [
           "bench/lab configuration then tripod-based or drone-mounted indoor/outdoor inspections",
@@ -738,8 +830,23 @@
         "outdoor"
       ],
       "capabilities": {
-        "networking": "Wave Relay mobile ad hoc mesh networking using S-band RF modules (2200-2500 MHz)",
-        "system_composition": "MPU5 radio chassis (WR-5100), S-band RF module (2200-2500 MHz), and 10 W S-band RF module (2200-2500 MHz)",
+        "networking": "Wave Relay mobile ad hoc mesh networking using RF-2150 10 W S-band RF modules (2200–2500 MHz acquired configuration)",
+        "operating_frequency_mhz": "2200 to 2500",
+        "network_throughput_mbps": "over 100",
+        "modulation": "OFDM (64-QAM, 16-QAM, QPSK, BPSK)",
+        "channel_bandwidth_mhz": "5, 10, or 20",
+        "interfaces": [
+          "Ethernet",
+          "USB On-the-Go",
+          "RS-232 serial"
+        ],
+        "other_specs": "3x3 MIMO",
+        "voltage_range_v": "8 to 28",
+        "ingress_protection": "IP68",
+        "operating_temperature_c": "-40 to 85",
+        "dimensions_mm": "38 x 67 x 117",
+        "system_composition": "WR-5100 MPU5 handheld chassis and WR-5200 embedded modules using RF-2150 10 W S-band RF modules",
+        "unit_weight_kg": 0.391,
         "included_accessories": "Twist-lock battery packs including 6.8 Ah rechargeable lithium-ion packs, GPS antenna, 2.15 dBi omnidirectional antenna with RP-TNC connector, and Ethernet/serial flying leads",
         "typical_workflows": [
           "Long-range wireless links to robots and unmanned platforms",
@@ -785,11 +892,20 @@
       ],
       "capabilities": {
         "mobility": "aerial",
+        "dimensions_unfolded_mm": "810 x 670 x 430 (L x W x H)",
+        "dimensions_folded_mm": "430 x 420 x 430 (L x W x H)",
+        "weight_without_batteries_kg": 3.6,
+        "unit_weight_kg": 6.3,
         "payload_kg": 2.7,
+        "max_takeoff_weight_kg": 9,
         "max_speed_ms": 23,
+        "max_wind_speed_ms": 12,
+        "max_flight_time_min": 55,
+        "service_ceiling_m": 5000,
+        "other_specs": "The 6.3 kg operating weight includes two TB60 batteries. A 7000 m service ceiling requires high-altitude propellers and takeoff mass no greater than 7 kg.",
+        "ingress_protection": "IP45",
+        "operating_temperature_c": "-20 to 50",
         "indoor_outdoor": "both",
-        "max_altitude_m": 7000,
-        "battery_life_min": 55,
         "sensing_modality": [
           "rgb",
           "gps",
@@ -858,20 +974,35 @@
         "mine mapping"
       ],
       "capabilities": {
+        "sensing_modality": [
+          "lidar",
+          "rgb"
+        ],
+        "capture_rate": "Up to 300,000 points/s single-return; up to 600,000 points/s dual-return",
+        "range_min_m": 0.4,
+        "range_max_m": 100,
+        "distance_accuracy_mm": "±30",
+        "mapping_accuracy": "±20 mm general; ±15 mm typical indoor and underground",
+        "field_of_view_deg": "360 x 290",
+        "ingress_protection": "IP65",
+        "storage": "512 GB (approximately 8 hours of sensor data)",
+        "interfaces": [
+          "USB 3.0"
+        ],
         "mobility": [
           "handheld",
           "robot-mount",
           "drone-mount"
         ],
-        "range_max_m": 100,
-        "range_min_m": 0.5,
         "slam_capable": true,
         "indoor_outdoor": "both",
-        "points_per_sec": 300000,
-        "unit_weight_kg": 1.8,
-        "sensing_modality": [
-          "lidar",
-          "rgb"
+        "unit_weight_kg": 1.6,
+        "outputs": [
+          ".las",
+          ".laz",
+          ".ply",
+          ".dxf",
+          ".e57"
         ],
         "typical_workflows": [
           "Handheld walking scans for indoor mapping",
@@ -885,7 +1016,7 @@
         ]
       },
       "constraints": {
-        "notes": "Power from an external 12–54 V DC source; scans typically <35 minutes, data downloaded to USB. Hazards: electrical shock from damaged leads/connectors (inspect before use, only trained operators connect/disconnect); moving parts from the continuously rotating sensor head (keep hands/hair/clothing clear; use protective cage for handheld use); Class 1 eye-safe lasers (do not open sealed optical enclosure; avoid staring into aperture at close range); dropped-load risk when handheld or drone-mounted (~1.8 kg). IP65 rated but not recommended in rain or fog; maintain ≥10 m from elevated EMI sources; operating temperature -10 °C to 45 °C. Emergency shutdown: hold power button >10 s if frozen, then disconnect battery once LEDs are dark. Storage: indoors dry at 10–30 °C in padded case; fit protective cap; disconnect battery. PPE: long pants, closed-toed shoes.",
+        "notes": "Power from an external 12–54 V DC source; scans typically <35 minutes, data downloaded to USB. Hazards: electrical shock from damaged leads/connectors (inspect before use, only trained operators connect/disconnect); moving parts from the continuously rotating sensor head (keep hands/hair/clothing clear; use protective cage for handheld use); Class 1 eye-safe lasers (do not open sealed optical enclosure; avoid staring into aperture at close range); dropped-load risk when handheld or drone-mounted (~1.6 kg). IP65 rated but not recommended in rain or fog; maintain ≥10 m from elevated EMI sources; operating temperature -10 °C to 45 °C. Emergency shutdown: hold power button >10 s if frozen, then disconnect battery once LEDs are dark. Storage: indoors dry at 10–30 °C in padded case; fit protective cap; disconnect battery. PPE: long pants, closed-toed shoes.",
         "environment": [
           "no_wet",
           "tethered_operation"
@@ -905,8 +1036,8 @@
     },
     {
       "equipment_id": "a8e767a0-0d13-4f27-ac77-6415617a0e49",
-      "name": "Power Supply - PVS10005 - BK Precision",
-      "manufacturer": "BK Precision",
+      "name": "Power Supply - PVS10005 - B&K Precision",
+      "manufacturer": "B&K Precision",
       "model": "PVS10005",
       "category": "power",
       "item_class": "Power supply",
@@ -914,7 +1045,7 @@
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The BK Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.",
+      "short_description": "The B&K Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.",
       "availability_notes": "Equipment-specific training and SOP review are mandatory before operation. \"High Voltage\" signage must be posted whenever the supply is in use.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -929,18 +1060,29 @@
         "indoor"
       ],
       "capabilities": {
-        "mobility": "fixed",
-        "interfaces": [
-          "SCPI"
-        ],
-        "max_power_w": 5000,
-        "max_current_a": 5,
         "max_voltage_v": 1000,
-        "indoor_outdoor": "indoor",
+        "max_current_a": 5,
+        "max_power_w": 5000,
         "regulation_modes": [
           "CV",
           "CC"
         ],
+        "programming_resolution": "0.1 V / 0.1 mA",
+        "ripple_noise": "≤100 mVrms / ≤600 mVpp voltage; 10 mA current",
+        "remote_sense_compensation_v": 10,
+        "interfaces": [
+          "Analog programming",
+          "USB",
+          "RS-232",
+          "RS-485",
+          "GPIB",
+          "Ethernet"
+        ],
+        "networking": "SCPI over supported remote interfaces",
+        "dimensions_mm": "420 x 88 x 532",
+        "mobility": "fixed",
+        "unit_weight_kg": 14.6,
+        "indoor_outdoor": "indoor",
         "typical_workflows": [
           "Battery emulation at high voltage",
           "PV-array simulation",
@@ -970,16 +1112,16 @@
     },
     {
       "equipment_id": "8a44b18c-dd10-454c-8899-8758ad436654",
-      "name": "Hyperspectral camera",
+      "name": "Hyperspectral Camera - microHSI 410 SHARK - Corning",
       "manufacturer": "Corning Specialty Materials",
-      "model": null,
+      "model": "microHSI 410 SHARK",
       "category": "sensor",
       "item_class": "Camera",
       "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "A camera capable of capturing images across a wide range of wavelengths simultaneously, enabling detailed spectral analysis.",
+      "short_description": "The Corning microHSI 410 SHARK is a compact push-broom VNIR hyperspectral imaging system for UAV and remote-sensing workflows. It captures spatially resolved spectral data from 400 to 1000 nm and includes onboard processing, storage, GPS, and inertial navigation.",
       "availability_notes": null,
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -994,7 +1136,28 @@
         "multispectral",
         "imaging"
       ],
-      "capabilities": null,
+      "capabilities": {
+        "sensing_modality": [
+          "hyperspectral",
+          "VNIR",
+          "gps",
+          "imu"
+        ],
+        "sensor_type": "Fully coherent push-broom line-imaging spectrograph with CMOS detector",
+        "spectral_range_nm": "400 to 1000",
+        "spatial_pixels": 1364,
+        "spectral_bin_nm": 2,
+        "spectral_resolution": "Approximately 8 nm at 4x spectral binning",
+        "profile_rate": "Over 400 Hz (profile-dependent)",
+        "bit_depth": 12,
+        "field_of_view_deg": 28.6,
+        "power_consumption_w": "less than 19",
+        "supply_voltage_v": 12,
+        "mobility": [
+          "drone-mount"
+        ],
+        "unit_weight_kg": 0.68
+      },
       "constraints": null,
       "wiki": {
         "section": "sensors",
@@ -1006,7 +1169,7 @@
       "equipment_id": "869fc34b-2491-4ee7-9620-2b5da43b444c",
       "name": "AI Workstation - Lambda",
       "manufacturer": "Lambda",
-      "model": null,
+      "model": "Lambda Vector",
       "category": "compute",
       "item_class": "PC",
       "item_type": "equipment",
@@ -1030,11 +1193,11 @@
         "data processing"
       ],
       "capabilities": {
-        "os": "Ubuntu 22.04",
-        "cpu": "AMD Ryzen Threadripper PRO 5995WX: 64 cores, 2.7~4.5GHz",
-        "gpu": "2x NVIDIA RTX 6000 Ada Generation: 48GB memory, 18176 CUDA cores, 568 Tensor cores",
+        "os": "Ubuntu 22.04 LTS",
+        "cpu": "AMD Ryzen Threadripper PRO 5995WX (64 cores, 2.7-4.5 GHz)",
+        "gpu": "2x NVIDIA RTX 6000 Ada Generation (48 GB each, 18176 CUDA cores and 568 Tensor cores per GPU)",
         "ram_gb": 512,
-        "storage": "1x 1.92 TB M.2 NVMe, 1x 3.84 TB U.2 NVMe (Data center SSD, 1 DWPD, PCIe 4.0)",
+        "storage": "1.92 TB M.2 NVMe OS SSD and 3.84 TB U.2 NVMe data SSD (1 DWPD, PCIe 4.0)",
         "networking": "2x 10 Gbps RJ45 Ethernet ports, 1x dedicated IPMI port, 2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with Bluetooth v5.2",
         "other_specs": "DDR4-3200 ECC RDIMM, PCIe 4.0"
       },
@@ -1073,8 +1236,24 @@
         "Prophesee"
       ],
       "capabilities": {
-        "networking": "USB3",
-        "other_specs": "HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK"
+        "sensing_modality": [
+          "event-based vision"
+        ],
+        "sensor_type": "Sony IMX636 monochrome event sensor",
+        "resolution": "1280 x 720 pixels",
+        "event_rate_per_sec": 1000000000,
+        "dynamic_range_db": "greater than 120",
+        "included_lens_fov_deg": 81.5,
+        "lens_mount": "C-mount with included C-to-CS adapter",
+        "dimensions_mm": "30 x 30 x 36",
+        "interfaces": [
+          "USB 3.0 Type-C",
+          "synchronization interface"
+        ],
+        "unit_weight_kg": 0.04,
+        "compute_software_deps": [
+          "Metavision Intelligence SDK"
+        ]
       },
       "constraints": null,
       "wiki": {
@@ -1111,7 +1290,23 @@
         "Reach Alpha"
       ],
       "capabilities": {
-        "other_specs": "Two 5-function manipulators with RM-5201 master arm controllers; 300 m depth rated"
+        "mobility": "robot-mount",
+        "function_count": 5,
+        "reach_mm": 400,
+        "lifting_capacity_kg": 2,
+        "closing_force_n": 600,
+        "air_weight_kg": 1.36,
+        "weight_in_water_kg": 0.9,
+        "joint_accuracy_deg": 0.1,
+        "max_depth_m": 300,
+        "voltage_range_v": "18 to 30",
+        "max_power_w": 35,
+        "interfaces": [
+          "RS-232",
+          "RS-485"
+        ],
+        "controller": "RM-5201 master arm controller",
+        "system_composition": "Two Alpha 5 manipulators, each with an RM-5201 master arm controller"
       },
       "constraints": null,
       "wiki": {
@@ -1149,15 +1344,26 @@
         "research platform"
       ],
       "capabilities": {
-        "outputs": [
-          "rosbag"
-        ],
         "mobility": "wheeled",
-        "max_speed_ms": 5.56,
+        "dimensions_mm": "2727 x 1444 x 2082 (L x W x H)",
+        "unit_weight_kg": 800,
+        "passenger_capacity": 2,
+        "payload_kg": 227,
+        "manufacturer_max_speed_ms": 9.72,
+        "operational_speed_limit_ms": 5.56,
+        "range_km": 70,
+        "max_slope_percent": 30,
+        "towing_capacity_kg": 680,
+        "battery_capacity_ah": 240,
+        "battery_voltage_v": 48,
+        "ingress_protection": "IP54",
         "indoor_outdoor": "both",
         "sensing_modality": [
           "lidar",
           "gps"
+        ],
+        "outputs": [
+          "rosbag"
         ],
         "typical_workflows": [
           "pre-drive checks and safety system reset (local/remote E-stop and handbrake interlock)",
@@ -1215,10 +1421,12 @@
         "GPU compute"
       ],
       "capabilities": {
-        "cpu": "AMD Ryzen 9 7950X3D 16-core",
-        "gpu": "ASUS RTX 4090 STRIX 24G",
+        "os": "Ubuntu Linux",
+        "cpu": "AMD Ryzen 9 7950X3D (16 cores / 32 threads)",
+        "gpu": "ASUS ROG Strix GeForce RTX 4090 OC Edition (24 GB GDDR6X)",
         "ram_gb": 96,
         "storage": "2TB Samsung 990 Pro M.2 NVMe SSD",
+        "networking": "Intel 2.5 GbE; Wi-Fi 6E",
         "other_specs": "NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard"
       },
       "constraints": null,
@@ -1230,16 +1438,16 @@
     },
     {
       "equipment_id": "7e021f5e-e159-49a7-b6e4-3620541f4db2",
-      "name": "Humanoid Robot - G1 - Unitree",
+      "name": "Humanoid Robot - G1 EDU U4 - Unitree",
       "manufacturer": "Unitree",
-      "model": "G1",
+      "model": "G1 EDU U4",
       "category": "robot",
       "item_class": "Ground Robot",
       "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The Unitree G1 is a compact humanoid robot used for research and demonstrations involving locomotion, dynamic control, and human-robot interaction. It can be operated manually via a wireless handheld remote or programmatically via the Unitree SDK/API over a wired Ethernet connection, using onboard sensors to support balance and control.",
+      "short_description": "The Unitree G1 EDU U4 is a compact 43-DOF humanoid robot with two force-controlled Dex3-1 three-fingered hands. It is used for research and demonstrations involving locomotion, dexterous manipulation, dynamic control, and human-robot interaction, with manual or programmatic operation through the Unitree SDK/API.",
       "availability_notes": "Only trained and authorised personnel are allowed to operate or programme the robot. Operating area must be clear of obstacles and bystanders with a minimum 2 m radius.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -1253,17 +1461,35 @@
         "legged",
         "Unitree",
         "G1",
+        "G1 EDU U4",
+        "U4",
+        "Dex3-1",
+        "dexterous manipulation",
         "research",
         "indoor"
       ],
       "capabilities": {
-        "dof": 29,
+        "dimensions_standing_mm": "H 1320 x W 450 x D 200",
+        "dimensions_folded_mm": "H 690 x W 450 x D 300",
+        "height_mm": 1320,
+        "unit_weight_kg": "more than 35",
+        "dof": 43,
+        "dof_leg": "6 per leg",
+        "dof_waist": 3,
+        "dof_arm": "5 per arm",
+        "dof_wrist": "2 per wrist",
+        "dof_hand": "7 per Dex3-1 hand",
         "mobility": "legged",
+        "max_speed_ms": "over 2",
         "indoor_outdoor": "both",
+        "battery_capacity_mah": 9000,
+        "battery_life_min": "approximately 120",
+        "arm_load": "approximately 3 kg maximum",
+        "max_knee_torque_nm": 120,
+        "sensor_type": "3D LiDAR and depth camera",
         "sensing_modality": [
-          "rgb",
-          "lidar",
-          "other"
+          "depth_camera",
+          "lidar"
         ],
         "typical_workflows": [
           "manual operation via wireless handheld remote for locomotion and demonstrations",
@@ -1275,7 +1501,7 @@
           "Unitree API"
         ],
         "included_accessories": [
-          "Unitree Dex3 hands bundled with the G1 EDU U4"
+          "2 Unitree Dex3-1 force-controlled three-fingered hands with tactile sensor arrays"
         ]
       },
       "constraints": {
@@ -1297,16 +1523,16 @@
     },
     {
       "equipment_id": "0c0c108f-7171-4ea7-bbea-46882ddc78af",
-      "name": "Humanoid Robot - H1 - Unitree",
+      "name": "Humanoid Robot - H1-2 - Unitree",
       "manufacturer": "Unitree",
-      "model": "H1",
+      "model": "H1-2",
       "category": "robot",
       "item_class": "Ground Robot",
       "item_type": "equipment",
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The Unitree H1 is a full-sized humanoid robot used for research and public demonstrations involving dynamic locomotion and human-robot interaction. It can be operated manually with a wireless handheld controller or programmatically via the Unitree SDK/API over a wired Ethernet connection, and includes onboard perception sensors for balance and environment awareness.",
+      "short_description": "The Unitree H1-2 is a full-sized humanoid robot used for research and public demonstrations involving dynamic locomotion and human-robot interaction. It can be operated manually with a wireless handheld controller or programmatically via the Unitree SDK/API over a wired Ethernet connection, and includes onboard perception sensors for balance and environment awareness.",
       "availability_notes": "Only trained and authorised personnel are allowed to operate or programme the robot. Operators must remind bystanders not to approach the robot during demonstrations.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -1319,18 +1545,33 @@
         "ground robot",
         "legged",
         "Unitree",
+        "H1-2",
         "H1",
         "human-robot interaction",
         "research"
       ],
       "capabilities": {
+        "dimensions_standing_mm": "H (1503 + 285) x W 510 x D 287",
+        "height_mm": "approximately 1780",
+        "unit_weight_kg": "approximately 70",
         "dof": 27,
+        "dof_leg": "6 per leg",
+        "dof_waist": 1,
+        "dof_arm": "7 per arm",
         "mobility": "legged",
+        "max_speed_ms": "under 2",
         "indoor_outdoor": "both",
+        "battery_capacity_wh": 864,
+        "battery_capacity_ah": 15,
+        "max_voltage_v": 67.2,
+        "arm_load": "approximately 7 kg rated; approximately 21 kg peak",
+        "arm_joint_max_torque_nm": "approximately 120",
+        "max_knee_torque_nm": "approximately 360",
+        "cpu": "Intel Core i5 for platform functions and Intel Core i7 for user development",
+        "sensor_type": "Livox MID-360 3D LiDAR and Intel RealSense D435i depth camera",
         "sensing_modality": [
-          "rgb",
-          "lidar",
-          "other"
+          "depth_camera",
+          "lidar"
         ],
         "typical_workflows": [
           "manual operation via wireless handheld remote for locomotion demonstrations",
@@ -1393,20 +1634,26 @@
         "robot"
       ],
       "capabilities": {
-        "dof": 6,
-        "fps": 25,
-        "outputs": [
-          "h.264"
-        ],
         "mobility": "underwater",
-        "resolution": "Video up to 1920 x 1080; 13 MP still images",
+        "dimensions_mm": "711 x 394 x 238 (L x W x H)",
+        "dry_weight_kg": 17.2,
+        "dof": 6,
+        "max_forward_speed_ms": 1.95,
+        "max_vertical_speed_ms": 0.8,
+        "max_lateral_speed_ms": 0.46,
+        "lifting_capacity_kg": 9.5,
         "thrust_kgf": 26.7,
         "max_depth_m": 400,
-        "indoor_outdoor": "both",
         "tether_length_m": 500,
+        "indoor_outdoor": "both",
         "sensing_modality": [
           "rgb",
           "sonar"
+        ],
+        "resolution": "Video up to 1920 x 1080; 13 MP still images",
+        "fps": 25,
+        "outputs": [
+          "h.264"
         ],
         "typical_workflows": [
           "topside setup (console, power supplies, tether) and pre-dive checks",
@@ -1473,21 +1720,32 @@
         "compact"
       ],
       "capabilities": {
+        "mobility": "underwater",
+        "dimensions_mm": "580 x 380 x 130 (L x W x H)",
+        "unit_weight_kg": 9,
         "dof": 6,
+        "max_speed_ms": 1,
+        "endurance_typical_min": 240,
+        "endurance_max_min": 360,
+        "battery_capacity_wh": 201.6,
+        "max_depth_m": 100,
+        "tether_length_m": 100,
+        "light_output_lm": 4800,
+        "camera_tilt_deg": "+/-70",
+        "camera_hfov_deg": 110,
+        "operating_temperature_c": "0 to 40",
+        "deployment_env": "confined_space",
+        "indoor_outdoor": "both",
+        "sensing_modality": [
+          "rgb",
+          "other"
+        ],
+        "resolution": "FHD video; FHD and 4K still images",
+        "fps": 24,
         "outputs": [
           ".mkv",
           ".jpeg",
           ".raw"
-        ],
-        "mobility": "underwater",
-        "max_depth_m": 100,
-        "deployment_env": "confined_space",
-        "indoor_outdoor": "both",
-        "tether_length_m": 100,
-        "sensing_modality": [
-          "rgb",
-          "sonar",
-          "other"
         ],
         "system_composition": "Two identical and interchangeable EXRAY ROV bodies",
         "role_assignment": "Dynamic by tether connection and installed Docking Station or Docking Rail",
@@ -1547,19 +1805,28 @@
         "predictive maintenance"
       ],
       "capabilities": {
-        "fps": 30,
-        "outputs": [
-          "csv",
-          "txt"
-        ],
-        "mobility": "tripod",
-        "resolution": "Integrated visible-light camera: 720p (720 x 1280)",
-        "range_max_m": 15,
-        "range_min_m": 3,
-        "indoor_outdoor": "both",
         "sensing_modality": [
           "acoustic",
           "rgb"
+        ],
+        "resolution": "Integrated visible-light camera: 720p (720 x 1280)",
+        "fps": 30,
+        "recommended_range_m": "3 to 15",
+        "microphone_count": 64,
+        "max_sound_pressure_db": 120,
+        "ingress_protection": "IP54",
+        "operating_temperature_c": "-20 to 50",
+        "interfaces": [
+          "PoE+ Ethernet",
+          "HTTP REST API",
+          "Modbus"
+        ],
+        "mobility": "tripod",
+        "unit_weight_kg": 0.85,
+        "indoor_outdoor": "both",
+        "outputs": [
+          "CSV event logs",
+          "TXT event logs"
         ],
         "typical_workflows": [
           "Mount on a tripod/bench or via VESA mount; optionally mount as a ground-robot payload",
@@ -1622,10 +1889,18 @@
         "Inspire Robots"
       ],
       "capabilities": {
-        "dof": 6,
         "mobility": "robot-mount",
-        "resolution": "Force sensor resolution: 0.5 N",
-        "accuracy_mm": 0.2,
+        "dimensions_mm": "Approx. 217.8 x 80.7 x 49.3 (BFX/DFX variants)",
+        "unit_weight_kg": 0.54,
+        "joint_count": 12,
+        "dof": 6,
+        "force_sensor_count": 6,
+        "force_sensor_resolution_n": 0.5,
+        "fingertip_repeatability_mm": 0.2,
+        "supply_voltage_v": 24,
+        "interfaces": [
+          "RS-485"
+        ],
         "indoor_outdoor": "indoor",
         "sensing_modality": [
           "other"
@@ -1763,8 +2038,10 @@
         "infrastructure"
       ],
       "capabilities": {
-        "cpu": "Intel Core i7-1165G7",
+        "os": "Microsoft Windows",
+        "cpu": "Intel Core i7-1165G7 (4 cores / 8 threads, up to 4.70 GHz)",
         "gpu": "NVIDIA GeForce RTX 2060",
+        "networking": "Intel I225-LM Ethernet; Intel Wi-Fi 6 AX201; ASIX USB Gigabit Ethernet adapter",
         "mobility": "fixed",
         "indoor_outdoor": "indoor",
         "typical_workflows": [

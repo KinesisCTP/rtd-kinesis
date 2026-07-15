@@ -55,22 +55,46 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Degrees of freedom**
-     - 6
-   * - **Output formats**
-     - .mkv, .jpeg, .raw
    * - **Mobility**
      - Underwater
+   * - **Dimensions**
+     - 580 x 380 x 130 (L x W x H) mm
+   * - **Weight**
+     - 9 kg
+   * - **Degrees of freedom**
+     - 6
+   * - **Maximum speed**
+     - 1 m/s
+   * - **Typical endurance**
+     - 240 min
+   * - **Maximum endurance**
+     - 360 min
+   * - **Battery energy capacity**
+     - 201.6 Wh
    * - **Maximum depth**
      - 100 m
+   * - **Tether length**
+     - 100 m
+   * - **Light output**
+     - 4,800 lm
+   * - **Camera tilt range**
+     - +/-70 degrees
+   * - **Camera horizontal field of view**
+     - 110 °
+   * - **Operating temperature**
+     - 0 to 40 °C
    * - **Deployment environment**
      - Confined spaces
    * - **Operating environment**
      - Indoor and outdoor
-   * - **Tether length**
-     - 100 m
    * - **Sensing modalities**
-     - RGB, Sonar
+     - RGB
+   * - **Resolution**
+     - FHD video; FHD and 4K still images
+   * - **Frame rate**
+     - 24 fps
+   * - **Output formats**
+     - .mkv, .jpeg, .raw
    * - **System composition**
      - Two identical and interchangeable EXRAY ROV bodies
    * - **Role assignment**

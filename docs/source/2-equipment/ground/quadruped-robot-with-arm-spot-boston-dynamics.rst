@@ -55,30 +55,54 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Arm degrees of freedom**
-     - 6
-   * - **Body degrees of freedom**
+   * - **Standing dimensions**
+     - L 1100 x W 500 x H 610 mm
+   * - **Weight**
+     - 40.5 kg
+   * - **Degrees of freedom**
      - 12
    * - **Mobility**
      - Legged
-   * - **Maximum arm lift**
-     - 11 kg
-   * - **Maximum range**
-     - 2 m
    * - **Maximum speed**
      - 1.6 m/s
    * - **Operating environment**
      - Indoor and outdoor
-   * - **Body payload**
+   * - **Total mounted-payload limit**
      - 14 kg
+   * - **Battery energy capacity**
+     - 564 Wh
    * - **Battery life**
      - 90 min
+   * - **Ingress protection**
+     - IP54
+   * - **Operating temperature**
+     - -20 to 45 °C
    * - **Sensing modalities**
-     - RGB, LiDAR, Thermal
-   * - **Enterprise upgrade**
-     - Spot Enterprise upgrade and Spot battery assigned to this robot.
+     - RGB, Stereo vision, Infrared
+   * - **Stereo camera pairs**
+     - 5
+   * - **Built-in optical coverage**
+     - 360 °
+   * - **Built-in depth range**
+     - 2 m
+   * - **Arm degrees of freedom**
+     - 6
+   * - **Arm length at full extension**
+     - 984 mm
+   * - **Arm weight including gripper**
+     - 8 kg
+   * - **Maximum arm lift**
+     - 11 kg
    * - **Continuous arm lift**
      - 5 kg
+   * - **Maximum vertical arm reach**
+     - 1,820 mm
+   * - **Gripper aperture**
+     - 175 mm
+   * - **Peak gripper clamp force**
+     - 130 N
+   * - **Enterprise upgrade**
+     - Spot Enterprise upgrade and Spot battery assigned to this robot.
 
 Typical workflows
 -----------------

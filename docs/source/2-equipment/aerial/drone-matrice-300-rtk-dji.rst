@@ -57,16 +57,34 @@ Specifications
 
    * - **Mobility**
      - Aerial
+   * - **Unfolded dimensions**
+     - 810 x 670 x 430 (L x W x H) mm
+   * - **Folded dimensions**
+     - 430 x 420 x 430 (L x W x H) mm
+   * - **Weight without batteries**
+     - 3.6 kg
+   * - **Weight**
+     - 6.3 kg
    * - **Payload**
      - 2.7 kg
+   * - **Maximum takeoff weight**
+     - 9 kg
    * - **Maximum speed**
      - 23 m/s
+   * - **Maximum wind resistance**
+     - 12 m/s
+   * - **Maximum flight time**
+     - 55 min
+   * - **Service ceiling**
+     - 5,000 m
+   * - **Additional specifications**
+     - The 6.3 kg operating weight includes two TB60 batteries. A 7000 m service ceiling requires high-altitude propellers and takeoff mass no greater than 7 kg.
+   * - **Ingress protection**
+     - IP45
+   * - **Operating temperature**
+     - -20 to 50 °C
    * - **Operating environment**
      - Indoor and outdoor
-   * - **Maximum altitude**
-     - 7,000 m
-   * - **Battery life**
-     - 55 min
    * - **Sensing modalities**
      - RGB, GPS
 

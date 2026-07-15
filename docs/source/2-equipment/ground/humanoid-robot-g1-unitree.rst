@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: 7e021f5e-e159-49a7-b6e4-3620541f4db2
 
-=============================
-Humanoid Robot - G1 - Unitree
-=============================
+====================================
+Humanoid Robot - G1 EDU U4 - Unitree
+====================================
 
 .. container:: equipment-kicker
 
-   Unitree · G1
+   Unitree · G1 EDU U4
 
 .. figure:: ../../_static/images/506_humanoid-g1-unitree.jpg
-   :alt: Humanoid Robot - G1 - Unitree
+   :alt: Humanoid Robot - G1 EDU U4 - Unitree
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   Humanoid Robot - G1 - Unitree
+   Humanoid Robot - G1 EDU U4 - Unitree
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -25,7 +25,7 @@ Humanoid Robot - G1 - Unitree
    * - **Manufacturer**
      - Unitree
    * - **Model**
-     - G1
+     - G1 EDU U4
    * - **Equipment class**
      - Ground Robot
    * - **Location**
@@ -45,7 +45,7 @@ Humanoid Robot - G1 - Unitree
 Overview
 --------
 
-The Unitree G1 is a compact humanoid robot used for research and demonstrations involving locomotion, dynamic control, and human-robot interaction. It can be operated manually via a wireless handheld remote or programmatically via the Unitree SDK/API over a wired Ethernet connection, using onboard sensors to support balance and control.
+The Unitree G1 EDU U4 is a compact 43-DOF humanoid robot with two force-controlled Dex3-1 three-fingered hands. It is used for research and demonstrations involving locomotion, dexterous manipulation, dynamic control, and human-robot interaction, with manual or programmatic operation through the Unitree SDK/API.
 
 Specifications
 --------------
@@ -55,16 +55,46 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
+   * - **Standing dimensions**
+     - H 1320 x W 450 x D 200 mm
+   * - **Folded dimensions**
+     - H 690 x W 450 x D 300 mm
+   * - **Height**
+     - 1,320 mm
+   * - **Weight**
+     - more than 35 kg
    * - **Degrees of freedom**
-     - 29
+     - 43
+   * - **Leg degrees of freedom**
+     - 6 per leg
+   * - **Waist degrees of freedom**
+     - 3
+   * - **Arm degrees of freedom**
+     - 5 per arm
+   * - **Additional wrist degrees of freedom**
+     - 2 per wrist
+   * - **Hand degrees of freedom**
+     - 7 per Dex3-1 hand
    * - **Mobility**
      - Legged
+   * - **Maximum speed**
+     - over 2 m/s
    * - **Operating environment**
      - Indoor and outdoor
+   * - **Battery charge capacity**
+     - 9,000 mAh
+   * - **Battery life**
+     - approximately 120 min
+   * - **Arm load**
+     - approximately 3 kg maximum
+   * - **Maximum knee-joint torque**
+     - 120 N·m
+   * - **Sensor type**
+     - 3D LiDAR and depth camera
    * - **Sensing modalities**
-     - RGB, LiDAR
+     - Depth camera, LiDAR
    * - **Included accessories**
-     - Unitree dex3 hands bundled with the g1 edu u4
+     - 2 Unitree Dex3-1 force-controlled three-fingered hands with tactile sensor arrays
 
 Typical workflows
 -----------------
@@ -113,7 +143,7 @@ Related equipment & documentation
 Keywords
 --------
 
-``humanoid`` · ``bipedal`` · ``ground robot`` · ``legged`` · ``Unitree`` · ``G1`` · ``research`` · ``indoor``
+``humanoid`` · ``bipedal`` · ``ground robot`` · ``legged`` · ``Unitree`` · ``G1`` · ``G1 EDU U4`` · ``U4`` · ``Dex3-1`` · ``dexterous manipulation`` · ``research`` · ``indoor``
 
 
 .. note::

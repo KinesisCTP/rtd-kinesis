@@ -56,9 +56,31 @@ Specifications
    :header-rows: 0
 
    * - **Networking**
-     - Wave Relay mobile ad hoc mesh networking using S-band RF modules (2200-2500 MHz)
+     - Wave Relay mobile ad hoc mesh networking using RF-2150 10 W S-band RF modules (2200–2500 MHz acquired configuration)
+   * - **Operating frequency**
+     - 2200 to 2500 MHz
+   * - **Network throughput**
+     - over 100 Mbps
+   * - **Modulation**
+     - OFDM (64-QAM, 16-QAM, QPSK, BPSK)
+   * - **Channel bandwidth**
+     - 5, 10, or 20 MHz
+   * - **Interfaces**
+     - Ethernet, USB On-the-Go, RS-232 serial
+   * - **Additional specifications**
+     - 3x3 MIMO
+   * - **Supply-voltage range**
+     - 8 to 28 V
+   * - **Ingress protection**
+     - IP68
+   * - **Operating temperature**
+     - -40 to 85 °C
+   * - **Dimensions**
+     - 38 x 67 x 117 mm
    * - **System composition**
-     - MPU5 radio chassis (WR-5100), S-band RF module (2200-2500 MHz), and 10 W S-band RF module (2200-2500 MHz)
+     - WR-5100 MPU5 handheld chassis and WR-5200 embedded modules using RF-2150 10 W S-band RF modules
+   * - **Weight**
+     - 0.391 kg
    * - **Included accessories**
      - Twist-lock battery packs including 6.8 Ah rechargeable lithium-ion packs, GPS antenna, 2.15 dBi omnidirectional antenna with RP-TNC connector, and Ethernet/serial flying leads
 

@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: e2bac7bc-5107-4331-8783-49a221223ece
 
-==================================
-3D Scanner - Go!SCAN 3D - Creaform
-==================================
+=====================================
+3D Scanner - Go!SCAN SPARK - Creaform
+=====================================
 
 .. container:: equipment-kicker
 
-   Creaform · Go!SCAN 3D
+   Creaform · Go!SCAN SPARK
 
 .. figure:: ../../_static/images/102_goscan-3d-creaform.png
-   :alt: 3D Scanner - Go!SCAN 3D - Creaform
+   :alt: 3D Scanner - Go!SCAN SPARK - Creaform
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   3D Scanner - Go!SCAN 3D - Creaform
+   3D Scanner - Go!SCAN SPARK - Creaform
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -25,7 +25,7 @@
    * - **Manufacturer**
      - Creaform
    * - **Model**
-     - Go!SCAN 3D
+     - Go!SCAN SPARK
    * - **Equipment class**
      - 3D Scanning
    * - **Location**
@@ -55,22 +55,32 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Output formats**
-     - .dae, .fbx, .ma, .obj, .ply, .stl, .txt, .wrl, .x3d, .x3dz, .zpr, .3mf
-   * - **Mobility**
-     - Handheld
-   * - **Resolution**
-     - Measurement resolution 0.100 mm; mesh resolution 0.200 mm; texture resolution 50–200 DPI
-   * - **Accuracy**
-     - 0.05 mm
-   * - **Operating environment**
-     - Indoor
-   * - **Capture rate**
-     - 1,500,000 points/s
-   * - **Tether length**
-     - 4 m
    * - **Sensing modalities**
      - RGB, Structured light
+   * - **Resolution**
+     - Measurement resolution 0.100 mm; mesh resolution 0.200 mm; texture resolution 50–200 DPI
+   * - **Capture rate**
+     - 1,500,000 points/s
+   * - **Accuracy**
+     - 0.05 mm
+   * - **Scanning area**
+     - 390 x 390 mm
+   * - **Stand-off distance**
+     - 400 mm
+   * - **Depth of field**
+     - 450 mm
+   * - **Recommended part size**
+     - 0.1 to 4 m
+   * - **Interfaces**
+     - USB 3.0
+   * - **Mobility**
+     - Handheld
+   * - **Weight**
+     - 1.25 kg
+   * - **Operating environment**
+     - Indoor
+   * - **Output formats**
+     - .dae, .fbx, .ma, .obj, .ply, .stl, .txt, .wrl, .x3d, .x3dz, .zpr, .3mf
 
 Typical workflows
 -----------------

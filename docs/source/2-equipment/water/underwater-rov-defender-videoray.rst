@@ -55,26 +55,38 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Degrees of freedom**
-     - 6
-   * - **Frame rate**
-     - 25 fps
-   * - **Output formats**
-     - H.264
    * - **Mobility**
      - Underwater
-   * - **Resolution**
-     - Video up to 1920 x 1080; 13 MP still images
+   * - **Dimensions**
+     - 711 x 394 x 238 (L x W x H) mm
+   * - **Dry weight**
+     - 17.2 kg
+   * - **Degrees of freedom**
+     - 6
+   * - **Maximum forward speed**
+     - 1.95 m/s
+   * - **Maximum vertical speed**
+     - 0.8 m/s
+   * - **Maximum lateral speed**
+     - 0.46 m/s
+   * - **Lifting capacity**
+     - 9.5 kg
    * - **Thrust**
      - 26.7 kgf
    * - **Maximum depth**
      - 400 m
-   * - **Operating environment**
-     - Indoor and outdoor
    * - **Tether length**
      - 500 m
+   * - **Operating environment**
+     - Indoor and outdoor
    * - **Sensing modalities**
      - RGB, Sonar
+   * - **Resolution**
+     - Video up to 1920 x 1080; 13 MP still images
+   * - **Frame rate**
+     - 25 fps
+   * - **Output formats**
+     - H.264
 
 Typical workflows
 -----------------

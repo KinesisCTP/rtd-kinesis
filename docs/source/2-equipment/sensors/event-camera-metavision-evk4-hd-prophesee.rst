@@ -55,12 +55,32 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Networking**
-     - USB3
-   * - **Additional specifications**
-     - HD IMX636 MP sensor, C-mount lens (81.5° FOV), Metavision Intelligence SDK
+   * - **Sensing modalities**
+     - Event-based vision
+   * - **Sensor type**
+     - Sony IMX636 monochrome event sensor
+   * - **Resolution**
+     - 1280 x 720 pixels
+   * - **Peak event rate**
+     - 1,000,000,000 events/s
+   * - **Dynamic range**
+     - greater than 120 dB
+   * - **Included lens field of view**
+     - 81.5 °
+   * - **Lens mount**
+     - C-mount with included C-to-CS adapter
+   * - **Dimensions**
+     - 30 x 30 x 36 mm
+   * - **Interfaces**
+     - USB 3.0 Type-C, Synchronization interface
+   * - **Weight**
+     - 0.04 kg
 
 
+Software & dependencies
+-----------------------
+
+- Metavision Intelligence SDK
 
 Access, training & booking
 --------------------------

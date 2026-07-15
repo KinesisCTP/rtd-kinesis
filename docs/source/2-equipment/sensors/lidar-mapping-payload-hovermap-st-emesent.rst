@@ -55,22 +55,36 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Mobility**
-     - Handheld, Robot-mounted, Drone-mount
+   * - **Sensing modalities**
+     - LiDAR, RGB
+   * - **Capture rate**
+     - Up to 300,000 points/s single-return; up to 600,000 points/s dual-return
+   * - **Minimum range**
+     - 0.4 m
    * - **Maximum range**
      - 100 m
-   * - **Minimum range**
-     - 0.5 m
+   * - **Distance accuracy**
+     - ±30 mm
+   * - **Mapping accuracy**
+     - ±20 mm general; ±15 mm typical indoor and underground
+   * - **Field of view**
+     - 360 x 290 °
+   * - **Ingress protection**
+     - IP65
+   * - **Storage**
+     - 512 GB (approximately 8 hours of sensor data)
+   * - **Interfaces**
+     - USB 3.0
+   * - **Mobility**
+     - Handheld, Robot-mounted, Drone-mount
    * - **SLAM capable**
      - Yes
    * - **Operating environment**
      - Indoor and outdoor
-   * - **Capture rate**
-     - 300,000 points/s
-   * - **Unit weight**
-     - 1.8 kg
-   * - **Sensing modalities**
-     - LiDAR, RGB
+   * - **Weight**
+     - 1.6 kg
+   * - **Output formats**
+     - .las, .laz, .ply, .dxf, .e57
 
 Typical workflows
 -----------------
@@ -99,7 +113,7 @@ Safety & operating limits
 
 .. warning::
 
-   Power from an external 12–54 V DC source; scans typically <35 minutes, data downloaded to USB. Hazards: electrical shock from damaged leads/connectors (inspect before use, only trained operators connect/disconnect); moving parts from the continuously rotating sensor head (keep hands/hair/clothing clear; use protective cage for handheld use); Class 1 eye-safe lasers (do not open sealed optical enclosure; avoid staring into aperture at close range); dropped-load risk when handheld or drone-mounted (~1.8 kg). IP65 rated but not recommended in rain or fog; maintain ≥10 m from elevated EMI sources; operating temperature -10 °C to 45 °C. Emergency shutdown: hold power button >10 s if frozen, then disconnect battery once LEDs are dark. Storage: indoors dry at 10–30 °C in padded case; fit protective cap; disconnect battery. PPE: long pants, closed-toed shoes.
+   Power from an external 12–54 V DC source; scans typically <35 minutes, data downloaded to USB. Hazards: electrical shock from damaged leads/connectors (inspect before use, only trained operators connect/disconnect); moving parts from the continuously rotating sensor head (keep hands/hair/clothing clear; use protective cage for handheld use); Class 1 eye-safe lasers (do not open sealed optical enclosure; avoid staring into aperture at close range); dropped-load risk when handheld or drone-mounted (~1.6 kg). IP65 rated but not recommended in rain or fog; maintain ≥10 m from elevated EMI sources; operating temperature -10 °C to 45 °C. Emergency shutdown: hold power button >10 s if frozen, then disconnect battery once LEDs are dark. Storage: indoors dry at 10–30 °C in padded case; fit protective cap; disconnect battery. PPE: long pants, closed-toed shoes.
 
 **Environmental requirements**
 

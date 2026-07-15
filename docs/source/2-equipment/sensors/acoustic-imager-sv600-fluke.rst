@@ -55,24 +55,34 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Frame rate**
-     - 30 fps
-   * - **Output formats**
-     - Csv, Txt
-   * - **Mobility**
-     - Tripod-mounted
-   * - **Resolution**
-     - Integrated visible-light camera: 720p (720 x 1280)
-   * - **Maximum range**
-     - 15 m
-   * - **Minimum range**
-     - 3 m
-   * - **Operating environment**
-     - Indoor and outdoor
    * - **Sensing modalities**
      - Acoustic, RGB
+   * - **Resolution**
+     - Integrated visible-light camera: 720p (720 x 1280)
+   * - **Frame rate**
+     - 30 fps
+   * - **Recommended monitoring distance**
+     - 3 to 15 m
+   * - **Microphone count**
+     - 64
+   * - **Sound-pressure overload point**
+     - 120 dB SPL
+   * - **Ingress protection**
+     - IP54
+   * - **Operating temperature**
+     - -20 to 50 °C
+   * - **Interfaces**
+     - PoE+ Ethernet, HTTP REST API, Modbus
+   * - **Mobility**
+     - Tripod-mounted
+   * - **Weight**
+     - 0.85 kg
+   * - **Operating environment**
+     - Indoor and outdoor
+   * - **Output formats**
+     - CSV event logs, TXT event logs
    * - **Compatible platforms**
-     - Ground robot - boston dynamics spot, Ground robot with robotic arm - boston dynamics spot, Benchtop, Tripod-mounted
+     - Ground Robot - Boston Dynamics Spot, Ground Robot with Robotic Arm - Boston Dynamics Spot, Benchtop, Tripod-mounted
 
 Typical workflows
 -----------------

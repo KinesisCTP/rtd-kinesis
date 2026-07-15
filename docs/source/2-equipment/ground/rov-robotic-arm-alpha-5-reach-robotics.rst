@@ -55,8 +55,34 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Additional specifications**
-     - Two 5-function manipulators with RM-5201 master arm controllers; 300 m depth rated
+   * - **Mobility**
+     - Robot-mounted
+   * - **Functions**
+     - 5
+   * - **Reach**
+     - 400 mm
+   * - **Lifting capacity**
+     - 2 kg
+   * - **Maximum closing force**
+     - 600 N
+   * - **Weight in air**
+     - 1.36 kg
+   * - **Weight in water**
+     - 0.9 kg
+   * - **Joint accuracy**
+     - 0.1 °
+   * - **Maximum depth**
+     - 300 m
+   * - **Supply-voltage range**
+     - 18 to 30 V
+   * - **Maximum power**
+     - 35 W
+   * - **Interfaces**
+     - RS-232, RS-485
+   * - **Controller**
+     - RM-5201 master arm controller
+   * - **System composition**
+     - Two Alpha 5 manipulators, each with an RM-5201 master arm controller
 
 
 

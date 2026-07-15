@@ -61,6 +61,22 @@ Specifications
 
    * - **Mobility**
      - Robot-mounted
+   * - **Opening width**
+     - 167 mm
+   * - **Maximum encompassing diameter**
+     - 155 mm
+   * - **Weight**
+     - 2.3 kg
+   * - **Recommended handled payload**
+     - 10 kg (encompassing grip); 2.5 kg (fingertip grip)
+   * - **Maximum fingertip grip force**
+     - 70 N
+   * - **Maximum closing speed**
+     - 110 mm/s
+   * - **Supply voltage**
+     - 24 V
+   * - **Interfaces**
+     - Modbus RTU, Modbus TCP
    * - **Operating environment**
      - Indoor
 
@@ -92,7 +108,7 @@ Safety & operating limits
 
 .. warning::
 
-   Primary hazards: pinch/crush points (fingers can exert up to 60 N), projectile risk from dropped/ejected objects during fast motion, entanglement, and electrical hazards from damaged 24 V DC SELV wiring. Controls: only trained personnel operate; keep hands/clothing clear while powered; verify mode/speed/force in teach mode before automated runs; use a certified 24 V DC supply with a 4 A fuse; inspect and strain-relieve cables; never connect to AC or modify wiring; eye protection required. Emergency shutdown: press robot E-stop or cut 24 V DC supply. Storage: power off, disconnect cables, store dry indoors away from dust/moisture and temperature extremes.
+   Primary hazards: pinch/crush points (fingers can exert up to 70 N), projectile risk from dropped/ejected objects during fast motion, entanglement, and electrical hazards from damaged 24 V DC SELV wiring. Controls: only trained personnel operate; keep hands/clothing clear while powered; verify mode/speed/force in teach mode before automated runs; use a certified 24 V DC supply with a 4 A fuse; inspect and strain-relieve cables; never connect to AC or modify wiring; eye protection required. Emergency shutdown: press robot E-stop or cut 24 V DC supply. Storage: power off, disconnect cables, store dry indoors away from dust/moisture and temperature extremes.
 
 **Environmental requirements**
 

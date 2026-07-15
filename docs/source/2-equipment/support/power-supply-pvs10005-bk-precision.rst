@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: a8e767a0-0d13-4f27-ac77-6415617a0e49
 
-======================================
-Power Supply - PVS10005 - BK Precision
-======================================
+=======================================
+Power Supply - PVS10005 - B&K Precision
+=======================================
 
 .. container:: equipment-kicker
 
-   BK Precision · PVS10005
+   B&K Precision · PVS10005
 
 .. figure:: ../../_static/images/398_power-supply-pvs10005-bk-precision.png
-   :alt: Power Supply - PVS10005 - BK Precision
+   :alt: Power Supply - PVS10005 - B&K Precision
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   Power Supply - PVS10005 - BK Precision
+   Power Supply - PVS10005 - B&K Precision
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -23,7 +23,7 @@ Power Supply - PVS10005 - BK Precision
    :header-rows: 0
 
    * - **Manufacturer**
-     - BK Precision
+     - B&K Precision
    * - **Model**
      - PVS10005
    * - **Equipment class**
@@ -45,7 +45,7 @@ Power Supply - PVS10005 - BK Precision
 Overview
 --------
 
-The BK Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.
+The B&K Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.
 
 Specifications
 --------------
@@ -55,20 +55,32 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Mobility**
-     - Fixed
-   * - **Interfaces**
-     - Scpi
-   * - **Maximum power**
-     - 5,000 W
-   * - **Maximum current**
-     - 5 A
    * - **Maximum voltage**
      - 1,000 V
+   * - **Maximum current**
+     - 5 A
+   * - **Maximum power**
+     - 5,000 W
+   * - **Regulation modes**
+     - CV, CC
+   * - **Programming / readback resolution**
+     - 0.1 V / 0.1 mA
+   * - **Ripple / noise**
+     - ≤100 mVrms / ≤600 mVpp voltage; 10 mA current
+   * - **Remote-sense compensation**
+     - 10 V
+   * - **Interfaces**
+     - Analog programming, USB, RS-232, RS-485, GPIB, Ethernet
+   * - **Networking**
+     - SCPI over supported remote interfaces
+   * - **Dimensions**
+     - 420 x 88 x 532 mm
+   * - **Mobility**
+     - Fixed
+   * - **Weight**
+     - 14.6 kg
    * - **Operating environment**
      - Indoor
-   * - **Regulation modes**
-     - Cv, Cc
 
 Typical workflows
 -----------------

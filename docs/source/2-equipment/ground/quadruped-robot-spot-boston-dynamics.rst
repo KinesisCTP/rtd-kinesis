@@ -55,6 +55,10 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
+   * - **Standing dimensions**
+     - L 1100 x W 500 x H 610 mm
+   * - **Weight**
+     - 33.8 kg
    * - **Degrees of freedom**
      - 12
    * - **Mobility**
@@ -63,12 +67,24 @@ Specifications
      - 1.6 m/s
    * - **Operating environment**
      - Indoor and outdoor
-   * - **Body payload**
+   * - **Total mounted-payload limit**
      - 14 kg
+   * - **Battery energy capacity**
+     - 564 Wh
    * - **Battery life**
      - 90 min
+   * - **Ingress protection**
+     - IP54
+   * - **Operating temperature**
+     - -20 to 45 °C
    * - **Sensing modalities**
-     - RGB, LiDAR, Thermal
+     - RGB, Stereo vision, Infrared
+   * - **Stereo camera pairs**
+     - 5
+   * - **Built-in optical coverage**
+     - 360 °
+   * - **Built-in depth range**
+     - 2 m
 
 Typical workflows
 -----------------

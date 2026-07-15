@@ -55,10 +55,14 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
+   * - **Operating system**
+     - Microsoft Windows
    * - **Processor**
-     - Intel Core i7-1165G7
+     - Intel Core i7-1165G7 (4 cores / 8 threads, up to 4.70 GHz)
    * - **Graphics / accelerator**
      - NVIDIA GeForce RTX 2060
+   * - **Networking**
+     - Intel I225-LM Ethernet; Intel Wi-Fi 6 AX201; ASIX USB Gigabit Ethernet adapter
    * - **Mobility**
      - Fixed
    * - **Operating environment**

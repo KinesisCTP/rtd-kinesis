@@ -7,7 +7,7 @@ AI Workstation - Lambda
 
 .. container:: equipment-kicker
 
-   Lambda
+   Lambda · Lambda Vector
 
 .. figure:: ../../_static/images/ai-workstation-lambda.jpg
    :alt: AI Workstation - Lambda
@@ -24,6 +24,8 @@ AI Workstation - Lambda
 
    * - **Manufacturer**
      - Lambda
+   * - **Model**
+     - Lambda Vector
    * - **Equipment class**
      - PC
    * - **Location**
@@ -54,15 +56,15 @@ Specifications
    :header-rows: 0
 
    * - **Operating system**
-     - Ubuntu 22.04
+     - Ubuntu 22.04 LTS
    * - **Processor**
-     - AMD Ryzen Threadripper PRO 5995WX: 64 cores, 2.7~4.5GHz
+     - AMD Ryzen Threadripper PRO 5995WX (64 cores, 2.7-4.5 GHz)
    * - **Graphics / accelerator**
-     - 2x NVIDIA RTX 6000 Ada Generation: 48GB memory, 18176 CUDA cores, 568 Tensor cores
+     - 2x NVIDIA RTX 6000 Ada Generation (48 GB each, 18176 CUDA cores and 568 Tensor cores per GPU)
    * - **System memory**
      - 512 GB
    * - **Storage**
-     - 1x 1.92 TB M.2 NVMe, 1x 3.84 TB U.2 NVMe (Data center SSD, 1 DWPD, PCIe 4.0)
+     - 1.92 TB M.2 NVMe OS SSD and 3.84 TB U.2 NVMe data SSD (1 DWPD, PCIe 4.0)
    * - **Networking**
      - 2x 10 Gbps RJ45 Ethernet ports, 1x dedicated IPMI port, 2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with Bluetooth v5.2
    * - **Additional specifications**

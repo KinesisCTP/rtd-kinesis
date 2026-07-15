@@ -55,14 +55,18 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
+   * - **Operating system**
+     - Ubuntu Linux
    * - **Processor**
-     - AMD Ryzen 9 7950X3D 16-core
+     - AMD Ryzen 9 7950X3D (16 cores / 32 threads)
    * - **Graphics / accelerator**
-     - ASUS RTX 4090 STRIX 24G
+     - ASUS ROG Strix GeForce RTX 4090 OC Edition (24 GB GDDR6X)
    * - **System memory**
      - 96 GB
    * - **Storage**
      - 2TB Samsung 990 Pro M.2 NVMe SSD
+   * - **Networking**
+     - Intel 2.5 GbE; Wi-Fi 6E
    * - **Additional specifications**
      - NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard
 

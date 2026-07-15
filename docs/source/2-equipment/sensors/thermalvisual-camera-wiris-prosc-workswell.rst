@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: 310f9228-04d4-4fde-90fe-3284bbd1c86c
 
-===============================================
-Thermal/Visual Camera - Wiris ProSc - Workswell
-===============================================
+================================================
+Thermal/Visual Camera - WIRIS Pro SC - Workswell
+================================================
 
 .. container:: equipment-kicker
 
-   Workswell · Wiris ProSc
+   Workswell · WIRIS Pro SC
 
 .. figure:: ../../_static/images/108_wiris-prosc-workswell.png
-   :alt: Thermal/Visual Camera - Wiris ProSc - Workswell
+   :alt: Thermal/Visual Camera - WIRIS Pro SC - Workswell
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   Thermal/Visual Camera - Wiris ProSc - Workswell
+   Thermal/Visual Camera - WIRIS Pro SC - Workswell
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -25,7 +25,7 @@ Thermal/Visual Camera - Wiris ProSc - Workswell
    * - **Manufacturer**
      - Workswell
    * - **Model**
-     - Wiris ProSc
+     - WIRIS Pro SC
    * - **Equipment class**
      - Camera
    * - **Location**
@@ -55,14 +55,46 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Output formats**
-     - Jpeg, Tiff, Mp4
-   * - **Mobility**
-     - Drone-mount, Tripod-mounted
-   * - **Operating environment**
-     - Indoor and outdoor
    * - **Sensing modalities**
      - Thermal, RGB
+   * - **Sensor type**
+     - Uncooled VOx microbolometer
+   * - **Thermal resolution**
+     - 640 x 512 pixels
+   * - **Thermal super-resolution**
+     - 1266 x 1010 pixels
+   * - **Visible-camera resolution**
+     - 1920 x 1080 pixels
+   * - **Frame rate**
+     - 30 Hz or less than 9 Hz, configuration-dependent
+   * - **Spectral range**
+     - 7.5 to 13.5 µm
+   * - **Measurement temperature range**
+     - -25 to 150; -40 to 550 °C
+   * - **Optional high-temperature ranges**
+     - 50 to 1000; 400 to 1500 °C
+   * - **Thermal sensitivity**
+     - 30 mK
+   * - **Temperature accuracy**
+     - ±2% or ±2 °C under specified calibrated conditions
+   * - **Dimensions**
+     - 83 x 85 x 68 mm
+   * - **Supply-voltage range**
+     - 9 to 36 V
+   * - **Average power consumption**
+     - 12 W
+   * - **Operating temperature**
+     - -15 to 50 °C
+   * - **Interfaces**
+     - Ethernet (RJ-45), Micro HDMI, USB 2.0, Micro USB 2.0, S.Bus, CAN bus, MAVLink, UART, External trigger
+   * - **Mobility**
+     - Drone-mount, Tripod-mounted
+   * - **Weight**
+     - <0.43 kg
+   * - **Operating environment**
+     - Indoor and outdoor
+   * - **Output formats**
+     - Radiometric JPEG, Radiometric TIFF, H.264 video, Radiometric full-frame IR recording
 
 Typical workflows
 -----------------

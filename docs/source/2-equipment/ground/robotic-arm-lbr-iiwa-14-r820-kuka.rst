@@ -55,14 +55,24 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Degrees of freedom**
-     - 7
    * - **Mobility**
      - Fixed
+   * - **Reach**
+     - 820 mm
+   * - **Degrees of freedom**
+     - 7
    * - **Payload**
      - 14 kg
-   * - **Accuracy**
+   * - **Pose repeatability**
      - 0.15 mm
+   * - **Weight**
+     - 29.9 kg
+   * - **Controller**
+     - KUKA Sunrise Cabinet
+   * - **Ingress protection**
+     - IP54
+   * - **Operating temperature**
+     - 5 to 45 °C
    * - **Operating environment**
      - Indoor
 

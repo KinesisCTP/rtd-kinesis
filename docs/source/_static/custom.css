@@ -966,6 +966,8 @@ body.sidebar-closed .wy-nav-content-wrap {
 .rst-content table.equipment-meta-table,
 .rst-content table.equipment-access-table {
   width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
   margin: 1rem 0 1.8rem;
   border: 1px solid #e5ddeb;
   border-radius: 16px;
@@ -993,6 +995,8 @@ body.sidebar-closed .wy-nav-content-wrap {
   border-right: 0;
   border-bottom: 1px solid #eee8f2;
   vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .rst-content table.equipment-facts-table tr:last-child td,
@@ -1031,8 +1035,8 @@ body.sidebar-closed .wy-nav-content-wrap {
   .rst-content table.equipment-spec-table,
   .rst-content table.equipment-meta-table,
   .rst-content table.equipment-access-table {
-    display: block;
-    overflow-x: auto;
+    display: table;
+    overflow: hidden;
     border-radius: 12px;
   }
 

@@ -55,16 +55,38 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Output formats**
-     - Rosbag
    * - **Mobility**
      - Wheeled
-   * - **Maximum speed**
+   * - **Dimensions**
+     - 2727 x 1444 x 2082 (L x W x H) mm
+   * - **Weight**
+     - 800 kg
+   * - **Passenger capacity**
+     - 2
+   * - **Payload**
+     - 227 kg
+   * - **Manufacturer maximum speed**
+     - 9.72 m/s
+   * - **Lab operational speed limit**
      - 5.56 m/s
+   * - **Maximum range**
+     - 70 km
+   * - **Maximum slope**
+     - 30 %
+   * - **Towing capacity**
+     - 680 kg
+   * - **Battery charge capacity**
+     - 240 Ah
+   * - **Battery voltage**
+     - 48 V
+   * - **Ingress protection**
+     - IP54
    * - **Operating environment**
      - Indoor and outdoor
    * - **Sensing modalities**
      - LiDAR, GPS
+   * - **Output formats**
+     - Rosbag
 
 Typical workflows
 -----------------

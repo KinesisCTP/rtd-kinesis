@@ -7,7 +7,7 @@ CRF-01842- ZBook G6 17'' 64Go
 
 .. container:: equipment-kicker
 
-   HP · ZBook G6 17'' 64Go
+   HP · ZBook 17 G6 Mobile Workstation
 
 
 .. list-table:: At a glance
@@ -18,7 +18,7 @@ CRF-01842- ZBook G6 17'' 64Go
    * - **Manufacturer**
      - HP
    * - **Model**
-     - ZBook G6 17'' 64Go
+     - ZBook 17 G6 Mobile Workstation
    * - **Equipment class**
      - PC
    * - **Location**
@@ -53,11 +53,11 @@ Specifications
    :header-rows: 0
 
    * - **Graphics / accelerator**
-     - RTX5000
+     - NVIDIA Quadro RTX 5000 (16 GB GDDR6)
    * - **System memory**
      - 64 GB
    * - **Display**
-     - 17 inch
+     - 17.3-inch
    * - **Purpose**
      - Creaform Go!SCAN 3D control and data processing
 
@@ -68,7 +68,7 @@ Specifications
 Related equipment & documentation
 ---------------------------------
 
-- **Parent system:** :doc:`3D Scanner - Go!SCAN 3D - Creaform </2-equipment/sensors/3d-scanner-goscan-3d-creaform>`
+- **Parent system:** :doc:`3D Scanner - Go!SCAN SPARK - Creaform </2-equipment/sensors/3d-scanner-goscan-3d-creaform>`
 
 Keywords
 --------

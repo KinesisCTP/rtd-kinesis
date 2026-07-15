@@ -55,18 +55,30 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Degrees of freedom**
-     - 6
    * - **Mobility**
      - Robot-mounted
-   * - **Resolution**
-     - Force sensor resolution: 0.5 N
-   * - **Accuracy**
+   * - **Dimensions**
+     - Approx. 217.8 x 80.7 x 49.3 (BFX/DFX variants) mm
+   * - **Weight**
+     - 0.54 kg
+   * - **Joint count**
+     - 12
+   * - **Degrees of freedom**
+     - 6
+   * - **Force sensor count**
+     - 6
+   * - **Force sensor resolution**
+     - 0.5 N
+   * - **Fingertip repeatability**
      - 0.2 mm
+   * - **Supply voltage**
+     - 24 V
+   * - **Interfaces**
+     - RS-485
    * - **Operating environment**
      - Indoor
    * - **Compatible platforms**
-     - Unitree h1, Unitree g1, Benchtop
+     - Unitree H1, Unitree G1, Benchtop
 
 Typical workflows
 -----------------
@@ -107,8 +119,8 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Compatible equipment:** :doc:`Humanoid Robot - G1 - Unitree </2-equipment/ground/humanoid-robot-g1-unitree>`
-- **Compatible equipment:** :doc:`Humanoid Robot - H1 - Unitree </2-equipment/ground/humanoid-robot-h1-unitree>`
+- **Compatible equipment:** :doc:`Humanoid Robot - G1 EDU U4 - Unitree </2-equipment/ground/humanoid-robot-g1-unitree>`
+- **Compatible equipment:** :doc:`Humanoid Robot - H1-2 - Unitree </2-equipment/ground/humanoid-robot-h1-unitree>`
 
 Keywords
 --------

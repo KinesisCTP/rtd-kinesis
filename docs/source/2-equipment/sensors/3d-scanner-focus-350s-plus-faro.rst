@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: cc68c58d-4c47-4343-91bb-5215d1863005
 
-===================================
-3D Scanner - Focus 350s plus - FARO
-===================================
+====================================
+3D Scanner - Focus S 350 Plus - FARO
+====================================
 
 .. container:: equipment-kicker
 
-   FARO · Focus 350s plus
+   FARO · Focus S 350 Plus
 
 .. figure:: ../../_static/images/103_focus-350s-faro.jpg
-   :alt: 3D Scanner - Focus 350s plus - FARO
+   :alt: 3D Scanner - Focus S 350 Plus - FARO
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   3D Scanner - Focus 350s plus - FARO
+   3D Scanner - Focus S 350 Plus - FARO
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -25,7 +25,7 @@
    * - **Manufacturer**
      - FARO
    * - **Model**
-     - Focus 350s plus
+     - Focus S 350 Plus
    * - **Equipment class**
      - 3D Scanning
    * - **Location**
@@ -55,26 +55,32 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Output formats**
-     - E57, Las, Xyz, Pts, Ptx
-   * - **Mobility**
-     - Tripod-mounted
-   * - **Resolution**
-     - Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)
-   * - **Accuracy**
-     - 1 mm
-   * - **Maximum range**
-     - 350 m
-   * - **Minimum range**
-     - 0.6 m
-   * - **Operating environment**
-     - Indoor and outdoor
-   * - **Capture rate**
-     - 2,000,000 points/s
-   * - **Battery life**
-     - 270 min
    * - **Sensing modalities**
      - LiDAR, RGB, GPS
+   * - **Resolution**
+     - Up to 165 megapixel color (HDR 2x/3x/5x); angular step size 0.009° (40,960 3D-Pixel on 360°)
+   * - **Capture rate**
+     - 2,000,000 points/s
+   * - **Accuracy**
+     - 1 mm
+   * - **Minimum range**
+     - 0.6 m
+   * - **Maximum range**
+     - 350 m
+   * - **Field of view**
+     - 360 x 300 °
+   * - **Dimensions**
+     - 240 x 200 x 100 mm
+   * - **Mobility**
+     - Tripod-mounted
+   * - **Weight**
+     - 4.2 kg
+   * - **Battery life**
+     - 270 min
+   * - **Operating environment**
+     - Indoor and outdoor
+   * - **Output formats**
+     - E57, Las, Xyz, Pts, Ptx
 
 Typical workflows
 -----------------

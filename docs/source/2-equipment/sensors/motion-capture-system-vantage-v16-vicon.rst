@@ -55,18 +55,26 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
-   * - **Frame rate**
-     - 500 fps
-   * - **Mobility**
-     - Fixed
-   * - **Camera count**
-     - 24
-   * - **Operating environment**
-     - Indoor
    * - **Sensing modalities**
      - Mocap
+   * - **Resolution**
+     - 4096 x 4096 pixels
    * - **Camera resolution**
      - 16 MP
+   * - **Frame rate**
+     - 120 fps at full resolution; up to 500 fps at 4.2 MP with full field of view; up to 2,000 fps with partial scan
+   * - **Camera count**
+     - 24
+   * - **Global shutter**
+     - Yes
+   * - **Illumination**
+     - 850 nm infrared strobe
+   * - **Mobility**
+     - Fixed
+   * - **Weight per camera**
+     - 1.6 kg
+   * - **Operating environment**
+     - Indoor
 
 Typical workflows
 -----------------
@@ -97,7 +105,7 @@ Safety & operating limits
 
 .. warning::
 
-   Power via IEEE 802.3at PoE+ (57 V DC): use certified PoE+ switches, inspect Vicon-supplied shielded Cat-5e leads before use, keep ports de-energised until handshake completes ('power-on-last'). Cameras (~1.2 kg) may be ceiling- or tripod-mounted; use approved hardware, torque-check fasteners, strain-relieve cables. IR strobe (850 nm): avoid staring into emitters at close range; brief all visitors. Cameras and strobes warm during prolonged operation — maintain ventilation and do not touch heat-sinks while powered. Emergency shutdown: stop capture in software, switch OFF the PoE+ switch; if unresponsive, unplug the PoE+ switch mains cord and disconnect camera RJ-45 only after LEDs are dark to avoid firmware corruption. Storage: PoE+ switch OFF, coil/secure leads, fit lens caps, store in padded cases in a dry dust-free cabinet (-10 °C to 50 °C); do not stack heavy objects on camera bodies. PPE: long pants, closed-toed shoes.
+   Power via IEEE 802.3at PoE+ (57 V DC): use certified PoE+ switches, inspect Vicon-supplied shielded Cat-5e leads before use, keep ports de-energised until handshake completes ('power-on-last'). Cameras (~1.6 kg) may be ceiling- or tripod-mounted; use approved hardware, torque-check fasteners, strain-relieve cables. IR strobe (850 nm): avoid staring into emitters at close range; brief all visitors. Cameras and strobes warm during prolonged operation — maintain ventilation and do not touch heat-sinks while powered. Emergency shutdown: stop capture in software, switch OFF the PoE+ switch; if unresponsive, unplug the PoE+ switch mains cord and disconnect camera RJ-45 only after LEDs are dark to avoid firmware corruption. Storage: PoE+ switch OFF, coil/secure leads, fit lens caps, store in padded cases in a dry dust-free cabinet (-10 °C to 50 °C); do not stack heavy objects on camera bodies. PPE: long pants, closed-toed shoes.
 
 **Environmental requirements**
 
