@@ -1,13 +1,13 @@
-=======================================
-KINESIS Lab | Core Technology Platforms
-=======================================
+===========================
+KINESIS Lab | NYU Abu Dhabi
+===========================
 
 .. raw:: html
 
    <script>document.body.classList.add('homepage');</script>
 
    <section class="home-hero">
-     <img src="_static/images/hero-robots-landscape.jpg" alt="KINESIS Lab at NYU Abu Dhabi Core Technology Platforms" class="hero-bg">
+     <img src="_static/images/workspace-overview.jpg" alt="KINESIS Lab at NYU Abu Dhabi Core Technology Platforms" class="hero-bg">
      <div class="hero-shade"></div>
 
      <div class="hero-content">
@@ -40,7 +40,7 @@ KINESIS Lab | Core Technology Platforms
       </p>
       <a href="1-lab-overview/index.html">Learn more →</a>
     </div>
-    <img src="_static/images/workspace-overview.jpg" alt="Lab Overview">
+    <img src="_static/images/hero-robots-landscape.jpg" alt="Lab Overview">
   </section>
 
   <section class="showcase-row flip">
@@ -75,7 +75,7 @@ KINESIS Lab | Core Technology Platforms
       <h2>Computing & Networks</h2>
       <p>
         High-performance AI workstations, computing infrastructure,
-        KINESIS CTP network architecture, and IP allocation resources.
+        and KINESIS CTP network architecture.
       </p>
       <a href="3-computing/index.html">Explore computing →</a>
     </div>
