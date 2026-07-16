@@ -1,10 +1,19 @@
 (function () {
   function createMenuIcon() {
     return `
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M4 7H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
         <path d="M4 12H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
         <path d="M4 17H20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    `;
+  }
+
+  function createCloseIcon() {
+    return `
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M6 6L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
       </svg>
     `;
   }
@@ -16,20 +25,14 @@
 
     sidebar.id = sidebar.id || "wy-nav-side";
 
-    let button = document.querySelector(".menu-toggle");
-    if (button) {
-      const cleanButton = button.cloneNode(true);
-      button.replaceWith(cleanButton);
-      button = cleanButton;
-    } else {
-      button = document.createElement("button");
-      button.className = "menu-toggle";
-      document.body.appendChild(button);
-    }
+    let button = document.querySelector(".wy-nav-top .menu-toggle");
+    if (!button) return;
+
+    const cleanButton = button.cloneNode(true);
+    button.replaceWith(cleanButton);
+    button = cleanButton;
 
     button.type = "button";
-    button.innerHTML = createMenuIcon();
-    button.setAttribute("aria-label", "Toggle navigation menu");
     button.setAttribute("aria-controls", sidebar.id);
 
     function isWideEnoughForOpenSidebar() {
@@ -44,6 +47,11 @@
       button.classList.toggle("sidebar-open", isOpen);
       button.classList.toggle("sidebar-closed", !isOpen);
       button.setAttribute("aria-expanded", String(isOpen));
+      button.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
+      button.innerHTML = `
+        <span class="menu-toggle-icon">${isOpen ? createCloseIcon() : createMenuIcon()}</span>
+        <span class="menu-toggle-label">${isOpen ? "Close" : "Contents"}</span>
+      `;
 
       sidebar.classList.toggle("active", isMobile && isOpen);
       sidebar.classList.toggle("collapsed", !isOpen);
