@@ -21,33 +21,3 @@ document.addEventListener("DOMContentLoaded", function () {
       .forEach(section => section.remove());
   }
 });
-
-// ===== APPLE-STYLE NAVBAR BEHAVIOR =====
-document.addEventListener("DOMContentLoaded", function () {
-  const navbar = document.querySelector(".top-navbar");
-  if (!navbar) return;
-
-  function updateNavbar() {
-    if (window.scrollY > 80) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-  }
-
-  updateNavbar();
-  window.addEventListener("scroll", updateNavbar);
-
-  const currentPath = window.location.pathname;
-
-  document.querySelectorAll(".nav-links a").forEach(link => {
-    const linkPath = new URL(link.href).pathname;
-
-    if (
-      currentPath === linkPath ||
-      currentPath.includes(linkPath.replace("/index.html", "")) && linkPath !== "/"
-    ) {
-      link.classList.add("active");
-    }
-  });
-});

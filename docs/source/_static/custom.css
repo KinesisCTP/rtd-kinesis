@@ -26,9 +26,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-.nav-logo,
-.nav-links a {
+h4 {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: -0.03em;
 }
@@ -48,8 +46,8 @@ h2 {
   margin-top: 60px;
 }
 
-/* Hide RST-generated page title on homepage only */
-body.homepage .document > .section > h1:first-child {
+/* Let the custom homepage hero own the opening instead of repeating Sphinx chrome. */
+body.homepage .document > section > h1:first-child {
   display: none !important;
 }
 
@@ -132,11 +130,6 @@ body.lab-overview-section .wy-menu-vertical li.toctree-l1.current > ul > li.toct
   height: 0 !important;
   overflow: hidden !important;
   visibility: hidden !important;
-}
-
-/* Hide custom top navbar on inner pages if you want RTD sidebar as main nav */
-body:not(.homepage) .top-navbar {
-  display: none !important;
 }
 
 /* Hide RTD mobile top bar */
@@ -336,6 +329,13 @@ body:not(.homepage) .wy-side-nav-search .version {
 .hero-content p {
   font-size: 1.25rem;
   color: #f4eefa;
+}
+
+.hero-content .hero-kicker {
+  margin: 0;
+  font-size: clamp(0.72rem, 1.4vw, 0.95rem);
+  line-height: 1.5;
+  text-wrap: balance;
 }
 
 .hero-buttons {
@@ -613,20 +613,6 @@ body:not(.homepage) .wy-side-nav-search .version {
   body.homepage .wy-nav-content,
   body:not(.homepage) .wy-nav-content {
     padding: 25px 20px !important;
-  }
-
-  .top-navbar {
-    width: calc(100% - 24px);
-    top: 12px;
-    border-radius: 24px;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 14px;
   }
 
   .showcase-row,

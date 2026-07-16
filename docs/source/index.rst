@@ -1,24 +1,19 @@
-================
-KINESIS CTP Lab
-================
+=======================================
+KINESIS Lab | Core Technology Platforms
+=======================================
 
 .. raw:: html
 
    <script>document.body.classList.add('homepage');</script>
 
-   <nav class="top-navbar">
-     <a href="index.html" class="nav-logo">KINESIS CTP Lab</a>
-
-     
-
    <section class="home-hero">
-     <img src="_static/images/hero-robots-landscape.jpg" alt="KINESIS CTP Lab" class="hero-bg">
+     <img src="_static/images/hero-robots-landscape.jpg" alt="KINESIS Lab at NYU Abu Dhabi Core Technology Platforms" class="hero-bg">
      <div class="hero-shade"></div>
 
      <div class="hero-content">
-       <p class="hero-kicker">NYU Abu Dhabi</p>
-       <h1>KINESIS CTP Lab</h1>
-       <p>Robotics • AI • Automation • Motion Experimentation</p>
+       <p class="hero-kicker">NYU Abu Dhabi &middot; Core Technology Platforms</p>
+       <h1>KINESIS Lab</h1>
+       <p>Robotics &middot; AI &middot; Automation &middot; Sensing &middot; Motion Capture</p>
        <div class="hero-buttons">
          <a href="2-equipment/index.html">Explore Equipment</a>
          <a href="4-facilities/index.html" class="secondary">View Facilities</a>
@@ -27,10 +22,11 @@ KINESIS CTP Lab
    </section>
 
    <section class="home-intro">
-     <h2>Where robotics, sensing, and experimentation meet.</h2>
+     <h2>Shared infrastructure for robotics, AI, and experimentation.</h2>
      <p>
-       The KINESIS CTP Lab is a shared multi-space laboratory for design, exploration,
-       and experimentation using robotics, artificial intelligence, and automation technologies.
+       The KINESIS Lab is part of NYU Abu Dhabi&rsquo;s Core Technology Platforms, providing
+       shared facilities, advanced equipment, and technical expertise for research in robotics,
+       artificial intelligence, automation, sensing, and motion capture.
      </p>
    </section>
 
