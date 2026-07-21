@@ -42,6 +42,7 @@ Power Supply - PVS10005 - B&K Precision
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -100,24 +101,39 @@ Equipment-specific training and SOP review are mandatory before operation. "High
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Hazards: electrical shock (up to 1000 V at output terminals), arc/flash from loose connections (especially with inductive loads), overheating/fire risk if airflow is blocked, and stored energy in internal capacitors for several seconds after power-down. Controls: verify earth ground; use insulated test leads rated ≥5 A and 1 kV; maintain ≥25 mm clearance at fan sides; enable OVP/OCP limits before connecting a DUT; post 'High Voltage' signage during operation. Emergency shutdown: unplug AC mains cord at rear if power switch is unresponsive; cut facility power at the breaker if damage/smoke/arcing is visible — do not touch output or sense terminals immediately after shutdown as lethal voltages may remain briefly. Storage: disable output, power off and unplug, discharge through a 10 kΩ (≥2 W) resistor for 10 s, fit protective caps on terminals, store indoors at 0–40 °C and ≤90% RH in a dust-free environment.
+   - Hazards include electrical shock at up to 1000 V, arc or flash from loose connections, overheating if airflow is blocked, and stored energy after power-down.
+   - Verify protective earth and use insulated test leads rated for at least 5 A and 1 kV.
+   - Enable over-voltage and over-current limits before connecting the device under test, and post High Voltage signage during operation.
+   - If the power switch is unresponsive, unplug the rear AC mains cord; if damage, smoke, or arcing is visible, isolate facility power at the breaker.
+   - Do not touch output or sense terminals immediately after shutdown because lethal voltage may remain.
+   - Before storage, disable the output, power off and unplug the supply, discharge it through a 10 kΩ resistor rated for at least 2 W for 10 seconds, and fit the protective terminal caps.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Indoor only
-- Keep dry
+- A designated electrical workbench inside the KINESIS CTP Lab.
+
+**Environmental limits**
+
+- Operate indoors only.
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Maintain at least 25 mm clearance at the fan sides and keep the supply dry and free of conductive dust.
+- Store indoors at 0–40 °C and no more than 90% relative humidity.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
-- Restricted operating area
 
 
 

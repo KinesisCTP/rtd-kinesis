@@ -1,0 +1,4 @@
+/* Cache-busted Lab Overview presentation fixes, revision 1. */
+.lab-overview-hero {
+  border-radius: 0 !important;
+}

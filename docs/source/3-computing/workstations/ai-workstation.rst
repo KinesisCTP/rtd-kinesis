@@ -42,6 +42,7 @@ AI Workstation - Lambda
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -69,6 +70,7 @@ Specifications
      - 2x 10 Gbps RJ45 Ethernet ports, 1x dedicated IPMI port, 2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with Bluetooth v5.2
    * - **Additional specifications**
      - DDR4-3200 ECC RDIMM, PCIe 4.0
+
 
 
 

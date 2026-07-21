@@ -42,6 +42,7 @@ Event Camera - Metavision EVK4 HD - Prophesee
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -86,6 +87,7 @@ Access, training & booking
 --------------------------
 
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
+
 
 
 

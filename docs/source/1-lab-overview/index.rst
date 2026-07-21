@@ -20,16 +20,17 @@ The KINESIS CTP Lab is a shared multi-space laboratory for design,
 exploration, and experimentation using robotics, artificial intelligence,
 and automation technologies.
 
-The lab is part of the **Core Technology Platforms (CTP)** at New York
-University Abu Dhabi, a set of shared research facilities and expertise that
-support the university's research community across disciplines.
+The lab is part of the `Core Technology Platforms (CTP)
+<https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html>`_
+at New York University Abu Dhabi, a set of shared research facilities and
+expertise that support the university's research community across disciplines.
 
 Mission
 -------
 
 Our mission is to provide cutting-edge equipment, facilities, and expertise to
 support innovative research across multiple domains including ground, aerial,
-and underwater robotics, motion capture, and intelligent systems.
+and underwater robotics, manipulation, motion capture, and intelligent systems.
 
 Core Capabilities
 -----------------
@@ -37,7 +38,10 @@ Core Capabilities
 The lab supports research through a combination of robotics platforms,
 sensing systems, motion capture infrastructure, and computing resources.
 
-- **Ground robotics**: Humanoids, quadrupeds, wheeled robots, robotic arms, and autonomous platforms.
+- **Ground robotics**: Humanoids, quadrupeds, wheeled robots, and autonomous
+  platforms.
+- **Manipulation systems**: Robotic arms, dexterous hands, grippers, and subsea
+  manipulators for grasping and physical interaction.
 - **Aerial systems**: Drones and aerial systems for mapping, inspection, imaging, and flight testing.
 - **Marine robotics**: Underwater ROVs and subsea systems for monitoring and survey applications.
 - **Motion capture**: High-accuracy Vicon tracking for motion experimentation and robotics.
@@ -80,19 +84,6 @@ Lab Address
 
 .. rst-class:: sidebar-nav-group
 
-Lab Operations
---------------
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :titlesonly:
-
-   1-general-policies
-   2-processes
-
-.. rst-class:: sidebar-nav-group
-
 Research and Resources
 ----------------------
 
@@ -103,4 +94,16 @@ Research and Resources
 
    3-publications
    5-useful-links
-   6-contributing
+
+.. rst-class:: sidebar-nav-group
+
+Lab Operations
+--------------
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :titlesonly:
+
+   1-general-policies
+   2-processes

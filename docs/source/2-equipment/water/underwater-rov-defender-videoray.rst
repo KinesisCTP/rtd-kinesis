@@ -111,27 +111,45 @@ Trained personnel required with role separation: Pilot, Tether Handler, Accessor
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Electrical equipment is used near water; keep power cords, connectors, and console out of the water and handle power cords only with dry hands. Test safety circuits (GFCI and LIM) and verify console-to-ROV interlock before operations. Moving thrusters and optional manipulator create pinch points; keep hands, hair, clothing, and tools clear and disable Auto/Dynamic Positioning before recovery. Manage tether slack and secure strain reliefs to reduce trip/entanglement/snags. For open-water operations, monitor weather/sea conditions and use guardrails/barriers where practical; rescue pole and throw-line should be available near test tanks. After dives (especially saltwater), rinse/soak with fresh water and avoid high-pressure spray; allow equipment to dry fully before storage.
+   - Keep power cords, connectors, and the console out of the water, and handle power cords only with dry hands.
+   - Test the GFCI and line-insulation monitor and verify the console-to-ROV interlock before operation.
+   - Keep hands, hair, clothing, and tools clear of thrusters and the optional manipulator, and disable automatic or dynamic positioning before recovery.
+   - Manage tether slack and strain relief to prevent trips, entanglement, and snags.
+   - Use guardrails or barriers where practical during open-water work, and keep a rescue pole and throw-line available near test tanks.
+   - After diving, especially in salt water, rinse or soak the equipment with fresh water without high-pressure spray and allow it to dry completely before storage.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Water only
-- Tethered operation
+- Operate only in the water conditions and depth limits stated in the equipment manual.
+- Use only in water conditions and depths within the manufacturer and approved mission limits.
+- Keep the topside console, power cords, and electrical connections dry and protected from spray.
+- Monitor weather and sea conditions during open-water operations and stop when conditions exceed the approved mission limits.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- A personal flotation device is required when working at the edge of a tank, quay, vessel, or open water.
 
 **Operational controls**
 
 - Training required
-- PPE required
 - Two-person operation
 - Supervisor required
 - Risk assessment required
+- Plan, route, and supervise the tether or cable throughout operation.
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Component or accessory:** :doc:`Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea </2-equipment/water/forward-looking-sonar-oculus-m1200d-blueprint-subsea>`
 
 Keywords
 --------

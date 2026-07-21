@@ -42,6 +42,7 @@ Linux Workstation - Custom Build
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -69,9 +70,6 @@ Specifications
      - Intel 2.5 GbE; Wi-Fi 6E
    * - **Additional specifications**
      - NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard
-
-
-
 
 
 

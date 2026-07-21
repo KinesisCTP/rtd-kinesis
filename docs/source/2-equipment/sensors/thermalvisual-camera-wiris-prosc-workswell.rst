@@ -118,22 +118,38 @@ Drone-mounted operation is restricted to licensed pilots and requires a secured 
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Powered from 9–36 V DC SELV supply; follow power-on-last rule (keep supply de-energised until DC lead fully connected), visually inspect cables/connectors before use. Internal electronics and IR sensor reach ~50 °C — allow ≥15 min cooldown after power-down before handling the lens housing; use the supplied focus tool for lens adjustments. When drone-mounted, torque 1/4-20 UNC mount to spec and inspect before each deployment; maintain exclusion zones and warning signage. Emergency shutdown: onboard touchscreen Settings → Shutdown; forced: disconnect 9–36 V DC cable. PPE: long pants, closed-toed shoes. Storage: power off, cool ≥15 min, store dry and dust-free, avoid direct sunlight; transport in original case or padded ESD-safe container.
+   - Keep the 9–36 V DC SELV supply de-energised until its lead is fully connected, and inspect cables and connectors before use.
+   - Internal electronics and the infrared sensor can reach approximately 50 °C; allow at least 15 minutes of cooling after power-down before handling the lens housing.
+   - Use the supplied focus tool for lens adjustments.
+   - For drone mounting, torque the 1/4-20 UNC mount to specification, inspect it before each deployment, and maintain the approved exclusion zone and warning signs.
+   - Use the touchscreen Shutdown command for normal shutdown; disconnect the 9–36 V DC cable only when forced shutdown is necessary.
+   - Transport the camera in its original case or a padded ESD-safe container.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Keep dry
+- KINESIS CTP Lab or an approved KINESIS controlled test area; drone-mounted use is limited to flight locations approved through the applicable NYUAD EHS and aviation-authority processes.
+
+**Environmental limits**
+
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Keep the camera dry and dust-free and do not use it underwater or in wet environments.
+- Operate at -15 °C to 50 °C and protect the camera from direct sunlight during storage.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Risk assessment required
 - Training required
-- PPE required
 
 
 

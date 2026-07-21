@@ -42,6 +42,7 @@ ROV Robotic Arm - Alpha 5 - Reach Robotics
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -90,6 +91,26 @@ Access, training & booking
 --------------------------
 
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
+
+
+Safety & operating limits
+-------------------------
+
+**Approved operating area**
+
+- KINESIS CTP Lab, an approved test tank, or an approved KINESIS underwater test area while integrated with its host system.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Operate only in the water conditions and depth limits stated in the equipment manual.
+- Use only on a compatible host system within the manufacturer's depth, electrical, and environmental limits.
+
+**Operational controls**
+
+- Risk assessment required
 
 
 

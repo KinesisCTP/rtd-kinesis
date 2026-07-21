@@ -65,4 +65,4 @@ Any incident (equipment damage, injury, near-miss, or safety concern) must be re
 Contributing to the Wiki
 ------------------------
 
-See :doc:`Contributing </1-lab-overview/6-contributing>` for instructions on how to update or add content to this documentation.
+See Contributing for instructions on how to update or add content to this documentation.

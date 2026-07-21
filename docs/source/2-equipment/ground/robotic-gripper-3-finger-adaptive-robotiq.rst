@@ -46,6 +46,7 @@ Robotic Gripper - 3-Finger Adaptive - Robotiq
    This record describes a managed component or accessory. Check the related equipment and
    system documentation before planning standalone use.
 
+
 Overview
 --------
 
@@ -103,24 +104,39 @@ Indoor operation on a level, non-slip floor. Requires a dedicated 24 V DC bench 
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Primary hazards: pinch/crush points (fingers can exert up to 70 N), projectile risk from dropped/ejected objects during fast motion, entanglement, and electrical hazards from damaged 24 V DC SELV wiring. Controls: only trained personnel operate; keep hands/clothing clear while powered; verify mode/speed/force in teach mode before automated runs; use a certified 24 V DC supply with a 4 A fuse; inspect and strain-relieve cables; never connect to AC or modify wiring; eye protection required. Emergency shutdown: press robot E-stop or cut 24 V DC supply. Storage: power off, disconnect cables, store dry indoors away from dust/moisture and temperature extremes.
+   - Primary hazards include pinch or crush points, objects dropped or ejected during fast motion, entanglement, and damaged 24 V DC SELV wiring.
+   - Keep hands and clothing clear while powered and verify the grasp mode, speed, and force in teach mode before automated runs.
+   - Use a certified 24 V DC supply with a 4 A fuse, inspect and strain-relieve cables, and never connect the gripper to AC or modify its wiring.
+   - For emergency shutdown, press the host robot's emergency stop or cut the 24 V DC supply.
+   - For storage, power off the gripper, disconnect its cables, and protect it from dust, moisture, and temperature extremes.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Indoor only
-- Tethered operation
+- KINESIS CTP Lab workbench or an approved KINESIS robot workcell.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Operate indoors only.
+
+**Required attire and conditional PPE**
+
+- Safety glasses or safety goggles.
 
 **Operational controls**
 
 - Supervisor required
 - Risk assessment required
 - Training required
-- PPE required
+- Plan, route, and supervise the tether or cable throughout operation.
 
 
 Related equipment & documentation

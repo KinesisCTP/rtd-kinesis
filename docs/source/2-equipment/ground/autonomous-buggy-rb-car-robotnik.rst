@@ -42,6 +42,7 @@ Autonomous Buggy - RB-CAR - Robotnik
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -113,18 +114,42 @@ Use restricted to trained and authorised operators. Outdoor operation approved o
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Keep a clear perimeter and do not allow anyone near the vehicle while motor drives are enabled; always keep an operator seated when the vehicle is powered and safety is restarted; use seat belts; do not rely on laser stop at higher speeds (configured for low-speed auto operation); keyswitch must be OFF and main power isolated before accessing the rear control cabinet (qualified personnel only). Battery system is high-current 48 V DC lead-acid; charge only with the provided charger and only in a well-ventilated area with hood/doors open; do not cover while charging; avoid wet conditions and do not sprinkle water/oil on the robot or charging cord. Hot components (motor/controller/brake discs) can exceed 80°C; enforce cool-down and use gloves for work inside the rear electronics bay.
+   - Keep a clear perimeter and do not allow anyone near the vehicle while the motor drives are enabled.
+   - Keep an operator seated whenever the vehicle is powered and safety has been restarted, and use the seat belts.
+   - Do not rely on the laser stop at higher speeds; it is configured for low-speed autonomous operation.
+   - Set the keyswitch to OFF and isolate main power before qualified personnel access the rear control cabinet.
+   - The battery system is high-current 48 V DC lead-acid; use only the provided charger and never cover the battery or charger while charging.
+   - Motor, controller, and brake components can exceed 80 °C; enforce a cool-down period before authorised maintenance inside the rear electronics bay.
+
+**Approved operating area**
+
+- KINESIS CTP Lab and approved KINESIS controlled test areas.
+- The approved Service Road behind campus and Ring Road Amber Zones, subject to the operating restrictions listed on this page.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Charge only in a well-ventilated area with the hood or doors open.
+- Do not operate in fog, sandstorms, or other low-visibility conditions.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- Protective gloves are required only for authorised maintenance inside the isolated rear electronics bay after hot components have cooled sufficiently for the task.
 
 **Operational controls**
 
 - Training required
-- Restricted operating area
-- PPE required
 - Two-person operation
 - Risk assessment required
 

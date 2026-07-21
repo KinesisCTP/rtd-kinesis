@@ -106,24 +106,34 @@ Only personnel who have completed the Go!SCAN 3D induction may operate the scann
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Scanner is powered from a laptop USB 3.0 port or an 18 V in-line adaptor; stop by disconnecting the USB 3.0 cable or unplugging the in-line adaptor. Key hazards: manage the 4 m cable to prevent trips; inspect routing/abrasion and unplug before cleaning or changing accessories; avoid direct viewing of the bright structured-light pattern; take short rest breaks or alternate hands to reduce ergonomic strain. PPE: appropriate street clothing (long pants, closed-toed shoes). Storage: keep in padded case in a dry indoor area at 5–55 °C, 10–90% RH non-condensing; fit the USB dust cap; do not touch calibration-plate targets.
+   - To stop the scanner, disconnect the USB 3.0 cable from the laptop or unplug the 18 V in-line adaptor.
+   - Route and inspect the 4 m cable to prevent trips and abrasion, and disconnect power before cleaning or changing accessories.
+   - Avoid looking directly at the bright structured-light pattern.
+   - Take short rest breaks or alternate hands to reduce ergonomic strain.
+   - Store the scanner in its padded case with the USB dust cap fitted, and do not touch the calibration-plate targets.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Indoor only
-- Tethered operation
+- Operate indoors only.
+- Store in a dry indoor area at 5–55 °C and 10–90% non-condensing relative humidity.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
 - Supervisor required
+- Plan, route, and supervise the tether or cable throughout operation.
 
 
 Related equipment & documentation

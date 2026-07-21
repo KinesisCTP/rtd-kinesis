@@ -132,19 +132,39 @@ Safety & operating limits
 
 .. warning::
 
-   Intended for professional use in industrial, restricted, or controlled environments — not for collaborative applications involving physical interaction with humans. Prohibited uses include underwater/airborne applications, home environments, transporting persons/animals, and transporting hazardous materials. Key hazards: pinch/crush risks at arm joints and gripper; loss of stability with extended arm or heavy payloads (>5 kg at 0.5 m extension can unbalance Spot); unexpected motion during manipulation. Controls: maintain at least 3 m clearance, keep arm stowed when not manipulating, use slow speed when teaching or working near people. Storage: stow the arm, power off and remove the battery, store indoors at -20 °C to 45 °C (IP54); store batteries at ~50% state-of-charge for long-term storage.
+   - Intended for professional use in industrial, restricted, or controlled environments; do not use for collaborative applications involving physical interaction with humans.
+   - Do not use Spot in home environments, to transport persons or animals, or to transport hazardous materials.
+   - Keep clear of pinch and crush points at the arm joints and gripper, and account for unexpected motion during manipulation.
+   - An extended arm or heavy payload can reduce stability; more than 5 kg at 0.5 m extension can unbalance Spot.
+   - Maintain at least 3 m clearance, keep the arm stowed when not manipulating, and use slow speed when teaching or working near people.
+   - Store batteries at approximately 50% state of charge for long-term storage.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Restricted operating area
+- KINESIS CTP Lab and its designated KINESIS controlled operating areas.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Operate at -20 °C to 45 °C and at no more than 99% non-condensing relative humidity.
+- IP54: protect the robot from submersion and avoid rapid temperature transitions that can cause internal condensation.
+- Do not operate Spot underwater or airborne.
+- Assess the surface, debris, slopes, narrow passages, elevated edges, and lighting before operation.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- Safety footwear is recommended when lifting or physically handling Spot.
+- Hearing protection may be required if the configured A/V warning-system volume warrants it.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
 - Supervisor required
-- Restricted operating area
 
 
 

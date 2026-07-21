@@ -8,6 +8,10 @@ author = 'NYU Abu Dhabi'
 release = '1.0'
 version = '1.0.0'
 
+# The canonical repository includes protected content by default. The public exporter removes
+# every protected RST block before building the sanitized public source tree.
+tags.add('internal')
+
 # -- General configuration
 
 extensions = [
@@ -65,6 +69,7 @@ html_css_files = [
     'sidebar-contrast.css',
     'homepage-hero-v5.css',
     'native-responsive-nav-v4.css',
+    'lab-overview-polish-v1.css',
 ]
 
 html_js_files = [

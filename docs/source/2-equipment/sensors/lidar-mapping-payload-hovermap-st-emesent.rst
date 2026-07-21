@@ -42,6 +42,7 @@ LiDAR Mapping Payload - Hovermap ST - Emesent
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -108,23 +109,36 @@ Operations occur mainly inside the KINESIS CTP Lab with occasional outdoor field
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Power from an external 12–54 V DC source; scans typically <35 minutes, data downloaded to USB. Hazards: electrical shock from damaged leads/connectors (inspect before use, only trained operators connect/disconnect); moving parts from the continuously rotating sensor head (keep hands/hair/clothing clear; use protective cage for handheld use); Class 1 eye-safe lasers (do not open sealed optical enclosure; avoid staring into aperture at close range); dropped-load risk when handheld or drone-mounted (~1.6 kg). IP65 rated but not recommended in rain or fog; maintain ≥10 m from elevated EMI sources; operating temperature -10 °C to 45 °C. Emergency shutdown: hold power button >10 s if frozen, then disconnect battery once LEDs are dark. Storage: indoors dry at 10–30 °C in padded case; fit protective cap; disconnect battery. PPE: long pants, closed-toed shoes.
+   - Use an approved external 12–54 V DC power source and inspect leads and connectors before use; only trained operators may connect or disconnect power.
+   - Keep hands, hair, and clothing clear of the continuously rotating sensor head, and use the protective cage for handheld operation.
+   - The unit contains Class 1 lasers; never open the sealed optical enclosure or stare into the aperture at close range.
+   - Control the approximately 1.6 kg dropped-load risk during handheld, robot-mounted, or drone-mounted operation.
+   - If the unit freezes, hold the power button for more than 10 seconds and disconnect the battery only after the LEDs are dark.
+   - For storage, disconnect the battery and fit the protective cap before placing the unit in its padded case.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Keep dry
-- Tethered operation
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Do not operate in rain or fog, despite the IP65 enclosure rating.
+- Operate at -10 °C to 45 °C and maintain at least 10 m separation from elevated electromagnetic-interference sources.
+- Store dry indoors at 10–30 °C in the padded case.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
+- Plan, route, and supervise the tether or cable throughout operation.
 
 - **Software licence:** Required.
 

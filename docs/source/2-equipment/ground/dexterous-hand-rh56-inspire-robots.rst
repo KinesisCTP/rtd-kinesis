@@ -42,6 +42,7 @@ Dexterous Hand - RH56 - Inspire Robots
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -97,23 +98,42 @@ Operation requires training and authorisation. Intended for bench-top and robot-
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Use the host system's emergency stop to halt motion; there is no dedicated on-hand emergency shutdown specified. Disconnect the 24 V DC supply only when it is safe to approach. Inspect the GX12 cable/connector before each use and do not operate with damaged insulation. Securely mount the hand before energizing, keep hands clear during actuation, use reduced speed during setup/teaching, configure force thresholds to stop on unintended contact, announce motions verbally, and avoid loose clothing/jewelry near finger travel paths. Store powered off in a clean, dry indoor environment, protected from dust and mechanical loads on the fingers/palm.
+   - Use the host system's emergency stop to halt motion; the hand has no specified dedicated emergency shutdown.
+   - Disconnect the 24 V DC supply only when it is safe to approach.
+   - Inspect the GX12 cable and connector before each use and do not operate with damaged insulation.
+   - Securely mount the hand before energising it and keep hands clear during actuation.
+   - Use reduced speed during setup and teaching, and configure force thresholds to stop on unintended contact.
+   - Announce motions and keep loose clothing and jewellery away from finger travel paths.
+   - Store the hand powered off and protected from dust and mechanical loads on the fingers or palm.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Indoor only
-- Keep dry
+- KINESIS CTP Lab workbench or an approved KINESIS robot workcell.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Operate indoors only.
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- Safety goggles.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
 
 
 Related equipment & documentation

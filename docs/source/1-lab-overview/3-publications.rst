@@ -100,7 +100,15 @@ Jump to :ref:`2026 <pubs-2026>`, :ref:`2025 <pubs-2025>`,
 Citing the Lab
 --------------
 
-When publishing research that uses KINESIS CTP Lab equipment or facilities, please acknowledge the Core Technology Platforms at NYU Abu Dhabi.
+When publishing research that uses KINESIS CTP Lab equipment or facilities,
+please acknowledge the Core Technology Platforms at NYU Abu Dhabi and, where
+appropriate, identify the specific equipment or facility used.
+
+These acknowledgments connect research outputs to the infrastructure that
+supported them. This evidence helps demonstrate the lab's research impact,
+inform maintenance and replacement planning, support continued investment in
+shared equipment, and make the case for future capabilities and facility
+expansion.
 
 .. note::
 

@@ -42,6 +42,7 @@ Humanoid Robot - G1 EDU U4 - Unitree
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -117,22 +118,38 @@ Only trained and authorised personnel are allowed to operate or programme the ro
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Key hazards: high-torque actuators, stability/fall risk during locomotion, battery fire/burn hazards if damaged, and heat generation after extended use. Maintain ≥2 m safe working radius; never attempt to catch or support the robot if it begins to fall; avoid touching joints/core immediately after use. Emergency stop: L1+A on remote → damping mode; if unresponsive, battery button (short + hold >2 s), or manually remove battery. Storage: damping mode, power off, store seated/suspended with support frame in a dry indoor area; remove battery. PPE: long pants, closed-toed shoes.
+   - Key hazards include high-torque actuators, loss of stability or falling during locomotion, battery fire or burns if damaged, and heat after extended use.
+   - Maintain a safe working radius of at least 2 m.
+   - Never attempt to catch or support the robot if it begins to fall, and do not touch the joints or core immediately after use.
+   - For emergency stop, press L1+A on the remote to enter damping mode; if the robot is unresponsive, use the battery power-off sequence or remove the battery.
+   - For storage, enter damping mode, power off, remove the battery, and support the robot in a seated or suspended position.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Keep dry
+- KINESIS CTP Lab and its designated KINESIS controlled operating areas.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Risk assessment required
 - Training required
-- PPE required
 
 
 Related equipment & documentation

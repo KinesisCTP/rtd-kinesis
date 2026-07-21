@@ -42,6 +42,7 @@ Hyperspectral Camera - microHSI 410 SHARK - Corning
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -88,6 +89,7 @@ Access, training & booking
 --------------------------
 
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
+
 
 
 

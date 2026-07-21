@@ -42,6 +42,7 @@ Acoustic Imager - SV600 - Fluke
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -105,22 +106,32 @@ Only trained and authorised personnel are allowed to operate the sensor. Mobile 
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Operate only as specified for measurement of acoustic signals; do not use around explosive gases, vapor, or in damp/wet environments. Power is provided via PoE+; follow the 'power-on-last' rule (keep PoE port de-energised until the RJ-45 is fully connected), route cables properly, and visually inspect connectors/insulation before each use. For emergency shutdown, disconnect the PoE+ network cable or de-energize the PoE port feeding the SV600. Storage: indoor, clean, dry location; IP54 splash-proof but not watertight — avoid direct water spray, solvents, and corrosive atmospheres; do not place objects heavier than ~5 kg on the housing.
+   - Use the imager only as specified for acoustic-signal measurements.
+   - Keep the PoE+ port de-energised until the RJ-45 plug is fully connected, route cables safely, and inspect connectors and insulation before each use.
+   - For emergency shutdown, disconnect the PoE+ network cable or de-energise the PoE port supplying the SV600.
+   - Do not use solvents on the housing or place objects heavier than approximately 5 kg on it.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Keep dry
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Do not use around explosive gases or vapours, in damp or wet environments, under direct water spray, or in corrosive atmospheres.
+- Store indoors in a clean, dry location.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
 
 
 

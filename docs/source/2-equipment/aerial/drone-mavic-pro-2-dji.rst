@@ -42,6 +42,7 @@ Drone - Mavic 2 Pro - DJI
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -126,24 +127,37 @@ Hands-on training and review of the SOP and user manual are required before oper
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Key hazards include high-speed propellers (laceration risk) and LiPo battery fire/thermal runaway. Controls include restricting access, operator training, maintaining visual line-of-sight, and maintaining at least a 5 m exclusion zone around spectators. Fly in open areas below 120 m AGL, following local UAV regulations, inspecting propellers/batteries before each flight, and keeping clear of power lines and reflective or magnetic structures. Storage: power off aircraft and RC, remove battery, fit gimbal clamp/cover, fold arms/props; store batteries at 40–65% SoC in a fire-retardant container at 5–40 °C. PPE: long pants, closed-toed shoes, safety glasses.
+   - Key hazards include high-speed propellers and LiPo-battery fire or thermal runaway.
+   - Restrict access, maintain visual line of sight, and keep spectators outside a 5 m exclusion zone.
+   - Before each flight, inspect the propellers and batteries and keep clear of power lines and reflective or magnetic structures.
+   - For storage, power off the aircraft and remote controller, remove the battery, fit the gimbal clamp and cover, and fold the arms and propellers.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Keep dry
-- Restricted operating area
+- KINESIS CTP Arena and flight locations explicitly approved through the applicable NYUAD EHS and aviation-authority processes.
+
+**Environmental limits**
+
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Fly only in open, dry conditions within the approved wind, visibility, and altitude limits.
+- Keep batteries in a fire-retardant container at 5–40 °C and 40–65% state of charge for storage.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- Safety glasses.
 
 **Operational controls**
 
 - Risk assessment required
 - Training required
-- PPE required
-- Restricted operating area
 
 
 

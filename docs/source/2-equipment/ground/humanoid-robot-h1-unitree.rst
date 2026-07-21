@@ -42,6 +42,7 @@ Humanoid Robot - H1-2 - Unitree
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -115,23 +116,39 @@ Only trained and authorised personnel are allowed to operate or programme the ro
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Maintain ≥2 m safe working radius around the robot; avoid standing directly in front of or behind it due to stability/fall risk. Emergency stop: press L1+A on remote to enter damping mode (motors power down and robot falls in place); if unresponsive, power off via battery button (short press then press-and-hold >2 s) or remove battery. Only trained personnel handle charging, connection, or battery replacement. Robot uses SELV (<60 VDC) design with system monitoring that alerts/locks on critical faults. Storage: damping mode and power off; do not store standing unsupported — store seated or suspended with a support frame; store dry indoors, remove battery. PPE: long pants, closed-toed shoes.
+   - Maintain a safe working radius of at least 2 m and avoid standing directly in front of or behind the robot because it may lose stability or fall.
+   - For emergency stop, press L1+A on the remote to enter damping mode; the motors power down and the robot falls in place.
+   - If the robot is unresponsive, use the battery power-off sequence or remove the battery.
+   - Only trained personnel may charge, connect, or replace the battery.
+   - The SELV system monitors critical faults and alerts or locks the robot when required.
+   - For storage, enter damping mode, power off, remove the battery, and support the robot in a seated or suspended position; never store it standing unsupported.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Keep dry
+- KINESIS CTP Lab and its designated KINESIS controlled operating areas.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Risk assessment required
 - Training required
-- PPE required
-- Restricted operating area
 
 
 Related equipment & documentation

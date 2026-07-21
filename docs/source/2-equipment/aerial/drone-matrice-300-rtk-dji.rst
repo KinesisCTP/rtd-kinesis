@@ -42,6 +42,7 @@ Drone - Matrice 300 RTK - DJI
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -111,24 +112,39 @@ Only trained and authorised personnel may operate the drone. All operations must
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Primary hazards include high-speed propellers (laceration risk), lithium battery fire risk, crash/fall-from-height risks during takeoff/landing or malfunction, electromagnetic interference, and weather hazards (wind/rain/low temperatures). Do not fly over people, moving vehicles, or sensitive infrastructure. Outdoor operations require a GCAA drone pilot licence; geofencing must be configured to prevent entry into forbidden areas. Emergency shutdown: use controller Combination Stick Command (CSC) to stop propellers. Batteries must be charged following procedures, never left unattended while charging, and never charged near flammable materials. Long-term storage: power off, disconnect batteries, store in fireproof/LiPo-safe container at 15–25°C in a padded hard case away from sunlight, moisture, and dust; charge/discharge every 3 months. PPE: long pants, closed-toed shoes, and safety goggles.
+   - Primary hazards include high-speed propellers, lithium-battery fire, aircraft impact or falling from height, electromagnetic interference, and adverse weather.
+   - Do not fly over people, moving vehicles, or sensitive infrastructure.
+   - Outdoor operations require a GCAA drone pilot licence, and geofencing must prevent entry into forbidden areas.
+   - Use the controller Combination Stick Command (CSC) for emergency propeller shutdown.
+   - Follow the approved battery-charging procedure; never leave batteries unattended while charging or charge them near flammable materials.
+   - For long-term storage, power off the aircraft, disconnect the batteries, use a fireproof or LiPo-safe container inside the padded hard case, and charge or discharge the batteries every three months.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Keep dry
-- Restricted operating area
+- KINESIS CTP Arena and flight locations explicitly approved through the applicable NYUAD EHS and aviation-authority processes.
+
+**Environmental limits**
+
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Do not fly in rain, heavy fog, or wind above the manufacturer and mission-approval limits.
+- Keep batteries and aircraft away from moisture, dust, direct sunlight, and temperature extremes during storage.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- Safety goggles.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
-- On-site use only
 - Permit required
 
 

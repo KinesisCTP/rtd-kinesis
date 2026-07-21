@@ -104,23 +104,35 @@ Only trained and authorised personnel are allowed to operate the sensor. Mobile 
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Do not open the housing; dangerously high voltages are present and servicing is for qualified personnel only. Keep hands, tools, and loose clothing clear of the high-speed rotating mirror during scanning and until it stops. Use only on a flat, stable surface/tripod to prevent tipping; maintain an exclusion zone of 0.5 m around the scanner when in use and never reach into the mirror cavity while powered. For outdoor use, power from the battery and protect from rain or spray water; use in a non-condensing environment and shield from dust and strong magnetic/electrical fields. Do not operate while the external power supply is plugged in — the power cable might damage the turning scanner. Insert/remove batteries only in dry, dust-free environments; charge only on the FARO PowerDock in clear, ventilated areas. Follow controlled shutdown before removing power or the battery, and do not remove the SD card while the device indicates it is busy. PPE: appropriate street clothing (long pants, closed-toed shoes).
+   - Do not open the housing; dangerously high voltages are present and servicing is limited to qualified personnel.
+   - Keep hands, tools, and loose clothing clear of the high-speed rotating mirror during scanning and until it stops.
+   - Use a flat, stable surface or tripod, maintain a 0.5 m exclusion zone, and never reach into the mirror cavity while powered.
+   - For outdoor use, power the scanner from its battery; do not operate while the external power supply is connected because its cable may contact the rotating scanner.
+   - Charge batteries only on the FARO PowerDock in a clear, ventilated area.
+   - Complete controlled shutdown before removing power or the battery, and never remove the SD card while the scanner indicates it is busy.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Keep dry
-- Dust-sensitive
+- Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
+- Use and handle the equipment in a clean, low-dust environment.
+- Use in a non-condensing environment and protect the scanner from rain, spray water, excessive dust, and strong magnetic or electrical fields.
+- Insert or remove batteries only in dry, dust-free conditions.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
 
 - **Software licence:** Required.
 

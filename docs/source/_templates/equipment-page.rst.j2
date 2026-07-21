@@ -112,20 +112,71 @@ Access, training & booking
 {% endif %}
 {% endif %}
 
-{% if constraint_notes or environment or safety_flags or software_license_required %}
+{% if user_access %}
+.. only:: internal
+
+   User access
+   -----------
+
+   .. important::
+
+      These details are for authorized KINESIS CTP Lab users. Do not share credentials or
+      connection details outside the authorized lab community.
+
+{% for section in user_access.sections %}
+   {{ section.title }}
+   {{ section.title_underline }}
+
+   .. list-table::
+      :class: equipment-meta-table
+      :widths: 32 68
+      :header-rows: 0
+
+{% for item in section.fields %}
+      * - **{{ item.label }}**
+        - {{ item.value }}
+{% endfor %}
+
+{% endfor %}
+{% endif %}
+
+{% if constraint_notes or operating_area or environment or required_attire or safety_flags or software_license_required %}
 Safety & operating limits
 -------------------------
 
 {% if constraint_notes %}
 .. warning::
 
-   {{ constraint_notes }}
+{% for item in constraint_notes %}
+   - {{ item }}
+{% endfor %}
 
 {% endif %}
+{% if operating_area %}
+**Approved operating area**
+
+{% for item in operating_area %}
+- {{ item }}
+{% endfor %}
+
+{% if rrc_review_url %}
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <{{ rrc_review_url }}>`_ before the experiment begins.
+
+{% endif %}
+{% endif %}
 {% if environment %}
-**Environmental requirements**
+**Environmental limits**
 
 {% for item in environment %}
+- {{ item }}
+{% endfor %}
+
+{% endif %}
+{% if required_attire %}
+**Required attire and conditional PPE**
+
+{% for item in required_attire %}
 - {{ item }}
 {% endfor %}
 

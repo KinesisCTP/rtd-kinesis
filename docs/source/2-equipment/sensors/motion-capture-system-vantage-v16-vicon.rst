@@ -42,6 +42,7 @@ Motion Capture System - Vantage V16 - Vicon
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -100,22 +101,34 @@ The Vicon manuals are the definitive authority and must be reviewed before each 
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Power via IEEE 802.3at PoE+ (57 V DC): use certified PoE+ switches, inspect Vicon-supplied shielded Cat-5e leads before use, keep ports de-energised until handshake completes ('power-on-last'). Cameras (~1.6 kg) may be ceiling- or tripod-mounted; use approved hardware, torque-check fasteners, strain-relieve cables. IR strobe (850 nm): avoid staring into emitters at close range; brief all visitors. Cameras and strobes warm during prolonged operation — maintain ventilation and do not touch heat-sinks while powered. Emergency shutdown: stop capture in software, switch OFF the PoE+ switch; if unresponsive, unplug the PoE+ switch mains cord and disconnect camera RJ-45 only after LEDs are dark to avoid firmware corruption. Storage: PoE+ switch OFF, coil/secure leads, fit lens caps, store in padded cases in a dry dust-free cabinet (-10 °C to 50 °C); do not stack heavy objects on camera bodies. PPE: long pants, closed-toed shoes.
+   - Use certified IEEE 802.3at PoE+ switches, inspect the Vicon-supplied shielded Cat-5e leads, and keep ports de-energised until connection handshakes complete.
+   - Use approved mounting hardware for the approximately 1.6 kg cameras, verify fastener torque, and strain-relieve all cables.
+   - Avoid staring into the 850 nm infrared strobe emitters at close range and brief all visitors.
+   - Cameras and strobes warm during prolonged operation; maintain ventilation and do not touch heat sinks while powered.
+   - For emergency shutdown, stop capture in software and switch off the PoE+ switch; if it is unresponsive, unplug its mains cord and disconnect camera RJ-45 plugs only after the LEDs are dark.
+   - For storage, switch off PoE+, secure the leads, fit lens caps, place cameras in padded cases, and do not stack heavy objects on camera bodies.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Indoor only
+- Operate indoors only.
+- Operate indoors with adequate ventilation and keep cameras, PoE equipment, and cabling dry and free of excessive dust.
+- Store cameras in padded cases in a dry, dust-free cabinet at -10 °C to 50 °C.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Training required
 - Risk assessment required
-- PPE required
 
 - **Software licence:** Required.
 

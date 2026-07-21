@@ -99,22 +99,39 @@ Only trained and authorised personnel may programme or run the robot.
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Maintain at least 2 m clearance around the arm during automatic motion. Verify the Emergency-Stop and enabling switches before every shift. Run new or edited programs first in Manual Reduced Velocity (T1). Never enter the workspace unless the robot is in T1 or powered down with brakes applied. PPE: long pants, closed-toed shoes. Storage: power off the Sunrise Cabinet, wait for fans and indicators to stop, unplug AC mains, rest the robot in a seated/folded posture with axis brakes engaged; store indoors at 5–33 °C, 20–80% RH, away from vibration and dust.
+   - Maintain at least 2 m clearance around the arm during automatic motion.
+   - Verify the Emergency-Stop and enabling switches before every shift.
+   - Run new or edited programs first in Manual Reduced Velocity (T1).
+   - Never enter the workspace unless the robot is in T1 or powered down with the brakes applied.
+   - For storage, power off the Sunrise Cabinet, wait for its fans and indicators to stop, unplug AC mains, and rest the robot in a seated or folded posture with axis brakes engaged.
 
-**Environmental requirements**
+**Approved operating area**
 
-- Indoor only
+- The installed KUKA workcell inside the KINESIS CTP Lab.
+
+Operations outside the approved area require a submitted and approved
+`Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
+
+**Environmental limits**
+
+- Operate indoors only.
+- Operate and store the system indoors within the temperature, humidity, ventilation, vibration, and dust limits specified in the KUKA manuals.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
 
 **Operational controls**
 
 - Risk assessment required
 - Training required
-- Restricted operating area
 
 
 Related equipment & documentation

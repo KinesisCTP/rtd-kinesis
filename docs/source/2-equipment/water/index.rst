@@ -15,6 +15,7 @@ The KINESIS CTP's underwater systems support:
    :maxdepth: 1
    :caption: Water Systems
 
+   forward-looking-sonar-oculus-m1200d-blueprint-subsea
    underwater-rov-defender-videoray
    underwater-rov-exray-hydromea
 

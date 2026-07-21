@@ -42,6 +42,7 @@ Vicon Host PC - Intel NUC 11 Enthusiast
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -92,12 +93,16 @@ Safety & operating limits
 
 .. warning::
 
-   Dedicated Vicon infrastructure host; coordinate configuration, licensing, and network changes with the lab administrator.
+   - This computer is dedicated to the Vicon infrastructure.
+   - Coordinate configuration, licensing, and network changes with the lab administrator.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Indoor only
-- Dedicated infrastructure
+- Operate indoors only.
+
+**Operational controls**
+
+- Use only as part of its dedicated infrastructure configuration.
 
 - **Software licence:** Required.
 

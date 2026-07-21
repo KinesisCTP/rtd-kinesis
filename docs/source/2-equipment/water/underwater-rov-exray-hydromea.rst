@@ -120,24 +120,36 @@ Requires hands-on training and authorisation. Minimum two-person rule during all
 - **Training:** Hands-on training is required before operation.
 - **Risk assessment:** A task-appropriate risk assessment is required before use.
 
+
 Safety & operating limits
 -------------------------
 
 .. warning::
 
-   Key hazards: rotating thrusters (injury/pinch when armed), tether trip/entanglement (MBS 155 kgf), LiPo thermal runaway if damaged or mis-charged, loss of control leading to collision, and drowning risk at the water's edge. Controls: keep ≥1 m clear of thrusters when armed; disarm before lifting/transport; dedicated tether management; inspect connectors and O-rings visually; power-on-last rule; restrict deployment to currents ≤2 knots with suitable visibility. PPE: long pants, closed-toed shoes, and a PFD when working near open water.
+   - Key hazards include rotating thrusters, tether trips or entanglement, LiPo thermal runaway, collision after loss of control, and drowning at the water's edge.
+   - Keep at least 1 m clear of armed thrusters and disarm the ROV before lifting or transport.
+   - Assign dedicated tether management throughout tethered operation.
+   - Inspect connectors and O-rings before deployment and follow the power-on-last sequence.
 
-**Environmental requirements**
+**Environmental limits**
 
-- Water only
-- Tethered operation
+- Operate only in the water conditions and depth limits stated in the equipment manual.
+- Operate at 0–40 °C and no deeper than 100 m.
+- Restrict deployment to currents no greater than 2 knots and visibility suitable for the approved mission.
+- The tetherless FLYOUT configuration is not approved for open-water operation.
+
+**Required attire and conditional PPE**
+
+- Long pants.
+- Closed-toed shoes.
+- A personal flotation device is required when working at the edge of a tank, quay, vessel, or open water.
 
 **Operational controls**
 
 - Risk assessment required
 - Training required
-- PPE required
 - Two-person operation
+- Plan, route, and supervise the tether or cable throughout operation.
 
 
 

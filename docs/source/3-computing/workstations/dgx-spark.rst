@@ -42,6 +42,7 @@ AI Workstation - DGX Spark - NVIDIA
      - Samuel A. Prieto (sxp8070)
 
 
+
 Overview
 --------
 
@@ -103,7 +104,11 @@ Safety & operating limits
 
 .. warning::
 
-   Schedule compute-intensive jobs during off-peak hours when possible. Monitor GPU memory usage and close completed jobs promptly. Maintain proper ventilation around the system. Do not interrupt running training jobs without coordination with other users. Follow lab data management policies for storing models and datasets.
+   - Schedule compute-intensive jobs during off-peak hours when possible.
+   - Monitor GPU memory usage and close completed jobs promptly.
+   - Maintain proper ventilation around the system.
+   - Do not interrupt running training jobs without coordinating with other users.
+   - Follow lab data-management policies when storing models and datasets.
 
 **Operational controls**
 
