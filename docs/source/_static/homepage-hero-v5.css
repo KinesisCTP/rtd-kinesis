@@ -1,4 +1,4 @@
-/* Cache-busted homepage hero overrides. */
+/* Cache-busted homepage hero overrides, revision 5. */
 .home-hero {
   width: 100%;
   aspect-ratio: 3072 / 1170;
@@ -10,9 +10,14 @@
 }
 
 .home-hero .hero-bg {
+  position: absolute;
+  inset: auto 0 -42%;
   display: block;
-  object-fit: contain;
-  object-position: center;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  object-fit: initial;
+  object-position: initial;
 }
 
 .home-hero .hero-content {
@@ -51,11 +56,16 @@
   white-space: nowrap;
 }
 
-.showcase-row .showcase-image-natural {
-  align-self: center;
-  aspect-ratio: 4080 / 3072;
-  height: auto;
-  object-fit: contain;
+.showcase-row {
+  grid-template-columns: 0.7fr 1.3fr;
+}
+
+.showcase-row.flip {
+  grid-template-columns: 1.3fr 0.7fr;
+}
+
+.showcase-row img.showcase-image-overview {
+  object-position: center 70%;
 }
 
 @media screen and (max-width: 850px) {

@@ -1,8 +1,9 @@
 /*
- * Native Read the Docs responsive navigation, revision 2.
+ * Native Read the Docs responsive navigation, revision 4.
  *
- * This deliberately lives in its own asset so browsers cannot reuse the
- * retired custom sidebar controller's cached layout rules.
+ * The full sidebar is reserved for windows that are both wide and landscape
+ * enough. Borderline layouts use the theme's native top bar and drawer so the
+ * index never crowds the page and no floating control overlaps the content.
  */
 
 .wy-nav-side {
@@ -32,7 +33,7 @@ body.homepage .wy-nav-content-wrap {
   display: none !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1179px), screen and (max-aspect-ratio: 5/4) {
   .wy-nav-side {
     top: 0 !important;
     bottom: 0 !important;
@@ -67,9 +68,9 @@ body.homepage .wy-nav-content-wrap {
     top: 0;
     z-index: 1000;
     display: flex !important;
+    min-height: 60px;
     align-items: center;
     justify-content: center;
-    min-height: 60px;
     padding: 0 64px;
     background: #57068c !important;
     color: #ffffff !important;
@@ -81,10 +82,10 @@ body.homepage .wy-nav-content-wrap {
     top: 50%;
     left: 8px;
     display: flex !important;
-    align-items: center;
-    justify-content: center;
     width: 44px;
     height: 44px;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     color: #ffffff !important;
     font-size: 30px;
@@ -99,5 +100,11 @@ body.homepage .wy-nav-content-wrap {
     font-weight: 700;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wy-nav-side {
+    transition: none !important;
   }
 }

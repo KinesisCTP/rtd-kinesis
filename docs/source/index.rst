@@ -7,7 +7,7 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
    <script>document.body.classList.add('homepage');</script>
 
    <section class="home-hero">
-     <img src="_static/images/hero-robots-landscape.jpg" alt="Robotics equipment in the KINESIS Lab at NYU Abu Dhabi" class="hero-bg">
+     <img src="_static/images/workspace-overview.jpg" alt="KINESIS Lab workspace at NYU Abu Dhabi" class="hero-bg">
      <div class="hero-shade"></div>
 
      <div class="hero-content">
@@ -40,7 +40,7 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
       </p>
       <a href="1-lab-overview/index.html">Learn more →</a>
     </div>
-    <img src="_static/images/workspace-overview.jpg" alt="KINESIS Lab workspace" class="showcase-image-natural">
+    <img src="_static/images/workspace-robots-original.jpg" alt="Robotics equipment in the KINESIS Lab" class="showcase-image-overview">
   </section>
 
   <section class="showcase-row flip">

@@ -63,8 +63,8 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
     'sidebar-contrast.css',
-    'homepage-hero.css',
-    'native-responsive-nav-v2.css',
+    'homepage-hero-v5.css',
+    'native-responsive-nav-v4.css',
 ]
 
 html_js_files = [
