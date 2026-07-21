@@ -1,42 +1,96 @@
 /* Cache-busted homepage hero overrides. */
 .home-hero {
+  width: 100%;
   aspect-ratio: 3072 / 1170;
   height: auto;
-  max-height: 680px;
+  max-height: none;
   background:
     radial-gradient(circle at 18% 20%, rgba(87, 6, 140, 0.45), transparent 34%),
     #17121f;
 }
 
 .home-hero .hero-bg {
-  object-fit: cover;
-  object-position: center 63%;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+}
+
+.home-hero .hero-content {
+  box-sizing: border-box;
+  width: min(90%, 900px);
+  padding: clamp(8px, 2.5vw, 40px);
 }
 
 .home-hero .hero-content h1 {
-  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  margin: clamp(4px, 0.8vw, 10px) 0 clamp(6px, 1.4vw, 20px);
+  font-size: clamp(1.75rem, 7vw, 6.5rem);
+  line-height: 0.92;
+}
+
+.home-hero .hero-content .hero-kicker {
+  font-size: clamp(0.58rem, 1.25vw, 0.95rem);
+  letter-spacing: clamp(0.1em, 0.3vw, 0.22em);
+}
+
+.home-hero .hero-content > p:not(.hero-kicker) {
+  margin: 0;
+  font-size: clamp(0.7rem, 1.45vw, 1.25rem);
+  line-height: 1.35;
 }
 
 .home-hero .hero-buttons {
-  margin-top: 24px;
+  flex-wrap: nowrap;
+  gap: clamp(6px, 1.1vw, 16px);
+  margin-top: clamp(8px, 1.7vw, 24px);
+}
+
+.home-hero .hero-buttons a {
+  padding: clamp(7px, 1vw, 14px) clamp(10px, 1.7vw, 24px);
+  font-size: clamp(0.68rem, 1vw, 1rem);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.showcase-row .showcase-image-natural {
+  align-self: center;
+  aspect-ratio: 4080 / 3072;
+  height: auto;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 850px) {
   .home-hero {
-    height: auto;
-    max-height: none;
+    margin-bottom: clamp(36px, 9vw, 80px);
   }
 
   .home-hero .hero-content {
-    padding: 24px;
+    width: 94%;
+    padding: clamp(6px, 2vw, 18px);
   }
 
   .home-hero .hero-content h1 {
-    font-size: clamp(2.4rem, 10vw, 4rem);
-    margin-bottom: 14px;
+    margin: 4px 0 6px;
+    font-size: clamp(1.55rem, 8.5vw, 4rem);
   }
 
   .home-hero .hero-buttons {
-    margin-top: 18px;
+    margin-top: clamp(5px, 1.5vw, 12px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-hero .hero-content .hero-kicker {
+    font-size: clamp(0.5rem, 2.2vw, 0.66rem);
+    line-height: 1.2;
+  }
+
+  .home-hero .hero-content > p:not(.hero-kicker) {
+    font-size: clamp(0.62rem, 2.7vw, 0.78rem);
+    line-height: 1.2;
+  }
+
+  .home-hero .hero-buttons a {
+    padding: 6px 9px;
+    font-size: clamp(0.61rem, 2.5vw, 0.72rem);
   }
 }

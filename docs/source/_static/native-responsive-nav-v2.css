@@ -1,0 +1,103 @@
+/*
+ * Native Read the Docs responsive navigation, revision 2.
+ *
+ * This deliberately lives in its own asset so browsers cannot reuse the
+ * retired custom sidebar controller's cached layout rules.
+ */
+
+.wy-nav-side {
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 300px !important;
+  height: 100% !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  transition: left 0.25s ease-in-out !important;
+  z-index: 200 !important;
+}
+
+.wy-nav-content-wrap,
+body.homepage .wy-nav-content-wrap {
+  margin-left: 300px !important;
+}
+
+.wy-nav-top {
+  display: none !important;
+}
+
+.menu-toggle {
+  display: none !important;
+}
+
+@media screen and (max-width: 900px) {
+  .wy-nav-side {
+    top: 0 !important;
+    bottom: 0 !important;
+    left: -300px !important;
+    width: 300px !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+    transform: none !important;
+  }
+
+  .wy-nav-side.shift {
+    left: 0 !important;
+    width: min(85vw, 300px) !important;
+  }
+
+  .wy-nav-content-wrap,
+  body.homepage .wy-nav-content-wrap {
+    margin-left: 0 !important;
+  }
+
+  .wy-nav-content-wrap.shift {
+    position: fixed !important;
+    top: 0 !important;
+    left: min(85vw, 300px) !important;
+    min-width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .wy-nav-top {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    padding: 0 64px;
+    background: #57068c !important;
+    color: #ffffff !important;
+    line-height: normal;
+  }
+
+  .wy-nav-top [data-toggle="wy-nav-top"] {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    color: #ffffff !important;
+    font-size: 30px;
+    line-height: 1;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .wy-nav-top > a {
+    overflow: hidden;
+    color: #ffffff !important;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

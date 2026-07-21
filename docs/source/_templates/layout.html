@@ -29,14 +29,3 @@
 
 {%- include "searchbox.html" %}
 {% endblock %}
-
-{% block mobile_nav %}
-{%- set _root_doc = root_doc | default(master_doc) %}
-<button type="button" class="menu-toggle"></button>
-<a href="{{ pathto(_root_doc) }}"
-   class="site-toolbar-brand"
-   aria-label="KINESIS CTP Lab homepage">
-  <span class="site-toolbar-title">KINESIS CTP Lab</span>
-  <span class="site-toolbar-institution">&middot; NYU Abu Dhabi</span>
-</a>
-{% endblock %}

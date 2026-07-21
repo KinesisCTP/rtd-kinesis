@@ -1,11 +1,7 @@
-console.log("custom.js loaded");
-
-if (window.location.pathname.includes("/1-lab-overview/")) {
-  document.body.classList.add("lab-overview-section");
-}
-
 document.addEventListener("DOMContentLoaded", function () {
   if (!window.location.pathname.includes("/1-lab-overview/")) return;
+
+  document.body.classList.add("lab-overview-section");
 
   document
     .querySelectorAll(

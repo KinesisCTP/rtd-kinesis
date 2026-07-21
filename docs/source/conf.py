@@ -64,10 +64,9 @@ html_css_files = [
     'custom.css',
     'sidebar-contrast.css',
     'homepage-hero.css',
-    'sidebar-layout.css',
+    'native-responsive-nav-v2.css',
 ]
 
 html_js_files = [
     'custom.js',
-    'sidebar-toggle.js',
 ]

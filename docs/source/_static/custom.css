@@ -66,16 +66,8 @@ body.homepage .wy-nav-content {
 }
 
 body.homepage .wy-nav-content-wrap {
-  margin-left: 0 !important;
+  margin-left: 300px !important;
   background: #ffffff;
-}
-
-body.homepage.sidebar-open .wy-nav-content-wrap {
-  margin-left: 340px !important;
-}
-
-body.homepage.sidebar-closed .wy-nav-content-wrap {
-  margin-left: 0 !important;
 }
 
 body.homepage .rst-versions,
@@ -130,11 +122,6 @@ body.lab-overview-section .wy-menu-vertical li.toctree-l1.current > ul > li.toct
   height: 0 !important;
   overflow: hidden !important;
   visibility: hidden !important;
-}
-
-/* Hide RTD mobile top bar */
-.wy-nav-top {
-  display: none !important;
 }
 
 /* Hide "View page source" link */
@@ -677,35 +664,10 @@ body:not(.homepage) .wy-side-nav-search .version {
   }
 
 }
-/* ===== MINIMAL FLOATING SIDEBAR ===== */
+/* ===== NATIVE READ THE DOCS SIDEBAR ===== */
 
 .wy-nav-side {
-  position: fixed !important;
-  top: 24px;
-  left: 24px;
-  bottom: 24px;
-
-  width: 300px !important;
-  height: auto !important;
-
-  border-radius: 30px;
-
-  background: rgba(255,255,255,0.72) !important;
-  backdrop-filter: blur(28px);
-  -webkit-backdrop-filter: blur(28px);
-
-  border: 1px solid rgba(255,255,255,0.22);
-
-  box-shadow:
-    0 25px 70px rgba(0,0,0,0.18),
-    inset 0 1px 0 rgba(255,255,255,0.3);
-
-  transform: translateX(0);
-  transition: transform 0.32s ease;
-
-  z-index: 5000;
-
-  overflow-y: auto;
+  background: #ffffff !important;
 }
 
 .wy-nav-side,
@@ -713,84 +675,6 @@ body:not(.homepage) .wy-side-nav-search .version {
 .wy-nav-side li,
 .wy-nav-side .caption-text {
   color: #24162f !important;
-}
-
-/* OPENED */
-.wy-nav-side.collapsed {
-  transform: translateX(-340px);
-}
-
-body.sidebar-open .wy-nav-side {
-  transform: translateX(0);
-}
-
-body.sidebar-closed .wy-nav-side {
-  transform: translateX(-340px);
-}
-
-/* PAGE CONTENT */
-.wy-nav-content-wrap {
-  margin-left: 340px !important;
-  transition: margin-left 0.32s ease;
-}
-
-.wy-nav-content-wrap.shifted {
-  margin-left: 0 !important;
-}
-
-body.sidebar-open .wy-nav-content-wrap {
-  margin-left: 340px !important;
-}
-
-body.sidebar-closed .wy-nav-content-wrap {
-  margin-left: 0 !important;
-}
-
-/* FLOATING MENU BUTTON */
-.menu-toggle {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-
-  position: fixed !important;
-  top: 88px !important;
-  left: 24px !important;
-
-  width: 56px !important;
-  height: 56px !important;
-
-  border: none !important;
-  border-radius: 18px !important;
-
-  background: rgba(255,255,255,0.82) !important;
-  backdrop-filter: blur(20px);
-
-  color: var(--nyu-purple) !important;
-
-  cursor: pointer !important;
-
-  box-shadow:
-    0 10px 35px rgba(0,0,0,0.16);
-
-  z-index: 99999 !important;
-
-  transition: all 0.22s ease;
-}
-
-.menu-toggle.sidebar-open {
-  top: 40px !important;
-  left: 252px !important;
-}
-
-.menu-toggle.sidebar-closed {
-  top: 88px !important;
-  left: 24px !important;
-}
-
-.menu-toggle:hover {
-  transform: scale(1.08);
-  background: var(--nyu-purple) !important;
-  color: white !important;
 }
 
 /* TOP SECTION */
@@ -858,43 +742,6 @@ body.sidebar-closed .wy-nav-content-wrap {
 
 .wy-menu-vertical li.current a:hover {
   color: #180c22 !important;
-}
-
-/* MOBILE */
-@media (max-width: 850px) {
-  .wy-nav-content-wrap {
-    margin-left: 0 !important;
-  }
-
-  body.sidebar-open .wy-nav-content-wrap,
-  body.sidebar-closed .wy-nav-content-wrap,
-  body.homepage.sidebar-open .wy-nav-content-wrap,
-  body.homepage.sidebar-closed .wy-nav-content-wrap {
-    margin-left: 0 !important;
-  }
-
-  .wy-nav-side {
-    top: 0;
-    left: 0;
-    bottom: 0;
-
-    border-radius: 0;
-    transform: translateX(-340px);
-  }
-
-  .wy-nav-side.active {
-    transform: translateX(0);
-  }
-
-  .menu-toggle.sidebar-open {
-    top: 18px !important;
-    left: 252px !important;
-  }
-
-  .menu-toggle.sidebar-closed {
-    top: 88px !important;
-    left: 20px !important;
-  }
 }
 
 /* ===== GENERATED EQUIPMENT PAGES ===== */
