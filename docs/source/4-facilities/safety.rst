@@ -105,6 +105,10 @@ hazards or material changes not covered by that baseline, such as a new
 configuration, payload, material, operating area, human interaction, or
 environment.
 
+The current general lab and equipment Risk Assessments, together with the
+lithium battery management SOP, are available on the :doc:`KINESIS Lab Safety
+Documents </1-lab-overview/safety-documents>` page.
+
 Training Requirements
 ---------------------
 
