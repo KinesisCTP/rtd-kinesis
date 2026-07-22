@@ -13,7 +13,7 @@ Our infrastructure includes:
 Infrastructure at a Glance
 --------------------------
 
-- :doc:`networks/index` covers KINESIS CTP, Hermes, routers, wired ports, and IP assignment.
+- :doc:`networks/index` covers KINESIS CTP, Hermes, routers, wired ports, and shared-workstation network addresses.
 - :doc:`workstations/index` covers the Vicon PC, Linux workstation, AI workstation, and DGX Spark.
 - :doc:`vicon-system/index` covers motion capture networking, tracking workflows, setup, and data broadcast.
 
@@ -29,6 +29,6 @@ Infrastructure at a Glance
 Common Tasks
 ------------
 
-- Use ip allocation before assigning a static IP.
+- See ip allocation for the current shared-workstation network addresses.
 - Check workstation pages before starting GPU or motion-capture workloads.
 - Review Vicon setup guidance before relying on Arena tracking data.
