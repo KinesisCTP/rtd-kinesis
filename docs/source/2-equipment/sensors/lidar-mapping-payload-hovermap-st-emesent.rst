@@ -149,7 +149,4 @@ Keywords
 ``lidar`` · ``3d scanning`` · ``UAV mapping`` · ``SLAM`` · ``drone-mount`` · ``indoor`` · ``outdoor`` · ``point cloud`` · ``Hovermap`` · ``mine mapping``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

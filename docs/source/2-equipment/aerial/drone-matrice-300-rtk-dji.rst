@@ -155,7 +155,4 @@ Keywords
 ``drone`` · ``UAV`` · ``aerial mapping`` · ``RTK`` · ``survey`` · ``photogrammetry`` · ``outdoor`` · ``professional`` · ``inspection`` · ``indoor``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

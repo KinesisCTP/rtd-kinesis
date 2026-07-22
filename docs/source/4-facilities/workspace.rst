@@ -86,6 +86,8 @@ The two PoE switches that power the 24 Vicon Vantage V16 cameras are connected t
 Safety Equipment
 ----------------
 
+.. _lipo-battery-charging-station:
+
 LiPo Battery Charging Station
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -104,7 +106,9 @@ Dedicated safe charging station for lithium polymer batteries with:
 - Emergency containment
 - Proper ventilation
 
-**Safety Protocol:** All LiPo batteries must be charged in this designated station under supervision. Never charge batteries at workbenches or unattended.
+**Safety Protocol:** All LiPo and Li-ion batteries must be charged at this designated station using an approved charger and under supervision. Never charge batteries at workbenches or unattended, and do not use the charging station for storage.
+
+.. _fireproof-battery-storage-cabinet:
 
 Fireproof Battery Storage Cabinet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -116,14 +120,14 @@ Fireproof Battery Storage Cabinet
 
    Fireproof Battery Storage Cabinet
 
-A dedicated fireproof cabinet is available for safe battery storage when not in use or between charging cycles:
+A yellow fire-resistant cabinet is available for large high-energy packs without a BMS, smart UAV packs, and OEM batteries whose manufacturer permits cabinet storage:
 
 - Fireproof and fire-resistant construction
-- Used to store LiPo, Li-ion, and other battery types
+- Used for battery categories assigned to cabinet storage by the current SOP
 - Reduces fire risk in the workspace
-- Clearly labelled and located near the charging station
+- Clearly labelled
 
-**Storage Protocol:** All batteries not actively in use or on charge must be stored in this cabinet. Do not store swollen, damaged, or fully discharged batteries — dispose of them through the proper NYUAD hazardous materials process.
+**Storage Protocol:** Small conventional packs belong in their assigned BAT-SAFE/BatBox, while smart and OEM packs follow the manufacturer's approved storage method. Never place a damaged or suspect battery in normal storage.
 
 Equipment Storage Cabinets
 --------------------------

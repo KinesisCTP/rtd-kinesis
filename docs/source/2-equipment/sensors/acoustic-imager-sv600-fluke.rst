@@ -141,7 +141,4 @@ Keywords
 ``acoustic imager`` · ``sound camera`` · ``leak detection`` · ``inspection`` · ``indoor`` · ``Fluke`` · ``predictive maintenance``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

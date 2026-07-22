@@ -159,7 +159,4 @@ Keywords
 ``ROV`` · ``underwater`` · ``subsea`` · ``inspection`` · ``tethered`` · ``EXRAY`` · ``robot`` · ``confined space`` · ``ballast tank`` · ``enclosed space`` · ``tank inspection`` · ``compact``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

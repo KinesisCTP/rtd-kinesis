@@ -877,3 +877,18 @@ body:not(.homepage) .wy-side-nav-search .version {
     max-height: min(340px, 44vh);
   }
 }
+
+/* ===== CONSISTENT CONTACT BLOCKS ===== */
+.rst-content .contact-card {
+  border: 1px solid rgba(87, 6, 140, 0.28);
+  border-left: 5px solid var(--nyu-purple);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #faf7fc;
+  box-shadow: 0 10px 26px rgba(35, 20, 70, 0.07);
+}
+
+.rst-content .contact-card .admonition-title {
+  background: var(--nyu-purple);
+  color: #ffffff;
+}

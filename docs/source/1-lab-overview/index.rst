@@ -76,11 +76,7 @@ Lab Address
 
    Saadiyat Island, Abu Dhabi
 
-.. admonition:: Contact
-
-   Email: samuel.prieto@nyu.edu
-
-   Phone: +971 56 890 4127
+.. include:: /_includes/contact-lab-manager.inc
 
 .. rst-class:: sidebar-nav-group
 
@@ -95,15 +91,3 @@ Research and Resources
    3-publications
    5-useful-links
 
-.. rst-class:: sidebar-nav-group
-
-Lab Operations
---------------
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :titlesonly:
-
-   1-general-policies
-   2-processes

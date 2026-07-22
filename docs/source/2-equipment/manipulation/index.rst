@@ -15,6 +15,7 @@ requirements, and available manuals, SOPs, and risk assessments.
    :caption: Manipulation Systems
 
    ../ground/dexterous-hand-rh56-inspire-robots
+   haptic-device-lambda-07-force-dimension
    ../ground/robotic-arm-lbr-iiwa-14-r820-kuka
    ../ground/robotic-gripper-3-finger-adaptive-robotiq
    ../ground/rov-robotic-arm-alpha-5-reach-robotics

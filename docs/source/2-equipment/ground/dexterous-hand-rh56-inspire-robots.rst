@@ -148,7 +148,4 @@ Keywords
 ``dexterous hand`` · ``robotic hand`` · ``manipulation`` · ``humanoid`` · ``left hand`` · ``grasping`` · ``Inspire Robots``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

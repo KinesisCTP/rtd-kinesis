@@ -46,7 +46,7 @@ Motion Capture System - Vantage V16 - Vicon
 Overview
 --------
 
-The Vicon Vantage V16 is a networked set of 24 infrared optical cameras (16 MP per camera) mounted around a capture volume to track retro-reflective markers and reconstruct 3D motion. Cameras connect via PoE+ Ethernet switches to a host PC running Vicon software (Nexus, Shōgun, or Tracker) for real-time capture, recording, and analysis of movement for applications such as gait analysis, animation, robotics, and engineering studies.
+The Vicon Vantage V16 is an operational networked set of 23 infrared optical cameras (16 MP per camera) mounted around a capture volume to track retro-reflective markers and reconstruct 3D motion. Cameras connect via PoE+ Ethernet switches to a host PC running Vicon software (Nexus, Shōgun, or Tracker) for real-time capture, recording, and analysis of movement for applications such as gait analysis, animation, robotics, and engineering studies.
 
 Specifications
 --------------
@@ -65,7 +65,7 @@ Specifications
    * - **Frame rate**
      - 120 fps at full resolution; up to 500 fps at 4.2 MP with full field of view; up to 2,000 fps with partial scan
    * - **Camera count**
-     - 24
+     - 23
    * - **Global shutter**
      - Yes
    * - **Illumination**
@@ -143,7 +143,4 @@ Keywords
 ``motion capture`` · ``mocap`` · ``tracking`` · ``indoor`` · ``Vicon`` · ``biomechanics`` · ``animation`` · ``marker-based``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

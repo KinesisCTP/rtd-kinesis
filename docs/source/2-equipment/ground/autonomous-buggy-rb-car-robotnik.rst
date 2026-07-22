@@ -161,7 +161,4 @@ Keywords
 ``autonomous vehicle`` · ``ground robot`` · ``self-driving`` · ``car`` · ``outdoor`` · ``ROS`` · ``wheeled`` · ``research platform``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

@@ -117,7 +117,4 @@ Keywords
 ``workstation`` · ``PC`` · ``compute`` · ``motion capture`` · ``Vicon`` · ``NUC`` · ``infrastructure``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

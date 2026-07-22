@@ -159,7 +159,4 @@ Keywords
 ``thermal camera`` · ``infrared`` · ``visual camera`` · ``zoom`` · ``inspection`` · ``drone-mount`` · ``outdoor`` · ``indoor`` · ``thermography``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

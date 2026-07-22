@@ -157,7 +157,4 @@ Keywords
 ``ROV`` · ``underwater`` · ``subsea`` · ``inspection`` · ``tethered`` · ``Defender`` · ``open water`` · ``deep water`` · ``harbour`` · ``offshore`` · ``river`` · ``robot``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

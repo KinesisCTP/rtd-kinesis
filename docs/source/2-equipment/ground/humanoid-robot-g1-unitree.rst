@@ -163,7 +163,4 @@ Keywords
 ``humanoid`` · ``bipedal`` · ``ground robot`` · ``legged`` · ``Unitree`` · ``G1`` · ``G1 EDU U4`` · ``U4`` · ``Dex3-1`` · ``dexterous manipulation`` · ``research`` · ``indoor``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

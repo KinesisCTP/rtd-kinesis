@@ -1019,6 +1019,90 @@
       }
     },
     {
+      "equipment_id": "c73b68e5-8647-4f6f-bdc3-6b3f4dcac5ba",
+      "name": "Haptic Device - Lambda.07 - Force Dimension",
+      "manufacturer": "Force Dimension",
+      "model": "lambda.7",
+      "category": "misc",
+      "item_class": "Haptic interface",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "The Force Dimension lambda.7 is a seven-degree-of-freedom force-feedback haptic interface for teleoperation, human-robot interaction, control, rehabilitation, and virtual-environment research.",
+      "availability_notes": "Available to trained and authorised users for supervised laboratory work at the designated KINESIS workstation.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "lambda-07-force-dimension.jpg",
+      "tags": [
+        "haptic device",
+        "force feedback",
+        "teleoperation",
+        "human-robot interaction",
+        "manipulation",
+        "Force Dimension",
+        "lambda.7"
+      ],
+      "capabilities": {
+        "mobility": "fixed",
+        "degrees_of_freedom": 7,
+        "translation_workspace_mm": "diameter 240 x length 170",
+        "rotation_workspace_deg": "180 yaw x 140 pitch x 290 roll",
+        "gripper_workspace_deg": 15,
+        "translation_force_n": 20.0,
+        "rotation_torque_mnm": "200 yaw, 400 pitch, 100 roll",
+        "gripper_force_n": "+/-8.0",
+        "translation_resolution_mm": 0.0015,
+        "refresh_rate_hz": 4000,
+        "interface": "USB 2.0",
+        "power_input": "100-240 V AC through the original controller power supply",
+        "supported_platforms": [
+          "Microsoft Windows",
+          "Linux",
+          "Apple macOS",
+          "Blackberry QNX",
+          "Wind River VxWorks"
+        ],
+        "compute_software_deps": [
+          "Force Dimension Haptics SDK",
+          "Force Dimension Robotics SDK",
+          "Haptic Desk"
+        ]
+      },
+      "constraints": {
+        "notes": [
+          "Keep the full device workspace clear before power-up, calibration, or force-enabled operation; the mechanism moves automatically during calibration and must not be touched.",
+          "Begin user-developed applications at low force and speed settings where practicable, and remain ready to disable force output or power off the controller if movement is unexpected.",
+          "Use only the original Force Dimension controller power supply and inspect the power, USB, and device cables before use.",
+          "Do not disassemble the device, remove its panels, or use it when cables, connectors, the enclosure, or motion appear damaged or abnormal.",
+          "Switch off the device when it is not in use and retain the original packaging for storage or shipment."
+        ],
+        "operating_area": [
+          "Designated stable work surface in the KINESIS CTP Lab, C3.B2.029.E."
+        ],
+        "outside_area_approval_required": false,
+        "environmental_requirements": [
+          "Indoor, dry operation on a stable work surface with the complete mechanism workspace clear of obstacles.",
+          "Keep the device, controller, power supply, and connections away from water and other liquids."
+        ],
+        "required_attire": [
+          "Lab-appropriate street clothing: long trousers and closed-toed shoes."
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required"
+        ]
+      },
+      "wiki": {
+        "section": "manipulation",
+        "slug": "haptic-device-lambda-07-force-dimension",
+        "page_kind": "standalone"
+      }
+    },
+    {
       "equipment_id": "7e021f5e-e159-49a7-b6e4-3620541f4db2",
       "name": "Humanoid Robot - G1 EDU U4 - Unitree",
       "manufacturer": "Unitree",
@@ -1426,7 +1510,7 @@
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The Vicon Vantage V16 is a networked set of 24 infrared optical cameras (16 MP per camera) mounted around a capture volume to track retro-reflective markers and reconstruct 3D motion. Cameras connect via PoE+ Ethernet switches to a host PC running Vicon software (Nexus, Shōgun, or Tracker) for real-time capture, recording, and analysis of movement for applications such as gait analysis, animation, robotics, and engineering studies.",
+      "short_description": "The Vicon Vantage V16 is an operational networked set of 23 infrared optical cameras (16 MP per camera) mounted around a capture volume to track retro-reflective markers and reconstruct 3D motion. Cameras connect via PoE+ Ethernet switches to a host PC running Vicon software (Nexus, Shōgun, or Tracker) for real-time capture, recording, and analysis of movement for applications such as gait analysis, animation, robotics, and engineering studies.",
       "availability_notes": "The Vicon manuals are the definitive authority and must be reviewed before each use.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -1450,7 +1534,7 @@
         "resolution": "4096 x 4096 pixels",
         "camera_resolution_mp": 16,
         "frame_rate": "120 fps at full resolution; up to 500 fps at 4.2 MP with full field of view; up to 2,000 fps with partial scan",
-        "camera_count": 24,
+        "camera_count": 23,
         "global_shutter": true,
         "illumination": "850 nm infrared strobe",
         "mobility": "fixed",

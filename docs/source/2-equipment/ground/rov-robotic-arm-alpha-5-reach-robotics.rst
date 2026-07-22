@@ -120,7 +120,4 @@ Keywords
 ``robotic arm`` · ``underwater`` · ``ROV`` · ``subsea`` · ``manipulation`` · ``300m depth`` · ``Reach Alpha``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

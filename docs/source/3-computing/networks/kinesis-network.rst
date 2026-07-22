@@ -57,7 +57,7 @@ The **Linksys WRT 3200 ACM** is the main router providing lab-wide internet acce
 Hermes Router
 ~~~~~~~~~~~~~
 
-Dedicated router for arena operations. The Vicon PC connects to Hermes via wired Ethernet and uses it to broadcast real-time position data. Researcher laptops and robots connect wirelessly.
+Dedicated router for Vicon position-data distribution. The Vicon PC connects to Hermes via wired Ethernet and broadcasts real-time position data to approved Vicon client devices. General robot control, internet access, file transfers, software updates, and unrelated traffic belong on the KINESIS CTP network.
 
 Wired Network Ports
 -------------------

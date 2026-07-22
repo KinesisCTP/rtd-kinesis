@@ -143,7 +143,4 @@ Keywords
 ``lidar`` · ``3d scanning`` · ``laser scanner`` · ``point cloud`` · ``indoor`` · ``outdoor`` · ``tripod`` · ``survey`` · ``architecture`` · ``heritage`` · ``BIM`` · ``e57``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

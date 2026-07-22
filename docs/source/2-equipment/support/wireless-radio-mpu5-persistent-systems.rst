@@ -105,7 +105,4 @@ Keywords
 ``wireless`` · ``mesh network`` · ``radio`` · ``transceiver`` · ``communication`` · ``MPU5`` · ``WR-5100`` · ``Wave Relay`` · ``outdoor``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

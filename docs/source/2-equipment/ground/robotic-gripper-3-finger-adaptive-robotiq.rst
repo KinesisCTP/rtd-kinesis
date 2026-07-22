@@ -150,7 +150,4 @@ Keywords
 ``gripper`` · ``robotic gripper`` · ``manipulation`` · ``adaptive`` · ``3-finger`` · ``Robotiq`` · ``end effector``
 
 
-.. note::
-
-   For current availability or details not recorded here, contact
-   Samuel A. Prieto (sxp8070).
+.. include:: /_includes/contact-lab-manager.inc

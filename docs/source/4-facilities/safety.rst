@@ -10,11 +10,11 @@ The KINESIS CTP Lab maintains strict safety protocols to protect personnel, equi
 General Safety Rules
 --------------------
 
-- Complete required safety training before lab access
-- Always follow posted safety instructions
-- Use appropriate personal protective equipment (PPE)
-- Report all incidents and near-misses immediately
-- Keep emergency exits clear at all times
+- Complete required safety and equipment training before access or operation.
+- Follow posted safety instructions, equipment-specific RAs, applicable SOPs, and manufacturer instructions.
+- Wear the exact attire and PPE specified for the activity; see the relevant equipment page and RA.
+- Report incidents, near-misses, unsafe conditions, and equipment damage immediately.
+- Keep emergency exits, fire blankets, extinguishers, and access routes clear at all times.
 
 Arena Safety
 ------------
@@ -46,10 +46,9 @@ Equipment Safety
 
 **Battery Safety:**
 
-- Use designated charging areas for LiPo batteries
-- Never leave batteries charging unattended
-- Store batteries in the dedicated fireproof cabinet when not in use
-- Dispose of damaged batteries through NYUAD's hazardous materials process
+- Use the :ref:`lipo-battery-charging-station` and never leave batteries charging unattended.
+- Follow the battery-type storage location assigned by the lab manager; the charging station is not a storage area.
+- Quarantine damaged or suspect batteries and email `nyuad.facilities@nyu.edu <mailto:nyuad.facilities@nyu.edu>`_ to coordinate disposal.
 
 **Mechanical Safety:**
 
@@ -57,6 +56,8 @@ Equipment Safety
 - Use appropriate guards on moving parts
 - Follow weight limits for lifting equipment
 - Maintain clear workspaces
+
+.. _fire-safety-equipment:
 
 Fire Safety Equipment
 ---------------------
@@ -73,12 +74,15 @@ The KINESIS CTP Lab has **two fire blankets** installed at strategic locations:
 - **Near the main entrance** — Accessible immediately upon entering the lab
 - **At the arena entrance column** — Located at the entry to the arena, immediately accessible during flight and robot operations
 
-Fire blankets are the primary first response tool for battery fires (LiPo/Li-ion), which produce hazardous fumes and cannot be extinguished with water. In the event of a battery fire:
+Fire blankets are emergency safety equipment, not a substitute for evacuation
+or trained emergency response. For smoke, fire, venting, hissing, rapid heating,
+or a leaking battery:
 
-1. Do not attempt to move the burning battery with bare hands
-2. Use the fire blanket to smother and contain the fire
-3. Evacuate the area and activate the fire alarm
-4. Call emergency services
+1. Do not handle the battery, open a charging container, or attempt to move it.
+2. Alert everyone nearby, evacuate, and activate the fire alarm.
+3. Call emergency services and NYUAD Campus Safety.
+4. Use a fire blanket or extinguisher only if trained, the fire is still incipient,
+   a clear exit remains behind you, and the applicable emergency procedure permits it.
 
 All fire blankets are clearly signed and mounted in visible, accessible locations. Do not remove or relocate them.
 
@@ -95,15 +99,11 @@ Emergency Procedures
 Risk Assessments
 ----------------
 
-Certain equipment and activities require formal risk assessments before use:
-
-- Drone/UAV operations
-- Large mobile robots
-- High-power systems
-- Chemical or hazardous materials
-- Novel or unproven systems
-
-Contact lab management to initiate a risk assessment.
+Every equipment item has a baseline RA for its approved use. A supplementary,
+experiment-specific RA is required only when the planned activity introduces
+hazards or material changes not covered by that baseline, such as a new
+configuration, payload, material, operating area, human interaction, or
+environment.
 
 Training Requirements
 ---------------------
@@ -124,3 +124,8 @@ All incidents, no matter how minor, must be reported:
 2. Document the incident
 3. Participate in incident review
 4. Implement corrective actions
+
+Contact & Support
+-----------------
+
+.. include:: /_includes/contact-lab-manager.inc

@@ -60,8 +60,7 @@ Project Structure
    │   │   │
    │   │   ├── 1-lab-overview/
    │   │   │   ├── index.rst
-   │   │   │   ├── 1-general-policies.rst
-   │   │   │   └── ... (other lab overview pages)
+   │   │   │   └── ... (lab overview pages)
    │   │   │
    │   │   ├── 2-equipment/
    │   │   │   ├── index.rst
