@@ -50,11 +50,12 @@ html_theme_options = {
 html_logo = '_static/images/Core-Technology-Platforms-lockup-DIGITAL-white.png'
 html_title = 'KINESIS CTP Lab'
 
-# Edit on GitHub button
+# The internal wiki links contributors to the canonical private source repository. The public
+# exporter disables this control because the generated public repository is not an editing source.
 html_context = {
-    'display_github': True,
+    'display_github': False,
     'github_user': 'KinesisCTP',
-    'github_repo': 'rtd-kinesis',
+    'github_repo': 'rtd-kinesis-internal',
     'github_version': 'main',
     'conf_py_path': '/docs/source/',
 }
