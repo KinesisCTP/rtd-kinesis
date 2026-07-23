@@ -23,7 +23,7 @@ class ProcessAndNetworkPolicyTests(unittest.TestCase):
         self.assertIn("more than two consecutive weeks", processes)
 
     def test_shared_workstation_table_is_the_only_allocation_workflow(self):
-        addresses = (SOURCE / "3-computing" / "networks" / "ip-allocation.rst").read_text(
+        addresses = (SOURCE / "4-computing" / "networks" / "ip-allocation.rst").read_text(
             encoding="utf-8"
         )
 

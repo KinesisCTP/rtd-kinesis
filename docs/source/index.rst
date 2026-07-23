@@ -15,8 +15,8 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
        <h1>KINESIS Lab</h1>
        <p>Robotics &middot; AI &middot; Automation &middot; Sensing &middot; Motion Capture</p>
        <div class="hero-buttons">
-         <a href="2-equipment/index.html">Explore Equipment</a>
-         <a href="4-facilities/index.html" class="secondary">View Facilities</a>
+         <a href="3-equipment/index.html">Explore Equipment</a>
+         <a href="2-facilities/index.html" class="secondary">View Facilities</a>
        </div>
      </div>
    </section>
@@ -51,7 +51,7 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
         Motion capture arena, development workspace, safety protocols,
         and specialized tools for prototyping and experimentation.
       </p>
-      <a href="4-facilities/index.html">Explore facilities →</a>
+      <a href="2-facilities/index.html">Explore facilities →</a>
     </div>
     <img src="_static/images/facility-arena-motion-capture.jpg" alt="Facilities">
   </section>
@@ -64,7 +64,7 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
         Browse ground robots, manipulation systems, drones, underwater systems,
         motion capture, 3D scanners, cameras, and specialized sensing equipment.
       </p>
-      <a href="2-equipment/index.html">View equipment →</a>
+      <a href="3-equipment/index.html">View equipment →</a>
     </div>
     <img src="_static/images/equipment.jpg" alt="Equipment">
   </section>
@@ -77,7 +77,7 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
         High-performance AI workstations, computing infrastructure,
         and KINESIS CTP network architecture.
       </p>
-      <a href="3-computing/index.html">Explore computing →</a>
+      <a href="4-computing/index.html">Explore computing →</a>
     </div>
     <img src="_static/images/facility-vicon-command-center.jpg" alt="Computing & Networks">
   </section>
@@ -91,6 +91,6 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
    :hidden:
 
    1-lab-overview/index
-   4-facilities/index
-   2-equipment/index
-   3-computing/index
+   2-facilities/index
+   3-equipment/index
+   4-computing/index

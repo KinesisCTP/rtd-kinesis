@@ -149,7 +149,7 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Component or accessory:** :doc:`Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea </2-equipment/water/forward-looking-sonar-oculus-m1200d-blueprint-subsea>`
+- **Component or accessory:** :doc:`Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea </3-equipment/water/forward-looking-sonar-oculus-m1200d-blueprint-subsea>`
 
 Keywords
 --------

@@ -135,7 +135,7 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Related documentation:** :doc:`Related system documentation </4-facilities/arena>`
+- **Related documentation:** :doc:`Related system documentation </2-facilities/arena>`
 
 Keywords
 --------

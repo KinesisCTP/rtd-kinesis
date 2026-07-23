@@ -109,7 +109,7 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Related documentation:** :doc:`Related system documentation </3-computing/vicon-system/index>`
+- **Related documentation:** :doc:`Related system documentation </4-computing/vicon-system/index>`
 
 Keywords
 --------

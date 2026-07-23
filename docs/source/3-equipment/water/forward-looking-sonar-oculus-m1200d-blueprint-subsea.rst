@@ -125,7 +125,7 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Parent system:** :doc:`Underwater ROV - Defender - VideoRay </2-equipment/water/underwater-rov-defender-videoray>`
+- **Parent system:** :doc:`Underwater ROV - Defender - VideoRay </3-equipment/water/underwater-rov-defender-videoray>`
 
 Keywords
 --------

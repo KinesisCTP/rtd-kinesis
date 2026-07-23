@@ -62,23 +62,23 @@ Project Structure
    │   │   │   ├── index.rst
    │   │   │   └── ... (lab overview pages)
    │   │   │
-   │   │   ├── 2-equipment/
+   │   │   ├── 2-facilities/
+   │   │   │   ├── index.rst
+   │   │   │   ├── arena.rst
+   │   │   │   ├── workspace.rst
+   │   │   │   └── safety.rst
+   │   │   │
+   │   │   ├── 3-equipment/
    │   │   │   ├── index.rst
    │   │   │   ├── ground/ (humanoids, quadrupeds, buggy, robotic arm)
    │   │   │   ├── aerial/ (drones)
    │   │   │   ├── water/ (underwater ROVs)
    │   │   │   └── sensors/ (cameras, LiDAR, 3D scanners, etc.)
    │   │   │
-   │   │   ├── 3-computing/
+   │   │   ├── 4-computing/
    │   │   │   ├── index.rst
    │   │   │   ├── workstations/ (AI workstations, Vicon PC, DGX Spark)
    │   │   │   └── networks/ (KINESIS CTP network, IP allocation)
-   │   │   │
-   │   │   ├── 4-facilities/
-   │   │   │   ├── index.rst
-   │   │   │   ├── arena.rst
-   │   │   │   ├── workspace.rst
-   │   │   │   └── safety.rst
    │   │   │
    │   │   └── _static/
    │   │       ├── custom.css (custom styling)
@@ -187,10 +187,10 @@ Content Sections
 - **Lab Overview (1-lab-overview/)**  
   Lab presentation, general policies, processes, publications, useful links, and contribution guidelines
 
-- **Facilities (4-facilities/)**  
+- **Facilities (2-facilities/)**
   Arena specifications (17m × 6.4m × 8m motion capture space), workspace details, and safety protocols
 
-- **Equipment (2-equipment/)**  
+- **Equipment (3-equipment/)**
   Comprehensive catalog organized by category:
   
   - Ground Systems: Humanoid robots (G1, H1), quadrupeds (Spot, Spot+Arm), autonomous buggy, robotic arm
@@ -198,7 +198,7 @@ Content Sections
   - Underwater Systems: ROVs (Defender, EXRAY)
   - Sensors: 3D scanners, LiDAR, motion capture, cameras, acoustic imager
 
-- **Computing & Networks (3-computing/)**  
+- **Computing & Networks (4-computing/)**
   AI workstations (Lambda, DGX Spark), Vicon PC, Linux workstation, network architecture, and IP allocation
 
 Equipment Images

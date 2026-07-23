@@ -1,5 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
+from pathlib import Path, PurePosixPath
+from posixpath import relpath
+
+
 # -- Project information
 project = 'KINESIS CTP Lab'
 copyright = '2025, NYU Abu Dhabi'
@@ -18,7 +22,34 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.mermaid',
+    'sphinx_reredirects',
 ]
+
+
+def _moved_section_redirects():
+    """Preserve page URLs after top-level source sections are renumbered."""
+    source_root = Path(__file__).parent
+    section_moves = {
+        '4-facilities': '2-facilities',
+        '2-equipment': '3-equipment',
+        '3-computing': '4-computing',
+    }
+    result = {}
+
+    for old_section, new_section in section_moves.items():
+        for source_path in (source_root / new_section).rglob('*.rst'):
+            relative_doc = source_path.relative_to(source_root / new_section).with_suffix('')
+            relative_docname = relative_doc.as_posix()
+            old_docname = f'{old_section}/{relative_docname}'
+            new_docname = f'{new_section}/{relative_docname}.html'
+            old_parent = PurePosixPath(old_docname).parent.as_posix()
+            result[old_docname] = relpath(new_docname, start=old_parent)
+
+    return result
+
+
+redirects = _moved_section_redirects()
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),

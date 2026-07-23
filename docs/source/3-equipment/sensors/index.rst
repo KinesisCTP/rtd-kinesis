@@ -2,7 +2,7 @@
 Sensors & Imaging
 ==================
 
-The KINESIS CTP's sensing systems include terrestrial LiDAR scanning, hyperspectral imaging, thermal imaging, event-based vision, acoustic imaging, and other specialized sensors for research and operations. The motion capture system (24-camera Vicon array) is documented under :doc:`/4-facilities/arena`.
+The KINESIS CTP's sensing systems include terrestrial LiDAR scanning, hyperspectral imaging, thermal imaging, event-based vision, acoustic imaging, and other specialized sensors for research and operations. The motion capture system (24-camera Vicon array) is documented under :doc:`/2-facilities/arena`.
 
 .. BEGIN GENERATED EQUIPMENT PAGES
 

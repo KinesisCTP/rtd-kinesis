@@ -142,7 +142,7 @@ Operations outside the approved area require a submitted and approved
 Related equipment & documentation
 ---------------------------------
 
-- **Compatible equipment:** :doc:`Robotic Arm - LBR iiwa 14 R820 - KUKA </2-equipment/ground/robotic-arm-lbr-iiwa-14-r820-kuka>`
+- **Compatible equipment:** :doc:`Robotic Arm - LBR iiwa 14 R820 - KUKA </3-equipment/ground/robotic-arm-lbr-iiwa-14-r820-kuka>`
 
 Keywords
 --------

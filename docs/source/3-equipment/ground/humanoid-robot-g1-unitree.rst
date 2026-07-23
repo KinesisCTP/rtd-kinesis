@@ -155,7 +155,7 @@ Operations outside the approved area require a submitted and approved
 Related equipment & documentation
 ---------------------------------
 
-- **Compatible equipment:** :doc:`Dexterous Hand - RH56 - Inspire Robots </2-equipment/ground/dexterous-hand-rh56-inspire-robots>`
+- **Compatible equipment:** :doc:`Dexterous Hand - RH56 - Inspire Robots </3-equipment/ground/dexterous-hand-rh56-inspire-robots>`
 
 Keywords
 --------

@@ -1598,7 +1598,7 @@
         "section": "sensors",
         "slug": "motion-capture-system-vantage-v16-vicon",
         "page_kind": "standalone",
-        "related_doc": "/4-facilities/arena"
+        "related_doc": "/2-facilities/arena"
       }
     },
     {
@@ -2549,7 +2549,7 @@
         "section": "workstations",
         "slug": "vicon-pc",
         "page_kind": "standalone",
-        "related_doc": "/3-computing/vicon-system/index"
+        "related_doc": "/4-computing/vicon-system/index"
       }
     },
     {

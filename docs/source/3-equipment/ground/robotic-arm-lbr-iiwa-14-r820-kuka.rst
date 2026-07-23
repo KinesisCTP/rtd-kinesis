@@ -137,7 +137,7 @@ Operations outside the approved area require a submitted and approved
 Related equipment & documentation
 ---------------------------------
 
-- **Compatible equipment:** :doc:`Robotic Gripper - 3-Finger Adaptive - Robotiq </2-equipment/ground/robotic-gripper-3-finger-adaptive-robotiq>`
+- **Compatible equipment:** :doc:`Robotic Gripper - 3-Finger Adaptive - Robotiq </3-equipment/ground/robotic-gripper-3-finger-adaptive-robotiq>`
 
 Keywords
 --------

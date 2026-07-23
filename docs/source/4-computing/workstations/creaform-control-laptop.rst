@@ -69,7 +69,7 @@ Specifications
 Related equipment & documentation
 ---------------------------------
 
-- **Parent system:** :doc:`3D Scanner - Go!SCAN SPARK - Creaform </2-equipment/sensors/3d-scanner-goscan-3d-creaform>`
+- **Parent system:** :doc:`3D Scanner - Go!SCAN SPARK - Creaform </3-equipment/sensors/3d-scanner-goscan-3d-creaform>`
 
 Keywords
 --------

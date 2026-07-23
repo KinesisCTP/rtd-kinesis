@@ -139,7 +139,7 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Component or accessory:** :doc:`CRF-01842- ZBook G6 17'' 64Go </3-computing/workstations/creaform-control-laptop>`
+- **Component or accessory:** :doc:`CRF-01842- ZBook G6 17'' 64Go </4-computing/workstations/creaform-control-laptop>`
 
 Keywords
 --------

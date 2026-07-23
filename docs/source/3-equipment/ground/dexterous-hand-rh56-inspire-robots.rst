@@ -139,8 +139,8 @@ Operations outside the approved area require a submitted and approved
 Related equipment & documentation
 ---------------------------------
 
-- **Compatible equipment:** :doc:`Humanoid Robot - G1 EDU U4 - Unitree </2-equipment/ground/humanoid-robot-g1-unitree>`
-- **Compatible equipment:** :doc:`Humanoid Robot - H1-2 - Unitree </2-equipment/ground/humanoid-robot-h1-unitree>`
+- **Compatible equipment:** :doc:`Humanoid Robot - G1 EDU U4 - Unitree </3-equipment/ground/humanoid-robot-g1-unitree>`
+- **Compatible equipment:** :doc:`Humanoid Robot - H1-2 - Unitree </3-equipment/ground/humanoid-robot-h1-unitree>`
 
 Keywords
 --------

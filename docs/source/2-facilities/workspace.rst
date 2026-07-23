@@ -19,7 +19,7 @@ Features
 - Adjustable Philips Hue smart lighting (app and switch controlled)
 - Nearby benches with tools and test equipment
 - High-performance AI workstation with 2× NVIDIA RTX 6000 Ada Generation GPUs
-  (48 GB each); see :doc:`AI Workstation - Lambda </3-computing/workstations/ai-workstation>`
+  (48 GB each); see :doc:`AI Workstation - Lambda </4-computing/workstations/ai-workstation>`
 - Safe charging station for LiPo batteries
 
 Development Activities
