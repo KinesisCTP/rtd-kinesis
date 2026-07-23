@@ -92,6 +92,15 @@ Software & dependencies
 - {{ item }}
 {% endfor %}
 {% endif %}
+{% if repositories %}
+
+Development repositories
+------------------------
+
+{% for repository in repositories %}
+- `{{ repository.name }} <{{ repository.url }}>`_ — {{ repository.description }}
+{% endfor %}
+{% endif %}
 
 {% if availability_notes or record.training_required or record.risk_assessment_required or training_link %}
 Access, training & booking

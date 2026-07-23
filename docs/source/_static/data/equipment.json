@@ -521,6 +521,13 @@
           "RA_required"
         ]
       },
+      "repositories": [
+        {
+          "name": "KinesisCTP/rb-car",
+          "url": "https://github.com/KinesisCTP/rb-car",
+          "description": "Kinesis CTP onboarding workspace for Robotnik RB-CAR development with ROS 1 Noetic."
+        }
+      ],
       "wiki": {
         "section": "ground",
         "slug": "autonomous-buggy-rb-car-robotnik",
@@ -1096,6 +1103,13 @@
           "PPE_required"
         ]
       },
+      "repositories": [
+        {
+          "name": "KinesisCTP/lambda-07",
+          "url": "https://github.com/KinesisCTP/lambda-07",
+          "description": "Kinesis CTP onboarding workspace for the Force Dimension Lambda.07 haptic device with ROS 2."
+        }
+      ],
       "wiki": {
         "section": "manipulation",
         "slug": "haptic-device-lambda-07-force-dimension",
@@ -1776,6 +1790,13 @@
           "restricted_area"
         ]
       },
+      "repositories": [
+        {
+          "name": "KinesisCTP/spot-sdk",
+          "url": "https://github.com/KinesisCTP/spot-sdk",
+          "description": "KinesisCTP fork of the Boston Dynamics Spot SDK for developing Spot applications and payloads."
+        }
+      ],
       "wiki": {
         "section": "ground",
         "slug": "quadruped-robot-spot-boston-dynamics",
@@ -1889,6 +1910,13 @@
           "restricted_area"
         ]
       },
+      "repositories": [
+        {
+          "name": "KinesisCTP/spot-sdk",
+          "url": "https://github.com/KinesisCTP/spot-sdk",
+          "description": "KinesisCTP fork of the Boston Dynamics Spot SDK for developing Spot applications and payloads."
+        }
+      ],
       "wiki": {
         "section": "ground",
         "slug": "quadruped-robot-with-arm-spot-boston-dynamics",

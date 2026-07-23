@@ -101,6 +101,11 @@ Software & dependencies
 - Spot tablet controller app
 - Spot API
 
+Development repositories
+------------------------
+
+- `KinesisCTP/spot-sdk <https://github.com/KinesisCTP/spot-sdk>`_ — KinesisCTP fork of the Boston Dynamics Spot SDK for developing Spot applications and payloads.
+
 Access, training & booking
 --------------------------
 

@@ -91,6 +91,11 @@ Software & dependencies
 - Force Dimension Robotics SDK
 - Haptic Desk
 
+Development repositories
+------------------------
+
+- `KinesisCTP/lambda-07 <https://github.com/KinesisCTP/lambda-07>`_ — Kinesis CTP onboarding workspace for the Force Dimension Lambda.07 haptic device with ROS 2.
+
 Access, training & booking
 --------------------------
 

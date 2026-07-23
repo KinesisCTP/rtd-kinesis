@@ -106,6 +106,11 @@ Software & dependencies
 - Ubuntu 20.04
 - Safety Designer (Windows)
 
+Development repositories
+------------------------
+
+- `KinesisCTP/rb-car <https://github.com/KinesisCTP/rb-car>`_ — Kinesis CTP onboarding workspace for Robotnik RB-CAR development with ROS 1 Noetic.
+
 Access, training & booking
 --------------------------
 
