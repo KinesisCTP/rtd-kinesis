@@ -2,7 +2,8 @@
 KINESIS CTP Network
 ===================
 
-The KINESIS CTP Network is the main laboratory network providing wired and wireless connectivity for workstations, equipment, and user devices.
+The KINESIS CTP Network provides facility-wide wired and wireless connectivity for
+workstations, equipment, and user devices.
 
 Network Infrastructure Rack
 ---------------------------

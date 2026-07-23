@@ -62,8 +62,16 @@ Equipment Safety
 Fire Safety Equipment
 ---------------------
 
-See the :ref:`main-lab-floorplans` for the full lab layout and recorded
-fire-equipment locations.
+The fire-safety layout below marks the recorded locations of the lab's fire
+extinguishers and fire blankets. See the
+:ref:`general KINESIS CTP Lab reference layout <main-lab-floorplans>`.
+
+.. figure:: ../_static/images/facility-main-lab-floorplan-fire-safety.png
+   :alt: KINESIS CTP Lab plan with two fire extinguishers and two fire blankets
+   :width: 100%
+   :align: center
+
+   KINESIS CTP Lab fire-safety layout.
 
 .. figure:: ../_static/images/facility-fire-blanket.jpg
    :alt: Fire Blanket and Safety Sign

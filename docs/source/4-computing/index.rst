@@ -6,7 +6,7 @@ The KINESIS CTP Lab features a comprehensive computing infrastructure supporting
 
 Our infrastructure includes:
 
-- **Networks**: KINESIS CTP (main lab network) and Hermes (arena wireless network)
+- **Networks**: KINESIS CTP (facility network) and Hermes (arena wireless network)
 - **Workstations**: Specialized computers for Vicon control, general R&D, and AI/ML workloads
 - **Motion Capture Integration**: Vicon system with dedicated networking for real-time position tracking
 

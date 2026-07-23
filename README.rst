@@ -1,236 +1,231 @@
-KINESIS CTP Lab Documentation Website
-=====================================
+KINESIS CTP Lab Documentation
+=============================
 
-This repository contains the source code for a static website built using Sphinx and the Read the Docs theme. The site presents an overview of the KINESIS CTP Lab, including its facilities, equipment, and research areas, with a modern, web-style interface.
+This private repository is the canonical authoring and deployment source for the KINESIS CTP Lab
+documentation. It produces two different reader-facing sites:
 
-📖 **View the Live Documentation:** https://rtd-kinesis.readthedocs.io
+- the full internal wiki for the intended NYU/KINESIS audience; and
+- a sanitized public subset published through a separate generated repository.
 
-Overview
---------
+Do not author documentation in the generated public repository.
 
-The website is designed to move beyond traditional documentation and provide a more interactive, visually structured experience. It includes a custom homepage with navigation cards, a toggleable sidebar, and a full-width layout.
+Live Sites
+----------
 
-Features
---------
-
-- Built with Sphinx
-- Read the Docs theme with extensive custom styling
-- Full-width responsive homepage with modern design
-- Sidebar navigation with "Home" button on documentation pages
-- Custom homepage with 4 showcase sections
-- Organized content structure:
-  
-  - Lab Overview (policies, publications, useful links, contribution guidance)
-  - Facilities (arena, workspace, safety equipment)
-  - Equipment (ground robots, drones, underwater systems, sensors)
-  - Computing & Networks (AI workstations, infrastructure)
-
-- Equipment documentation with images and detailed specifications
-- Consistent formatting with warning sections as bullet points
-- Automatic builds on every push to main branch  
-
-Accessing the Documentation
-----------------------------
-
-Live Documentation
-~~~~~~~~~~~~~~~~~~
-
-The documentation is hosted on Read the Docs and is automatically built from the ``main`` branch:
-
-**🌐 https://rtd-kinesis.readthedocs.io**
-
-The site is automatically rebuilt whenever changes are pushed to the repository, ensuring the documentation is always up to date.
-
-Local Preview
+Internal wiki
 ~~~~~~~~~~~~~
 
-If you want to preview changes locally before pushing, follow the `Installation`_ and `Build the Site`_ sections below to generate a local copy of the documentation.
+`https://kinesis.abudhabi.nyu.edu/ <https://kinesis.abudhabi.nyu.edu/>`_
 
-Project Structure
+The internal site is built from this repository's full Sphinx source. A successful push to
+``main`` publishes a private multi-architecture container image to GitHub Container Registry. The
+production host follows the accepted ``main`` image, validates each candidate, and preserves the
+previous working image for rollback.
+
+The institutional front end and origin controls define the current access boundary. Consult
+`deploy/private-wiki/README.md <deploy/private-wiki/README.md>`_ for the deployment design,
+security limitations, update service, health checks, and rollback procedure.
+
+Sanitized public wiki
+~~~~~~~~~~~~~~~~~~~~~
+
+`https://rtd-kinesis.readthedocs.io/ <https://rtd-kinesis.readthedocs.io/>`_
+
+The public site contains only the export approved for anonymous access. It is generated from this
+private source by ``docs/maintenance/export_public.py`` and pushed by automation to
+`KinesisCTP/rtd-kinesis <https://github.com/KinesisCTP/rtd-kinesis>`_. Read the Docs builds that
+generated repository.
+
+The public repository is an output, not an authoring source. Fix public content or export behavior
+here, then regenerate it through the private-to-public workflow.
+
+Publication Model
 -----------------
 
 ::
 
-   rtd-kinesis/
-   │
-   ├── docs/
-   │   ├── source/
-   │   │   ├── index.rst (homepage)
-   │   │   ├── conf.py (Sphinx configuration)
-   │   │   │
-   │   │   ├── 1-lab-overview/
-   │   │   │   ├── index.rst
-   │   │   │   └── ... (lab overview pages)
-   │   │   │
-   │   │   ├── 2-facilities/
-   │   │   │   ├── index.rst
-   │   │   │   ├── arena.rst
-   │   │   │   ├── workspace.rst
-   │   │   │   └── safety.rst
-   │   │   │
-   │   │   ├── 3-equipment/
-   │   │   │   ├── index.rst
-   │   │   │   ├── ground/ (humanoids, quadrupeds, buggy, robotic arm)
-   │   │   │   ├── aerial/ (drones)
-   │   │   │   ├── water/ (underwater ROVs)
-   │   │   │   └── sensors/ (cameras, LiDAR, 3D scanners, etc.)
-   │   │   │
-   │   │   ├── 4-computing/
-   │   │   │   ├── index.rst
-   │   │   │   ├── workstations/ (AI workstations, Vicon PC, DGX Spark)
-   │   │   │   └── networks/ (KINESIS CTP network, IP allocation)
-   │   │   │
-   │   │   └── _static/
-   │   │       ├── custom.css (custom styling)
-   │   │       ├── custom.js (custom JavaScript)
-   │   │       ├── images/ (equipment and facility images)
-   │   │       │   └── README.md (image naming conventions)
-   │   │       └── data/
-   │   │           └── equipment.json (equipment database)
-   │   │
-   │   ├── build/
-   │   │   └── html/
-   │   │
-   │   ├── requirements.txt
-   │   ├── Makefile
-   │   └── make.bat
-   │
-   └── README.rst
+   Canonical vault equipment records
+                  |
+                  v
+   rtd-kinesis-internal (this repository)
+          |                         |
+          | full internal build     | sanitized export
+          v                         v
+   private GHCR image        KinesisCTP/rtd-kinesis
+          |                         |
+          v                         v
+   internal production wiki  public Read the Docs site
 
-Installation
-------------
+The two publication paths run from ``main``:
 
-1. Clone the repository::
+- ``.github/workflows/publish-private-image.yml`` builds and smoke-tests the full internal site,
+  publishes immutable commit tags plus the ``main`` release channel, and smoke-tests the published
+  image.
+- ``.github/workflows/publish-public.yml`` runs the public exporter and, when the repository token
+  is configured, synchronizes the sanitized result to ``KinesisCTP/rtd-kinesis``.
 
-   git clone https://github.com/KinesisCTP/rtd-kinesis
+Repository Contents
+-------------------
 
-   cd rtd-kinesis
+::
 
-2. Install dependencies::
+   .github/workflows/              Publication workflows
+   deploy/private-wiki/            Production image, proxy, updater, health checks, and runbook
+   docs/maintenance/               Public exporter, exclusions, denylist, tests, and roadmap
+   docs/source/                    Canonical Sphinx source
+     1-lab-overview/               Policies, processes, publications, and contributing guidance
+     2-facilities/                 Arena, workspace, safety, and facilities reference
+     3-equipment/                  Generated equipment reference grouped by category
+     4-computing/                  Workstations, networks, and Vicon infrastructure
+     _static/                      Styling, images, generated data, and controlled bundles
+     _templates/                   Generated equipment-page templates
+   generate_equipment_pages.py     Deterministic equipment-page generator
+   test_generate_equipment_pages.py
+   AGENTS.md                       Authoring, privacy, roadmap, and validation requirements
 
-   pip install -r docs/requirements.txt
+Content Ownership and Privacy
+-----------------------------
 
-If ``requirements.txt`` does not include Sphinx::
+Normal reference pages are authored in ``docs/source``. Equipment facts follow a stricter
+source-of-truth direction:
 
-   pip install sphinx sphinx-rtd-theme
+::
 
-Build the Site
---------------
+   coruscant-vault/equipment/<class>/*.md
+       -> sync/equipment_to_wiki.py
+       -> docs/source/_static/data/equipment.json
+       -> generate_equipment_pages.py
+       -> generated equipment RST pages
 
-Navigate to the ``docs`` directory and build the HTML files::
+Do not hand-edit generated equipment JSON or generated equipment pages.
 
-   cd docs
-   make html
+Private/public controls include:
 
-The generated site will be available at::
+- Sphinx conditional blocks for content that belongs only in the internal build;
+- ``docs/maintenance/public-exclude.txt`` for files omitted from the anonymous export;
+- a denylist and export tests that block unsafe public output;
+- content-addressed private manuals, SOPs, and risk assessments removed by the public exporter; and
+- one explicit anonymous onboarding-document allowlist generated from the canonical safety
+  register.
 
-   docs/build/html/index.html
+The detailed authoring and data-boundary rules are in ``AGENTS.md``.
 
-Open it in your browser::
+Local Setup
+-----------
 
-   open build/html/index.html
+Clone this private repository, not the generated public repository:
 
-Development Workflow
---------------------
+::
 
-1. Edit ``.rst`` files inside::
+   git clone https://github.com/KinesisCTP/rtd-kinesis-internal.git
+   cd rtd-kinesis-internal
 
-      docs/source/
+Create an environment and install the Sphinx dependencies:
 
-2. Modify styles in::
+::
 
-      docs/source/_static/custom.css
+   python -m venv .venv
+   python -m pip install -r docs/requirements.txt
 
-3. Modify interactivity::
+Activate the virtual environment using the command appropriate for the operating system before
+running the checks below.
 
-      docs/source/_static/custom.js
+Strict Internal Build
+---------------------
 
-4. Rebuild the site after changes::
+::
 
-      make clean
-      make html
+   python -m sphinx -W --keep-going -E -a -b html \
+     -t internal \
+     -D "html_title=KINESIS CTP Lab — Internal" \
+     docs/source docs/build/internal-html
 
-Customization
--------------
+The internal tag enables internal-only blocks and the private GitHub edit-link target.
 
-Styling
-~~~~~~~
+Sanitized Public Check
+----------------------
 
-Custom styles are defined in::
+::
 
-   docs/source/_static/custom.css
+   python docs/maintenance/export_public.py \
+     --source . \
+     --output /tmp/rtd-kinesis-public-export \
+     --check
 
-Includes:
-- Full-width layout
-- Card-based homepage
-- Purple theme
-- Sidebar animations
+   python -m sphinx -W --keep-going -E -a -b html \
+     /tmp/rtd-kinesis-public-export/docs/source \
+     docs/build/public-html
 
-JavaScript
-~~~~~~~~~~
+Use a suitable temporary path on Windows instead of ``/tmp``.
 
-Custom behavior is handled in::
+Generated Equipment Check
+-------------------------
 
-   docs/source/_static/custom.js
+::
 
-Includes:
-- Sidebar toggle
-- Layout shifting
-- Card interaction effects
+   python generate_equipment_pages.py --check
 
-Content Sections
-----------------
+Local Visual Preview and Approval
+---------------------------------
 
-- **Homepage (index.rst)**  
-  Modern landing page with hero section and 4 showcase cards for navigation
+Rendered wiki changes must be reviewed locally before they enter production history:
 
-- **Lab Overview (1-lab-overview/)**  
-  Lab presentation, general policies, processes, publications, useful links, and contribution guidelines
+1. Build the strict internal and sanitized-public variants.
+2. Serve the internal build locally:
 
-- **Facilities (2-facilities/)**
-  Arena specifications (17m × 6.4m × 8m motion capture space), workspace details, and safety protocols
+   ::
 
-- **Equipment (3-equipment/)**
-  Comprehensive catalog organized by category:
-  
-  - Ground Systems: Humanoid robots (G1, H1), quadrupeds (Spot, Spot+Arm), autonomous buggy, robotic arm
-  - Aerial Systems: DJI drones (Matrice 300 RTK, Mavic Pro 2)
-  - Underwater Systems: ROVs (Defender, EXRAY)
-  - Sensors: 3D scanners, LiDAR, motion capture, cameras, acoustic imager
+      python -m http.server 8000 \
+        --bind 127.0.0.1 \
+        --directory docs/build/internal-html
 
-- **Computing & Networks (4-computing/)**
-  AI workstations (Lambda, DGX Spark), Vicon PC, Linux workstation, network architecture, and IP allocation
+3. Open ``http://127.0.0.1:8000/`` and review the affected desktop and mobile layouts.
+4. Obtain explicit visual approval before committing, pushing, opening or merging a pull request,
+   or deploying the change.
+5. After approval, squash the review iterations into one deliberate production commit.
 
-Equipment Images
-----------------
+This approval gate applies to rendered content, layout, navigation, styling, and assets. It keeps
+back-and-forth visual drafts out of ``main`` while still allowing thorough local iteration.
 
-Equipment images follow a consistent naming convention stored in ``docs/source/_static/images/``:
+Contribution and Release Workflow
+---------------------------------
 
-- Format: ``{legacy_id}_{equipment-slug}.{ext}``
-- Example: ``99_spot-boston-dynamics.jpg``, ``506_humanoid-g1-unitree.jpg``
-- See ``docs/source/_static/images/README.md`` for complete image catalog
+1. Find the relevant issue in ``KinesisCTP/rtd-kinesis-internal`` and its
+   ``KinesisCTP`` Project 1 item. Create a sanitized roadmap issue only when no suitable item
+   exists.
+2. Work locally and run the relevant generator, internal build, public export, and public build
+   checks.
+3. Serve the local preview and obtain explicit visual approval when the rendered result changes.
+4. Create one focused branch and pull request with the approved result and validation evidence.
+5. Merge only after required checks pass.
+6. Confirm both publication workflows and the final live pages.
+7. Close the roadmap issue and mark its Project item Done only after merge and deployment
+   acceptance are complete.
 
-Formatting Standards
---------------------
+Production Deployment
+---------------------
 
-- Warning sections formatted as bullet points for readability
-- Location tags: ``KINESIS CTP`` (without duplication)
-- Risk assessments explicitly stated as "Risk Assessment Required"
-- First letter of each warning sentence capitalized
-- Equipment pages include images at 40-60% width
+The internal production updater checks the private ``main`` image on a two-minute timer. It starts
+the candidate separately, waits for health, smoke-tests the published site, and rolls back
+automatically if validation fails. The host must not be edited as an authoring surface.
 
-Notes
------
+The public export workflow updates the generated public repository. Read the Docs then rebuilds
+the public ``main`` branch. Never bypass the exporter by manually editing the public checkout.
 
-- Homepage uses a modern, marketing-style design with full-width layout
-- Documentation pages use traditional sidebar navigation
-- Sidebar includes a "Home" button to return to the modern homepage
-- Navigation structure matches homepage showcase order
-- All changes are automatically deployed to Read the Docs on push to main branch
-- Equipment records are maintained in the KINESIS vault; ``equipment.json`` and equipment RST
-  pages are generated outputs
+Health and release details:
 
-License
--------
+- internal health endpoint: ``https://kinesis.abudhabi.nyu.edu/healthz``;
+- private deployment runbook: ``deploy/private-wiki/README.md``;
+- public export contract: ``docs/maintenance/export_public.py`` and
+  ``docs/maintenance/public-exclude.txt``; and
+- roadmap and acceptance model: ``docs/maintenance/wiki-roadmap.md``.
 
-This project is for educational and demonstration purposes.
+Technology
+----------
+
+- Sphinx 7.1
+- Read the Docs theme with KINESIS-specific responsive styling
+- reStructuredText source
+- deterministic equipment-page generation from the canonical vault
+- Docker/NGINX production packaging for the internal site
+- Read the Docs hosting for the sanitized public site

@@ -878,6 +878,41 @@ body:not(.homepage) .wy-side-nav-search .version {
   }
 }
 
+/* Keep paired lighting-control images visually balanced at every viewport. */
+.rst-content table.lighting-control-comparison {
+  width: 100% !important;
+  min-width: 0 !important;
+  table-layout: fixed;
+}
+
+.rst-content div.wy-table-responsive table.lighting-control-comparison td {
+  width: 50%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.rst-content table.lighting-control-comparison tbody tr:first-child td {
+  height: auto;
+  vertical-align: top;
+}
+
+.rst-content table.lighting-control-comparison tbody tr:first-child td > a {
+  display: block;
+  width: 100% !important;
+  height: auto;
+  aspect-ratio: 3 / 4;
+}
+
+.rst-content table.lighting-control-comparison tbody tr:first-child img {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  margin: 0 !important;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* ===== CONSISTENT CONTACT BLOCKS ===== */
 .rst-content .contact-card {
   border: 1px solid rgba(87, 6, 140, 0.28);

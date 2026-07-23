@@ -2,195 +2,179 @@
 Workspace
 =========
 
-The Workspace is a flexible environment for development and experimentation.
+The Workspace is the KINESIS CTP Lab's shared area for software development,
+electronics, prototyping, equipment preparation, charging, storage, and
+collaborative work. It contains the fixed work surfaces and support stations
+used to prepare experiments before equipment enters the Arena.
 
 .. figure:: ../_static/images/workspace.jpg
-   :alt: KINESIS CTP Workspace overview
-   :width: 70%
+   :alt: KINESIS CTP Workspace with workbenches, storage, and mobile robots
+   :width: 85%
    :align: center
 
-   KINESIS CTP Workspace overview
+   KINESIS CTP Workspace
 
-Features
---------
-
-- Workstations for coding and data processing
-- High-speed local network (KINESIS CTP Network)
-- Adjustable Philips Hue smart lighting (app and switch controlled)
-- Nearby benches with tools and test equipment
-- High-performance AI workstation with 2× NVIDIA RTX 6000 Ada Generation GPUs
-  (48 GB each); see :doc:`AI Workstation - Lambda </4-computing/workstations/ai-workstation>`
-- Safe charging station for LiPo batteries
-
-Development Activities
-----------------------
-
-The workspace supports:
-
-- Software development and testing
-- Data analysis and processing
-- Equipment preparation and testing
-- Team collaboration and meetings
-- Prototyping and assembly
-
-Available Resources
--------------------
-
-- Multiple workbenches
-- Test and measurement equipment
-- Charging stations
-- Tool storage
-- Collaborative work areas
-
-Lighting System
----------------
-
-.. figure:: ../_static/images/hue_app_dashboard.png
-   :alt: Philips Hue App Dashboard showing KINESIS CTP lighting zones
-   :width: 60%
-   :align: center
-
-   Philips Hue App Dashboard — KINESIS CTP lighting zones
-
-The KINESIS CTP lab uses **Philips Hue** smart lighting throughout, with LED strips installed in the ceiling and around the facility. Lights can be controlled via the **Philips Hue app** or through the **physical wall switches** installed at several points around the lab.
-
-There are three independently controlled zones:
+Physical Space
+--------------
 
 .. list-table::
-   :widths: 20 80
-   :header-rows: 1
+   :class: equipment-facts-table
+   :widths: 30 70
+   :header-rows: 0
 
-   * - Zone
-     - Description
-   * - **Workshop**
-     - LED strips covering the main workspace/workshop area. Adjustable color and intensity.
-   * - **Arena**
-     - LED strips covering the experimental arena. Adjustable color and intensity — useful for setting up lighting conditions for experiments.
-   * - **Vicon Cameras**
-     - This is not a lighting zone in the traditional sense. The 24 Vicon cameras are powered via two PoE switches, each connected to a **smart plug**. Switching off this zone cuts power to the PoE switches and therefore to all Vicon cameras.
+   * - **Work surfaces**
+     - Perimeter desks, shared tables, and dedicated technical workbenches
+   * - **Computing and control**
+     - Shared workstations and the Vicon Command Center
+   * - **Charging**
+     - Dedicated LiPo and controller-charging stations
+   * - **Tools**
+     - Soldering, rotary-tool, precision-tool, and general tool stations
+   * - **Storage**
+     - Labelled shelving, cabinets, drawers, and assigned floor positions
+   * - **Lighting**
+     - Adjustable smart lighting for general work and controlled experiments
 
-Vicon Camera Power Management
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The :ref:`KINESIS CTP Lab reference layout <main-lab-floorplans>` identifies the
+fixed desks, tables, shelves, charging stations, tool areas, and command center.
 
-The two PoE switches that power the 24 Vicon Vantage V16 cameras are connected to **smart plugs**, which are integrated into the Philips Hue ecosystem. This means camera power can be managed from:
+Computing and Control
+---------------------
 
-- The **switch installed at the Vicon Command Center**
-- The **Philips Hue app** (remotely)
+Shared computers support motion capture, robotics development, AI workloads,
+scanning, simulation, and data processing. Specifications, access information,
+and operating guidance are maintained in
+:doc:`Workstations </4-computing/workstations/index>`.
 
-.. important::
+The Vicon Command Center sits at the boundary between the Workspace and Arena,
+providing a protected position for experiment monitoring and motion-capture
+control. See the :doc:`Arena <arena>` page for its location and role.
 
-   **Turn off the Vicon cameras when not in use.** The cameras generate heat during operation and have a finite operational lifespan. After finishing a session with the Vicon system, switch off the Vicon camera zone (via the command center switch or the app) to cut power to both PoE switches. Re-enable it before the next session to allow cameras to initialise before launching Vicon Tracker or Nexus.
+Use the :doc:`KINESIS CTP Network
+</4-computing/networks/kinesis-network>` for ordinary laboratory connectivity,
+robot control, file transfers, software updates, and research traffic. The
+:doc:`Hermes Network </4-computing/networks/hermes-network>` is reserved for
+real-time Vicon position-data distribution.
 
-   To power off via the app: open Philips Hue → select the *KINESIS CTP* home → tap the **Vicon Cameras** zone toggle off.
-
-Safety Equipment
-----------------
+Charging Stations
+-----------------
 
 .. _lipo-battery-charging-station:
 
-LiPo Battery Charging Station
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ../_static/images/facility-lipo-charging-station.jpg
-   :alt: LiPo Battery Charging Station
+   :alt: Designated LiPo battery charging station in the KINESIS CTP Workspace
    :width: 50%
    :align: center
 
-   LiPo Battery Charging Station
+   LiPo battery charging station (LC01)
 
-Dedicated safe charging station for lithium polymer batteries with:
+The designated LiPo battery charging station, identified as **LC01** on the
+reference layout, is the approved location for supervised charging with an
+appropriate charger. It is a charging area, not a battery-storage location.
 
-- Fire-resistant charging cabinet
-- Individual charging bays
-- Battery health monitoring
-- Emergency containment
-- Proper ventilation
+The controller charging station, **CS01**, is reserved for compatible
+controllers and accessories. It does not replace LC01 when the applicable
+battery procedure requires use of the LiPo charging station.
 
-**Safety Protocol:** All LiPo and Li-ion batteries must be charged at this designated station using an approved charger and under supervision. Never charge batteries at workbenches or unattended, and do not use the charging station for storage.
+Battery inspection, charging, storage, quarantine, and disposal requirements
+are summarized on the :doc:`Facilities Safety <safety>` page.
 
-.. _fireproof-battery-storage-cabinet:
-
-Fireproof Battery Storage Cabinet
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. figure:: ../_static/images/facility-battery-storage-cabinet.jpg
-   :alt: Fireproof Battery Storage Cabinet
-   :width: 50%
-   :align: center
-
-   Fireproof Battery Storage Cabinet
-
-A yellow fire-resistant cabinet is available for large high-energy packs without a BMS, smart UAV packs, and OEM batteries whose manufacturer permits cabinet storage:
-
-- Fireproof and fire-resistant construction
-- Used for battery categories assigned to cabinet storage by the current SOP
-- Reduces fire risk in the workspace
-- Clearly labelled
-
-**Storage Protocol:** Small conventional packs belong in their assigned BAT-SAFE/BatBox, while smart and OEM packs follow the manufacturer's approved storage method. Never place a damaged or suspect battery in normal storage.
-
-Equipment Storage Cabinets
---------------------------
+Storage and Shared Work Surfaces
+--------------------------------
 
 .. list-table::
    :widths: 50 50
    :header-rows: 0
 
    * - .. image:: ../_static/images/facility-equipment-cabinet-outside.jpg
-          :alt: Equipment Storage Cabinets — Outside View
+          :alt: Equipment storage cabinets in the KINESIS CTP Workspace
           :width: 100%
      - .. image:: ../_static/images/facility-equipment-cabinet-inside.jpg
-          :alt: Equipment Storage Cabinets — Inside View Showing Labelled Drawers
+          :alt: Labelled drawers inside a KINESIS CTP equipment cabinet
           :width: 100%
-   * - *Outside view of the storage cabinets*
-     - *Inside view showing labelled individual drawers*
+   * - *Equipment storage cabinets*
+     - *Labelled storage drawers*
 
-|
-
-The lab has dedicated storage cabinets for equipment accessories, cables, and ancillary components. Each cabinet is organized with individual labelled drawers, most of which are exclusively dedicated to a specific piece of equipment — making it easy to find and return accessories without confusion.
-
-- Each major equipment item (robot, sensor, drone) has one or more dedicated drawers
-- Drawers are clearly labelled with the equipment name and asset tag where applicable
-- Contents include batteries, chargers, cables, adapters, mounting hardware, and manuals
-- Cabinets are kept locked outside of lab hours
+Shared cabinets, shelves, and drawers hold equipment accessories, cables,
+chargers, adapters, mounting hardware, and other ancillary components.
+Assigned storage locations are identified by equipment name or asset tag where
+applicable. Work surfaces must be cleared after use, and all items returned to
+their assigned locations in accordance with
+General Policies.
 
 Workshop Tools
 --------------
 
-Soldering Station
-~~~~~~~~~~~~~~~~~
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
 
-.. figure:: ../_static/images/facility-soldering-station.jpg
-   :alt: Soldering Station
-   :width: 50%
-   :align: center
+   * - .. image:: ../_static/images/facility-soldering-station.jpg
+          :alt: Soldering station in the KINESIS CTP Workspace
+          :width: 100%
+     - .. image:: ../_static/images/facility-dremel-station.jpg
+          :alt: Rotary and precision-tool station in the KINESIS CTP Workspace
+          :width: 100%
+   * - *Soldering station*
+     - *Rotary and precision-tool station*
 
-   Soldering Station
+The soldering and rotary-tool area, **SD01**, supports electronics assembly,
+rework, cutting, grinding, polishing, and other small fabrication tasks. The
+general tool workbench, **TS01**, provides a separate surface for hand-tool and
+equipment-preparation work.
 
-Professional soldering workspace equipped with:
+Use these stations only for tasks covered by the applicable training, risk
+assessment, operating instructions, attire, and PPE requirements. See
+:doc:`Safety <safety>` and the relevant equipment documentation before work
+begins.
 
-- Temperature-controlled soldering irons
-- Fume extraction system
-- ESD-safe work surface
-- Component storage
-- Magnification tools
-- Hand tools and supplies
+.. important::
 
-Dremel & Precision Tools Station
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Leave **SD01** and **TS01** clean, clear, and ready for the next user after
+   every task. Remove components, offcuts, dust, and other debris; return tools
+   and accessories to their assigned locations; and restore the unobstructed
+   work surfaces shown in the photographs above.
 
-.. figure:: ../_static/images/facility-dremel-station.jpg
-   :alt: Dremel and Precision Tools Station
-   :width: 50%
-   :align: center
+Lighting System
+---------------
 
-   Dremel and Precision Tools Station
+Adjustable smart lighting covers both the Workspace and Arena. The two lighting
+zones can be controlled from the installed wall switches or the Philips Hue
+app, allowing colour and intensity to be adjusted for general work, recording,
+and controlled experimental conditions.
 
-Precision machining and fabrication station featuring:
+The control labelled **Vicon Cameras** operates the motion-capture camera power
+circuit rather than a lighting zone. Camera power requirements and shutdown
+guidance are maintained in the
+:doc:`Vicon System documentation </4-computing/vicon-system/index>`.
 
-- Rotary tools (Dremel)
-- Cutting and grinding accessories
-- Polishing and sanding tools
-- Safety equipment (goggles, dust masks)
-- Work clamps and vises
-- Material samples and test pieces
+The round Philips Hue switch at the Vicon Command Center provides physical
+control of the same camera power circuit. All four buttons are configured for
+Vicon camera power control.
+
+.. list-table::
+   :class: lighting-control-comparison
+   :widths: 50 50
+   :header-rows: 0
+
+   * - .. image:: ../_static/images/hue_app_dashboard.png
+          :alt: Philips Hue dashboard for KINESIS CTP Lab lighting and Vicon power
+          :width: 100%
+     - .. image:: ../_static/images/facility-vicon-camera-power-switch.jpg
+          :alt: Round four-button Philips Hue switch controlling Vicon camera power
+          :width: 100%
+   * - *KINESIS CTP Lab controls in the Philips Hue app*
+     - *Four-button Vicon camera power switch at the Vicon Command Center*
+
+Planning Workspace Work
+-----------------------
+
+- Review General Policies for access, authorization, equipment,
+  battery, network, and data requirements.
+- Check the :doc:`equipment index </3-equipment/index>` and the relevant
+  equipment page for training, risk-assessment, attire, PPE, and operating
+  requirements.
+- Keep desks, walkways, emergency equipment, charging stations, and assigned
+  storage locations clear.
+- Move active robot or drone testing into the Arena whenever the activity
+  requires its enclosed operating volume or safety controls.

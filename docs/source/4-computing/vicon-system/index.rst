@@ -48,3 +48,22 @@ Using the Vicon System
 ----------------------
 
 See :doc:`arena-setup` for detailed setup instructions.
+
+Camera Power Management
+-----------------------
+
+The PoE switches supplying the motion-capture camera array are connected to
+smart plugs managed through the facility's Philips Hue system. Camera power can
+be controlled from the round four-button Philips Hue switch at the Vicon
+Command Center or from the **Vicon Cameras** control in the Philips Hue app.
+All four buttons on the physical switch are assigned to Vicon camera power
+control.
+
+.. important::
+
+   Switch off the Vicon camera power circuit after each session. Re-enable it
+   before the next session and allow the cameras to initialise before launching
+   Vicon Tracker, Nexus, or Shōgun.
+
+The **Vicon Cameras** control supplies power to the camera PoE switches; it is
+not an Arena lighting control.
