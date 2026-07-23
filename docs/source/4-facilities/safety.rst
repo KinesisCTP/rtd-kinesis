@@ -62,6 +62,9 @@ Equipment Safety
 Fire Safety Equipment
 ---------------------
 
+See the :ref:`main-lab-floorplans` for the full lab layout and recorded
+fire-equipment locations.
+
 .. figure:: ../_static/images/facility-fire-blanket.jpg
    :alt: Fire Blanket and Safety Sign
    :width: 50%

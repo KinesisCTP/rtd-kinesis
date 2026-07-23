@@ -892,3 +892,8 @@ body:not(.homepage) .wy-side-nav-search .version {
   background: var(--nyu-purple);
   color: #ffffff;
 }
+
+/* Keep the Facilities floor-plan heading visible below the mobile navigation bar. */
+span#main-lab-floorplans {
+  scroll-margin-top: 72px;
+}
