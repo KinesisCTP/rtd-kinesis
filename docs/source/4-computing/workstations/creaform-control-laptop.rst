@@ -27,12 +27,6 @@ CRF-01842- ZBook G6 17'' 64Go
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Not recorded
-   * - **Risk assessment**
-     - Not currently listed as required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 .. note::
 
@@ -60,7 +54,6 @@ Specifications
      - 17.3-inch
    * - **Purpose**
      - Creaform Go!SCAN 3D control and data processing
-
 
 
 

@@ -34,12 +34,6 @@
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -91,20 +85,18 @@ Typical workflows
 4. Generating meshes for additive manufacturing
 5. Archiving/digitising artefacts
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - Creaform.OS
 - VXelements LTS
 - VXmodel EDU
-
-Access, training & booking
---------------------------
-
-Only personnel who have completed the Go!SCAN 3D induction may operate the scanner or handle its power connections.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -118,6 +110,10 @@ Safety & operating limits
    - Take short rest breaks or alternate hands to reduce ergonomic strain.
    - Store the scanner in its padded case with the USB dust cap fitted, and do not touch the calibration-plate targets.
 
+**Access and operational conditions**
+
+- Only personnel who have completed the Go!SCAN 3D induction may operate the scanner or handle its power connections.
+
 **Environmental limits**
 
 - Operate indoors only.
@@ -130,8 +126,6 @@ Safety & operating limits
 
 **Operational controls**
 
-- Training required
-- Risk assessment required
 - Supervisor required
 - Plan, route, and supervise the tether or cable throughout operation.
 

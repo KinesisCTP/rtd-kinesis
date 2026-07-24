@@ -34,12 +34,6 @@ Event Camera - Metavision EVK4 HD - Prophesee
      - 2
    * - **Status**
      - Active
-   * - **Training**
-     - Not recorded
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -82,11 +76,6 @@ Software & dependencies
 -----------------------
 
 - Metavision Intelligence SDK
-
-Access, training & booking
---------------------------
-
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 

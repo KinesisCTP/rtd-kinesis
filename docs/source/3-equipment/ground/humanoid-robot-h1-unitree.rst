@@ -34,12 +34,6 @@ Humanoid Robot - H1-2 - Unitree
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -92,29 +86,25 @@ Specifications
      - Intel Core i5 for platform functions and Intel Core i7 for user development
    * - **Sensor type**
      - Livox MID-360 3D LiDAR and Intel RealSense D435i depth camera
-   * - **Sensing modalities**
-     - Depth camera, LiDAR
 
 Typical workflows
 -----------------
 
-1. manual operation via wireless handheld remote for locomotion demonstrations
-2. programmatic control via Unitree SDK/API over wired Ethernet for autonomous tasks
-3. community engagement or promotional demonstrations in controlled indoor/outdoor spaces
+1. Manual operation via wireless handheld remote for locomotion demonstrations
+2. Programmatic control via Unitree SDK/API over wired Ethernet for autonomous tasks
+3. Community engagement or promotional demonstrations in controlled indoor/outdoor spaces
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
 
 - Unitree SDK
 - Unitree API
-
-Access, training & booking
---------------------------
-
-Only trained and authorised personnel are allowed to operate or programme the robot. Operators must remind bystanders not to approach the robot during demonstrations.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -128,6 +118,10 @@ Safety & operating limits
    - Only trained personnel may charge, connect, or replace the battery.
    - The SELV system monitors critical faults and alerts or locks the robot when required.
    - For storage, enter damping mode, power off, remove the battery, and support the robot in a seated or suspended position; never store it standing unsupported.
+
+**Access and operational conditions**
+
+- Only trained and authorised personnel are allowed to operate or programme the robot. Operators must remind bystanders not to approach the robot during demonstrations.
 
 **Approved operating area**
 
@@ -144,11 +138,6 @@ Operations outside the approved area require a submitted and approved
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Risk assessment required
-- Training required
 
 
 Related equipment & documentation

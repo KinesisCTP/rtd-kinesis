@@ -34,12 +34,6 @@ Power Supply - PVS10005 - B&K Precision
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -92,14 +86,12 @@ Typical workflows
 4. Programmable ramps or list/step testing in CV or CC mode
 5. Remote control and automation via SCPI over communication interface
 
+.. note::
 
-Access, training & booking
---------------------------
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
-Equipment-specific training and SOP review are mandatory before operation. "High Voltage" signage must be posted whenever the supply is in use.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -113,6 +105,10 @@ Safety & operating limits
    - If the power switch is unresponsive, unplug the rear AC mains cord; if damage, smoke, or arcing is visible, isolate facility power at the breaker.
    - Do not touch output or sense terminals immediately after shutdown because lethal voltage may remain.
    - Before storage, disable the output, power off and unplug the supply, discharge it through a 10 kΩ resistor rated for at least 2 W for 10 seconds, and fit the protective terminal caps.
+
+**Access and operational conditions**
+
+- Equipment-specific training and SOP review are mandatory before operation. "High Voltage" signage must be posted whenever the supply is in use.
 
 **Approved operating area**
 
@@ -129,11 +125,6 @@ Safety & operating limits
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Training required
-- Risk assessment required
 
 
 

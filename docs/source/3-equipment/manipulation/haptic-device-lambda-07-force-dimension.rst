@@ -34,12 +34,6 @@ Haptic Device - Lambda.07 - Force Dimension
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -96,14 +90,6 @@ Development repositories
 
 - `KinesisCTP/lambda-07 <https://github.com/KinesisCTP/lambda-07>`_ — Kinesis CTP onboarding workspace for the Force Dimension Lambda.07 haptic device with ROS 2.
 
-Access, training & booking
---------------------------
-
-Available to trained and authorised users for supervised laboratory work at the designated KINESIS workstation.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
-
 
 Safety & operating limits
 -------------------------
@@ -115,6 +101,10 @@ Safety & operating limits
    - Use only the original Force Dimension controller power supply and inspect the power, USB, and device cables before use.
    - Do not disassemble the device, remove its panels, or use it when cables, connectors, the enclosure, or motion appear damaged or abnormal.
    - Switch off the device when it is not in use and retain the original packaging for storage or shipment.
+
+**Access and operational conditions**
+
+- Available to trained and authorised users for supervised laboratory work at the designated KINESIS workstation.
 
 **Approved operating area**
 
@@ -128,11 +118,6 @@ Safety & operating limits
 **Required attire and conditional PPE**
 
 - Lab-appropriate street clothing: long trousers and closed-toed shoes.
-
-**Operational controls**
-
-- Training required
-- Risk assessment required
 
 
 

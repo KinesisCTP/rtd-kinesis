@@ -2,145 +2,198 @@
 Safety
 ======
 
-Safety Protocols
-----------------
+This page summarizes the controls that apply across the KINESIS CTP Lab. Before
+work begins, review the relevant equipment page, Risk Assessment (RA),
+applicable Standard Operating Procedure (SOP), manufacturer instructions, and
+any experiment-specific controls. The most restrictive applicable requirement
+takes precedence.
 
-The KINESIS CTP Lab maintains strict safety protocols to protect personnel, equipment, and research activities.
+Essential Safety Controls
+-------------------------
 
-General Safety Rules
---------------------
+- Complete the training and reading listed in the `KINESIS CTP Lab Safety
+  Training and Risk Assessment Acknowledgment
+  <https://docs.google.com/forms/d/e/1FAIpQLSedhNihcdGHRwOLP31qAJ1eh_-v9jVnkLZiu3h1ZsYwxtNNlg/viewform>`_
+  before lab access, and complete equipment-specific training before operation.
+- Work only within the operating area and conditions approved for the equipment
+  and planned activity.
+- Follow posted instructions, warning signs, RAs, SOPs, and manufacturer
+  guidance.
+- Wear the exact attire and Personal Protective Equipment (PPE) specified for
+  the activity.
+- Inspect equipment, accessories, cables, guards, and emergency controls before
+  use. Do not use damaged or unsafe equipment.
+- Keep emergency exits, access routes, fire blankets, extinguishers, charging
+  stations, and work surfaces clear.
+- Report incidents, near-misses, unsafe conditions, and equipment damage
+  immediately.
 
-- Complete required safety and equipment training before access or operation.
-- Follow posted safety instructions, equipment-specific RAs, applicable SOPs, and manufacturer instructions.
-- Wear the exact attire and PPE specified for the activity; see the relevant equipment page and RA.
-- Report incidents, near-misses, unsafe conditions, and equipment damage immediately.
-- Keep emergency exits, fire blankets, extinguishers, and access routes clear at all times.
+The :doc:`equipment index </3-equipment/index>` links to the operating area,
+training, attire, PPE, RA, SOP, and model-specific controls recorded for each
+system.
 
-Arena Safety
-------------
+Operating Areas
+---------------
 
-**Flight Operations:**
+The :doc:`Arena <arena>` is the enclosed operating area for aerial systems,
+mobile robots, tracked motion, and experiments requiring a separated volume.
+The :doc:`Workspace <workspace>` supports software development, electronics,
+prototyping, equipment preparation, charging, storage, and controlled
+workbench tasks.
 
-- Safety nets must be in place during flight tests
-- Clear the area of unnecessary personnel
-- Maintain visual line of sight with flying vehicles
-- Have emergency stop procedures ready
-- Use propeller guards when appropriate
+- Establish the exclusion zone, safety perimeter, netting configuration,
+  warning signs, and operator positions required by the equipment RA.
+- Keep emergency stops and other safety controls accessible throughout the
+  activity.
+- Complete documented pre-use checks, including guards, failsafes, payload
+  security, and control links where applicable.
+- Keep people who are not required for the activity outside the controlled
+  operating area.
 
-**Ground Operations:**
+The equipment page and RA define the approved area for each system. Robotics
+work outside an approved operating area also requires submission and approval
+of the `Robotics Review Committee (RRC) Mission Review Form
+<https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_
+before the experiment begins.
 
-- Establish safety perimeters for mobile robots
-- Post warning signs for robot operation areas
-- Ensure emergency stop buttons are accessible
-- Test failsafe mechanisms before operations
+Equipment and Workshop Safety
+-----------------------------
 
-Equipment Safety
-----------------
+- Verify electrical ratings, power sources, connectors, and circuit protection
+  before energizing equipment.
+- Keep liquids and loose objects away from electrical equipment and moving
+  mechanisms.
+- Use guards, restraints, mounting hardware, lifting methods, and load limits
+  specified for the equipment and task.
+- Stop work and notify the lab manager if equipment, wiring, connectors,
+  guarding, or emergency controls are damaged or behave unexpectedly.
+- Use the soldering, rotary-tool, precision-tool, and general tool stations only
+  for tasks covered by the applicable training and safety documents.
 
-**Electrical Safety:**
+The :doc:`Workspace <workspace>` page identifies the charging, storage, and
+workshop stations and describes the required clean handover condition.
 
-- Verify power requirements before connecting equipment
-- Use appropriate circuit protection
-- Keep liquids away from electrical equipment
-- Report any damaged cables or connectors
+.. _facilities-battery-safety:
 
-**Battery Safety:**
+Battery Safety
+--------------
 
-- Use the :ref:`lipo-battery-charging-station` and never leave batteries charging unattended.
-- Follow the battery-type storage location assigned by the lab manager; the charging station is not a storage area.
-- Quarantine damaged or suspect batteries and email `nyuad.facilities@nyu.edu <mailto:nyuad.facilities@nyu.edu>`_ to coordinate disposal.
+- Charge LiPo and Li-ion batteries only at the
+  :ref:`LiPo battery charging station <lipo-battery-charging-station>`, using an
+  approved charger and under supervision. The charging station is not a
+  storage area.
+- Store each battery in the location and protective container assigned for its
+  battery type and equipment.
+- Do not use or charge a battery that is swollen, damaged, leaking, hot, deeply
+  discharged, or otherwise suspect.
+- If a suspect battery is cool and stable, protect its terminals if this can be
+  done safely, label and isolate it from normal stock, and notify the lab
+  manager. Do not place lithium batteries in general waste.
+- Email `NYUAD Facilities <mailto:nyuad.facilities@nyu.edu>`_ to coordinate
+  disposal.
 
-**Mechanical Safety:**
-
-- Secure all equipment during operation
-- Use appropriate guards on moving parts
-- Follow weight limits for lifting equipment
-- Maintain clear workspaces
+Review the `Charging Rechargeable Batteries RA (3556RA)
+<../_static/onboarding-documents/f8645e5ae6995732f27e4185af19b353ef4fc7e10ba560f9481e5b0ffe8b124d.pdf>`_
+and the `Lithium Battery Management SOP
+<../_static/onboarding-documents/53eaeae125c0cdb7f084c31f740eb03d14d6cb2744e1b3394a1932040320664e.pdf>`_
+before charging, storing, handling, or disposing of lithium batteries.
 
 .. _fire-safety-equipment:
 
 Fire Safety Equipment
 ---------------------
 
-The fire-safety layout below marks the recorded locations of the lab's fire
-extinguishers and fire blankets. See the
-:ref:`general KINESIS CTP Lab reference layout <main-lab-floorplans>`.
+The fire-safety layout marks the locations of the lab's fire extinguishers and
+fire blankets.
 
 .. figure:: ../_static/images/facility-main-lab-floorplan-fire-safety.png
-   :alt: KINESIS CTP Lab plan with two fire extinguishers and two fire blankets
+   :alt: KINESIS CTP Lab layout showing two fire extinguishers and two fire blankets
    :width: 100%
    :align: center
 
-   KINESIS CTP Lab fire-safety layout.
+   KINESIS CTP Lab fire-safety equipment layout
 
-.. figure:: ../_static/images/facility-fire-blanket.jpg
-   :alt: Fire Blanket and Safety Sign
-   :width: 50%
-   :align: center
+The marked emergency equipment comprises:
 
-   Fire Blanket and Safety Sign
+- **FE1** — fire extinguisher beside the main entrance.
+- **FE2** — fire extinguisher beside the passage between the Workspace and
+  Arena.
+- **FB1** — fire blanket near the main entrance.
+- **FB2** — fire blanket at the Arena entrance column.
 
-The KINESIS CTP Lab has **two fire blankets** installed at strategic locations:
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
 
-- **Near the main entrance** — Accessible immediately upon entering the lab
-- **At the arena entrance column** — Located at the entry to the arena, immediately accessible during flight and robot operations
+   * - .. image:: ../_static/images/facility-fire-extinguishers-fe2.jpg
+          :alt: Fire extinguishers at FE2 beside the passage between the Workspace and Arena
+          :width: 100%
+     - .. image:: ../_static/images/facility-fire-blanket.jpg
+          :alt: Fire blanket at FB1 near the main entrance
+          :width: 100%
+   * - *Fire extinguishers at FE2*
+     - *Fire blanket at FB1*
 
-Fire blankets are emergency safety equipment, not a substitute for evacuation
-or trained emergency response. For smoke, fire, venting, hissing, rapid heating,
-or a leaking battery:
+Keep all emergency equipment visible and accessible. Do not remove or relocate
+fire blankets or extinguishers.
+
+For smoke, fire, battery venting, hissing, rapid heating, or leakage:
 
 1. Do not handle the battery, open a charging container, or attempt to move it.
 2. Alert everyone nearby, evacuate, and activate the fire alarm.
 3. Call emergency services and NYUAD Campus Safety.
-4. Use a fire blanket or extinguisher only if trained, the fire is still incipient,
-   a clear exit remains behind you, and the applicable emergency procedure permits it.
+4. Use a fire blanket or extinguisher only if trained, the fire is still
+   incipient, a clear exit remains behind you, and the applicable emergency
+   procedure permits it.
 
-All fire blankets are clearly signed and mounted in visible, accessible locations. Do not remove or relocate them.
+Emergency Response and Incident Reporting
+-----------------------------------------
 
-Emergency Procedures
---------------------
+1. Stop the activity and use the emergency stop if applicable and safe to do
+   so.
+2. Alert people in the area and evacuate when required.
+3. Call **999** for police, fire, or life-threatening emergencies in the UAE.
+   Call `NYUAD Campus Safety
+   <https://nyuad.nyu.edu/en/campus-life/housing-and-accommodation/campus-security.html>`_
+   at **+971 2 628 7777** for on-campus assistance.
+4. Do not resume work or re-enter a controlled area until authorized.
+5. After the immediate hazard is controlled, notify the lab manager and report
+   the incident, near-miss, unsafe condition, or equipment damage.
 
-**In Case of Emergency:**
+Risk Assessments and Safety Documents
+-------------------------------------
 
-1. Activate emergency stop if applicable
-2. Alert personnel in the area
-3. Call NYUAD Campus Safety at **+971 2 628 7777** when emergency assistance is required
-4. Report incident to lab management
+Every equipment item has a baseline RA for its approved use. Start with the
+individual equipment page and review every document listed for the system and
+planned activity.
 
-Risk Assessments
-----------------
+A supplementary, experiment-specific RA is required when the work introduces a
+new hazard or materially changes the approved configuration, payload,
+material, operating area, human interaction, environment, or control measure.
+Contact the lab manager and complete that assessment before work begins.
 
-Every equipment item has a baseline RA for its approved use. A supplementary,
-experiment-specific RA is required only when the planned activity introduces
-hazards or material changes not covered by that baseline, such as a new
-configuration, payload, material, operating area, human interaction, or
-environment.
+The current general lab, shared-activity, and equipment RAs, together with the
+Lithium Battery Management SOP, are available on the :doc:`Safety Documents for
+the KINESIS Lab </1-lab-overview/safety-documents>` page.
 
-The current general lab and equipment Risk Assessments, together with the
-lithium battery management SOP, are available on the :doc:`KINESIS Lab Safety
-Documents </1-lab-overview/safety-documents>` page.
+Training and Authorization
+--------------------------
 
-Training Requirements
----------------------
+Required preparation depends on the equipment and activity. It may include:
 
-Required training varies by equipment and activity:
+- General lab safety orientation and access approval.
+- Equipment-specific training and recorded attendance.
+- Review and acknowledgment of the applicable RAs, SOPs, and manufacturer
+  instructions.
+- Task-specific instruction covering controls, emergency response, attire, and
+  PPE.
 
-- General lab safety orientation
-- Specific equipment training
-- Emergency procedure familiarization
-- PPE usage training
+.. important::
 
-Incident Reporting
-------------------
+   Training on one system does not authorize operation of another system or
+   work outside the approved operating area and conditions.
 
-All incidents, no matter how minor, must be reported:
-
-1. Notify lab management immediately
-2. Document the incident
-3. Participate in incident review
-4. Implement corrective actions
-
-Contact & Support
------------------
+Contact and Support
+-------------------
 
 .. include:: /_includes/contact-lab-manager.inc

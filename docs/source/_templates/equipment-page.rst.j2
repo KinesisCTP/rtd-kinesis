@@ -82,6 +82,12 @@ Typical workflows
 {% for step in workflows %}
 {{ loop.index }}. {{ step }}
 {% endfor %}
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 {% endif %}
 
 {% if software %}
@@ -100,25 +106,6 @@ Development repositories
 {% for repository in repositories %}
 - `{{ repository.name }} <{{ repository.url }}>`_ — {{ repository.description }}
 {% endfor %}
-{% endif %}
-
-{% if availability_notes or record.training_required or record.risk_assessment_required or training_link %}
-Access, training & booking
---------------------------
-
-{% if availability_notes %}
-{{ availability_notes }}
-
-{% endif %}
-{% if record.training_required %}
-- **Training:** Hands-on training is required before operation.
-{% endif %}
-{% if record.risk_assessment_required %}
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
-{% endif %}
-{% if training_link %}
-- **Training materials:** `Open training materials <{{ training_link }}>`_
-{% endif %}
 {% endif %}
 
 {% if user_access %}
@@ -149,7 +136,7 @@ Access, training & booking
 {% endfor %}
 {% endif %}
 
-{% if constraint_notes or operating_area or environment or required_attire or safety_flags or software_license_required %}
+{% if constraint_notes or availability_conditions or operating_area or environment or required_attire or safety_flags or software_license_required or training_link %}
 Safety & operating limits
 -------------------------
 
@@ -158,6 +145,14 @@ Safety & operating limits
 
 {% for item in constraint_notes %}
    - {{ item }}
+{% endfor %}
+
+{% endif %}
+{% if availability_conditions %}
+**Access and operational conditions**
+
+{% for item in availability_conditions %}
+- {{ item }}
 {% endfor %}
 
 {% endif %}
@@ -200,6 +195,11 @@ Operations outside the approved area require a submitted and approved
 {% endif %}
 {% if software_license_required %}
 - **Software licence:** Required.
+{% endif %}
+{% if training_link %}
+**Training materials**
+
+- `Open training materials <{{ training_link }}>`_
 {% endif %}
 {% endif %}
 

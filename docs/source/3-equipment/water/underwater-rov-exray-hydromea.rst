@@ -34,12 +34,6 @@ Underwater ROV - EXRAY - Hydromea
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -107,18 +101,16 @@ Typical workflows
 2. Operating either ROV body as the tetherless FLYOUT via the LUMA optical link
 3. Object interaction using optional payloads (gripper, vacuum cleaner)
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - NAVIA
-
-Access, training & booking
---------------------------
-
-Requires hands-on training and authorisation. Minimum two-person rule during all operations. PFDs must be worn during field deployments.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -130,6 +122,10 @@ Safety & operating limits
    - Keep at least 1 m clear of armed thrusters and disarm the ROV before lifting or transport.
    - Assign dedicated tether management throughout tethered operation.
    - Inspect connectors and O-rings before deployment and follow the power-on-last sequence.
+
+**Access and operational conditions**
+
+- Requires hands-on training and authorisation. Minimum two-person rule during all operations. PFDs must be worn during field deployments.
 
 **Environmental limits**
 
@@ -146,8 +142,6 @@ Safety & operating limits
 
 **Operational controls**
 
-- Risk assessment required
-- Training required
 - Two-person operation
 - Plan, route, and supervise the tether or cable throughout operation.
 

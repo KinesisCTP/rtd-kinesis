@@ -34,12 +34,6 @@ AI Workstation - DGX Spark - NVIDIA
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Not currently listed as required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -80,6 +74,12 @@ Typical workflows
 4. Process large-scale datasets for computer vision and NLP
 5. Prototype and benchmark AI algorithms before deploying to larger clusters
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
@@ -92,13 +92,6 @@ Software & dependencies
 - JAX
 - NVIDIA NeMo Framework
 
-Access, training & booking
---------------------------
-
-Access restricted to authorized personnel. Schedule intensive workloads to minimize conflicts with other users.
-
-- **Training:** Hands-on training is required before operation.
-
 Safety & operating limits
 -------------------------
 
@@ -110,9 +103,9 @@ Safety & operating limits
    - Do not interrupt running training jobs without coordinating with other users.
    - Follow lab data-management policies when storing models and datasets.
 
-**Operational controls**
+**Access and operational conditions**
 
-- Training required
+- Access restricted to authorized personnel. Schedule intensive workloads to minimize conflicts with other users.
 
 - **Software licence:** Required.
 

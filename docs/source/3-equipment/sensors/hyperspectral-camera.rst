@@ -34,12 +34,6 @@ Hyperspectral Camera - microHSI 410 SHARK - Corning
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Not recorded
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -84,11 +78,6 @@ Specifications
      - 0.68 kg
 
 
-
-Access, training & booking
---------------------------
-
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 

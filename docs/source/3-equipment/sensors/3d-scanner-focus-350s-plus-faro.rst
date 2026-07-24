@@ -34,12 +34,6 @@
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -90,19 +84,17 @@ Typical workflows
 3. Run 360° × 300° scans and move the scanner to the next station once data are saved to the SD card
 4. Transfer scans to SCENE for processing, registration, and downstream CAD/BIM or documentation workflows
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - SCENE
 - WLAN connection (HTML5 access via mobile devices)
-
-Access, training & booking
---------------------------
-
-Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, used on a tripod for indoor and outdoor scanning.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -117,6 +109,10 @@ Safety & operating limits
    - Charge batteries only on the FARO PowerDock in a clear, ventilated area.
    - Complete controlled shutdown before removing power or the battery, and never remove the SD card while the scanner indicates it is busy.
 
+**Access and operational conditions**
+
+- Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, used on a tripod for indoor and outdoor scanning.
+
 **Environmental limits**
 
 - Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
@@ -128,11 +124,6 @@ Safety & operating limits
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Training required
-- Risk assessment required
 
 - **Software licence:** Required.
 

@@ -34,12 +34,6 @@ Motion Capture System - Vantage V16 - Vicon
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -85,6 +79,12 @@ Typical workflows
 3. Live motion capture with IR strobe illumination and marker tracking
 4. Recording and exporting motion data for gait analysis, animation, robotics, and engineering studies
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
@@ -92,14 +92,6 @@ Software & dependencies
 - Vicon Shogun
 - Vicon Tracker
 - VAULT
-
-Access, training & booking
---------------------------
-
-The Vicon manuals are the definitive authority and must be reviewed before each use.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -114,6 +106,10 @@ Safety & operating limits
    - For emergency shutdown, stop capture in software and switch off the PoE+ switch; if it is unresponsive, unplug its mains cord and disconnect camera RJ-45 plugs only after the LEDs are dark.
    - For storage, switch off PoE+, secure the leads, fit lens caps, place cameras in padded cases, and do not stack heavy objects on camera bodies.
 
+**Access and operational conditions**
+
+- The Vicon manuals are the definitive authority and must be reviewed before each use.
+
 **Environmental limits**
 
 - Operate indoors only.
@@ -124,11 +120,6 @@ Safety & operating limits
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Training required
-- Risk assessment required
 
 - **Software licence:** Required.
 

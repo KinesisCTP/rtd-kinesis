@@ -34,12 +34,6 @@ Drone - Mavic 2 Pro - DJI
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -108,24 +102,22 @@ Specifications
 Typical workflows
 -----------------
 
-1. aerial inspection and site observation
-2. aerial mapping data capture
-3. cinematic video capture with stabilised gimbal
+1. Aerial inspection and site observation
+2. Aerial mapping data capture
+3. Cinematic video capture with stabilised gimbal
 4. Return-to-Home assisted flight and controlled landing
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
 
 - DJI GO 4
 - DJI Assistant 2
-
-Access, training & booking
---------------------------
-
-Hands-on training and review of the SOP and user manual are required before operating. Outdoor operations require a GCAA drone pilot licence and prior EHS coordination.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -137,6 +129,10 @@ Safety & operating limits
    - Restrict access, maintain visual line of sight, and keep spectators outside a 5 m exclusion zone.
    - Before each flight, inspect the propellers and batteries and keep clear of power lines and reflective or magnetic structures.
    - For storage, power off the aircraft and remote controller, remove the battery, fit the gimbal clamp and cover, and fold the arms and propellers.
+
+**Access and operational conditions**
+
+- Hands-on training and review of the SOP and user manual are required before operating. Outdoor operations require a GCAA drone pilot licence and prior EHS coordination.
 
 **Approved operating area**
 
@@ -153,11 +149,6 @@ Safety & operating limits
 - Long pants.
 - Closed-toed shoes.
 - Safety glasses.
-
-**Operational controls**
-
-- Risk assessment required
-- Training required
 
 
 

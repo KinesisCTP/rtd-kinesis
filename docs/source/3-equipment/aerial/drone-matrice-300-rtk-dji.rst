@@ -34,12 +34,6 @@ Drone - Matrice 300 RTK - DJI
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -98,19 +92,17 @@ Typical workflows
 4. Mission flight with real-time video downlink for mapping, inspection, or surveillance
 5. Post-flight data export and firmware updates using DJI Pilot 2 or DJI Assistant 2 (Enterprise Series)
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - DJI Pilot 2
 - DJI Assistant 2 (Enterprise Series)
-
-Access, training & booking
---------------------------
-
-Only trained and authorised personnel may operate the drone. All operations must maintain visual line of sight (VLOS). Outdoor flights require a GCAA-issued drone pilot licence and prior EHS approval — no outdoor flight may proceed without EHS permit and no-fly zone verification.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -124,6 +116,10 @@ Safety & operating limits
    - Use the controller Combination Stick Command (CSC) for emergency propeller shutdown.
    - Follow the approved battery-charging procedure; never leave batteries unattended while charging or charge them near flammable materials.
    - For long-term storage, power off the aircraft, disconnect the batteries, use a fireproof or LiPo-safe container inside the padded hard case, and charge or discharge the batteries every three months.
+
+**Access and operational conditions**
+
+- Only trained and authorised personnel may operate the drone. All operations must maintain visual line of sight (VLOS). Outdoor flights require a GCAA-issued drone pilot licence and prior EHS approval — no outdoor flight may proceed without EHS permit and no-fly zone verification.
 
 **Approved operating area**
 
@@ -143,8 +139,6 @@ Safety & operating limits
 
 **Operational controls**
 
-- Training required
-- Risk assessment required
 - Permit required
 
 

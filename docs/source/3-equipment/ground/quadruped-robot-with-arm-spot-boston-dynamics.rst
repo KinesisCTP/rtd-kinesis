@@ -34,12 +34,6 @@ Quadruped Robot with Arm - Spot - Boston Dynamics
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -77,8 +71,6 @@ Specifications
      - IP54
    * - **Operating temperature**
      - -20 to 45 °C
-   * - **Sensing modalities**
-     - RGB, Stereo vision, Infrared
    * - **Stereo camera pairs**
      - 5
    * - **Built-in optical coverage**
@@ -113,6 +105,12 @@ Typical workflows
 4. Opening doors in manual operation or Autowalk missions
 5. Recording and replaying missions (Autowalk) with data capture actions
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
@@ -123,14 +121,6 @@ Development repositories
 ------------------------
 
 - `KinesisCTP/spot-sdk <https://github.com/KinesisCTP/spot-sdk>`_ — KinesisCTP fork of the Boston Dynamics Spot SDK for developing Spot applications and payloads.
-
-Access, training & booking
---------------------------
-
-Access is restricted to trained and authorised personnel. Complete the required safety sign-off before operation and maintain a minimum 3 m clearance around the robot during all operations.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 Safety & operating limits
 -------------------------
@@ -143,6 +133,10 @@ Safety & operating limits
    - An extended arm or heavy payload can reduce stability; more than 5 kg at 0.5 m extension can unbalance Spot.
    - Maintain at least 3 m clearance, keep the arm stowed when not manipulating, and use slow speed when teaching or working near people.
    - Store batteries at approximately 50% state of charge for long-term storage.
+
+**Access and operational conditions**
+
+- Access is restricted to trained and authorised personnel. Complete the required safety sign-off before operation and maintain a minimum 3 m clearance around the robot during all operations.
 
 **Approved operating area**
 
@@ -167,8 +161,6 @@ Operations outside the approved area require a submitted and approved
 
 **Operational controls**
 
-- Training required
-- Risk assessment required
 - Supervisor required
 
 

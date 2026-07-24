@@ -34,12 +34,6 @@ Wireless Radio - MPU5 - Persistent Systems
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Not recorded
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -90,11 +84,12 @@ Typical workflows
 1. Long-range wireless links to robots and unmanned platforms
 2. Multi-node mesh communication during field operations
 
+.. note::
 
-Access, training & booking
---------------------------
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 

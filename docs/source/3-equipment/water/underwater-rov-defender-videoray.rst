@@ -34,12 +34,6 @@ Underwater ROV - Defender - VideoRay
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -91,25 +85,23 @@ Specifications
 Typical workflows
 -----------------
 
-1. topside setup (console, power supplies, tether) and pre-dive checks
-2. launch and recovery in water tanks or open water
-3. piloting with live video (and sonar when fitted) for inspection tasks
-4. underwater intervention using optional accessories such as a manipulator
-5. post-dive rinsing/soaking with fresh water and drying before storage
+1. Topside setup (console, power supplies, tether) and pre-dive checks
+2. Launch and recovery in water tanks or open water
+3. Piloting with live video (and sonar when fitted) for inspection tasks
+4. Underwater intervention using optional accessories such as a manipulator
+5. Post-dive rinsing/soaking with fresh water and drying before storage
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
 
 - Greensea IQ control software
 - Ubuntu
-
-Access, training & booking
---------------------------
-
-Trained personnel required with role separation: Pilot, Tether Handler, Accessory Operator/Observer. Two-person rule during launch and recovery. PFDs must be worn when working over open water. The official user manual must be consulted before use.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -123,6 +115,10 @@ Safety & operating limits
    - Manage tether slack and strain relief to prevent trips, entanglement, and snags.
    - Use guardrails or barriers where practical during open-water work, and keep a rescue pole and throw-line available near test tanks.
    - After diving, especially in salt water, rinse or soak the equipment with fresh water without high-pressure spray and allow it to dry completely before storage.
+
+**Access and operational conditions**
+
+- Trained personnel required with role separation: Pilot, Tether Handler, Accessory Operator/Observer. Two-person rule during launch and recovery. PFDs must be worn when working over open water. The official user manual must be consulted before use.
 
 **Environmental limits**
 
@@ -139,10 +135,8 @@ Safety & operating limits
 
 **Operational controls**
 
-- Training required
 - Two-person operation
 - Supervisor required
-- Risk assessment required
 - Plan, route, and supervise the tether or cable throughout operation.
 
 

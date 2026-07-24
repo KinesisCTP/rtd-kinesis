@@ -34,12 +34,6 @@ Dexterous Hand - RH56 - Inspire Robots
      - 2
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -89,14 +83,12 @@ Typical workflows
 3. Force sensor calibration under no-load conditions
 4. Software-controlled grasping and object manipulation with configured force thresholds
 
+.. note::
 
-Access, training & booking
---------------------------
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
-Operation requires training and authorisation. Intended for bench-top and robot-mounted use.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -111,6 +103,10 @@ Safety & operating limits
    - Use reduced speed during setup and teaching, and configure force thresholds to stop on unintended contact.
    - Announce motions and keep loose clothing and jewellery away from finger travel paths.
    - Store the hand powered off and protected from dust and mechanical loads on the fingers or palm.
+
+**Access and operational conditions**
+
+- Operation requires training and authorisation. Intended for bench-top and robot-mounted use.
 
 **Approved operating area**
 
@@ -129,11 +125,6 @@ Operations outside the approved area require a submitted and approved
 - Long pants.
 - Closed-toed shoes.
 - Safety goggles.
-
-**Operational controls**
-
-- Training required
-- Risk assessment required
 
 
 Related equipment & documentation

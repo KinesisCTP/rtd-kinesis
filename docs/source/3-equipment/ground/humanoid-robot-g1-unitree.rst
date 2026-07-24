@@ -34,12 +34,6 @@ Humanoid Robot - G1 EDU U4 - Unitree
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -92,31 +86,27 @@ Specifications
      - 120 N·m
    * - **Sensor type**
      - 3D LiDAR and depth camera
-   * - **Sensing modalities**
-     - Depth camera, LiDAR
    * - **Included accessories**
      - 2 Unitree Dex3-1 force-controlled three-fingered hands with tactile sensor arrays
 
 Typical workflows
 -----------------
 
-1. manual operation via wireless handheld remote for locomotion and demonstrations
-2. programmatic control via Unitree SDK/API over wired Ethernet for autonomous tasks
-3. research in human-robot interaction, locomotion, dynamic control, and multi-agent tasks
+1. Manual operation via wireless handheld remote for locomotion and demonstrations
+2. Programmatic control via Unitree SDK/API over wired Ethernet for autonomous tasks
+3. Research in human-robot interaction, locomotion, dynamic control, and multi-agent tasks
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
 
 - Unitree SDK
 - Unitree API
-
-Access, training & booking
---------------------------
-
-Only trained and authorised personnel are allowed to operate or programme the robot. Operating area must be clear of obstacles and bystanders with a minimum 2 m radius.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -129,6 +119,10 @@ Safety & operating limits
    - Never attempt to catch or support the robot if it begins to fall, and do not touch the joints or core immediately after use.
    - For emergency stop, press L1+A on the remote to enter damping mode; if the robot is unresponsive, use the battery power-off sequence or remove the battery.
    - For storage, enter damping mode, power off, remove the battery, and support the robot in a seated or suspended position.
+
+**Access and operational conditions**
+
+- Only trained and authorised personnel are allowed to operate or programme the robot. Operating area must be clear of obstacles and bystanders with a minimum 2 m radius.
 
 **Approved operating area**
 
@@ -145,11 +139,6 @@ Operations outside the approved area require a submitted and approved
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Risk assessment required
-- Training required
 
 
 Related equipment & documentation

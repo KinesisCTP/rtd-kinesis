@@ -34,12 +34,6 @@ Acoustic Imager - SV600 - Fluke
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -93,18 +87,16 @@ Typical workflows
 3. Access the device dashboard via a browser to configure device information, run measurements and SoundMaps, and view live streaming overlays
 4. Export event logs as .csv or .txt and download stored measurements/logs from the device
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - Web browser (Chrome, Firefox, Edge, Safari)
-
-Access, training & booking
---------------------------
-
-Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, can be deployed on a bench, tripod, or as a robot payload.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -117,6 +109,10 @@ Safety & operating limits
    - For emergency shutdown, disconnect the PoE+ network cable or de-energise the PoE port supplying the SV600.
    - Do not use solvents on the housing or place objects heavier than approximately 5 kg on it.
 
+**Access and operational conditions**
+
+- Only trained and authorised personnel are allowed to operate the sensor. Mobile unit, can be deployed on a bench, tripod, or as a robot payload.
+
 **Environmental limits**
 
 - Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
@@ -127,11 +123,6 @@ Safety & operating limits
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Training required
-- Risk assessment required
 
 
 

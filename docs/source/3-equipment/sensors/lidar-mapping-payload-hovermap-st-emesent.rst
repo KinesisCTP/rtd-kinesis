@@ -34,12 +34,6 @@ LiDAR Mapping Payload - Hovermap ST - Emesent
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -95,19 +89,17 @@ Typical workflows
 3. Drone-mounted mapping (indoor, underground, and outdoor asset scans)
 4. Processing and merging scans into dense point clouds in Emesent Aura
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - Emesent Commander
 - Emesent Aura
-
-Access, training & booking
---------------------------
-
-Operations occur mainly inside the KINESIS CTP Lab with occasional outdoor field demonstrations. Only trained operators may connect power, start scans, or mount the unit on drones or vehicles.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -121,6 +113,10 @@ Safety & operating limits
    - Control the approximately 1.6 kg dropped-load risk during handheld, robot-mounted, or drone-mounted operation.
    - If the unit freezes, hold the power button for more than 10 seconds and disconnect the battery only after the LEDs are dark.
    - For storage, disconnect the battery and fit the protective cap before placing the unit in its padded case.
+
+**Access and operational conditions**
+
+- Operations occur mainly inside the KINESIS CTP Lab with occasional outdoor field demonstrations. Only trained operators may connect power, start scans, or mount the unit on drones or vehicles.
 
 **Environmental limits**
 
@@ -136,8 +132,6 @@ Safety & operating limits
 
 **Operational controls**
 
-- Training required
-- Risk assessment required
 - Plan, route, and supervise the tether or cable throughout operation.
 
 - **Software licence:** Required.

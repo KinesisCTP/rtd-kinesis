@@ -434,8 +434,8 @@
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The Robotnik RB-CAR is a 4x4 electric research buggy (based on a Polaris RANGER EV chassis) with servo-actuated steering and traction controlled by an onboard computer for manual driving, teleoperation, or autonomous operation. It is used for autonomous navigation R&D, perception testing, and data collection in controlled indoor lab areas and approved outdoor campus test roads.",
-      "availability_notes": "Use restricted to trained and authorised operators. Outdoor operation approved only on the Service Road behind campus and the Ring Road (Amber Zones). Mandatory: do not operate during peak traffic hours (07:00–09:00 and 15:00–17:00); notify the DCS Command Centre before each experiment; minimum two researchers at all times (one designated driver with a valid UAE licence and one perimeter watcher); deploy warning signs; install and activate a warning strobe light; maximum speed 20 km/h; do not operate in low-visibility conditions (fog or sandstorm).",
+      "short_description": "The Robotnik RB-CAR is a 4x4 electric research buggy (based on a Polaris RANGER EV chassis) with servo-actuated steering and traction controlled by an onboard computer for manual driving, teleoperation, or autonomous operation. It is used for autonomous navigation R&D, perception testing, and data collection on approved outdoor campus test roads.",
+      "availability_notes": null,
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
       "training_required": true,
@@ -465,14 +465,7 @@
         "battery_capacity_ah": 240,
         "battery_voltage_v": 48,
         "ingress_protection": "IP54",
-        "indoor_outdoor": "both",
-        "sensing_modality": [
-          "lidar",
-          "gps"
-        ],
-        "outputs": [
-          "rosbag"
-        ],
+        "indoor_outdoor": "outdoor",
         "typical_workflows": [
           "pre-drive checks and safety system reset (local/remote E-stop and handbrake interlock)",
           "manual driving with steering wheel and pedals",
@@ -483,12 +476,18 @@
         ],
         "compute_software_deps": [
           "ROS",
-          "Ubuntu 20.04",
-          "Safety Designer (Windows)"
+          "Ubuntu 20.04"
         ]
       },
       "constraints": {
         "notes": [
+          "Operate only on the approved Service Road behind campus and Ring Road Amber Zones.",
+          "Operate only from Monday to Thursday.",
+          "Do not operate during peak traffic hours (07:00–09:00 and 15:00–17:00).",
+          "Notify the DCS Command Centre before each experiment.",
+          "A minimum of two researchers must be present, including one designated driver with a valid UAE licence and one perimeter watcher.",
+          "Deploy warning signs and activate the installed warning strobe during operation.",
+          "Do not exceed the 20 km/h operational speed limit.",
           "Keep a clear perimeter and do not allow anyone near the vehicle while the motor drives are enabled.",
           "Keep an operator seated whenever the vehicle is powered and safety has been restarted, and use the seat belts.",
           "Do not rely on the laser stop at higher speeds; it is configured for low-speed autonomous operation.",
@@ -497,8 +496,8 @@
           "Motor, controller, and brake components can exceed 80 °C; enforce a cool-down period before authorised maintenance inside the rear electronics bay."
         ],
         "operating_area": [
-          "KINESIS CTP Lab and approved KINESIS controlled test areas.",
-          "The approved Service Road behind campus and Ring Road Amber Zones, subject to the operating restrictions listed on this page."
+          "Service Road behind campus (Amber Zone).",
+          "Ring Road (Amber Zone)."
         ],
         "outside_area_approval_required": true,
         "environment": [

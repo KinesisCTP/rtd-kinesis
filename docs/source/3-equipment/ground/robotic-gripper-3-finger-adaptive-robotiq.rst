@@ -34,12 +34,6 @@ Robotic Gripper - 3-Finger Adaptive - Robotiq
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 .. note::
 
@@ -84,10 +78,16 @@ Specifications
 Typical workflows
 -----------------
 
-1. mounting the gripper on a robotic arm for grasping and manipulation experiments
-2. selecting grasp mode (basic, wide, pinch, scissor) and tuning speed/force parameters
-3. activating and controlling the gripper via robot integration or Robotiq User Interface
-4. gripping, manipulating, and releasing test objects under supervised lab conditions
+1. Mounting the gripper on a robotic arm for grasping and manipulation experiments
+2. Selecting grasp mode (basic, wide, pinch, scissor) and tuning speed/force parameters
+3. Activating and controlling the gripper via robot integration or Robotiq User Interface
+4. Gripping, manipulating, and releasing test objects under supervised lab conditions
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
@@ -95,14 +95,6 @@ Software & dependencies
 - Robotiq User Interface
 - Modbus RTU
 - Modbus TCP
-
-Access, training & booking
---------------------------
-
-Indoor operation on a level, non-slip floor. Requires a dedicated 24 V DC bench supply and Ethernet/fieldbus cabling routed along the robot harness.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -115,6 +107,10 @@ Safety & operating limits
    - Use a certified 24 V DC supply with a 4 A fuse, inspect and strain-relieve cables, and never connect the gripper to AC or modify its wiring.
    - For emergency shutdown, press the host robot's emergency stop or cut the 24 V DC supply.
    - For storage, power off the gripper, disconnect its cables, and protect it from dust, moisture, and temperature extremes.
+
+**Access and operational conditions**
+
+- Indoor operation on a level, non-slip floor. Requires a dedicated 24 V DC bench supply and Ethernet/fieldbus cabling routed along the robot harness.
 
 **Approved operating area**
 
@@ -134,8 +130,6 @@ Operations outside the approved area require a submitted and approved
 **Operational controls**
 
 - Supervisor required
-- Risk assessment required
-- Training required
 - Plan, route, and supervise the tether or cable throughout operation.
 
 

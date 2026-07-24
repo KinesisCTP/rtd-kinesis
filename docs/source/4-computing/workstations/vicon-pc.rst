@@ -34,12 +34,6 @@ Vicon Host PC - Intel NUC 11 Enthusiast
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Not required
-   * - **Risk assessment**
-     - Not currently listed as required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
@@ -76,17 +70,17 @@ Typical workflows
 2. Broadcasting Vicon position data to robots and drones over HERMES
 3. Recording, reviewing, and exporting motion-capture sessions
 
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
+
 Software & dependencies
 -----------------------
 
 - Vicon Tracker
 - Vicon DataStream SDK
-
-Access, training & booking
---------------------------
-
-Dedicated infrastructure host. Configuration, licensing, and network changes require lab-administrator approval.
-
 
 Safety & operating limits
 -------------------------
@@ -95,6 +89,10 @@ Safety & operating limits
 
    - This computer is dedicated to the Vicon infrastructure.
    - Coordinate configuration, licensing, and network changes with the lab administrator.
+
+**Access and operational conditions**
+
+- Dedicated infrastructure host. Configuration, licensing, and network changes require lab-administrator approval.
 
 **Environmental limits**
 

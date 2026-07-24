@@ -34,19 +34,13 @@ Autonomous Buggy - RB-CAR - Robotnik
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 
 Overview
 --------
 
-The Robotnik RB-CAR is a 4x4 electric research buggy (based on a Polaris RANGER EV chassis) with servo-actuated steering and traction controlled by an onboard computer for manual driving, teleoperation, or autonomous operation. It is used for autonomous navigation R&D, perception testing, and data collection in controlled indoor lab areas and approved outdoor campus test roads.
+The Robotnik RB-CAR is a 4x4 electric research buggy (based on a Polaris RANGER EV chassis) with servo-actuated steering and traction controlled by an onboard computer for manual driving, teleoperation, or autonomous operation. It is used for autonomous navigation R&D, perception testing, and data collection on approved outdoor campus test roads.
 
 Specifications
 --------------
@@ -68,7 +62,7 @@ Specifications
      - 227 kg
    * - **Manufacturer maximum speed**
      - 9.72 m/s
-   * - **Lab operational speed limit**
+   * - **Operational speed limit**
      - 5.56 m/s
    * - **Maximum range**
      - 70 km
@@ -83,41 +77,34 @@ Specifications
    * - **Ingress protection**
      - IP54
    * - **Operating environment**
-     - Indoor and outdoor
-   * - **Sensing modalities**
-     - LiDAR, GPS
-   * - **Output formats**
-     - Rosbag
+     - Outdoor
 
 Typical workflows
 -----------------
 
-1. pre-drive checks and safety system reset (local/remote E-stop and handbrake interlock)
-2. manual driving with steering wheel and pedals
-3. teleoperation using gamepad (with remote E-stop as safety device)
-4. autonomous navigation research and perception testing in controlled areas
-5. data collection using onboard sensors (e.g., lidar, GPS) via ROS
-6. battery charging in a ventilated area after use
+1. Pre-drive checks and safety system reset (local/remote E-stop and handbrake interlock)
+2. Manual driving with steering wheel and pedals
+3. Teleoperation using gamepad (with remote E-stop as safety device)
+4. Autonomous navigation research and perception testing in controlled areas
+5. Data collection using onboard sensors (e.g., lidar, GPS) via ROS
+6. Battery charging in a ventilated area after use
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
 
 - ROS
 - Ubuntu 20.04
-- Safety Designer (Windows)
 
 Development repositories
 ------------------------
 
 - `KinesisCTP/rb-car <https://github.com/KinesisCTP/rb-car>`_ — Kinesis CTP onboarding workspace for Robotnik RB-CAR development with ROS 1 Noetic.
-
-Access, training & booking
---------------------------
-
-Use restricted to trained and authorised operators. Outdoor operation approved only on the Service Road behind campus and the Ring Road (Amber Zones). Mandatory: do not operate during peak traffic hours (07:00–09:00 and 15:00–17:00); notify the DCS Command Centre before each experiment; minimum two researchers at all times (one designated driver with a valid UAE licence and one perimeter watcher); deploy warning signs; install and activate a warning strobe light; maximum speed 20 km/h; do not operate in low-visibility conditions (fog or sandstorm).
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -125,6 +112,13 @@ Safety & operating limits
 
 .. warning::
 
+   - Operate only on the approved Service Road behind campus and Ring Road Amber Zones.
+   - Operate only from Monday to Thursday.
+   - Do not operate during peak traffic hours (07:00–09:00 and 15:00–17:00).
+   - Notify the DCS Command Centre before each experiment.
+   - A minimum of two researchers must be present, including one designated driver with a valid UAE licence and one perimeter watcher.
+   - Deploy warning signs and activate the installed warning strobe during operation.
+   - Do not exceed the 20 km/h operational speed limit.
    - Keep a clear perimeter and do not allow anyone near the vehicle while the motor drives are enabled.
    - Keep an operator seated whenever the vehicle is powered and safety has been restarted, and use the seat belts.
    - Do not rely on the laser stop at higher speeds; it is configured for low-speed autonomous operation.
@@ -134,8 +128,8 @@ Safety & operating limits
 
 **Approved operating area**
 
-- KINESIS CTP Lab and approved KINESIS controlled test areas.
-- The approved Service Road behind campus and Ring Road Amber Zones, subject to the operating restrictions listed on this page.
+- Service Road behind campus (Amber Zone).
+- Ring Road (Amber Zone).
 
 Operations outside the approved area require a submitted and approved
 `Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.
@@ -154,9 +148,7 @@ Operations outside the approved area require a submitted and approved
 
 **Operational controls**
 
-- Training required
 - Two-person operation
-- Risk assessment required
 
 
 

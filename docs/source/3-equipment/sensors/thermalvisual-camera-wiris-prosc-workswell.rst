@@ -34,12 +34,6 @@ Thermal/Visual Camera - WIRIS Pro SC - Workswell
      - 1
    * - **Status**
      - Active
-   * - **Training**
-     - Required
-   * - **Risk assessment**
-     - Required
-   * - **Primary contact**
-     - Samuel A. Prieto (sxp8070)
 
 
 Overview
@@ -99,24 +93,22 @@ Specifications
 Typical workflows
 -----------------
 
-1. bench/lab configuration then tripod-based or drone-mounted indoor/outdoor inspections
-2. streaming HDMI video to a display or ground station during operation
-3. capturing radiometric stills for temperature analysis in CorePlayer/Thermolab
-4. recording thermal and visible video to internal storage for later review
+1. Bench/lab configuration then tripod-based or drone-mounted indoor/outdoor inspections
+2. Streaming HDMI video to a display or ground station during operation
+3. Capturing radiometric stills for temperature analysis in CorePlayer/Thermolab
+4. Recording thermal and visible video to internal storage for later review
+
+.. note::
+
+   These examples are an overview. Follow the current equipment manual and SOP,
+   where available, together with the applicable risk assessment and training,
+   for the complete procedure.
 
 Software & dependencies
 -----------------------
 
 - Workswell CorePlayer
 - Thermolab
-
-Access, training & booking
---------------------------
-
-Drone-mounted operation is restricted to licensed pilots and requires a secured flight zone with a 5 m exclusion radius and overhead hazard warnings.
-
-- **Training:** Hands-on training is required before operation.
-- **Risk assessment:** A task-appropriate risk assessment is required before use.
 
 
 Safety & operating limits
@@ -130,6 +122,10 @@ Safety & operating limits
    - For drone mounting, torque the 1/4-20 UNC mount to specification, inspect it before each deployment, and maintain the approved exclusion zone and warning signs.
    - Use the touchscreen Shutdown command for normal shutdown; disconnect the 9–36 V DC cable only when forced shutdown is necessary.
    - Transport the camera in its original case or a padded ESD-safe container.
+
+**Access and operational conditions**
+
+- Drone-mounted operation is restricted to licensed pilots and requires a secured flight zone with a 5 m exclusion radius and overhead hazard warnings.
 
 **Approved operating area**
 
@@ -145,11 +141,6 @@ Safety & operating limits
 
 - Long pants.
 - Closed-toed shoes.
-
-**Operational controls**
-
-- Risk assessment required
-- Training required
 
 
 
