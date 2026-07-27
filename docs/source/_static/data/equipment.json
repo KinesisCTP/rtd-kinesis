@@ -270,7 +270,8 @@
       "wiki": {
         "section": "workstations",
         "slug": "dgx-spark",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "bookable": false
       }
     },
     {
@@ -313,7 +314,8 @@
       "wiki": {
         "section": "workstations",
         "slug": "ai-workstation",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "bookable": false
       }
     },
     {
@@ -552,6 +554,7 @@
         "section": "workstations",
         "slug": "creaform-control-laptop",
         "page_kind": "component",
+        "bookable": false,
         "parent_equipment_ids": [
           "e2bac7bc-5107-4331-8783-49a221223ece"
         ]
@@ -1349,8 +1352,8 @@
     {
       "equipment_id": "a590da10-7154-4137-951d-1eab90b3c086",
       "name": "Linux Workstation - Custom Build",
-      "manufacturer": "Golden Cloud Computer",
-      "model": "Custom Build",
+      "manufacturer": "Custom-built",
+      "model": "Linux Workstation",
       "category": "compute",
       "item_class": "PC",
       "item_type": "equipment",
@@ -1384,7 +1387,8 @@
       "wiki": {
         "section": "workstations",
         "slug": "linux-workstation",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "bookable": false
       }
     },
     {
@@ -2319,6 +2323,7 @@
         "os": "Microsoft Windows",
         "cpu": "Intel Core i7-1165G7 (4 cores / 8 threads, up to 4.70 GHz)",
         "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 16,
         "networking": "Intel I225-LM Ethernet; Intel Wi-Fi 6 AX201; ASIX USB Gigabit Ethernet adapter",
         "mobility": "fixed",
         "indoor_outdoor": "indoor",
@@ -2348,6 +2353,7 @@
         "section": "workstations",
         "slug": "vicon-pc",
         "page_kind": "standalone",
+        "bookable": false,
         "related_doc": "/4-computing/vicon-system/index"
       }
     }

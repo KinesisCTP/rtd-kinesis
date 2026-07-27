@@ -38,6 +38,7 @@
    system documentation before planning standalone use.
 {% endif %}
 
+{% if bookable %}
 .. container:: equipment-booking-card
 
    **Check availability before planning**
@@ -48,6 +49,7 @@
    .. container:: equipment-booking-actions
 
       `Book this equipment <{{ scheduling_url }}>`_
+{% endif %}
 
 {% if identifiers %}
 .. only:: internal

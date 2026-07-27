@@ -36,16 +36,6 @@ AI Workstation - Lambda
      - Active
 
 
-.. container:: equipment-booking-card
-
-   **Check availability before planning**
-
-   Review availability and reserve the equipment through the CTP Scheduling System.
-   Access the system from the NYUAD network or through the VPN.
-
-   .. container:: equipment-booking-actions
-
-      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
 
 Overview

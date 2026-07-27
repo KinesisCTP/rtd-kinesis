@@ -50,10 +50,10 @@ The Vicon Command Center sits at the boundary between the Workspace and Arena,
 providing a protected position for experiment monitoring and motion-capture
 control. See the :doc:`Arena <arena>` page for its location and role.
 
-Use the :doc:`KINESIS CTP Network
-</4-computing/networks/kinesis-network>` for ordinary laboratory connectivity,
+Use :doc:`Networks & Connectivity
+</4-computing/networks/index>` for ordinary laboratory connectivity,
 robot control, file transfers, software updates, and research traffic. The
-:doc:`Hermes Network </4-computing/networks/hermes-network>` is reserved for
+:ref:`Hermes network <hermes-network>` is reserved for
 real-time Vicon position-data distribution.
 
 Charging Stations
@@ -134,6 +134,8 @@ begins.
    every task. Remove components, offcuts, dust, and other debris; return tools
    and accessories to their assigned locations; and restore the unobstructed
    work surfaces shown in the photographs above.
+
+.. _workspace-lighting-system:
 
 Lighting System
 ---------------

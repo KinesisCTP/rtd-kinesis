@@ -23,9 +23,9 @@ class ProcessAndNetworkPolicyTests(unittest.TestCase):
         self.assertIn("more than two consecutive weeks", processes)
 
     def test_shared_workstation_table_is_the_only_allocation_workflow(self):
-        addresses = (SOURCE / "4-computing" / "networks" / "ip-allocation.rst").read_text(
-            encoding="utf-8"
-        )
+        addresses = (
+            SOURCE / "4-computing" / "workstations" / "index.rst"
+        ).read_text(encoding="utf-8")
 
         self.assertIn("Personal and temporary devices use DHCP", addresses)
         self.assertNotIn("Requesting a Static IP", addresses)

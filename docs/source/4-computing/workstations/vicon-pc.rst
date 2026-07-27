@@ -36,16 +36,6 @@ Vicon Host PC - Intel NUC 11 Enthusiast
      - Active
 
 
-.. container:: equipment-booking-card
-
-   **Check availability before planning**
-
-   Review availability and reserve the equipment through the CTP Scheduling System.
-   Access the system from the NYUAD network or through the VPN.
-
-   .. container:: equipment-booking-actions
-
-      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
 
 Overview
@@ -67,6 +57,8 @@ Specifications
      - Intel Core i7-1165G7 (4 cores / 8 threads, up to 4.70 GHz)
    * - **Graphics / accelerator**
      - NVIDIA GeForce RTX 2060
+   * - **System memory**
+     - 16 GB
    * - **Networking**
      - Intel I225-LM Ethernet; Intel Wi-Fi 6 AX201; ASIX USB Gigabit Ethernet adapter
    * - **Mobility**

@@ -7,7 +7,7 @@ Linux Workstation - Custom Build
 
 .. container:: equipment-kicker
 
-   Golden Cloud Computer · Custom Build
+   Custom-built · Linux Workstation
 
 .. figure:: ../../_static/images/workstation-linux.jpg
    :alt: Linux Workstation - Custom Build
@@ -23,9 +23,9 @@ Linux Workstation - Custom Build
    :header-rows: 0
 
    * - **Manufacturer**
-     - Golden Cloud Computer
+     - Custom-built
    * - **Model**
-     - Custom Build
+     - Linux Workstation
    * - **Equipment class**
      - PC
    * - **Location**
@@ -36,16 +36,6 @@ Linux Workstation - Custom Build
      - Active
 
 
-.. container:: equipment-booking-card
-
-   **Check availability before planning**
-
-   Review availability and reserve the equipment through the CTP Scheduling System.
-   Access the system from the NYUAD network or through the VPN.
-
-   .. container:: equipment-booking-actions
-
-      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
 
 Overview
@@ -75,6 +65,10 @@ Specifications
      - Intel 2.5 GbE; Wi-Fi 6E
    * - **Additional specifications**
      - NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard
+
+
+
+
 
 
 

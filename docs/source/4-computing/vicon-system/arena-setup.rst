@@ -15,11 +15,10 @@ Before starting:
 Overview of the System
 ----------------------
 
-The Arena uses the Hermes wireless network to connect:
-
-1. Vicon PC, which broadcasts position data
-2. Your robot/drone, which receives position data
-3. Your control laptop, which sends commands
+The Vicon PC distributes position data to approved robots, drones, and computers through the
+:ref:`Hermes network <hermes-network>`. Hermes is reserved for Vicon data; general robot
+control, file transfers, and unrelated traffic must use the KINESIS CTP Network or another
+approved control link.
 
 Step-by-Step Setup
 ------------------
@@ -35,7 +34,7 @@ Prepare Your Robot/Drone
 
 **Network Configuration:**
 
-- Configure your device to connect to Hermes WiFi
+- Configure your device to connect to Hermes Wi-Fi only for Vicon position data
 - Set up to receive Vicon position data broadcast
 - Test network connectivity before entering Arena
 
@@ -65,9 +64,9 @@ Connect to Hermes Network
 
 **On Your Control Laptop:**
 
-- Connect to Hermes WiFi
-- Verify you can reach your robot/drone
+- Connect to Hermes Wi-Fi only if the laptop requires Vicon position data
 - Verify you can receive Vicon data stream
+- Use the KINESIS CTP Network or another approved link for robot commands and general traffic
 
 Receive Position Data
 ^^^^^^^^^^^^^^^^^^^^^

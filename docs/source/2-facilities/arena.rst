@@ -54,7 +54,7 @@ and audiovisual workflows:
   marker-based position tracking throughout the capture volume. System
   architecture and operating guidance are maintained in the
   :doc:`Vicon System documentation </4-computing/vicon-system/index>`.
-- The :doc:`Hermes Network </4-computing/networks/hermes-network>` distributes
+- The :ref:`Hermes network <hermes-network>` distributes
   real-time Vicon position data to approved robots, drones, and computers.
 - Adjustable smart lighting supports repeatable lighting conditions. The
   facility lighting controls are described on the :doc:`Workspace <workspace>`
