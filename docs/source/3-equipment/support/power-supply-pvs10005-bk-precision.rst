@@ -36,6 +36,17 @@ Power Supply - PVS10005 - B&K Precision
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------
@@ -120,11 +131,6 @@ Safety & operating limits
 - Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
 - Maintain at least 25 mm clearance at the fan sides and keep the supply dry and free of conductive dust.
 - Store indoors at 0–40 °C and no more than 90% relative humidity.
-
-**Required attire and conditional PPE**
-
-- Long pants.
-- Closed-toed shoes.
 
 
 

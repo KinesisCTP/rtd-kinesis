@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: c73b68e5-8647-4f6f-bdc3-6b3f4dcac5ba
 
-===========================================
-Haptic Device - Lambda.07 - Force Dimension
-===========================================
+==========================================
+Haptic Device - lambda.7 - Force Dimension
+==========================================
 
 .. container:: equipment-kicker
 
    Force Dimension · lambda.7
 
 .. figure:: ../../_static/images/lambda-07-force-dimension.jpg
-   :alt: Haptic Device - Lambda.07 - Force Dimension
+   :alt: Haptic Device - lambda.7 - Force Dimension
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   Haptic Device - Lambda.07 - Force Dimension
+   Haptic Device - lambda.7 - Force Dimension
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -36,11 +36,22 @@ Haptic Device - Lambda.07 - Force Dimension
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------
 
-The Force Dimension lambda.7 is a seven-degree-of-freedom force-feedback haptic interface for teleoperation, human-robot interaction, control, rehabilitation, and virtual-environment research.
+The Force Dimension lambda.7 is a seven-degree-of-freedom force-feedback haptic interface combining three translational axes, three rotational axes, and an active gripper. It can serve as a master device for teleoperation, human-robot interaction, control, rehabilitation, and virtual-environment research, returning forces and torques to the operator. The KINESIS unit is the right-hand configuration.
 
 Specifications
 --------------
@@ -52,6 +63,8 @@ Specifications
 
    * - **Mobility**
      - Fixed
+   * - **Configuration**
+     - Right-hand
    * - **Degrees of freedom**
      - 7
    * - **Translational workspace**
@@ -88,7 +101,7 @@ Software & dependencies
 Development repositories
 ------------------------
 
-- `KinesisCTP/lambda-07 <https://github.com/KinesisCTP/lambda-07>`_ — Kinesis CTP onboarding workspace for the Force Dimension Lambda.07 haptic device with ROS 2.
+- `KinesisCTP/lambda-07 <https://github.com/KinesisCTP/lambda-07>`_ — Kinesis CTP onboarding workspace for the Force Dimension lambda.7 haptic device with ROS 2.
 
 
 Safety & operating limits

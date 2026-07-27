@@ -13,7 +13,7 @@ KINESIS CTP Lab
   — internal lab information; requires NYUAD login.
 - `KINESIS CTP GitHub Organization <https://github.com/KinesisCTP>`_ — source
   code, ROS packages, and software tools developed in the lab.
-- `Core Labs Booking System <https://corelabs.abudhabi.nyu.edu>`_ — equipment
+- `CTP Scheduling System <https://corelabs.abudhabi.nyu.edu>`_ — equipment
   and facility booking; available only on the NYUAD network or through the VPN.
 - `CTP Training Attendance Sheet
   <https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform>`_

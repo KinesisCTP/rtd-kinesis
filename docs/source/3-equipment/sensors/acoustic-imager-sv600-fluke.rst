@@ -36,6 +36,17 @@ Acoustic Imager - SV600 - Fluke
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------
@@ -76,8 +87,6 @@ Specifications
      - Indoor and outdoor
    * - **Output formats**
      - CSV event logs, TXT event logs
-   * - **Compatible platforms**
-     - Ground Robot - Boston Dynamics Spot, Ground Robot with Robotic Arm - Boston Dynamics Spot, Benchtop, Tripod-mounted
 
 Typical workflows
 -----------------
@@ -119,12 +128,12 @@ Safety & operating limits
 - Do not use around explosive gases or vapours, in damp or wet environments, under direct water spray, or in corrosive atmospheres.
 - Store indoors in a clean, dry location.
 
-**Required attire and conditional PPE**
 
-- Long pants.
-- Closed-toed shoes.
+Related equipment & documentation
+---------------------------------
 
-
+- **Compatible equipment:** :doc:`Quadruped Robot - Spot - Boston Dynamics </3-equipment/ground/quadruped-robot-spot-boston-dynamics>`
+- **Compatible equipment:** :doc:`Quadruped Robot with Arm - Spot - Boston Dynamics </3-equipment/ground/quadruped-robot-with-arm-spot-boston-dynamics>`
 
 Keywords
 --------

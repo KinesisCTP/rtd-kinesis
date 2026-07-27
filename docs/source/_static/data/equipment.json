@@ -84,14 +84,9 @@
           "Use in a non-condensing environment and protect the scanner from rain, spray water, excessive dust, and strong magnetic or electrical fields.",
           "Insert or remove batteries only in dry, dust-free conditions."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "training_required",
-          "RA_required",
-          "PPE_required"
+          "RA_required"
         ],
         "software_license_required": true
       },
@@ -189,14 +184,9 @@
         "environmental_requirements": [
           "Store in a dry indoor area at 5–55 °C and 10–90% non-condensing relative humidity."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "training_required",
           "RA_required",
-          "PPE_required",
           "requires_supervisor"
         ]
       },
@@ -383,12 +373,6 @@
           "Access the device dashboard via a browser to configure device information, run measurements and SoundMaps, and view live streaming overlays",
           "Export event logs as .csv or .txt and download stored measurements/logs from the device"
         ],
-        "compatible_platforms": [
-          "Ground Robot - Boston Dynamics Spot",
-          "Ground Robot with Robotic Arm - Boston Dynamics Spot",
-          "benchtop",
-          "tripod"
-        ],
         "compute_software_deps": [
           "Web browser (Chrome, Firefox, Edge, Safari)"
         ]
@@ -407,20 +391,19 @@
           "Do not use around explosive gases or vapours, in damp or wet environments, under direct water spray, or in corrosive atmospheres.",
           "Store indoors in a clean, dry location."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "training_required",
-          "RA_required",
-          "PPE_required"
+          "RA_required"
         ]
       },
       "wiki": {
         "section": "sensors",
         "slug": "acoustic-imager-sv600-fluke",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "compatible_equipment_ids": [
+          "04c98a0d-3984-44dd-8960-a9ef8abdfa6b",
+          "d97faae7-de64-45b8-ac47-8996696129c2"
+        ]
       }
     },
     {
@@ -641,7 +624,7 @@
           "Store the hand powered off and protected from dust and mechanical loads on the fingers or palm."
         ],
         "operating_area": [
-          "KINESIS CTP Lab workbench or an approved KINESIS robot workcell."
+          "Inside the KINESIS CTP Lab."
         ],
         "outside_area_approval_required": true,
         "environment": [
@@ -884,65 +867,11 @@
       }
     },
     {
-      "equipment_id": "e9d94a40-9dda-466f-a986-07f3bbfe021c",
-      "name": "Event Camera - Metavision EVK4 HD - Prophesee",
-      "manufacturer": "Prophesee",
-      "model": "Metavision EVK4 HD",
-      "category": "sensor",
-      "item_class": "Camera",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 2,
-      "active": true,
-      "short_description": "A high-definition event camera (Metavision® EVK4 – HD) designed by Prophesee, capable of capturing and processing events in real time.",
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": "442_event-camera-metavision-evk4-hd-prophesee.png",
-      "tags": [
-        "event camera",
-        "neuromorphic",
-        "high-speed",
-        "dynamic vision",
-        "camera",
-        "real-time",
-        "Prophesee"
-      ],
-      "capabilities": {
-        "sensing_modality": [
-          "event-based vision"
-        ],
-        "sensor_type": "Sony IMX636 monochrome event sensor",
-        "resolution": "1280 x 720 pixels",
-        "event_rate_per_sec": 1000000000,
-        "dynamic_range_db": "greater than 120",
-        "included_lens_fov_deg": 81.5,
-        "lens_mount": "C-mount with included C-to-CS adapter",
-        "dimensions_mm": "30 x 30 x 36",
-        "interfaces": [
-          "USB 3.0 Type-C",
-          "synchronization interface"
-        ],
-        "unit_weight_kg": 0.04,
-        "compute_software_deps": [
-          "Metavision Intelligence SDK"
-        ]
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "sensors",
-        "slug": "event-camera-metavision-evk4-hd-prophesee",
-        "page_kind": "standalone"
-      }
-    },
-    {
       "equipment_id": "eceef530-e8c3-4fe3-ae7c-7a42ba91ae02",
       "name": "Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea",
       "manufacturer": "Blueprint Subsea",
       "model": "Oculus M1200d",
-      "category": "underwater",
+      "category": "sensor",
       "item_class": "Multibeam forward-looking sonar",
       "item_type": "accessory",
       "location": "C3.B2.029.E (KINESIS CTP)",
@@ -1016,7 +945,7 @@
         ]
       },
       "wiki": {
-        "section": "water",
+        "section": "sensors",
         "slug": "forward-looking-sonar-oculus-m1200d-blueprint-subsea",
         "page_kind": "component",
         "parent_equipment_ids": [
@@ -1026,7 +955,7 @@
     },
     {
       "equipment_id": "c73b68e5-8647-4f6f-bdc3-6b3f4dcac5ba",
-      "name": "Haptic Device - Lambda.07 - Force Dimension",
+      "name": "Haptic Device - lambda.7 - Force Dimension",
       "manufacturer": "Force Dimension",
       "model": "lambda.7",
       "category": "misc",
@@ -1035,7 +964,7 @@
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The Force Dimension lambda.7 is a seven-degree-of-freedom force-feedback haptic interface for teleoperation, human-robot interaction, control, rehabilitation, and virtual-environment research.",
+      "short_description": "The Force Dimension lambda.7 is a seven-degree-of-freedom force-feedback haptic interface combining three translational axes, three rotational axes, and an active gripper. It can serve as a master device for teleoperation, human-robot interaction, control, rehabilitation, and virtual-environment research, returning forces and torques to the operator. The KINESIS unit is the right-hand configuration.",
       "availability_notes": "Available to trained and authorised users for supervised laboratory work at the designated KINESIS workstation.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -1053,6 +982,7 @@
       ],
       "capabilities": {
         "mobility": "fixed",
+        "configuration": "Right-hand",
         "degrees_of_freedom": 7,
         "translation_workspace_mm": "diameter 240 x length 170",
         "rotation_workspace_deg": "180 yaw x 140 pitch x 290 roll",
@@ -1106,7 +1036,7 @@
         {
           "name": "KinesisCTP/lambda-07",
           "url": "https://github.com/KinesisCTP/lambda-07",
-          "description": "Kinesis CTP onboarding workspace for the Force Dimension Lambda.07 haptic device with ROS 2."
+          "description": "Kinesis CTP onboarding workspace for the Force Dimension lambda.7 haptic device with ROS 2."
         }
       ],
       "wiki": {
@@ -1177,7 +1107,7 @@
         ],
         "compute_software_deps": [
           "Unitree SDK",
-          "Unitree API"
+          "ROS/ROS2"
         ],
         "included_accessories": [
           "2 Unitree Dex3-1 force-controlled three-fingered hands with tactile sensor arrays"
@@ -1273,7 +1203,7 @@
         ],
         "compute_software_deps": [
           "Unitree SDK",
-          "Unitree API"
+          "ROS/ROS2"
         ]
       },
       "constraints": {
@@ -1306,61 +1236,6 @@
       "wiki": {
         "section": "ground",
         "slug": "humanoid-robot-h1-unitree",
-        "page_kind": "standalone"
-      }
-    },
-    {
-      "equipment_id": "8a44b18c-dd10-454c-8899-8758ad436654",
-      "name": "Hyperspectral Camera - microHSI 410 SHARK - Corning",
-      "manufacturer": "Corning Specialty Materials",
-      "model": "microHSI 410 SHARK",
-      "category": "sensor",
-      "item_class": "Camera",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 1,
-      "active": true,
-      "short_description": "The Corning microHSI 410 SHARK is a compact push-broom VNIR hyperspectral imaging system for UAV and remote-sensing workflows. It captures spatially resolved spectral data from 400 to 1000 nm and includes onboard processing, storage, GPS, and inertial navigation.",
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": "405_hyperspectral-camera.png",
-      "tags": [
-        "hyperspectral",
-        "camera",
-        "spectral analysis",
-        "remote sensing",
-        "multispectral",
-        "imaging"
-      ],
-      "capabilities": {
-        "sensing_modality": [
-          "hyperspectral",
-          "VNIR",
-          "gps",
-          "imu"
-        ],
-        "sensor_type": "Fully coherent push-broom line-imaging spectrograph with CMOS detector",
-        "spectral_range_nm": "400 to 1000",
-        "spatial_pixels": 1364,
-        "spectral_bin_nm": 2,
-        "spectral_resolution": "Approximately 8 nm at 4x spectral binning",
-        "profile_rate": "Over 400 Hz (profile-dependent)",
-        "bit_depth": 12,
-        "field_of_view_deg": 28.6,
-        "power_consumption_w": "less than 19",
-        "supply_voltage_v": 12,
-        "mobility": [
-          "drone-mount"
-        ],
-        "unit_weight_kg": 0.68
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "sensors",
-        "slug": "hyperspectral-camera",
         "page_kind": "standalone"
       }
     },
@@ -1454,21 +1329,21 @@
           "Operate at -10 °C to 45 °C and maintain at least 10 m separation from elevated electromagnetic-interference sources.",
           "Store dry indoors at 10–30 °C in the padded case."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "training_required",
-          "RA_required",
-          "PPE_required"
+          "RA_required"
         ],
         "software_license_required": true
       },
       "wiki": {
         "section": "sensors",
         "slug": "lidar-mapping-payload-hovermap-st-emesent",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "compatible_equipment_ids": [
+          "04c98a0d-3984-44dd-8960-a9ef8abdfa6b",
+          "d97faae7-de64-45b8-ac47-8996696129c2",
+          "0bf75c2e-8349-41bc-af3c-dd3e1bbfcf6c"
+        ]
       }
     },
     {
@@ -1582,14 +1457,9 @@
           "Operate indoors with adequate ventilation and keep cameras, PoE equipment, and cabling dry and free of excessive dust.",
           "Store cameras in padded cases in a dry, dust-free cabinet at -10 °C to 50 °C."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "training_required",
-          "RA_required",
-          "PPE_required"
+          "RA_required"
         ],
         "software_license_required": true
       },
@@ -1677,14 +1547,9 @@
           "Maintain at least 25 mm clearance at the fan sides and keep the supply dry and free of conductive dust.",
           "Store indoors at 0–40 °C and no more than 90% relative humidity."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "training_required",
           "RA_required",
-          "PPE_required",
           "restricted_area"
         ]
       },
@@ -1855,8 +1720,8 @@
         "dof_arm": 6,
         "arm_length_mm": 984,
         "arm_weight_kg": 8,
-        "arm_lift_kg": 11,
-        "arm_continuous_lift_kg": 5,
+        "arm_lift_capacity": "Up to 11 kg at 22 °C",
+        "arm_continuous_lift_capacity": "5 kg at 500 mm extension and 22 °C",
         "arm_reach_height_mm": 1820,
         "gripper_aperture_mm": 175,
         "gripper_clamp_force_n": 130,
@@ -1870,8 +1735,7 @@
         "compute_software_deps": [
           "Spot tablet controller app",
           "Spot API"
-        ],
-        "enterprise_upgrade": "Spot Enterprise upgrade and Spot battery assigned to this robot."
+        ]
       },
       "constraints": {
         "notes": [
@@ -1923,73 +1787,6 @@
       }
     },
     {
-      "equipment_id": "e8d58251-7799-413a-8c35-b41f31ee815c",
-      "name": "ROV Robotic Arm - Alpha 5 - Reach Robotics",
-      "manufacturer": "Reach Robotics",
-      "model": "Alpha 5",
-      "category": "robot",
-      "item_class": "Robot manipulation",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 2,
-      "active": true,
-      "short_description": "The Reach Robotics Alpha 5 system comprises two five-function subsea manipulators operated through their included RM-5201 master arm controllers for remotely operated vehicle tasks and other underwater manipulation work.",
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": "445_rov-robotic-arm-alpha-5-reach-robotics.png",
-      "tags": [
-        "robotic arm",
-        "underwater",
-        "ROV",
-        "subsea",
-        "manipulation",
-        "300m depth",
-        "Reach Alpha"
-      ],
-      "capabilities": {
-        "mobility": "robot-mount",
-        "function_count": 5,
-        "reach_mm": 400,
-        "lifting_capacity_kg": 2,
-        "closing_force_n": 600,
-        "air_weight_kg": 1.36,
-        "weight_in_water_kg": 0.9,
-        "joint_accuracy_deg": 0.1,
-        "max_depth_m": 300,
-        "voltage_range_v": "18 to 30",
-        "max_power_w": 35,
-        "interfaces": [
-          "RS-232",
-          "RS-485"
-        ],
-        "controller": "RM-5201 master arm controller",
-        "system_composition": "Two Alpha 5 manipulators, each with an RM-5201 master arm controller"
-      },
-      "constraints": {
-        "operating_area": [
-          "KINESIS CTP Lab, an approved test tank, or an approved KINESIS underwater test area while integrated with its host system."
-        ],
-        "outside_area_approval_required": true,
-        "environment": [
-          "water_only"
-        ],
-        "environmental_requirements": [
-          "Use only on a compatible host system within the manufacturer's depth, electrical, and environmental limits."
-        ],
-        "safety_flags": [
-          "RA_required"
-        ]
-      },
-      "wiki": {
-        "section": "manipulation",
-        "slug": "rov-robotic-arm-alpha-5-reach-robotics",
-        "page_kind": "standalone"
-      }
-    },
-    {
       "equipment_id": "be82881d-4fe7-49a0-a82f-c4a4fc6b74bf",
       "name": "Robotic Arm - LBR iiwa 14 R820 - KUKA",
       "manufacturer": "KUKA",
@@ -2037,8 +1834,7 @@
         "compute_software_deps": [
           "KUKA Sunrise.OS",
           "KUKA Sunrise.Workbench",
-          "WorkVisual 4.0",
-          "Windows 7"
+          "WorkVisual 4.0"
         ]
       },
       "constraints": {
@@ -2174,7 +1970,7 @@
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The Workswell WIRIS Pro SC is a dual-sensor (thermal + visible) radiometric camera for aerial and surface inspection. NOT waterproof — for drone-mount or tripod use only; incompatible with underwater or wet environments. Captures calibrated thermal imagery for heat distribution analysis, energy audits, and non-contact temperature measurement.",
+      "short_description": "The Workswell WIRIS Pro SC is a dual-sensor (thermal + visible) radiometric camera for aerial and ground-robot inspection. It can be mounted on the DJI Matrice 300 RTK, compatible Boston Dynamics Spot platforms, or a tripod. It is not waterproof and must not be used underwater or in wet environments. It captures calibrated thermal imagery for heat-distribution analysis, energy audits, and non-contact temperature measurement.",
       "availability_notes": "Drone-mounted operation is restricted to licensed pilots and requires a secured flight zone with a 5 m exclusion radius and overhead hazard warnings.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -2188,6 +1984,7 @@
         "zoom",
         "inspection",
         "drone-mount",
+        "robot-mount",
         "outdoor",
         "indoor",
         "thermography"
@@ -2223,6 +2020,7 @@
           "external trigger"
         ],
         "mobility": [
+          "robot-mount",
           "drone-mount",
           "tripod"
         ],
@@ -2235,7 +2033,9 @@
           "radiometric full-frame IR recording"
         ],
         "typical_workflows": [
-          "bench/lab configuration then tripod-based or drone-mounted indoor/outdoor inspections",
+          "bench/lab configuration followed by tripod-based inspection",
+          "ground-robot-mounted thermal and visual inspection using a compatible Boston Dynamics Spot platform",
+          "drone-mounted thermal and visual inspection using the DJI Matrice 300 RTK",
           "streaming HDMI video to a display or ground station during operation",
           "capturing radiometric stills for temperature analysis in CorePlayer/Thermolab",
           "recording thermal and visible video to internal storage for later review"
@@ -2264,20 +2064,20 @@
           "Keep the camera dry and dust-free and do not use it underwater or in wet environments.",
           "Operate at -15 °C to 50 °C and protect the camera from direct sunlight during storage."
         ],
-        "required_attire": [
-          "Long pants.",
-          "Closed-toed shoes."
-        ],
         "safety_flags": [
           "RA_required",
-          "training_required",
-          "PPE_required"
+          "training_required"
         ]
       },
       "wiki": {
         "section": "sensors",
         "slug": "thermalvisual-camera-wiris-prosc-workswell",
-        "page_kind": "standalone"
+        "page_kind": "standalone",
+        "compatible_equipment_ids": [
+          "04c98a0d-3984-44dd-8960-a9ef8abdfa6b",
+          "d97faae7-de64-45b8-ac47-8996696129c2",
+          "0bf75c2e-8349-41bc-af3c-dd3e1bbfcf6c"
+        ]
       }
     },
     {
@@ -2549,66 +2349,6 @@
         "slug": "vicon-pc",
         "page_kind": "standalone",
         "related_doc": "/4-computing/vicon-system/index"
-      }
-    },
-    {
-      "equipment_id": "f5af5e81-02ca-4254-a7ca-04f5f668657c",
-      "name": "Wireless Radio - MPU5 - Persistent Systems",
-      "manufacturer": "Persistent Systems",
-      "model": "MPU5 (WR-5100 chassis)",
-      "category": "misc",
-      "item_class": "Communication system",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 1,
-      "active": true,
-      "short_description": "Persistent Systems MPU5 radios form one Wave Relay wireless mesh communication system for long-range links to robots and unmanned platforms.",
-      "availability_notes": null,
-      "risk_assessment_required": true,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": "109_wireless-radio-mpu5-persistent-systems.png",
-      "tags": [
-        "wireless",
-        "mesh network",
-        "radio",
-        "transceiver",
-        "communication",
-        "MPU5",
-        "WR-5100",
-        "Wave Relay",
-        "outdoor"
-      ],
-      "capabilities": {
-        "networking": "Wave Relay mobile ad hoc mesh networking using RF-2150 10 W S-band RF modules (2200–2500 MHz acquired configuration)",
-        "operating_frequency_mhz": "2200 to 2500",
-        "network_throughput_mbps": "over 100",
-        "modulation": "OFDM (64-QAM, 16-QAM, QPSK, BPSK)",
-        "channel_bandwidth_mhz": "5, 10, or 20",
-        "interfaces": [
-          "Ethernet",
-          "USB On-the-Go",
-          "RS-232 serial"
-        ],
-        "other_specs": "3x3 MIMO",
-        "voltage_range_v": "8 to 28",
-        "ingress_protection": "IP68",
-        "operating_temperature_c": "-40 to 85",
-        "dimensions_mm": "38 x 67 x 117",
-        "system_composition": "WR-5100 MPU5 handheld chassis and WR-5200 embedded modules using RF-2150 10 W S-band RF modules",
-        "unit_weight_kg": 0.391,
-        "included_accessories": "Twist-lock battery packs including 6.8 Ah rechargeable lithium-ion packs, GPS antenna, 2.15 dBi omnidirectional antenna with RP-TNC connector, and Ethernet/serial flying leads",
-        "typical_workflows": [
-          "Long-range wireless links to robots and unmanned platforms",
-          "Multi-node mesh communication during field operations"
-        ]
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "support",
-        "slug": "wireless-radio-mpu5-persistent-systems",
-        "page_kind": "standalone"
       }
     }
   ],

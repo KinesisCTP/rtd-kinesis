@@ -36,6 +36,17 @@ Underwater ROV - Defender - VideoRay
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 Overview
 --------
 
@@ -143,7 +154,7 @@ Safety & operating limits
 Related equipment & documentation
 ---------------------------------
 
-- **Component or accessory:** :doc:`Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea </3-equipment/water/forward-looking-sonar-oculus-m1200d-blueprint-subsea>`
+- **Component or accessory:** :doc:`Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea </3-equipment/sensors/forward-looking-sonar-oculus-m1200d-blueprint-subsea>`
 
 Keywords
 --------

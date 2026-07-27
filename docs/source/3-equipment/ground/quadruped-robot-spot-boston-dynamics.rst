@@ -36,6 +36,17 @@ Quadruped Robot - Spot - Boston Dynamics
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 Overview
 --------
 
@@ -144,6 +155,12 @@ Operations outside the approved area require a submitted and approved
 - Supervisor required
 
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Acoustic Imager - SV600 - Fluke </3-equipment/sensors/acoustic-imager-sv600-fluke>`
+- **Compatible equipment:** :doc:`LiDAR Mapping Payload - Hovermap ST - Emesent </3-equipment/sensors/lidar-mapping-payload-hovermap-st-emesent>`
+- **Compatible equipment:** :doc:`Thermal/Visual Camera - WIRIS Pro SC - Workswell </3-equipment/sensors/thermalvisual-camera-wiris-prosc-workswell>`
 
 Keywords
 --------

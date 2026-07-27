@@ -12,7 +12,8 @@ Before Using Equipment
 ----------------------
 
 - Check whether training or a risk assessment is required on the equipment page.
-- Confirm availability with the listed primary contact before planning an experiment.
+- Check availability and reserve the equipment in the
+  `CTP Scheduling System <https://corelabs.abudhabi.nyu.edu>`_ before planning an experiment.
 - Review safety notes, environmental constraints, and required software before use.
 - Return equipment to its designated storage location after each session.
 
@@ -24,8 +25,8 @@ Equipment Categories
 - :doc:`aerial/index` covers DJI aerial platforms and flight-ready drone systems for mapping, inspection, imaging, and flight testing.
 - :doc:`water/index` covers underwater ROVs and marine robotics tools for inspection, monitoring, and subsea data collection.
 - :doc:`sensors/index` covers LiDAR, 3D scanning, thermal, hyperspectral, acoustic, and event-camera systems for perception, mapping, diagnostics, and data capture.
-- :doc:`support/index` covers independently operated power and wireless-communication systems that
-  support laboratory work and field operations.
+- :doc:`support/index` covers independently operated power systems that support laboratory work
+  and field operations.
 
 .. toctree::
    :maxdepth: 2

@@ -36,6 +36,17 @@ Motion Capture System - Vantage V16 - Vicon
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------
@@ -115,11 +126,6 @@ Safety & operating limits
 - Operate indoors only.
 - Operate indoors with adequate ventilation and keep cameras, PoE equipment, and cabling dry and free of excessive dust.
 - Store cameras in padded cases in a dry, dust-free cabinet at -10 °C to 50 °C.
-
-**Required attire and conditional PPE**
-
-- Long pants.
-- Closed-toed shoes.
 
 - **Software licence:** Required.
 

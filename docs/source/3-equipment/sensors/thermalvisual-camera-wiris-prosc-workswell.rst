@@ -36,10 +36,21 @@ Thermal/Visual Camera - WIRIS Pro SC - Workswell
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 Overview
 --------
 
-The Workswell WIRIS Pro SC is a dual-sensor (thermal + visible) radiometric camera for aerial and surface inspection. NOT waterproof — for drone-mount or tripod use only; incompatible with underwater or wet environments. Captures calibrated thermal imagery for heat distribution analysis, energy audits, and non-contact temperature measurement.
+The Workswell WIRIS Pro SC is a dual-sensor (thermal + visible) radiometric camera for aerial and ground-robot inspection. It can be mounted on the DJI Matrice 300 RTK, compatible Boston Dynamics Spot platforms, or a tripod. It is not waterproof and must not be used underwater or in wet environments. It captures calibrated thermal imagery for heat-distribution analysis, energy audits, and non-contact temperature measurement.
 
 Specifications
 --------------
@@ -82,7 +93,7 @@ Specifications
    * - **Interfaces**
      - Ethernet (RJ-45), Micro HDMI, USB 2.0, Micro USB 2.0, S.Bus, CAN bus, MAVLink, UART, External trigger
    * - **Mobility**
-     - Drone-mount, Tripod-mounted
+     - Robot-mounted, Drone-mount, Tripod-mounted
    * - **Weight**
      - <0.43 kg
    * - **Operating environment**
@@ -93,10 +104,12 @@ Specifications
 Typical workflows
 -----------------
 
-1. Bench/lab configuration then tripod-based or drone-mounted indoor/outdoor inspections
-2. Streaming HDMI video to a display or ground station during operation
-3. Capturing radiometric stills for temperature analysis in CorePlayer/Thermolab
-4. Recording thermal and visible video to internal storage for later review
+1. Bench/lab configuration followed by tripod-based inspection
+2. Ground-robot-mounted thermal and visual inspection using a compatible Boston Dynamics Spot platform
+3. Drone-mounted thermal and visual inspection using the DJI Matrice 300 RTK
+4. Streaming HDMI video to a display or ground station during operation
+5. Capturing radiometric stills for temperature analysis in CorePlayer/Thermolab
+6. Recording thermal and visible video to internal storage for later review
 
 .. note::
 
@@ -137,17 +150,18 @@ Safety & operating limits
 - Keep the camera dry and dust-free and do not use it underwater or in wet environments.
 - Operate at -15 °C to 50 °C and protect the camera from direct sunlight during storage.
 
-**Required attire and conditional PPE**
 
-- Long pants.
-- Closed-toed shoes.
+Related equipment & documentation
+---------------------------------
 
-
+- **Compatible equipment:** :doc:`Drone - Matrice 300 RTK - DJI </3-equipment/aerial/drone-matrice-300-rtk-dji>`
+- **Compatible equipment:** :doc:`Quadruped Robot - Spot - Boston Dynamics </3-equipment/ground/quadruped-robot-spot-boston-dynamics>`
+- **Compatible equipment:** :doc:`Quadruped Robot with Arm - Spot - Boston Dynamics </3-equipment/ground/quadruped-robot-with-arm-spot-boston-dynamics>`
 
 Keywords
 --------
 
-``thermal camera`` · ``infrared`` · ``visual camera`` · ``zoom`` · ``inspection`` · ``drone-mount`` · ``outdoor`` · ``indoor`` · ``thermography``
+``thermal camera`` · ``infrared`` · ``visual camera`` · ``zoom`` · ``inspection`` · ``drone-mount`` · ``robot-mount`` · ``outdoor`` · ``indoor`` · ``thermography``
 
 
 .. include:: /_includes/contact-lab-manager.inc

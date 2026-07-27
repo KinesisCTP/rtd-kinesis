@@ -36,6 +36,17 @@
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 Overview
 --------
 
@@ -119,11 +130,6 @@ Safety & operating limits
 - Use and handle the equipment in a clean, low-dust environment.
 - Use in a non-condensing environment and protect the scanner from rain, spray water, excessive dust, and strong magnetic or electrical fields.
 - Insert or remove batteries only in dry, dust-free conditions.
-
-**Required attire and conditional PPE**
-
-- Long pants.
-- Closed-toed shoes.
 
 - **Software licence:** Required.
 

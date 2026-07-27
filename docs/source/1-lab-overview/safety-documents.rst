@@ -68,24 +68,18 @@ together.
    * - Drone - Matrice 300 RTK - DJI; Drone - Mavic 2 Pro - DJI
      - Risk Assessment - Outdoor UAV Operation (3558RA)
      - `Open PDF <../_static/onboarding-documents/3992270a6e1cb740d547cbf0594e4cd480d6134ecb3e8ce240b336174053763e.pdf>`__
-   * - Event Camera - Metavision EVK4 HD - Prophesee
-     - Risk Assessment - Prophesee Metavision Event Camera (3248RA)
-     - `Open PDF <../_static/onboarding-documents/5427b41f99464ee135314ad6acd4bed74823d4634f072472730f040b16ccd8f8.pdf>`__
    * - Genie AWP25S Personnel Lift
      - Risk Assessment - Genie AWP Super Series Personnel Lift (3263RA)
      - `Open PDF <../_static/onboarding-documents/86044ed690324c90a8240e7d8211929a292792935ae128de632c23eaa20489c0.pdf>`__
    * - Ground robots
      - Risk Assessment - Ground Robot Operation (3559RA)
      - `Open PDF <../_static/onboarding-documents/34f13097357107b9dff062dee4fd5f13125c592a89314ab81923572ab4b6a9d1.pdf>`__
-   * - Haptic Device - Lambda.07 - Force Dimension
-     - Risk Assessment - Force Dimension Lambda.7 Haptic Device (3619RA)
+   * - Haptic Device - lambda.7 - Force Dimension
+     - Risk Assessment - Force Dimension lambda.7 Haptic Device (3619RA)
      - `Open PDF <../_static/onboarding-documents/ae81207b5f7eca61d28663b04c0c1b901d85474bc8f0af3cfeed3d41f582756f.pdf>`__
    * - Humanoid Robots (H1-2 & G1)
      - Risk Assessment - Humanoid Robot Demonstration (3202RA)
      - `Open PDF <../_static/onboarding-documents/bfb0156c60a9d7270e9610f31c389eeb71674806401ee26140f82ac2b4b56f66.pdf>`__
-   * - Hyperspectral Camera - microHSI 410 SHARK - Corning
-     - Risk Assessment - Corning microHSI Hyperspectral Camera (3247RA)
-     - `Open PDF <../_static/onboarding-documents/ca811b808258be4226829fc75dc849065bf1b6f6461c0fda83697d8de4b6d379.pdf>`__
    * - LiDAR Mapping Payload - Hovermap ST - Emesent
      - Risk Assessment - Emesent Hovermap ST LiDAR Mapping Payload (3246RA)
      - `Open PDF <../_static/onboarding-documents/7ba5ded2ba3693d0599c17a67c72c43bb531ea981cf74fc52ed19715e77c237a.pdf>`__
@@ -104,9 +98,6 @@ together.
    * - Robotic Gripper - 3-Finger Adaptive - Robotiq
      - Risk Assessment - Robotiq 3-Finger Adaptive Gripper (3253RA)
      - `Open PDF <../_static/onboarding-documents/79ca05fbeb387b686bba9de9b13b44923f7c0b8e81bc5dfd8ba9dd44049b2891.pdf>`__
-   * - ROV Robotic Arm - Alpha 5 - Reach Robotics
-     - Risk Assessment - Reach Alpha Subsea Manipulator (3249RA)
-     - `Open PDF <../_static/onboarding-documents/d10e159a04f172f367261cb6f41f0647750f09d3e16212be93fe224091d08a28.pdf>`__
    * - Thermal/Visual Camera - WIRIS Pro SC - Workswell
      - Risk Assessment - Workswell WIRIS Thermal and Visible Camera (3244RA)
      - `Open PDF <../_static/onboarding-documents/33967238cab63cc0220febf961285e87122ac749bfa79bd2949aba47fa3f6585.pdf>`__
@@ -116,9 +107,6 @@ together.
    * - Underwater ROV - EXRAY - Hydromea
      - Risk Assessment - Hydromea EXRAY Underwater Inspection ROV (3252RA)
      - `Open PDF <../_static/onboarding-documents/7c1c42df6a7b4140f03f4879da8a4aae3ffbedb47fe007738844162eba62f924.pdf>`__
-   * - Wireless Radio - MPU5 - Persistent Systems
-     - Risk Assessment - Persistent Systems Wireless Network Radio (3245RA)
-     - `Open PDF <../_static/onboarding-documents/6704075703037cf460414b6ecebbe0c2407a38c12c62e0c82594519293c58f45.pdf>`__
 
 Questions and Document Updates
 ------------------------------

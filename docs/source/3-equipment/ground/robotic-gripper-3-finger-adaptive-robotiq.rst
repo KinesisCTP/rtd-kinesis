@@ -40,6 +40,17 @@ Robotic Gripper - 3-Finger Adaptive - Robotiq
    This record describes a managed component or accessory. Check the related equipment and
    system documentation before planning standalone use.
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------

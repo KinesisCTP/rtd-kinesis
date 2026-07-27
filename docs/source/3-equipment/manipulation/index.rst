@@ -18,6 +18,5 @@ requirements, and available manuals, SOPs, and risk assessments.
    haptic-device-lambda-07-force-dimension
    ../ground/robotic-arm-lbr-iiwa-14-r820-kuka
    ../ground/robotic-gripper-3-finger-adaptive-robotiq
-   ../ground/rov-robotic-arm-alpha-5-reach-robotics
 
 .. END GENERATED EQUIPMENT PAGES

@@ -36,6 +36,17 @@ Robotic Arm - LBR iiwa 14 R820 - KUKA
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 Overview
 --------
 
@@ -89,7 +100,6 @@ Software & dependencies
 - KUKA Sunrise.OS
 - KUKA Sunrise.Workbench
 - WorkVisual 4.0
-- Windows 7
 
 
 Safety & operating limits

@@ -36,6 +36,17 @@ Dexterous Hand - RH56 - Inspire Robots
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------
@@ -110,7 +121,7 @@ Safety & operating limits
 
 **Approved operating area**
 
-- KINESIS CTP Lab workbench or an approved KINESIS robot workcell.
+- Inside the KINESIS CTP Lab.
 
 Operations outside the approved area require a submitted and approved
 `Robotics Review Committee (RRC) Mission Review Form <https://docs.google.com/forms/d/e/1FAIpQLSdj0OyfnCpAIcmQqXW_oNY_B6kJzBgunmGXpXxznvEGFAQ2Ew/viewform>`_ before the experiment begins.

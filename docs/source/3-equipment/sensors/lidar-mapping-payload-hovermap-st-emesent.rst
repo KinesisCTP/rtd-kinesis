@@ -36,6 +36,17 @@ LiDAR Mapping Payload - Hovermap ST - Emesent
      - Active
 
 
+.. container:: equipment-booking-card
+
+   **Check availability before planning**
+
+   Review availability and reserve the equipment through the CTP Scheduling System.
+   Access the system from the NYUAD network or through the VPN.
+
+   .. container:: equipment-booking-actions
+
+      `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
+
 
 Overview
 --------
@@ -125,17 +136,18 @@ Safety & operating limits
 - Operate at -10 °C to 45 °C and maintain at least 10 m separation from elevated electromagnetic-interference sources.
 - Store dry indoors at 10–30 °C in the padded case.
 
-**Required attire and conditional PPE**
-
-- Long pants.
-- Closed-toed shoes.
-
 **Operational controls**
 
 - Plan, route, and supervise the tether or cable throughout operation.
 
 - **Software licence:** Required.
 
+Related equipment & documentation
+---------------------------------
+
+- **Compatible equipment:** :doc:`Drone - Matrice 300 RTK - DJI </3-equipment/aerial/drone-matrice-300-rtk-dji>`
+- **Compatible equipment:** :doc:`Quadruped Robot - Spot - Boston Dynamics </3-equipment/ground/quadruped-robot-spot-boston-dynamics>`
+- **Compatible equipment:** :doc:`Quadruped Robot with Arm - Spot - Boston Dynamics </3-equipment/ground/quadruped-robot-with-arm-spot-boston-dynamics>`
 
 Keywords
 --------
