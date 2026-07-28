@@ -90,6 +90,11 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# The private Gaussian-splat scene is supplied from the canonical working-files
+# root for local previews and from protected host storage in production. Keep
+# the large derivative out of Git history.
+docs/source/_static/private-lab-tour/index.sog
+
 # PyBuilder
 .pybuilder/
 target/
