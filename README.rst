@@ -71,7 +71,7 @@ Repository Contents
 
    .github/workflows/              Publication workflows
    deploy/private-wiki/            Production image, proxy, updater, health checks, and runbook
-   docs/maintenance/               Public exporter, exclusions, denylist, tests, and roadmap
+   docs/maintenance/               Public exporter, exclusions, leak rules, tests, and roadmap
    docs/source/                    Canonical Sphinx source
      1-lab-overview/               Policies, processes, publications, and contributing guidance
      2-facilities/                 Arena, workspace, safety, and facilities reference
@@ -103,12 +103,27 @@ Private/public controls include:
 
 - Sphinx conditional blocks for content that belongs only in the internal build;
 - ``docs/maintenance/public-exclude.txt`` for files omitted from the anonymous export;
-- a denylist and export tests that block unsafe public output;
+- structured leak rules and export tests that block unsafe public output;
 - content-addressed private manuals, SOPs, and risk assessments removed by the public exporter; and
 - one explicit anonymous onboarding-document allowlist generated from the canonical safety
   register.
 
 The detailed authoring and data-boundary rules are in ``AGENTS.md``.
+
+Public No-Secrets Rule
+----------------------
+
+The generated public repository must not contain credentials, passwords, wireless network names,
+private IP or MAC addresses, internal-only markers, private controlled-document paths, or internal
+inventory identifiers. The public export scans these high-risk patterns before publication and
+fails closed when it finds one.
+
+Leak rules are maintained in ``docs/maintenance/public-leak-rules.json`` and are exercised by
+seeded tests in ``docs/maintenance/test_export_public.py``. A benign false positive may be recorded
+in ``docs/maintenance/public-leak-exceptions.json`` only with its exact rule, exported path,
+scanner-generated fingerprint, and a concrete review reason. Exceptions are exact and
+content-bound; stale exceptions fail the scan. Never add an exception for a real secret. Move the
+content into an ``.. only:: internal`` block or an excluded private page instead.
 
 Local Setup
 -----------
