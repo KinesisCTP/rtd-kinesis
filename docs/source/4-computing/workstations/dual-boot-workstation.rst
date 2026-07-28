@@ -1,21 +1,21 @@
 .. GENERATED FROM THE KINESIS VAULT — DO NOT EDIT THIS PAGE DIRECTLY.
 .. equipment_id: a590da10-7154-4137-951d-1eab90b3c086
 
-================================
-Linux Workstation - Custom Build
-================================
+====================================
+Dual-Boot Workstation - Custom Build
+====================================
 
 .. container:: equipment-kicker
 
-   Custom-built · Linux Workstation
+   Custom-built · Dual-Boot Workstation
 
 .. figure:: ../../_static/images/workstation-linux.jpg
-   :alt: Linux Workstation - Custom Build
+   :alt: Dual-Boot Workstation - Custom Build
    :class: equipment-page-image
    :figclass: equipment-page-figure
    :align: center
 
-   Linux Workstation - Custom Build
+   Dual-Boot Workstation - Custom Build
 
 .. list-table:: At a glance
    :class: equipment-facts-table
@@ -25,7 +25,7 @@ Linux Workstation - Custom Build
    * - **Manufacturer**
      - Custom-built
    * - **Model**
-     - Linux Workstation
+     - Dual-Boot Workstation
    * - **Equipment class**
      - PC
    * - **Location**
@@ -41,7 +41,7 @@ Linux Workstation - Custom Build
 Overview
 --------
 
-Dedicated Linux workstation for KINESIS laboratory computing with an AMD Ryzen 9 7950X3D CPU and ASUS RTX 4090 STRIX 24 GB GPU.
+Custom dual-boot Ubuntu and Windows workstation for KINESIS laboratory computing, normally operated in Ubuntu, with an AMD Ryzen 9 7950X3D CPU and ASUS RTX 4090 STRIX 24 GB GPU.
 
 Specifications
 --------------
@@ -52,7 +52,7 @@ Specifications
    :header-rows: 0
 
    * - **Operating system**
-     - Ubuntu Linux
+     - Ubuntu Linux (primary); Microsoft Windows (secondary dual-boot installation)
    * - **Processor**
      - AMD Ryzen 9 7950X3D (16 cores / 32 threads)
    * - **Graphics / accelerator**
@@ -75,7 +75,7 @@ Specifications
 Keywords
 --------
 
-``workstation`` · ``PC`` · ``compute`` · ``Linux`` · ``GPU compute``
+``workstation`` · ``PC`` · ``compute`` · ``Linux`` · ``Windows`` · ``dual boot`` · ``GPU compute``
 
 
 .. include:: /_includes/contact-lab-manager.inc

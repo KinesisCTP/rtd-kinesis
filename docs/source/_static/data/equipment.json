@@ -870,6 +870,50 @@
       }
     },
     {
+      "equipment_id": "a590da10-7154-4137-951d-1eab90b3c086",
+      "name": "Dual-Boot Workstation - Custom Build",
+      "manufacturer": "Custom-built",
+      "model": "Dual-Boot Workstation",
+      "category": "compute",
+      "item_class": "PC",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": true,
+      "short_description": "Custom dual-boot Ubuntu and Windows workstation for KINESIS laboratory computing, normally operated in Ubuntu, with an AMD Ryzen 9 7950X3D CPU and ASUS RTX 4090 STRIX 24 GB GPU.",
+      "availability_notes": null,
+      "risk_assessment_required": false,
+      "primary_contact": "Samuel A. Prieto (sxp8070)",
+      "training_required": null,
+      "training_link": null,
+      "image_filename": "workstation-linux.jpg",
+      "tags": [
+        "workstation",
+        "PC",
+        "compute",
+        "Linux",
+        "Windows",
+        "dual boot",
+        "GPU compute"
+      ],
+      "capabilities": {
+        "os": "Ubuntu Linux (primary); Microsoft Windows (secondary dual-boot installation)",
+        "cpu": "AMD Ryzen 9 7950X3D (16 cores / 32 threads)",
+        "gpu": "ASUS ROG Strix GeForce RTX 4090 OC Edition (24 GB GDDR6X)",
+        "ram_gb": 96,
+        "storage": "2TB Samsung 990 Pro M.2 NVMe SSD",
+        "networking": "Intel 2.5 GbE; Wi-Fi 6E",
+        "other_specs": "NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard"
+      },
+      "constraints": null,
+      "wiki": {
+        "section": "workstations",
+        "slug": "dual-boot-workstation",
+        "page_kind": "standalone",
+        "bookable": false
+      }
+    },
+    {
       "equipment_id": "eceef530-e8c3-4fe3-ae7c-7a42ba91ae02",
       "name": "Forward-Looking Sonar - Oculus M1200d - Blueprint Subsea",
       "manufacturer": "Blueprint Subsea",
@@ -1347,48 +1391,6 @@
           "d97faae7-de64-45b8-ac47-8996696129c2",
           "0bf75c2e-8349-41bc-af3c-dd3e1bbfcf6c"
         ]
-      }
-    },
-    {
-      "equipment_id": "a590da10-7154-4137-951d-1eab90b3c086",
-      "name": "Linux Workstation - Custom Build",
-      "manufacturer": "Custom-built",
-      "model": "Linux Workstation",
-      "category": "compute",
-      "item_class": "PC",
-      "item_type": "equipment",
-      "location": "C3.B2.029.E (KINESIS CTP)",
-      "qty": 1,
-      "active": true,
-      "short_description": "Dedicated Linux workstation for KINESIS laboratory computing with an AMD Ryzen 9 7950X3D CPU and ASUS RTX 4090 STRIX 24 GB GPU.",
-      "availability_notes": null,
-      "risk_assessment_required": false,
-      "primary_contact": "Samuel A. Prieto (sxp8070)",
-      "training_required": null,
-      "training_link": null,
-      "image_filename": "workstation-linux.jpg",
-      "tags": [
-        "workstation",
-        "PC",
-        "compute",
-        "Linux",
-        "GPU compute"
-      ],
-      "capabilities": {
-        "os": "Ubuntu Linux",
-        "cpu": "AMD Ryzen 9 7950X3D (16 cores / 32 threads)",
-        "gpu": "ASUS ROG Strix GeForce RTX 4090 OC Edition (24 GB GDDR6X)",
-        "ram_gb": 96,
-        "storage": "2TB Samsung 990 Pro M.2 NVMe SSD",
-        "networking": "Intel 2.5 GbE; Wi-Fi 6E",
-        "other_specs": "NZXT H7 Flow Case, NZXT Kraken Elite 360mm CPU Cooler, NZXT C1200 80+ Gold PSU, ASUS X670 Crosshair Hero Motherboard"
-      },
-      "constraints": null,
-      "wiki": {
-        "section": "workstations",
-        "slug": "linux-workstation",
-        "page_kind": "standalone",
-        "bookable": false
       }
     },
     {

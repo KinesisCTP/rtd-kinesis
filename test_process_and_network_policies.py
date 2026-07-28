@@ -31,7 +31,12 @@ class ProcessAndNetworkPolicyTests(unittest.TestCase):
         self.assertNotIn("Requesting a Static IP", addresses)
         self.assertNotIn("Configuring a Static IP", addresses)
 
-        for workstation in ("DGX Spark", "Lambda AI Workstation", "Linux Workstation", "Vicon PC"):
+        for workstation in (
+            "DGX Spark",
+            "Lambda AI Workstation",
+            "Dual-Boot Workstation",
+            "Vicon PC",
+        ):
             with self.subTest(workstation=workstation):
                 self.assertIn(workstation, addresses)
 

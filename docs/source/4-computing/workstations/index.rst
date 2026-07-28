@@ -15,7 +15,7 @@ provide specifications, access information, operating guidance, and related reso
    ai-workstation
    creaform-control-laptop
    dgx-spark
-   linux-workstation
+   dual-boot-workstation
    vicon-pc
 
 .. END GENERATED EQUIPMENT PAGES
