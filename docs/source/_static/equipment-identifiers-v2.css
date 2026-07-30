@@ -1,0 +1,39 @@
+.equipment-identifier-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.equipment-identifier-card {
+  min-width: 0;
+  padding: 1.1rem 1.2rem 0.75rem;
+  border: 1px solid rgba(87, 6, 140, 0.2);
+  border-top: 4px solid var(--nyu-purple);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(87, 6, 140, 0.045), #fff 42%);
+  box-shadow: 0 8px 22px rgba(35, 20, 70, 0.08);
+}
+
+.equipment-identifier-card > p:first-child {
+  margin: 0 0 0.7rem;
+  color: var(--nyu-purple);
+  font-size: 1.08rem;
+}
+
+.equipment-identifier-card-table {
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.equipment-identifier-card-table td {
+  padding: 0.45rem 0.55rem;
+  border-color: rgba(87, 6, 140, 0.12);
+}
+
+@media screen and (max-width: 700px) {
+  .equipment-identifier-grid {
+    grid-template-columns: 1fr;
+  }
+}

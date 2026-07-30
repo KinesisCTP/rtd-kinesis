@@ -98,6 +98,7 @@ html_static_path = ['_static']
 
 html_css_files = [
     'custom.css',
+    'equipment-identifiers-v2.css',
     'equipment-booking-v1.css',
     'sidebar-contrast.css',
     'homepage-hero-v5.css',
