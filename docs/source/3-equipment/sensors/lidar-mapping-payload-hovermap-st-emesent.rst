@@ -47,7 +47,6 @@ LiDAR Mapping Payload - Hovermap ST - Emesent
 
       `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
-
 Overview
 --------
 
