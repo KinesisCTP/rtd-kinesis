@@ -51,7 +51,6 @@ Robotic Gripper - 3-Finger Adaptive - Robotiq
 
       `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
-
 Overview
 --------
 

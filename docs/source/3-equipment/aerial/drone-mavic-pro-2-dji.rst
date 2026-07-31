@@ -47,7 +47,6 @@ Drone - Mavic 2 Pro - DJI
 
       `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
-
 Overview
 --------
 

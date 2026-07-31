@@ -47,7 +47,6 @@ Drone - Matrice 300 RTK - DJI
 
       `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
-
 Overview
 --------
 

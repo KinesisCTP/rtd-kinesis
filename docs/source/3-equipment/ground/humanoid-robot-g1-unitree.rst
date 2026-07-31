@@ -47,7 +47,6 @@ Humanoid Robot - G1 EDU U4 - Unitree
 
       `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
-
 Overview
 --------
 
