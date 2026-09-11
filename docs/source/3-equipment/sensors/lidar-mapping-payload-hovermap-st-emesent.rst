@@ -111,7 +111,6 @@ Software & dependencies
 - Emesent Commander
 - Emesent Aura
 
-
 Safety & operating limits
 -------------------------
 

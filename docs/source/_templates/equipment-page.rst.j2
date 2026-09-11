@@ -161,6 +161,7 @@ Development repositories
    {{ section.title }}
    {{ section.title_underline }}
 
+{% if section.fields %}
    .. list-table::
       :class: equipment-meta-table
       :widths: 32 68
@@ -170,6 +171,18 @@ Development repositories
       * - **{{ item.label }}**
         - {{ item.value }}
 {% endfor %}
+{% endif %}
+{% if section.steps %}
+{% for step in section.steps %}
+   {{ loop.index }}. {{ step }}
+{% endfor %}
+
+{% endif %}
+{% if section.note %}
+   .. note::
+
+      {{ section.note }}
+{% endif %}
 
 {% endfor %}
 {% endif %}

@@ -47,7 +47,6 @@ Power Supply - PVS10005 - B&K Precision
 
       `Book this equipment <https://corelabs.abudhabi.nyu.edu>`_
 
-
 Overview
 --------
 
