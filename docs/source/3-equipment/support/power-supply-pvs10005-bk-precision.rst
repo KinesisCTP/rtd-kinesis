@@ -39,7 +39,7 @@ Power Supply - PVS10005 - B&K Precision
 Overview
 --------
 
-The B&K Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.
+The B&K Precision PVS10005 is a programmable, single-output high-voltage DC power supply providing 0–1000 V, 0–5 A, and up to 5000 W. Its fixed output range does not exchange unused voltage capacity for current above 5 A. It supports CV/CC regulation, programmable protection, adjustable slopes and list sequences, remote control, and solar-array simulation.
 
 Specifications
 --------------
@@ -49,6 +49,8 @@ Specifications
    :widths: 38 62
    :header-rows: 0
 
+   * - **Configuration**
+     - Single programmable DC output with a fixed 1000 V / 5 A range
    * - **Maximum voltage**
      - 1,000 V
    * - **Maximum current**
@@ -67,23 +69,30 @@ Specifications
      - Analog programming, USB, RS-232, RS-485, GPIB, Ethernet
    * - **Networking**
      - SCPI over supported remote interfaces
+   * - **Power input**
+     - 170–265 VAC single-phase, 47–63 Hz; output derated 10% below 190 VAC; 5800 VA maximum
    * - **Dimensions**
      - 420 x 88 x 532 mm
    * - **Mobility**
      - Fixed
    * - **Weight**
      - 14.6 kg
+   * - **Operating temperature**
+     - 0 to 40 °C
    * - **Operating environment**
      - Indoor
+   * - **Additional specifications**
+     - OVP, OCP, OPP, CV-to-CC, and CC-to-CV protection; ≤0.5 ms transient response; 90% typical efficiency and 0.99 power factor; nine 100-step list programs; built-in storage for 16 solar-array I-V curves; parallel operation up to 50 units, with B&K consultation advised above ten units.
 
 Typical workflows
 -----------------
 
-1. Battery emulation at high voltage
-2. PV-array simulation
-3. High-voltage component burn-in testing
-4. Programmable ramps or list/step testing in CV or CC mode
-5. Remote control and automation via SCPI over communication interface
+1. High-voltage DC testing up to 1000 V and 5 A
+2. Motor-inverter testing
+3. Solar-array simulation and solar-inverter or MPPT validation
+4. Bench and ATE use for research, design verification, and production test
+5. Programmable ramp, timer, or list/step testing in CV or CC mode
+6. Remote control and data logging over supported interfaces
 
 .. note::
 
@@ -98,12 +107,12 @@ Safety & operating limits
 
 .. warning::
 
-   - Hazards include electrical shock at up to 1000 V, arc or flash from loose connections, overheating if airflow is blocked, and stored energy after power-down.
-   - Verify protective earth and use insulated test leads rated for at least 5 A and 1 kV.
-   - Enable over-voltage and over-current limits before connecting the device under test, and post High Voltage signage during operation.
-   - If the power switch is unresponsive, unplug the rear AC mains cord; if damage, smoke, or arcing is visible, isolate facility power at the breaker.
-   - Do not touch output or sense terminals immediately after shutdown because lethal voltage may remain.
-   - Before storage, disable the output, power off and unplug the supply, discharge it through a 10 kΩ resistor rated for at least 2 W for 10 seconds, and fit the protective terminal caps.
+   - Hazardous voltages can exist at the output and load connections because this supply is rated above 40 V. Ensure that the load and its connections have no accessible live parts.
+   - Turn the supply off before connecting or changing output wiring. Size load wiring for the maximum continuous short-circuit output current, and use insulation rated above the supply's maximum output voltage.
+   - Use the supplied, correctly rated AC power assembly and maintain protective earth. AC-source wiring, connection, or modification must be performed by qualified personnel.
+   - OVP, OCP, OPP, CV-to-CC, and CC-to-CV protection are disabled by factory default; set protections appropriate to the DUT before enabling the output.
+   - Do not remove covers, disassemble the case, or attempt internal fuse replacement. Internal service is restricted to qualified authorized personnel, and dangerous internal voltages may remain after power is removed.
+   - If the instrument is damaged or contaminated, remove it from service, label it not to be operated, and arrange service through B&K Precision.
 
 **Access and operational conditions**
 
@@ -117,8 +126,11 @@ Safety & operating limits
 
 - Operate indoors only.
 - Keep the equipment dry; do not operate it in rain, spray, or wet conditions.
-- Maintain at least 25 mm clearance at the fan sides and keep the supply dry and free of conductive dust.
-- Store indoors at 0–40 °C and no more than 90% relative humidity.
+- Use and handle the equipment in a clean, low-dust environment.
+- Operate indoors in a Pollution Degree 2 environment from 0–40 °C at no more than 90% relative humidity, non-condensing.
+- Storage temperature is −40–85 °C.
+- Maintain at least 25 mm clearance around sides containing air inlet or exhaust ports; do not operate in direct sunlight or where cooling airflow is restricted.
+- Do not operate around corrosive, noxious, or flammable fumes, gases, vapors, chemicals, or finely divided particulates, or where liquid spill or condensation is possible.
 
 
 

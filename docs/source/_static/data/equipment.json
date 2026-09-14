@@ -1483,7 +1483,7 @@
       "location": "C3.B2.029.E (KINESIS CTP)",
       "qty": 1,
       "active": true,
-      "short_description": "The B&K Precision PVS10005 is a high-power programmable single-output DC power supply used to provide controlled high voltage and current for laboratory testing. It delivers up to 1000 V and 5 A (5 kW) and supports constant-voltage and constant-current regulation, programmable protection limits, and ramp/list sequences for test automation.",
+      "short_description": "The B&K Precision PVS10005 is a programmable, single-output high-voltage DC power supply providing 0–1000 V, 0–5 A, and up to 5000 W. Its fixed output range does not exchange unused voltage capacity for current above 5 A. It supports CV/CC regulation, programmable protection, adjustable slopes and list sequences, remote control, and solar-array simulation.",
       "availability_notes": "Equipment-specific training and SOP review are mandatory before operation. \"High Voltage\" signage must be posted whenever the supply is in use.",
       "risk_assessment_required": true,
       "primary_contact": "Samuel A. Prieto (sxp8070)",
@@ -1498,6 +1498,7 @@
         "indoor"
       ],
       "capabilities": {
+        "configuration": "Single programmable DC output with a fixed 1000 V / 5 A range",
         "max_voltage_v": 1000,
         "max_current_a": 5,
         "max_power_w": 5000,
@@ -1517,37 +1518,44 @@
           "Ethernet"
         ],
         "networking": "SCPI over supported remote interfaces",
+        "power_input": "170–265 VAC single-phase, 47–63 Hz; output derated 10% below 190 VAC; 5800 VA maximum",
         "dimensions_mm": "420 x 88 x 532",
         "mobility": "fixed",
         "unit_weight_kg": 14.6,
+        "operating_temperature_c": "0 to 40",
         "indoor_outdoor": "indoor",
+        "other_specs": "OVP, OCP, OPP, CV-to-CC, and CC-to-CV protection; ≤0.5 ms transient response; 90% typical efficiency and 0.99 power factor; nine 100-step list programs; built-in storage for 16 solar-array I-V curves; parallel operation up to 50 units, with B&K consultation advised above ten units.",
         "typical_workflows": [
-          "Battery emulation at high voltage",
-          "PV-array simulation",
-          "High-voltage component burn-in testing",
-          "Programmable ramps or list/step testing in CV or CC mode",
-          "Remote control and automation via SCPI over communication interface"
+          "High-voltage DC testing up to 1000 V and 5 A",
+          "Motor-inverter testing",
+          "Solar-array simulation and solar-inverter or MPPT validation",
+          "Bench and ATE use for research, design verification, and production test",
+          "Programmable ramp, timer, or list/step testing in CV or CC mode",
+          "Remote control and data logging over supported interfaces"
         ]
       },
       "constraints": {
         "notes": [
-          "Hazards include electrical shock at up to 1000 V, arc or flash from loose connections, overheating if airflow is blocked, and stored energy after power-down.",
-          "Verify protective earth and use insulated test leads rated for at least 5 A and 1 kV.",
-          "Enable over-voltage and over-current limits before connecting the device under test, and post High Voltage signage during operation.",
-          "If the power switch is unresponsive, unplug the rear AC mains cord; if damage, smoke, or arcing is visible, isolate facility power at the breaker.",
-          "Do not touch output or sense terminals immediately after shutdown because lethal voltage may remain.",
-          "Before storage, disable the output, power off and unplug the supply, discharge it through a 10 kΩ resistor rated for at least 2 W for 10 seconds, and fit the protective terminal caps."
+          "Hazardous voltages can exist at the output and load connections because this supply is rated above 40 V. Ensure that the load and its connections have no accessible live parts.",
+          "Turn the supply off before connecting or changing output wiring. Size load wiring for the maximum continuous short-circuit output current, and use insulation rated above the supply's maximum output voltage.",
+          "Use the supplied, correctly rated AC power assembly and maintain protective earth. AC-source wiring, connection, or modification must be performed by qualified personnel.",
+          "OVP, OCP, OPP, CV-to-CC, and CC-to-CV protection are disabled by factory default; set protections appropriate to the DUT before enabling the output.",
+          "Do not remove covers, disassemble the case, or attempt internal fuse replacement. Internal service is restricted to qualified authorized personnel, and dangerous internal voltages may remain after power is removed.",
+          "If the instrument is damaged or contaminated, remove it from service, label it not to be operated, and arrange service through B&K Precision."
         ],
         "operating_area": [
           "A designated electrical workbench inside the KINESIS CTP Lab."
         ],
         "environment": [
           "indoor_only",
-          "no_wet"
+          "no_wet",
+          "no_dust"
         ],
         "environmental_requirements": [
-          "Maintain at least 25 mm clearance at the fan sides and keep the supply dry and free of conductive dust.",
-          "Store indoors at 0–40 °C and no more than 90% relative humidity."
+          "Operate indoors in a Pollution Degree 2 environment from 0–40 °C at no more than 90% relative humidity, non-condensing.",
+          "Storage temperature is −40–85 °C.",
+          "Maintain at least 25 mm clearance around sides containing air inlet or exhaust ports; do not operate in direct sunlight or where cooling airflow is restricted.",
+          "Do not operate around corrosive, noxious, or flammable fumes, gases, vapors, chemicals, or finely divided particulates, or where liquid spill or condensation is possible."
         ],
         "safety_flags": [
           "training_required",
