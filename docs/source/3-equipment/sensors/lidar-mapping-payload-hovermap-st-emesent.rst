@@ -100,6 +100,11 @@ Software & dependencies
 - Emesent Commander
 - Emesent Aura
 
+Development repositories
+------------------------
+
+- `KinesisCTP/hovermap-st <https://github.com/KinesisCTP/hovermap-st>`_ — KINESIS Hovermap ST integration workspace: containerized ROS 1 Noetic driver (ros1-noetic branch), KINESIS-authored native ROS 2 Jazzy adapter (ros2-jazzy branch), and a ROS-free local stdio MCP server over the device HTTP API (direct-api branch; connected-device acceptance pending).
+
 Safety & operating limits
 -------------------------
 
