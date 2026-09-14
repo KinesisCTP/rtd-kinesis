@@ -8,15 +8,6 @@ Use this section to find equipment by platform type, then open the dedicated
 equipment page for specifications, workflows, safety notes, training
 requirements, and contact information.
 
-Before Using Equipment
-----------------------
-
-- Check whether training or a risk assessment is required on the equipment page.
-- Check availability and reserve the equipment in the
-  `CTP Scheduling System <https://corelabs.abudhabi.nyu.edu>`_ before planning an experiment.
-- Review safety notes, environmental constraints, and required software before use.
-- Return equipment to its designated storage location after each session.
-
 Equipment Categories
 --------------------
 

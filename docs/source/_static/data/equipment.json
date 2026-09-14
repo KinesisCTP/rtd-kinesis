@@ -270,8 +270,7 @@
       "wiki": {
         "section": "workstations",
         "slug": "dgx-spark",
-        "page_kind": "standalone",
-        "bookable": false
+        "page_kind": "standalone"
       }
     },
     {
@@ -314,8 +313,7 @@
       "wiki": {
         "section": "workstations",
         "slug": "ai-workstation",
-        "page_kind": "standalone",
-        "bookable": false
+        "page_kind": "standalone"
       }
     },
     {
@@ -554,7 +552,6 @@
         "section": "workstations",
         "slug": "creaform-control-laptop",
         "page_kind": "component",
-        "bookable": false,
         "parent_equipment_ids": [
           "e2bac7bc-5107-4331-8783-49a221223ece"
         ]
@@ -909,8 +906,7 @@
       "wiki": {
         "section": "workstations",
         "slug": "dual-boot-workstation",
-        "page_kind": "standalone",
-        "bookable": false
+        "page_kind": "standalone"
       }
     },
     {
@@ -2355,7 +2351,6 @@
         "section": "workstations",
         "slug": "vicon-pc",
         "page_kind": "standalone",
-        "bookable": false,
         "related_doc": "/4-computing/vicon-system/index"
       }
     }
