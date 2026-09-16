@@ -17,7 +17,6 @@ The Vicon system consists of:
    :caption: Vicon Guides
    :hidden:
 
-   arena-setup
 
 How It Works
 ------------
@@ -59,26 +58,9 @@ Hermes is the dedicated network used to distribute real-time Vicon position data
 Vicon PC to approved robots, drones, and client computers in the Arena. It is not a
 general-purpose laboratory network.
 
-.. figure:: ../../_static/images/network-hermes-router.jpg
-   :alt: Hermes network router
-   :width: 55%
-   :align: center
-
-   Hermes network router
-
 The Vicon PC receives camera data through the isolated camera network, reconstructs object
 positions in Vicon Tracker, and distributes the resulting position data to authorised Hermes
 clients through a dedicated network interface.
-
-Connect a device to Hermes only while it requires Vicon position data. Disconnect it when the
-Vicon task is complete. On Ubuntu or another NetworkManager-based Linux system:
-
-.. code-block:: bash
-
-   nmcli --ask device wifi connect "Hermes 5G"
-
-Use ``Hermes 2.4G`` only when additional range is required. See the
-:doc:`Arena Setup Guide <arena-setup>` for the complete Vicon preparation and test workflow.
 
 - Use Hermes only for Vicon configuration, diagnosis, and position-data delivery.
 - Do not use Hermes for internet access, general robot control, file transfers, software
@@ -86,27 +68,3 @@ Use ``Hermes 2.4G`` only when additional range is required. See the
 - Use :doc:`Networks & Connectivity <../networks/index>` for ordinary laboratory connectivity.
 - Only authorised Vicon clients and users may connect.
 
-Using the Vicon System
-----------------------
-
-See the :doc:`Arena Setup Guide <arena-setup>` for the operating workflow and the
-:ref:`Hermes section <hermes-network>` for Vicon client connectivity.
-
-Camera Power Management
------------------------
-
-The PoE switches supplying the motion-capture camera array are connected to
-smart plugs managed through the :ref:`facility's Philips Hue controls
-<workspace-lighting-system>`. Camera power can be controlled from the round
-four-button Philips Hue switch at the Vicon Command Center or from the
-**Vicon Cameras** control in the Philips Hue app. All four buttons on the
-physical switch are assigned to Vicon camera power control.
-
-.. important::
-
-   Switch off the Vicon camera power circuit after each session. Re-enable it
-   before the next session and allow the cameras to initialise before launching
-   Vicon Tracker, Nexus, or Shōgun.
-
-The **Vicon Cameras** control supplies power to the camera PoE switches; it is
-not an Arena lighting control.

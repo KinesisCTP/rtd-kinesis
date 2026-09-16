@@ -123,8 +123,6 @@ The DGX Spark is located at the command center but is not connected to the KVM.
 Planning Arena Work
 -------------------
 
-- Use the :doc:`Arena Setup Guide
-  </4-computing/vicon-system/arena-setup>` when preparing a tracked experiment.
 - Review :doc:`Arena safety requirements <safety>` before operating robots or
   aerial systems inside the enclosure.
 - Check the relevant equipment page for training, risk-assessment, attire, PPE,

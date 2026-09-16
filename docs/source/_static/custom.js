@@ -17,3 +17,38 @@ document.addEventListener("DOMContentLoaded", function () {
       .forEach(section => section.remove());
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const dialog = document.querySelector("[data-publication-intake-dialog]");
+  const openButton = document.querySelector("[data-publication-intake-help]");
+  const closeButton = document.querySelector("[data-publication-intake-close]");
+
+  if (
+    typeof HTMLDialogElement === "undefined" ||
+    !(dialog instanceof HTMLDialogElement) ||
+    !(openButton instanceof HTMLElement)
+  ) {
+    return;
+  }
+
+  const intake = openButton.closest(".publication-intake");
+  if (intake instanceof HTMLElement) {
+    intake.classList.add("publication-intake--dialog-ready");
+  }
+
+  openButton.addEventListener("click", function () {
+    dialog.showModal();
+  });
+
+  if (closeButton instanceof HTMLElement) {
+    closeButton.addEventListener("click", function () {
+      dialog.close();
+    });
+  }
+
+  dialog.addEventListener("click", function (event) {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
+});

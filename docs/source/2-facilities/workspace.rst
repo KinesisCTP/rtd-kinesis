@@ -145,29 +145,6 @@ zones can be controlled from the installed wall switches or the Philips Hue
 app, allowing colour and intensity to be adjusted for general work, recording,
 and controlled experimental conditions.
 
-The control labelled **Vicon Cameras** operates the motion-capture camera power
-circuit rather than a lighting zone. Camera power requirements and shutdown
-guidance are maintained in the
-:doc:`Vicon System documentation </4-computing/vicon-system/index>`.
-
-The round Philips Hue switch at the Vicon Command Center provides physical
-control of the same camera power circuit. All four buttons are configured for
-Vicon camera power control.
-
-.. list-table::
-   :class: lighting-control-comparison
-   :widths: 50 50
-   :header-rows: 0
-
-   * - .. image:: ../_static/images/hue_app_dashboard.png
-          :alt: Philips Hue dashboard for KINESIS CTP Lab lighting and Vicon power
-          :width: 100%
-     - .. image:: ../_static/images/facility-vicon-camera-power-switch.jpg
-          :alt: Round four-button Philips Hue switch controlling Vicon camera power
-          :width: 100%
-   * - *KINESIS CTP Lab controls in the Philips Hue app*
-     - *Four-button Vicon camera power switch at the Vicon Command Center*
-
 Planning Workspace Work
 -----------------------
 

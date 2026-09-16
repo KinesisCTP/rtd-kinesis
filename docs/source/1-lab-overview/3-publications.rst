@@ -10,6 +10,52 @@ Jump to :ref:`2026 <pubs-2026>`, :ref:`2025 <pubs-2025>`,
 :ref:`2022 <pubs-2022>`, :ref:`2021 <pubs-2021>`, or
 :ref:`2020 <pubs-2020>`.
 
+.. raw:: html
+
+   <div id="add-a-publication" class="publication-intake"
+        role="group" aria-label="Publication submission">
+     <a class="publication-intake__button"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfO6i4eBMrNPzxKYi7lAWrBJa_8ovQ6ACSrHXkyWj3a4ytcjA/viewform"
+        target="_blank" rel="noopener noreferrer">
+       Add a publication
+     </a>
+     <button class="publication-intake__help" type="button"
+             data-publication-intake-help aria-haspopup="dialog"
+             aria-controls="publication-intake-dialog"
+             aria-label="What information should I send?">?</button>
+   </div>
+
+   <dialog id="publication-intake-dialog" class="publication-intake-dialog"
+           data-publication-intake-dialog
+           aria-labelledby="publication-intake-title">
+     <div class="publication-intake-dialog__shell">
+       <button class="publication-intake-dialog__close" type="button"
+               data-publication-intake-close aria-label="Close">&times;</button>
+       <p class="publication-intake-dialog__eyebrow">KINESIS CTP Lab</p>
+       <h2 id="publication-intake-title">Add published work</h2>
+       <p>
+         Submit one or many works that are already published and publicly available
+         if they used KINESIS equipment, facilities, or support. The form does not
+         require sign-in, and no files are accepted or needed.
+       </p>
+       <h3>What to include</h3>
+       <ul>
+         <li>A DOI, public link, title, or full citation for each publication</li>
+         <li>The KINESIS equipment, facility, or support used, if known</li>
+       </ul>
+       <p class="publication-intake-dialog__privacy">
+         Do not submit manuscripts, peer-review material, unpublished methods or
+         results, credentials, or confidential research content. Submissions are
+         reviewed before eligible publications are added to this page.
+       </p>
+       <a class="publication-intake-dialog__action"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfO6i4eBMrNPzxKYi7lAWrBJa_8ovQ6ACSrHXkyWj3a4ytcjA/viewform"
+          target="_blank" rel="noopener noreferrer">
+         Open submission form
+       </a>
+     </div>
+   </dialog>
+
 .. _pubs-2026:
 
 2026

@@ -35,8 +35,8 @@ KINESIS Lab | NYU Abu Dhabi Core Technology Platforms
       <span>01</span>
       <h2>Lab Overview</h2>
       <p>
-        Learn about the lab's mission, general policies, safety procedures,
-        research publications, and how to contribute.
+        Learn about the lab's mission, capabilities, research publications,
+        and useful resources.
       </p>
       <a href="1-lab-overview/index.html">Learn more →</a>
     </div>
