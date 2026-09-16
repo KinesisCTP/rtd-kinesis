@@ -143,8 +143,8 @@ Jump to :ref:`2026 <pubs-2026>`, :ref:`2025 <pubs-2025>`,
 
 22. **Tsoukalas, A., Evangeliou, N., Giakoumidis, N., & Tzes, A.** (2020). Airborne Visual Tracking of UAVs with a Pan-Tilt-Zoom Camera.
 
-Citing the Lab
---------------
+Acknowledging the Lab
+---------------------
 
 When publishing research that uses KINESIS CTP Lab equipment or facilities,
 please acknowledge the Core Technology Platforms at NYU Abu Dhabi and, where
