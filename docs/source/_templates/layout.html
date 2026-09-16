@@ -1,6 +1,13 @@
 {# Sidebar brand row: home + title, NYUAD CTP lockup, version, search #}
 {% extends "!layout.html" %}
 
+{% block extrahead %}
+{{ super() }}
+{% if kinesis_private_wiki %}
+<link rel="stylesheet" href="{{ pathto('_static/private-wiki-session-v1.css', 1) }}" />
+{% endif %}
+{% endblock %}
+
 {% block sidebartitle %}
 {%- set _logo_url = logo_url | default(pathto('_static/' + (logo | default("")), 1)) %}
 {%- set _root_doc = root_doc | default(master_doc) %}
@@ -28,4 +35,14 @@
 {%- endif %}
 
 {%- include "searchbox.html" %}
+
+{%- if kinesis_private_wiki %}
+<a href="/oauth2/sign_out?rd=%2F" class="kinesis-sign-out">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M10 5H6.75A1.75 1.75 0 0 0 5 6.75v10.5C5 18.22 5.78 19 6.75 19H10" />
+    <path d="M14 8l4 4-4 4M18 12H9" />
+  </svg>
+  <span>Sign out of KINESIS</span>
+</a>
+{%- endif %}
 {% endblock %}
