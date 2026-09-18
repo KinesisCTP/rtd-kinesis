@@ -7,5 +7,5 @@
    **Samuel A. Prieto** — Research Instrumentation Scientist, KINESIS CTP Lab
 
    - **Email:** `samuel.prieto@nyu.edu <mailto:samuel.prieto@nyu.edu>`_
-   - **NYU NetID:** ``sxp8070``
+
    - **Phone:** ``+971 56 890 4127``

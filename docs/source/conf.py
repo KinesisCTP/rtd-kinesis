@@ -6,7 +6,7 @@ from posixpath import relpath
 
 # -- Project information
 project = 'KINESIS CTP Lab'
-copyright = '2025, NYU Abu Dhabi'
+copyright = '2026, NYU Abu Dhabi'
 author = 'NYU Abu Dhabi'
 
 release = '1.0'
@@ -86,6 +86,16 @@ html_title = 'KINESIS CTP Lab'
 html_context = {
     'display_github': False,
     'kinesis_private_wiki': False,
+    'kinesis_homepage_title': 'KINESIS Lab | NYU Abu Dhabi Core Technology Platforms',
+    'kinesis_site_description': (
+        "KINESIS is NYU Abu Dhabi's Core Technology Platform for shared robotics, AI, "
+        'automation, sensing, and motion-capture facilities, equipment, and expertise.'
+    ),
+    'kinesis_public_site_url': 'https://rtd-kinesis.readthedocs.io/en/latest/',
+    'kinesis_social_image_url': (
+        'https://rtd-kinesis.readthedocs.io/en/latest/'
+        '_static/images/workspace-overview.jpg'
+    ),
     'github_user': 'KinesisCTP',
     'github_repo': 'rtd-kinesis-internal',
     'github_version': 'main',

@@ -31,7 +31,7 @@ Physical Space
    * - **Tools**
      - Soldering, rotary-tool, precision-tool, and general tool stations
    * - **Storage**
-     - Labelled shelving, cabinets, drawers, and assigned floor positions
+     - Shelving, cabinets, drawers, and designated floor positions
    * - **Lighting**
      - Adjustable smart lighting for general work and controlled experiments
 
@@ -82,24 +82,18 @@ are summarized on the :doc:`Facilities Safety <safety>` page.
 Storage and Shared Work Surfaces
 --------------------------------
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
+.. figure:: ../_static/images/facility-equipment-cabinet-outside.jpg
+   :alt: Equipment storage cabinets in the KINESIS CTP Workspace
+   :width: 70%
+   :align: center
 
-   * - .. image:: ../_static/images/facility-equipment-cabinet-outside.jpg
-          :alt: Equipment storage cabinets in the KINESIS CTP Workspace
-          :width: 100%
-     - .. image:: ../_static/images/facility-equipment-cabinet-inside.jpg
-          :alt: Labelled drawers inside a KINESIS CTP equipment cabinet
-          :width: 100%
-   * - *Equipment storage cabinets*
-     - *Labelled storage drawers*
+   Equipment storage cabinets
 
 Shared cabinets, shelves, and drawers hold equipment accessories, cables,
 chargers, adapters, mounting hardware, and other ancillary components.
-Assigned storage locations are identified by equipment name or asset tag where
-applicable. Work surfaces must be cleared after use, and all items returned to
-their assigned locations in accordance with
+
+Work surfaces must be cleared after use, and all items returned to their
+assigned locations in accordance with
 General Policies.
 
 Workshop Tools

@@ -3,6 +3,23 @@
 
 {% block extrahead %}
 {{ super() }}
+{%- set _root_doc = root_doc | default(master_doc) %}
+{% if pagename == _root_doc %}
+<meta name="description" content="{{ kinesis_site_description | e }}" />
+<link rel="canonical" href="{{ kinesis_public_site_url | e }}" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="KINESIS CTP Lab" />
+<meta property="og:title" content="{{ kinesis_homepage_title | e }}" />
+<meta property="og:description" content="{{ kinesis_site_description | e }}" />
+<meta property="og:url" content="{{ kinesis_public_site_url | e }}" />
+<meta property="og:image" content="{{ kinesis_social_image_url | e }}" />
+<meta property="og:image:alt" content="KINESIS Lab workspace at NYU Abu Dhabi" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ kinesis_homepage_title | e }}" />
+<meta name="twitter:description" content="{{ kinesis_site_description | e }}" />
+<meta name="twitter:image" content="{{ kinesis_social_image_url | e }}" />
+<meta name="twitter:image:alt" content="KINESIS Lab workspace at NYU Abu Dhabi" />
+{% endif %}
 {% if kinesis_private_wiki %}
 <link rel="stylesheet" href="{{ pathto('_static/private-wiki-session-v1.css', 1) }}" />
 {% endif %}

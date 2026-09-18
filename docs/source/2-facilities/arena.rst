@@ -102,24 +102,6 @@ The command center contains three specialist workstations:
 - The :doc:`DGX Spark </4-computing/workstations/dgx-spark>` supports AI
   development and accelerated computing.
 
-A KVM (keyboard, video, and mouse) switch shares the command center's main
-display and input devices between the following connections:
-
-- **Input 1 — Vicon system:** the Intel NUC 11 Enthusiast Vicon Host PC.
-- **Input 2 — Dual-boot workstation:** the custom-built Ubuntu and Windows
-  workstation.
-- **Input 3 — Auxiliary:** a spare connection for a laptop or other temporary
-  computer.
-
-The DGX Spark is located at the command center but is not connected to the KVM.
-
-.. figure:: ../_static/images/facility-vicon-kvm-switch.jpg
-   :alt: Three-input KVM switch at the Vicon Command Center
-   :width: 70%
-   :align: center
-
-   Vicon Command Center KVM switch
-
 Planning Arena Work
 -------------------
 
