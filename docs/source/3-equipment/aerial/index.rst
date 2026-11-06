@@ -16,6 +16,7 @@ The KINESIS CTP aerial systems support:
    :maxdepth: 1
    :caption: Aerial Systems
 
+   drone-elios-3-flyability
    drone-matrice-300-rtk-dji
    drone-mavic-pro-2-dji
 

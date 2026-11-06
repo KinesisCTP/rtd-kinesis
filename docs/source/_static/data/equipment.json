@@ -653,6 +653,116 @@
       }
     },
     {
+      "equipment_id": "e0f5a98f-139c-4762-87d0-e65740512f16",
+      "name": "Drone - Elios 3 - Flyability",
+      "manufacturer": "Flyability",
+      "model": "Elios 3",
+      "category": "drone",
+      "item_class": "Aerial robot",
+      "item_type": "equipment",
+      "location": "C3.B2.029.E (KINESIS CTP)",
+      "qty": 1,
+      "active": false,
+      "short_description": "The Flyability Elios 3 is a collision-tolerant indoor inspection and mapping drone for confined, cluttered, and GPS-denied spaces. A carbon protective cage lets it fly in contact with structures, while LiDAR SLAM and visual-inertial odometry stabilize it without GPS. The KINESIS system includes the built-in visual inspection payload (4K camera, radiometric thermal camera, and 16,000-lumen lighting), the Surveying LiDAR payload, the UT (ultrasonic thickness) payload, high-capacity batteries, and SDK access for research integration.",
+      "availability_notes": "Not yet available to users. Operation requires completion of the Flyability online pilot training course and certificate, an approved local SOP and risk assessment, and commissioning checks. Booking opens once these are complete.",
+      "risk_assessment_required": true,
+      "primary_contact": "Samuel A. Prieto",
+      "training_required": true,
+      "training_link": null,
+      "image_filename": "elios-3-flyability.png",
+      "tags": [
+        "drone",
+        "UAV",
+        "indoor",
+        "outdoor",
+        "inspection",
+        "confined space",
+        "LiDAR",
+        "SLAM",
+        "mapping",
+        "ultrasonic thickness",
+        "thermal"
+      ],
+      "capabilities": {
+        "mobility": "aerial",
+        "dimensions_mm": "480 x 380 (W x H)",
+        "unit_weight_kg": 1.96,
+        "max_flight_time_min": 11.5,
+        "max_speed_ms": 7,
+        "max_wind_speed_ms": 7,
+        "operating_temperature_c": "0 to 50",
+        "ingress_protection": "Splash- and dust-resistant design; LiDAR payload IP68",
+        "indoor_outdoor": "both",
+        "slam_capable": true,
+        "battery_capacity_wh": 99.2,
+        "battery_voltage_v": 22.8,
+        "camera_resolution_mp": 12.3,
+        "thermal_resolution": "160 x 120 (FLIR Lepton 3.5, radiometric)",
+        "light_output_lm": 16000,
+        "other_specs": "Flight time is 11.5 min for the base aircraft and 9.1 min with LiDAR (standard battery). Maximum horizontal speed is 1.5 m/s in Assist mode, 2 m/s in Assist-Sport, 5 m/s in Attitude, and 7 m/s in Sport mode. Maximum safe collision speed is 2 m/s frontal and 2.4 m/s in all directions. Signal or video loss triggers automatic return to signal. Remote-controller range is up to 500 m in direct line of sight. Dimensions include the protective cage. The visual payload records 4K/30 fps video from a 180-degree tiltable pod. The Surveying LiDAR reaches up to 100 m at 1.3 M points/s and supports handheld scanning, with point clouds exported from FARO Connect as LAZ, LAS, or E57. The UT probe measures in single-echo and echo-to-echo modes with +/-0.1 mm accuracy, live A-scans, and location-tagged readings.",
+        "sensing_modality": [
+          "rgb",
+          "thermal",
+          "lidar",
+          "other"
+        ],
+        "system_composition": [
+          "Visual inspection payload (built-in 4K camera, thermal camera, and lighting)",
+          "Surveying LiDAR payload (Ouster OS0 128-beam)",
+          "UT payload in light configuration (Cygnus Instruments dual-element probe)",
+          "High-capacity batteries",
+          "Remote controller with tablet"
+        ],
+        "typical_workflows": [
+          "Pre-flight inspection of cage, propellers, payload, and battery charge",
+          "Confined-space or cluttered-environment visual and thermal inspection with live video",
+          "LiDAR SLAM mapping and post-processing in FARO Connect",
+          "Contact ultrasonic thickness measurements with the UT payload",
+          "Post-flight data review and reporting in Inspector 5",
+          "Research integration through the Flyability SDK (offboard/onboard control and ROS 2 topics)"
+        ],
+        "compute_software_deps": [
+          "Flyability Cockpit (controller tablet)",
+          "Inspector 5",
+          "FARO Connect",
+          "Flyability SDK (autoassess_flya_tools)"
+        ]
+      },
+      "constraints": {
+        "notes": [
+          "Primary hazards include rotating propellers, lithium-polymer battery fire, and impact or falling from height. The protective cage reduces but does not remove these hazards.",
+          "Do not fly in environments with known or potential flammable gas.",
+          "Do not fly over or close to people who are not part of the flight operation.",
+          "Never leave batteries unattended while charging, and keep them away from flammable materials. Store and transport them in their dedicated case.",
+          "Outdoor flights require a GCAA drone pilot licence and prior NYUAD EHS approval, and must meet all applicable outdoor flying requirements."
+        ],
+        "operating_area": [
+          "Indoor areas with the required approvals. Outdoor flights are permitted only where all applicable outdoor flying approvals are in place."
+        ],
+        "environmental_requirements": [
+          "Designed for indoor and confined-space flight; outdoor flights are subject to the outdoor flying requirements and wind limits.",
+          "Operating temperature 0 to 50 C; batteries must be pre-conditioned between 10 and 40 C before flight.",
+          "Do not fly in rain or standing water; the aircraft is splash- and dust-resistant only."
+        ],
+        "required_attire": [
+          "Long pants.",
+          "Closed-toed shoes.",
+          "Safety goggles."
+        ],
+        "safety_flags": [
+          "training_required",
+          "RA_required",
+          "PPE_required",
+          "requires_permit"
+        ]
+      },
+      "wiki": {
+        "section": "aerial",
+        "slug": "drone-elios-3-flyability",
+        "page_kind": "standalone"
+      }
+    },
+    {
       "equipment_id": "0bf75c2e-8349-41bc-af3c-dd3e1bbfcf6c",
       "name": "Drone - Matrice 300 RTK - DJI",
       "manufacturer": "DJI",
